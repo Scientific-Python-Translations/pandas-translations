@@ -45,8 +45,9 @@ jobs:
         if: env.CONTENT_CHANGED == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: ./pandas-translations
+          push-to-fork: scientific-python-translations-bot/pandas-translations
           commit-message: "Update website content"
           title: "Automated Sync: Update website content"
           body: "This is an automated PR to update website content"
