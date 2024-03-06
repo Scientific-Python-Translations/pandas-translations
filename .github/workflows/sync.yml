@@ -11,21 +11,25 @@ jobs:
     # Run only on main branch in upstream repo.
     if: ${{ github.repository == 'scientific-python-translations/pandas-translations' && github.ref == 'refs/heads/main' }}
     steps:
+      - name: Set the branch name with more granularity
+        run: echo "BRANCH_NAME=updates-$(date +%Y-%m-%d-%H-%M-%S)" >> $GITHUB_ENV
+
       - name: Checkout pandas
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: 'pandas-dev/pandas'
           path: 'pandas'
           ref: 'main'
 
       - name: Checkout pandas-translations
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: 'pandas-translations'
           ref: 'main'
 
       - name: Sync the website content
         run: |
+          git checkout -b ${{ env.BRANCH_NAME }}
           rsync -av --delete pandas/web/pandas/ pandas-translations/content/en/
           cd pandas-translations
           git config --global user.email "actions@github.com"
@@ -40,12 +44,12 @@ jobs:
             echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
           fi
           git commit -m "Update website content" -a || echo "No changes to commit"
+          git push -u origin ${{ env.BRANCH_NAME }}
 
       - name: Create Pull Request
         if: env.CONTENT_CHANGED == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
-          gh pr create --base main --head updates-$(date +%Y-%m-%d) --title "Update source content" --body "Automated update of Pandas content."
+          gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update source content" --body "Automated update of Pandas content."
         working-directory: ./pandas-translations
-
