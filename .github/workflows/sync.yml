@@ -43,15 +43,9 @@ jobs:
 
       - name: Create Pull Request
         if: env.CONTENT_CHANGED == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
-          path: ./pandas-translations
-          push-to-fork: scientific-python-translations-bot/pandas-translations
-          commit-message: "Update website content"
-          title: "Automated Sync: Update website content"
-          body: "This is an automated PR to update website content"
-          branch: "sync/${{ github.run_number }}"
-          base: "main"
-          delete-branch: true
-          draft: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run:
+          gh pr create --base main --head updates-$(date +%Y-%m-%d) --title "Update source content" --body "Automated update of Pandas content."
+        working-directory: ./pandas-translations
+
