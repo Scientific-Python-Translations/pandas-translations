@@ -192,6 +192,6 @@ We'd like to fund improvements and maintenance of these tools to
 - Be more stable. Currently, they're maintained on the nights and
   weekends when a maintainer has free time.
 - Tune the system for benchmarks to improve stability, following
-  https\://pyperf.readthedocs.io/en/latest/system.html
+  https://pyperf.readthedocs.io/en/latest/system.html
 - Build a GitHub bot to request ASV runs _before_ a PR is merged.
   Currently, the benchmarks are only run nightly.
