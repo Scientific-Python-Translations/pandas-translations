@@ -1,27 +1,18 @@
 # Project governance
 
-The official version of this document, along with a list of
-individuals and institutions in the roles defined in the governance
-section below, is contained in the
-[Project governance]({{ base_url }}about/governance.html)
-page of the pandas website.
+La versión oficial de este documento, junto con una lista de personas e instituciones que desempeñan las funciones definidas en la sección de gestión se encuentra en la sección [Gestión del proyecto]({{ base_url }}about/governance.html) del sitio web de pandas.
 
-## The Project
+## El proyecto
 
-The pandas Project (The Project) is an open source software project affiliated
-with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
-source software for data ingest, data preparation, data analysis, and data
-visualization for the Python programming language. The Software developed by
-The Project is released under the BSD (or similar) open source license,
-developed openly and hosted in public GitHub repositories under the pandas
-GitHub organization. Examples of Project Software
-include the main pandas code repository and the pandas-stubs library.
+El Proyecto Pandas (El Proyecto) es un proyecto de software de código abierto afiliado
+con la Fundación NumFOCUS 501(c)3. El objetivo de El Proyecto es desarrollar software
+de código abierto para la ingesta, preparación, análisis y visualización de datos para el lenguaje de programación Python. El software desarrollado por El Proyecto se libera bajo la licencia BSD (o similar) de código abierto, desarrollado abiertamente y alojado en repositorios públicos de GitHub bajo la organización pandas
+organización GitHub. Ejemplos de software del proyecto
+incluyen el repositorio principal de código Pandas y la librería pandas-stubs.
 
-Through its affiliation with NumFOCUS, The Project has the right to receive
-tax-deductible donations in the United States of America.
+A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
 
-The Project is developed by a team of distributed developers, called
-Contributors. Contributors are individuals who have contributed code,
+El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Contributors are individuals who have contributed code,
 documentation, designs or other work to one or more Project repositories.
 Anyone can be a Contributor. Contributors can be affiliated with any legal
 entity or none. Contributors participate in the project by submitting,
