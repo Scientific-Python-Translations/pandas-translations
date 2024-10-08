@@ -13,10 +13,8 @@ incluyen el repositorio principal de código Pandas y la librería pandas-stubs.
 A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
 
 El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Los colaboradores son personas que han aportado código, documentación, diseños u otros trabajos a uno o varios repositorios del Proyecto.
-Cualquiera puede ser colaborador. Los colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Contributors participate in the project by submitting,
-reviewing and discussing GitHub Pull Requests and Issues and participating in
-open and public Project discussions on GitHub, mailing lists, and
-elsewhere. The foundation of Project participation is openness and
+Cualquiera puede ser colaborador. Los colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Los colaboradores participan en el proyecto enviando,
+revisando y debatiendo en GitHub pull requests y problemas (issues), y participando en discusiones abiertas y públicas del proyecto en GitHub, listas de correo, y en otros lugares. The foundation of Project participation is openness and
 transparency.
 
 Here is a list of the current Contributors to the main pandas repository:
