@@ -1,4 +1,4 @@
-# Project governance
+# Gestión del proyecto
 
 La versión oficial de este documento, junto con una lista de personas e instituciones que desempeñan las funciones definidas en la sección de gestión se encuentra en la sección [Gestión del proyecto]({{ base_url }}about/governance.html) del sitio web de pandas.
 
@@ -12,10 +12,8 @@ incluyen el repositorio principal de código Pandas y la librería pandas-stubs.
 
 A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
 
-El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Contributors are individuals who have contributed code,
-documentation, designs or other work to one or more Project repositories.
-Anyone can be a Contributor. Contributors can be affiliated with any legal
-entity or none. Contributors participate in the project by submitting,
+El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Los colaboradores son personas que han aportado código, documentación, diseños u otros trabajos a uno o varios repositorios del Proyecto.
+Cualquiera puede ser colaborador. Los colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Contributors participate in the project by submitting,
 reviewing and discussing GitHub Pull Requests and Issues and participating in
 open and public Project discussions on GitHub, mailing lists, and
 elsewhere. The foundation of Project participation is openness and
