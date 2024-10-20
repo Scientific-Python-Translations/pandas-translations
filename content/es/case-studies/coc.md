@@ -1,47 +1,36 @@
-# Code of conduct
+# Código de conducta
 
-As contributors and maintainers of this project, and in the interest of
-fostering an open and welcoming community, we pledge to respect all people who
-contribute through reporting issues, posting feature requests, updating
-documentation, submitting pull requests or patches, and other activities.
+Como colaboradores y mantenedores de este proyecto, y con el interés de
+fomentar una comunidad abierta y acogedora, nos comprometemos a respetar a todas las personas que contribuyen reportando problemas (issues), publicando solicitudes de características (feature requests), actualizando documentación, enviando pull requests o parches, y participando a través de otras actividades.
 
-We are committed to making participation in this project a harassment-free
-experience for everyone, regardless of level of experience, gender, gender
-identity and expression, sexual orientation, disability, personal appearance,
-body size, race, ethnicity, age, religion, or nationality.
+Nos comprometemos a hacer de la participación en este proyecto una experiencia
+libre de acoso para todas las personas, sin importar el nivel de experiencia, género, identidad y expresión de género, orientación sexual, discapacidad, apariencia personal,
+tamaño del cuerpo, raza, etnicidad, edad, religión o nacionalidad.
 
-Examples of unacceptable behavior by participants include:
+Ejemplos de comportamiento inaceptable por parte de los participantes incluyen:
 
-- The use of sexualized language or imagery
-- Personal attacks
-- Trolling or insulting/derogatory comments
-- Public or private harassment
-- Publishing other's private information, such as physical or electronic
-  addresses, without explicit permission
-- Other unethical or unprofessional conduct
+- El uso de lenguaje o imágenes sexualizados
+- Ataques personales
+- Troleo o comentarios derogatorios/insultantes
+- Acoso público o privado
+- Publicar información privada de otras personas, como su dirección física o electrónica, sin su permiso explícito
+- Otras conductas poco éticas o poco profesionales
 
 Es más, alentamos el comportamiento inclusivo - por ejemplo, trata de utilizar expresiones inclusivas en términos de género, como "¡hola gente!" en vez de "¡hola chicos!" al interactuar en español, o "hey everyone!" en vez de "hey guys!" al interactuar en inglés.
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+Quienes mantienen este proyecto tienen el derecho y la responsabilidad de eliminar, editar o rechazar comentarios, commits, código, ediciones de wiki, issues y otras contribuciones que no estén alineadas a este código de conducta, o de expulsar temporal o permanentemente a cualquier contribuyente por otros comportamientos que se consideren inapropiados, amenazante, ofensivo o dañinos.
 
-By adopting this Code of Conduct, project maintainers commit themselves to
-fairly and consistently applying these principles to every aspect of managing
-this project. Project maintainers who do not follow or enforce the Code of
-Conduct may be permanently removed from the project team.
+Al adoptar este Código de Conducta, quienes mantienen este proyecto se comprometen
+a aplicar estos principios de forma justa y consistente en todos los aspectos involucrados en la gestión del proyecto. Los mantenedores del proyecto que no sigan o no hagan cumplir el Código de
+Conducta pueden ser eliminados permanentemente del equipo del proyecto.
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community.
+Este Código de Conducta aplica tanto a espacios propios del proyecto, como a espacios públicos donde un individuo representa al proyecto o a su comunidad.
 
-A working group of community members is committed to promptly addressing any
-reported issues. The working group is made up of pandas contributors and users.
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the working group by e-mail (pandas-coc@googlegroups.com).
-Messages sent to this e-mail address will not be publicly visible but only to
-the working group members. The working group currently includes
+Existe un grupo de trabajo de miembros de la comunidad comprometido a abordar rápidamente cualquier problema reportado. Este grupo de trabajo está conformado por colaboradores y usuarios de pandas.
+Las situaciones de comportamiento abusivo, acoso o de cualquier otra conducta inaceptable pueden ser
+reportadas poniéndose en contacto con el grupo de trabajo vía correo electrónico (pandas-coc@googlegroups.com).
+Los mensajes enviados a esta dirección de correo electrónico no serán visibles públicamente, sino solo para
+quienes son parte del grupo de trabajo. El grupo de trabajo incluye actualmente
 
 <ul>
     {% for person in maintainers.coc %}
@@ -49,15 +38,12 @@ the working group members. The working group currently includes
     {% endfor %}
 </ul>
 
-All complaints will be reviewed and investigated and will result in a response
-that is deemed necessary and appropriate to the circumstances. Maintainers are
-obligated to maintain confidentiality with regard to the reporter of an
-incident.
+Todas las denuncias serán revisadas e investigadas y tendrán como resultado una respuesta que se considere necesaria y apropiada para las circunstancias. Los mantenedores tienen la obligación de guardar la confidencialidad respecto de la persona que ha reportado un incidente.
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 1.3.0, available at
+Este Código de Conducta está adaptado del [Contributor Covenant][homepage],
+versión 1.3.0, disponible en
 [https://www.contributor-covenant.org/version/1/3/0/][version],
-and the [Swift Code of Conduct][swift].
+y el [Código de Conducta de Swift][swift].
 
 [homepage]: https://www.contributor-covenant.org
 [version]: https://www.contributor-covenant.org/version/1/3/0/
