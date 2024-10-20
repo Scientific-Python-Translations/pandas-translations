@@ -20,8 +20,7 @@ Examples of unacceptable behavior by participants include:
   addresses, without explicit permission
 - Other unethical or unprofessional conduct
 
-Furthermore, we encourage inclusive behavior - for example,
-please don't say “hey guys!” but “hey everyone!”.
+Es más, alentamos el comportamiento inclusivo - por ejemplo, trata de utilizar expresiones inclusivas en términos de género, como "¡hola gente!" en vez de "¡hola chicos!" al interactuar en español, o "hey everyone!" en vez de "hey guys!" al interactuar en inglés.
 
 Project maintainers have the right and responsibility to remove, edit, or
 reject comments, commits, code, wiki edits, issues, and other contributions
