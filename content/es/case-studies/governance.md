@@ -6,18 +6,17 @@ La versión oficial de este documento, junto con una lista de personas e institu
 
 El Proyecto Pandas (El Proyecto) es un proyecto de software de código abierto afiliado
 con la Fundación NumFOCUS 501(c)3. El objetivo de El Proyecto es desarrollar software
-de código abierto para la ingesta, preparación, análisis y visualización de datos para el lenguaje de programación Python. El software desarrollado por El Proyecto se libera bajo la licencia BSD (o similar) de código abierto, desarrollado abiertamente y alojado en repositorios públicos de GitHub bajo la organización pandas
-organización GitHub. Ejemplos de software del proyecto
+de código abierto para la adquisición, preparación, análisis y visualización de datos para el lenguaje de programación Python. El software desarrollado por El Proyecto se libera bajo la licencia BSD (o similar) de código abierto, desarrollado abiertamente y alojado en repositorios públicos de GitHub bajo la organización pandas
+organización GitHub. Ejemplos de software del Proyecto
 incluyen el repositorio principal de código Pandas y la librería pandas-stubs.
 
 A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
 
 El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Los colaboradores son personas que han aportado código, documentación, diseños u otros trabajos a uno o varios repositorios del Proyecto.
 Cualquiera puede ser colaborador. Los colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Los colaboradores participan en el proyecto enviando,
-revisando y debatiendo en GitHub pull requests y problemas (issues), y participando en discusiones abiertas y públicas del proyecto en GitHub, listas de correo, y en otros lugares. The foundation of Project participation is openness and
-transparency.
+revisando y debatiendo en GitHub pull requests y problemas (issues), y participando en discusiones abiertas y públicas del proyecto en GitHub, listas de correo, y en otros lugares. La base en la participación del Proyecto es la apertura y la transparencia.
 
-Here is a list of the current Contributors to the main pandas repository:
+Aquí está la lista de los colaboradores actuales del repositorio principal de pandas:
 
 [https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
 
