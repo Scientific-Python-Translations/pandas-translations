@@ -20,13 +20,10 @@ Aquí está la lista de los colaboradores actuales del repositorio principal de 
 
 [https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
 
-There are also many other Contributors listed in the logs of other repositories of
-the pandas project.
+También hay muchos otros colaboradores listados en los registros de otros repositorios del Proyecto Pandas.
 
 The Project Community consists of all Contributors and Users of the Project.
-Contributors work on behalf of and are responsible to the larger Project
-Community and we strive to keep the barrier between Contributors and Users as
-low as possible.
+Los colaboradores trabajan en nombre de la comunidad del Proyecto y son responsables de esto. Nosotros nos esforzamos por mantener la barrera entre colaboradores y usuarios lo más baja posible.
 
 The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
 ([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
