@@ -25,28 +25,19 @@ También hay muchos otros colaboradores listados en los registros de otros repos
 The Project Community consists of all Contributors and Users of the Project.
 Los colaboradores trabajan en nombre de la comunidad del Proyecto y son responsables de esto. Nosotros nos esforzamos por mantener la barrera entre colaboradores y usuarios lo más baja posible.
 
-The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
-([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
-sponsor, may hold project trademarks and other intellectual property, helps
-manage project donations and acts as a parent legal entity. NumFOCUS is the
-only legal entity that has a formal relationship with the project (see
-Institutional Partners section below).
+El Proyecto está afiliado formalmente con la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del Proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del Proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el Proyecto (véase la sección Socios institucionales).
 
 ## Governance
 
-This section describes the governance and leadership model of The Project.
+Esta sección describe el modelo de gestión y liderazgo del Proyecto.
 
-The foundations of Project governance are:
+Los fundamentos de la gestión de Proyecto son:
 
-- Openness & Transparency
-- Active Contribution
-- Institutional Neutrality
+- Apertura y transparencia
+- Contribución activa
+- Neutralidad institucional
 
-Traditionally, Project leadership was provided by a BDFL (Wes McKinney) and
-subset of Contributors, called the Core Team, whose active and consistent
-contributions have been recognized by their receiving “commit rights” to the
-Project GitHub repositories. In general all Project decisions are made through
-consensus among the Core Team with input from the Community. The BDFL can, but
+Tradicionalmente, la dirección del proyecto corría a cargo de un BDFL (Wes McKinney) y un subconjunto de colaboradores, llamado el Equipo Central, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Central con los aportes de la Comunidad. The BDFL can, but
 rarely chooses to, override the Core Team and make a final decision on a
 matter.
 
