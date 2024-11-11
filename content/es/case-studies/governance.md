@@ -22,7 +22,7 @@ Aquí está la lista de los colaboradores actuales del repositorio principal de 
 
 También hay muchos otros colaboradores listados en los registros de otros repositorios del Proyecto Pandas.
 
-The Project Community consists of all Contributors and Users of the Project.
+La comunidad del Proyecto se compone de todos los contribuidores y usuarios del Proyecto.
 Los colaboradores trabajan en nombre de la comunidad del Proyecto y son responsables de esto. Nosotros nos esforzamos por mantener la barrera entre colaboradores y usuarios lo más baja posible.
 
 El Proyecto está afiliado formalmente con la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del Proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del Proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el Proyecto (véase la sección Socios institucionales).
