@@ -37,9 +37,7 @@ Los fundamentos de la gestión de Proyecto son:
 - Contribución activa
 - Neutralidad institucional
 
-Tradicionalmente, la dirección del proyecto corría a cargo de un BDFL (Wes McKinney) y un subconjunto de colaboradores, llamado el Equipo Central, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Central con los aportes de la Comunidad. The BDFL can, but
-rarely chooses to, override the Core Team and make a final decision on a
-matter.
+Tradicionalmente, la dirección del proyecto corría a cargo de un BDFL (Wes McKinney) y un subconjunto de colaboradores, llamado el Equipo Central, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Central con los aportes de la Comunidad. El BDFL puede, pero raramente lo elige, anular al Equipo Central y tomar una decisión final sobre el asunto.
 
 While this approach has served us well, as the Project grows and faces more
 legal and financial decisions and interacts with other institutions, we see a
