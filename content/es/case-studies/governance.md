@@ -39,51 +39,26 @@ Los fundamentos de la gestión de Proyecto son:
 
 Tradicionalmente, la dirección del proyecto corría a cargo de un BDFL (Wes McKinney) y un subconjunto de colaboradores, llamado el Equipo Central, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Central con los aportes de la Comunidad. El BDFL puede, pero raramente lo elige, anular al Equipo Central y tomar una decisión final sobre el asunto.
 
-While this approach has served us well, as the Project grows and faces more
-legal and financial decisions and interacts with other institutions, we see a
-need for a more formal governance model. Moving forward The Project leadership
-will consist of a BDFL and Core Team. We view this governance model as the
-formalization of what we are already doing, rather than a change in direction.
+Mientras este enfoque ha funcionado bien, a medida que el Proyecto crece y se enfrenta a más decisiones legales y financieras e interacciones con otras instituciones, vemos la necesidad de tener un modelo más formal de gestión. De cara al futuro, la dirección del Proyecto consistirá en un BDFL y un equipo central. Vemos este modelo de gestión como la formalización de lo que realmente estamos haciendo, más que un cambio de rumbo.
 
 ### BDFL
 
 The Project will have a BDFL (Benevolent Dictator for Life), who is currently
-Wes McKinney. As Dictator, the BDFL has the authority to make all final
-decisions for The Project. As Benevolent, the BDFL, in practice chooses to
-defer that authority to the consensus of the community discussion channels and
-the Core Team. It is expected, and in the past has been the case, that the BDFL
-will only rarely assert his/her final authority. Because it is rarely used, we
-refer to BDFL’s final authority as a “special” or “overriding” vote. When it
-does occur, the BDFL override typically happens in situations where there is a
-deadlock in the Core Team or if the Core Team ask the BDFL to make a decision
-on a specific matter. To ensure the benevolence of the BDFL, The Project
-encourages others to fork the project if they disagree with the overall
-direction the BDFL is taking. The BDFL is chair of the Core Team (see below)
-and may delegate his/her authority on a particular decision or set of decisions
-to any other Core Team Member at his/her discretion.
+Wes McKinney. Como dictador, el BDFL tiene la autoridad de tomas las decisiones finales para el Proyecto. Como benevolente, el BDFL, en la práctica elige diferir esa autoridad al consenso de los canales de discusión de la comunidad y del equipo central. Se espera, y en el pasado ha sido el caso, que el BDFL haga valer su autoridad final en contadas ocasiones. Dado que rara vez se utiliza, nos referimos a la autoridad final del BDFL como voto "especial" o "preponderante". Cuando esto ocurre, el voto del BDFL típicamente sucede en situaciones donde hay un punto muero en el equipo central o si el equipo central pide al BDFL que tome una decisión sobre un asunto concreto. Para asegurar la benevolencia del BDFL, el Proyecto anima a otros a bifurcar el proyecto si no están de acuerdo con la dirección que está tomando el BDFL. El BDFL preside el Equipo Central (véase más abajo) y puede delegar su autoridad sobre una decisión o conjunto de decisiones concretas
+a cualquier otro miembro del Equipo Central.
 
-The BDFL can appoint his/her successor, but it is expected that the Core Team
-would be consulted on this decision. If the BDFL is unable to appoint a
+El BDFL puede nombrar a su sucesor, pero se espera que el Equipo Central sea consultado sobre esta decisión. If the BDFL is unable to appoint a
 successor (e.g. due to death or illness), the Core Team will choose a successor
 by voting with at least 2/3 of the Core Team members voting in favor of the
-chosen successor. At least 80% of the Core Team must participate in the
-vote. If no BDFL candidate receives 2/3 of the votes of the Core Team, the Core
-Team members shall propose the BDFL candidates to the Main NumFOCUS board, who
-will then make the final decision.
+chosen successor. Por lo menos 80% del Equipo Central debe participar en la votación. Si ningún candidato a la BDFL recibe 2/3 de los votos del Equipo Central, los miembros del Equipo Central propondrán los candidatos a la BDFL al Consejo Principal de NumFOCUS, quien
+tomará la decisión final.
 
-### Core Team
+### Equipo Central
 
-The Project's Core Team will consist of Project Contributors who have produced
-contributions that are substantial in quality and quantity, and sustained over
-at least one year. The overall role of the Core Team is to ensure, through
-working with the BDFL and taking input from the Community, the long-term
-well-being of the project, both technically and as a community.
+El Equipo Central del Proyecto estará formado por colaboradores del proyecto que hayan producido contribuciones sustanciales en calidad y cantidad, y continuas durante al menos un año. La función general del Equipo Central es garantizar, mediante con la BDFL y las contribuciones de la Comunidad, el bienestar a largo plazo del
+a largo plazo del proyecto, tanto desde el punto de vista técnico como comunitario.
 
-During the everyday project activities, Core Team participate in all
-discussions, code review and other project activities as peers with all other
-Contributors and the Community. In these everyday activities, Core Team do not
-have any special power or privilege through their membership on the Core
-Team. However, it is expected that because of the quality and quantity of their
+Durante las actividades diarias del Proyecto, el Equipo Central participa en todas las discusiones, revisiones de código y otras actividades del proyecto como compañeros con todos los demás colaboradores y la comunidad. En estas actividades cotidianas, el Equipo Central no tiene ningún poder o privilegio especial por su afiliación como Equipo Central. However, it is expected that because of the quality and quantity of their
 contributions and their expert knowledge of the Project Software that the Core
 Team will provide useful guidance, both technical and in terms of project
 direction, to potentially less experienced contributors.
