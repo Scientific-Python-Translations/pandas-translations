@@ -1,6 +1,6 @@
 # Gestión del proyecto
 
-La versión oficial de este documento, junto con una lista de personas e instituciones que desempeñan las funciones definidas en la sección de gestión se encuentra en la sección [Gestión del proyecto]({{ base_url }}about/governance.html) del sitio web de pandas.
+La versión oficial de este documento, junto con una lista de personas e instituciones que desempeñan las funciones definidas en la sección de gobierno se encuentra en la sección [Gobierno del proyecto]({{ base_url }}about/governance.html) del sitio web de pandas.
 
 ## El proyecto
 
