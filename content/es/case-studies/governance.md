@@ -1,35 +1,35 @@
 # Gestión del proyecto
 
-La versión oficial de este documento, junto con una lista de personas e instituciones que desempeñan las funciones definidas en la sección de gobierno se encuentra en la sección [Gobierno del proyecto]({{ base_url }}about/governance.html) del sitio web de pandas.
+La versión oficial de este documento, junto con una lista de personas e instituciones que desempeñan las funciones definidas en la sección de gobierno se encuentra en la sección [Gobierno del Proyecto]({{ base_url }}about/governance.html) del sitio web de pandas.
 
 ## El proyecto
 
 El Proyecto Pandas (El Proyecto) es un proyecto de software de código abierto afiliado
 con la Fundación NumFOCUS 501(c)3. El objetivo de El Proyecto es desarrollar software
 de código abierto para la adquisición, preparación, análisis y visualización de datos para el lenguaje de programación Python. El software desarrollado por El Proyecto se libera bajo la licencia BSD (o similar) de código abierto, desarrollado abiertamente y alojado en repositorios públicos de GitHub bajo la organización pandas
-organización GitHub. Ejemplos de software del Proyecto
+organización GitHub. Ejemplos del Software del Proyecto
 incluyen el repositorio principal de código Pandas y la librería pandas-stubs.
 
 A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
 
-El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Los colaboradores son personas que han aportado código, documentación, diseños u otros trabajos a uno o varios repositorios del Proyecto.
-Cualquiera puede ser colaborador. Los colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Los colaboradores participan en el proyecto enviando,
-revisando y debatiendo en GitHub pull requests y problemas (issues), y participando en discusiones abiertas y públicas del proyecto en GitHub, listas de correo, y en otros lugares. La base en la participación del Proyecto es la apertura y la transparencia.
+El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Los Colaboradores son personas que han aportado código, documentación, diseños u otros trabajos a uno o varios repositorios del Proyecto.
+Cualquiera puede ser Colaborador. Los colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Los Colaboradores participan en el proyecto enviando,
+revisando y debatiendo en GitHub Pull Requests y problemas (Issues), y participando en discusiones abiertas y públicas del Proyecto en GitHub, listas de correo, y en otros lugares. La base en la participación del Proyecto es la apertura y la transparencia.
 
-Aquí está la lista de los colaboradores actuales del repositorio principal de pandas:
+Aquí está la lista de los Colaboradores actuales del repositorio principal de pandas:
 
 [https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
 
 También hay muchos otros colaboradores listados en los registros de otros repositorios del Proyecto Pandas.
 
 La comunidad del Proyecto se compone de todos los contribuidores y usuarios del Proyecto.
-Los colaboradores trabajan en nombre de la comunidad del Proyecto y son responsables de esto. Nosotros nos esforzamos por mantener la barrera entre colaboradores y usuarios lo más baja posible.
+Los Colaboradores trabajan en nombre de la Comunidad del Proyecto y son responsables de esto. Nosotros nos esforzamos por mantener la barrera entre Colaboradores y Usuarios lo más baja posible.
 
 El Proyecto está afiliado formalmente con la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del Proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del Proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el Proyecto (véase la sección Socios institucionales).
 
 ## Governance
 
-Esta sección describe el modelo de gestión y liderazgo del Proyecto.
+Esta sección describe el modelo de gobierno y liderazgo de El Proyecto.
 
 Los fundamentos de la gestión de Proyecto son:
 
@@ -39,7 +39,7 @@ Los fundamentos de la gestión de Proyecto son:
 
 Tradicionalmente, la dirección del proyecto corría a cargo de un BDFL (Wes McKinney) y un subconjunto de colaboradores, llamado el Equipo Central, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Central con los aportes de la Comunidad. El BDFL puede, pero raramente lo elige, anular al Equipo Central y tomar una decisión final sobre el asunto.
 
-Mientras este enfoque ha funcionado bien, a medida que el Proyecto crece y se enfrenta a más decisiones legales y financieras e interacciones con otras instituciones, vemos la necesidad de tener un modelo más formal de gestión. De cara al futuro, la dirección del Proyecto consistirá en un BDFL y un equipo central. Vemos este modelo de gestión como la formalización de lo que realmente estamos haciendo, más que un cambio de rumbo.
+Mientras este enfoque ha funcionado bien, a medida que el Proyecto crece y se enfrenta a más decisiones legales y financieras e interacciones con otras instituciones, vemos la necesidad de tener un modelo más formal de gobierno. De cara al futuro, la dirección del Proyecto consistirá en un BDFL y un equipo central. Vemos este modelo de gobierno como la formalización de lo que realmente estamos haciendo, más que un cambio de rumbo.
 
 ### BDFL
 
@@ -58,7 +58,7 @@ tomará la decisión final.
 El Equipo Central del Proyecto estará formado por colaboradores del proyecto que hayan producido contribuciones sustanciales en calidad y cantidad, y continuas durante al menos un año. La función general del Equipo Central es garantizar, mediante con la BDFL y las contribuciones de la Comunidad, el bienestar a largo plazo del
 a largo plazo del proyecto, tanto desde el punto de vista técnico como comunitario.
 
-Durante las actividades diarias del Proyecto, el Equipo Central participa en todas las discusiones, revisiones de código y otras actividades del proyecto como compañeros con todos los demás colaboradores y la comunidad. En estas actividades cotidianas, el Equipo Central no tiene ningún poder o privilegio especial por su afiliación como Equipo Central. However, it is expected that because of the quality and quantity of their
+Durante las actividades diarias del Proyecto, el Equipo Central participa en todas las discusiones, revisiones de código y otras actividades del proyecto como compañeros con todos los demás colaboradores y la comunidad. En estas actividades cotidianas, el Equipo Core no tiene ningún poder o privilegio especial por su afiliación como Equipo Core. However, it is expected that because of the quality and quantity of their
 contributions and their expert knowledge of the Project Software that the Core
 Team will provide useful guidance, both technical and in terms of project
 direction, to potentially less experienced contributors.
