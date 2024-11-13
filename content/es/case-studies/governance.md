@@ -77,48 +77,27 @@ quantity, and sustained over at least one year. Los Miembros Potenciales del Equ
 Contributors who have been granted commit rights as of late 2015.
 
 When considering potential Members, the Core Team will look at candidates with
-a comprehensive view of their contributions. This will include but is not
-limited to code, code review, infrastructure work, mailing list and chat
-participation, community help/building, education and outreach, design work,
-etc. We are deliberately not setting arbitrary quantitative metrics (like “100
-commits in this repo”) to avoid encouraging behavior that plays to the metrics
-rather than the project’s overall well-being. We want to encourage a diverse
-array of backgrounds, viewpoints and talents in our team, which is why we
-explicitly do not define code as the sole metric on which Core Team membership
-will be evaluated.
+a comprehensive view of their contributions. Esto incluirá, pero no está limitado, al código, revisión de código, trabajo de infraestructura, listas de correo y chat de participación, ayuda/construcción de la comunidad, educación y divulgación, trabajo de diseño, etcétera. No establecemos deliberadamente métricas cuantitativas arbitrarias (como «100
+commits en este repositorio") para evitar alentar el comportamiento que juega a las métricas
+en lugar del bienestar general del proyecto. Queremos fomentar la diversidad de orígenes, puntos de vista y talentos en nuestro equipo, por lo que no definimos explícitamente el código como la única métrica en la que se será evaluada.
 
-If a Core Team member becomes inactive in the project for a period of one year,
-they will be considered for removal from the Core Team. Before removal,
-inactive Member will be approached by the BDFL to see if they plan on returning
-to active participation. If not they will be removed immediately upon a Core
-Team vote. If they plan on returning to active participation soon, they will be
-given a grace period of one year. If they don't return to active participation
-within that time period they will be removed by vote of the Core Team without
-further grace period. All former Core Team members can be considered for
-membership again at any time in the future, like any other Project Contributor.
-Retired Core Team members will be listed on the project website, acknowledging
-the period during which they were active in the Core Team.
+Si un miembro del Equipo Core permanece inactivo en el proyecto durante un periodo de un año, se considerará su destitución del Equipo Core. Antes de la destitución, el Miembro inactivo será contactada por el BDFL para ver si planea regresar a la participación activa. En caso contrario, será destituido inmediatamente tras una votación del Equipo Core. Si tiene previsto reincorporarse pronto a la participación activa, se le concederá un periodo de gracia de un año. Si no vuelve a participar activamente dentro de ese periodo de tiempo, será eliminado por el voto del Equipo Core sin un periodo de gracia. Todos los ex-miembros del Equipo Core pueden ser considerados para volver a ser miembros en cualquier momento en el futuro, al igual que cualquier otro Colaborador del Proyecto.
+Los miembros jubilados del Equipo Core permanecerán en el sitio web del proyecto, reconociendo el periodo durante el que estuvieron activos en el Equipo Core.
 
-The Core Team reserves the right to eject current Members, other than the BDFL,
-if they are deemed to be actively harmful to the project’s well-being, and
-attempts at communication and conflict resolution have failed.
+El Equipo Central se reserva el derecho de expulsar a los miembros actuales, distintos del BDFL, si se considera que son activamente perjudiciales para el bienestar del proyecto, y han fracasado los intentos de comunicación y resolución de conflictos.
 
-### Conflict of interest
+### Conflicto de interés
 
-It is expected that the BDFL and Core Team Members will be employed at a wide
-range of companies, universities and non-profit organizations. Because of this,
-it is possible that Members will have conflict of interests. Such conflict of
-interests include, but are not limited to:
+Se espera que el BDFL y los miembros del Equipo Core trabajen en una amplia gama de empresas, universidades y organizaciones sin ánimo de lucro. Por ello, es posible que los Miembros tengan conflictos de intereses. Estos conflictos de interés incluye, pero no se limita a:
 
-- Financial interests, such as investments, employment or contracting work,
-  outside of The Project that may influence their work on The Project.
-- Access to proprietary information of their employer that could potentially
-  leak into their work with the Project.
+- Intereses financieros, como inversiones, empleo o trabajos de contratación,
+  fuera del Proyecto que puedan influir en su trabajo en El Proyecto.
+- Acceso a información privada de su empleador que podría potencialmente
+  filtrarse en su trabajo con el Proyecto.
 
-All members of the Core Team, BDFL included, shall disclose to the rest of the
-Core Team any conflict of interest they may have. Members with a conflict of
-interest in a particular issue may participate in Core Team discussions on that
-issue, but must recuse themselves from voting on the issue. If the BDFL has
+Todos los miembros del Equipo Core, incluido el BDFL, deberán revelar al resto del Equipo Core cualquier conflicto de intereses que puedan tener. Los Miembros con un conflicto de
+intereses en un tema en particular pueden participar en los debates del Equipo Core sobre ese
+tema, pero deben abstenerse de votar sobre el mismo. If the BDFL has
 recused his/herself for a particular decision, they will appoint a substitute
 BDFL for that decision.
 
