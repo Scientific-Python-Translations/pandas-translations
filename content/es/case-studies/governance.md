@@ -61,7 +61,7 @@ Durante las actividades diarias del proyecto, el Equipo Core participa en todas 
 dirección del proyecto, a colaboradores potencialmente menos experimentados.
 
 El Equipo Core y sus Miembros juegan un papel especial en ciertas situaciones.
-In particular, the Core Team may:
+En particular, el Equipo Core puede:
 
 - Tomar decisiones acerca del alcance global, la visión y la dirección del proyecto.
 - Tomar decisiones acerca de las colaboraciones estratégicas con otras organizaciones o individuos.
@@ -69,15 +69,12 @@ In particular, the Core Team may:
 - Tomar decisiones acerca de los Servicios que son ejecutados por El Proyecto y gestionar dichos Servicios en beneficio del Proyecto y de la Comunidad.
 - Tomar decisiones cuando la discusión habitual de la comunidad no produzca un consenso en un plazo de tiempo razonable.
 
-### Core Team membership
+### Miembros del Equipo Core
 
-To become eligible for being a Core Team Member an individual must be a Project
-Contributor who has produced contributions that are substantial in quality and
-quantity, and sustained over at least one year. Los Miembros Potenciales del Equipo Core son nominados por los miembros actuales del Equipo Core y votados por el Equipo Core después de preguntar si el Miembro potencial está interesado y dispuesto a servir en esa capacidad. The Core Team will be initially formed from the set of existing
-Contributors who have been granted commit rights as of late 2015.
+Para poder ser miembro del Equipo Core, un individuo debe ser un Colaborador del Proyecto que haya realizado contribuciones sustanciales en calidad y cantidad, y durante por lo menos un año.   Los Miembros Potenciales del Equipo Core son nominados por los miembros actuales del Equipo Core y votados por el Equipo Core después de preguntar si el Miembro potencial está interesado y dispuesto a servir en esa capacidad. El Equipo Core se formará inicialmente a partir del conjunto de los Contribuidores existentes a los que se ha concedido derechos de confirmación desde finales de 2015.
 
-When considering potential Members, the Core Team will look at candidates with
-a comprehensive view of their contributions. Esto incluirá, pero no está limitado, al código, revisión de código, trabajo de infraestructura, listas de correo y chat de participación, ayuda/construcción de la comunidad, educación y divulgación, trabajo de diseño, etcétera. No establecemos deliberadamente métricas cuantitativas arbitrarias (como «100
+A la hora de considerar posibles miembros, el Equipo Core examinará a los candidatos con
+una visión global de sus contribuciones. Esto incluirá, pero no está limitado, al código, revisión de código, trabajo de infraestructura, listas de correo y chat de participación, ayuda/construcción de la comunidad, educación y divulgación, trabajo de diseño, etcétera. No establecemos deliberadamente métricas cuantitativas arbitrarias (como «100
 commits en este repositorio") para evitar alentar el comportamiento que juega a las métricas
 en lugar del bienestar general del proyecto. Queremos fomentar la diversidad de orígenes, puntos de vista y talentos en nuestro equipo, por lo que no definimos explícitamente el código como la única métrica en la que se será evaluada.
 
@@ -97,68 +94,47 @@ Se espera que el BDFL y los miembros del Equipo Core trabajen en una amplia gama
 
 Todos los miembros del Equipo Core, incluido el BDFL, deberán revelar al resto del Equipo Core cualquier conflicto de intereses que puedan tener. Los Miembros con un conflicto de
 intereses en un tema en particular pueden participar en los debates del Equipo Core sobre ese
-tema, pero deben abstenerse de votar sobre el mismo. If the BDFL has
-recused his/herself for a particular decision, they will appoint a substitute
-BDFL for that decision.
+tema, pero deben abstenerse de votar sobre el mismo. Si el BDFL se ha
+recusado para una decisión particular, designará un BDFL sustituto para esa decisión.
 
-### Private communications of the Core Team
+### Comunicaciones privadas del Equipo Core
 
-Unless specifically required, all Core Team discussions and activities will be
-public and done in collaboration and discussion with the Project Contributors
-and Community. The Core Team will have a private mailing list that will be used
-sparingly and only when a specific matter requires privacy. When private
-communications and decisions are needed, the Core Team will do its best to
-summarize those to the Community after eliding personal/private/sensitive
-information that should not be posted to the public internet.
+A menos que se requiera específicamente, todos los debates y actividades del Equipo Core serán
+públicas y se realizarán en colaboración y debate con los Colaboradores del Proyecto
+y la Comunidad. El Equipo Core dispondrá de una lista de correo privada que se utilizará con moderación y solo cuando un asunto específico requiera privacidad. Cuando las comunicaciones y decisiones privadas sean necesarias, el Equipo Core hará todo lo posible por resumirlas a la Comunidad tras eludir la información personal/privada/sensible
+sensible que no debe publicarse en Internet.
 
-### Subcommittees
+### Subcomités
 
-The Core Team can create subcommittees that provide leadership and guidance for
-specific aspects of the project. Like the Core Team as a whole, subcommittees
-should conduct their business in an open and public manner unless privacy is
-specifically called for. Private subcommittee communications should happen on
-the main private mailing list of the Core Team unless specifically called for.
+El Equipo Core puede crear subcomités que se encarguen de dirigir y orientar aspectos específicos del proyecto. Al igual que el Equipo Core en su conjunto, los subcomités deben llevar a cabo sus actividades de forma abierta y pública, a menos que se
+se solicite específicamente. Las comunicaciones privadas del subcomité deben realizarse en la lista de correo privada principal del Equipo Core, a menos que se solicite específicamente lo contrario.
 
-Question: if the BDFL is not on a subcommittee, do they still have override
-authority?
+Pregunta: si el BDFL no está en un subcomité, ¿todavía tiene autoridad de destitución?
 
-Suggestion: they do, but they should appoint a delegate who plays that role
-most of the time, and explicit BDFL intervention is sought only if the
-committee disagrees with that delegate’s decision and no resolution is possible
-within the team. This is different from a BDFL delegate for a specific decision
-(or a recusal situation), where the BDFL is literally giving up his/her
-authority to someone else in full. It’s more like what Linus Torvalds uses with his
-“lieutenants” model.
+Sugerencia: lo hacen, pero deberían nombrar a un delegado que desempeñe ese papel la mayor parte del tiempo, y solo se solicite la intervención explícita del BDFL si el comité no está de acuerdo con la decisión de ese delegado y no es posible una resolución
+dentro del equipo. Esto es diferente de un delegado de la BDFL para una decisión específica
+(o una situación de recusación), donde el BDFL está literalmente cediendo su
+autoridad a otra persona en su totalidad. Es más como lo que Linus Torvalds utiliza con su
+modelo de «lugartenientes».
 
-### NumFOCUS Subcommittee
+### Subcomité de NumFOCUS
 
-The Core Team will maintain one narrowly focused subcommittee to manage its
-interactions with NumFOCUS.
+El Equipo Core mantendrá un subcomité específico para gestionar sus interacciones con NumFOCUS.
 
-- The NumFOCUS Subcommittee is comprised of at least 5 persons who manage
-  project funding that comes through NumFOCUS. It is expected that these funds
-  will be spent in a manner that is consistent with the non-profit mission of
-  NumFOCUS and the direction of the Project as determined by the full Core
-  Team.
-- This Subcommittee shall NOT make decisions about the direction, scope or
-  technical direction of the Project.
-- This Subcommittee will have at least 5 members. No more than 2 Subcommittee
-  Members can report to one person (either directly or indirectly) through
-  employment or contracting work (including the reportee, i.e. the reportee + 1
-  is the max). This avoids effective majorities resting on one person.
+- El Subcomité NumFOCUS está formado por al menos 5 personas que gestionan
+  la financiación de proyectos a través de NumFOCUS. Se espera que estos fondos
+  se gasten de forma coherente con la misión sin ánimo de lucro de
+  sin ánimo de lucro de NumFOCUS y con la dirección del Proyecto determinada por el Equipo Core
+  completo.
+- Este Subcomité NO tomará decisiones sobre la dirección, alcance o
+  dirección técnica del Proyecto.
+- Este Subcomité contará con al menos 5 miembros. No más de 2 Miembros del Subcomité pueden reportar a una persona (ya sea directa o indirectamente) a través de un empleo o trabajo de contratación (incluido el reportado, es decir, el reportado + 1 es el máximo). Esto evita que las mayorías efectivas recaigan en una sola persona.
 
-## Institutional Partners and Funding
+## Socios institucionales y financiación
 
-The BDFL and Core Team are the primary leadership for the project. No outside
-institution, individual or legal entity has the ability to own, control, usurp
-or influence the project other than by participating in the Project as
-Contributors and Core Team. However, because institutions are the primary
-funding mechanism for the project, it is important to formally acknowledge
-institutional participation in the project. These are Institutional Partners.
+El BDFL y el Equipo Core son los principales responsables del proyecto. Ninguna institución, persona física o jurídica externa tiene capacidad para poseer, controlar, usurpar o influir en el Proyecto, salvo mediante su participación en el mismo como Colaboradores y Equipo Core. Sin embargo, dado que las instituciones son el principal mecanismo de financiación del proyecto, es importante reconocer formalmente la participación institucional en el proyecto. Estos son Socios Institucionales.
 
-An Institutional Contributor is any individual Project Contributor who
-contributes to the project as part of their official duties at an Institutional
-Partner. Likewise, an Institutional Core Team Member is any Core Team Member
+Un Colaborador Institucional es cualquier Colaborador individual del Proyecto que contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional. Likewise, an Institutional Core Team Member is any Core Team Member
 who contributes to the project as part of their official duties at an
 Institutional Partner.
 
