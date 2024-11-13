@@ -25,7 +25,7 @@ También hay muchos otros colaboradores listados en los registros de otros repos
 La comunidad del Proyecto se compone de todos los contribuidores y usuarios del Proyecto.
 Los Colaboradores trabajan en nombre de la Comunidad del Proyecto y son responsables de esto. Nosotros nos esforzamos por mantener la barrera entre Colaboradores y Usuarios lo más baja posible.
 
-El Proyecto está afiliado formalmente con la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del Proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del Proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el Proyecto (véase la sección Socios institucionales).
+El Proyecto está afiliado formalmente con la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el proyecto (véase la sección Socios Institucionales).
 
 ## Governance
 
@@ -34,28 +34,28 @@ Esta sección describe el modelo de gobierno y liderazgo de El Proyecto.
 Los fundamentos de la gestión de Proyecto son:
 
 - Apertura y transparencia
-- Contribución activa
-- Neutralidad institucional
+- Contribución Activa
+- Neutralidad Institucional
 
-Tradicionalmente, la dirección del proyecto corría a cargo de un BDFL (Wes McKinney) y un subconjunto de colaboradores, llamado el Equipo Central, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Central con los aportes de la Comunidad. El BDFL puede, pero raramente lo elige, anular al Equipo Central y tomar una decisión final sobre el asunto.
+Tradicionalmente, la dirección del Proyecto estaba a cargo de un BDFL (Wes McKinney) y un subconjunto de Colaboradores, llamado el Equipo Core, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Central con los aportes de la Comunidad. El BDFL puede, pero raramente lo elige, anular al Equipo Central y tomar una decisión final sobre el asunto.
 
 Mientras este enfoque ha funcionado bien, a medida que el Proyecto crece y se enfrenta a más decisiones legales y financieras e interacciones con otras instituciones, vemos la necesidad de tener un modelo más formal de gobierno. De cara al futuro, la dirección del Proyecto consistirá en un BDFL y un equipo central. Vemos este modelo de gobierno como la formalización de lo que realmente estamos haciendo, más que un cambio de rumbo.
 
 ### BDFL
 
 The Project will have a BDFL (Benevolent Dictator for Life), who is currently
-Wes McKinney. Como dictador, el BDFL tiene la autoridad de tomas las decisiones finales para el Proyecto. Como benevolente, el BDFL, en la práctica elige diferir esa autoridad al consenso de los canales de discusión de la comunidad y del equipo central. Se espera, y en el pasado ha sido el caso, que el BDFL haga valer su autoridad final en contadas ocasiones. Dado que rara vez se utiliza, nos referimos a la autoridad final del BDFL como voto "especial" o "preponderante". Cuando esto ocurre, el voto del BDFL típicamente sucede en situaciones donde hay un punto muero en el equipo central o si el equipo central pide al BDFL que tome una decisión sobre un asunto concreto. Para asegurar la benevolencia del BDFL, el Proyecto anima a otros a bifurcar el proyecto si no están de acuerdo con la dirección que está tomando el BDFL. El BDFL preside el Equipo Central (véase más abajo) y puede delegar su autoridad sobre una decisión o conjunto de decisiones concretas
+Wes McKinney. Como autoridad, el BDFL tiene la potestad de tomar las decisiones finales para el Proyecto. Como benevolente, el BDFL, en la práctica elige diferir esa autoridad al consenso de los canales de discusión de la comunidad y del equipo central. Se espera, y en el pasado ha sido el caso, que el BDFL haga valer su autoridad final en contadas ocasiones. Dado que rara vez se utiliza, nos referimos a la autoridad final del BDFL como voto "especial" o "preponderante". Cuando esto ocurre, el voto del BDFL típicamente sucede en situaciones donde hay un punto muerto en el Equipo Core o si el Equipo Core pide al BDFL que tome una decisión sobre un asunto concreto. Para asegurar la benevolencia del BDFL, el Proyecto anima a otros a bifurcar el proyecto si no están de acuerdo con la dirección que está tomando el BDFL. El BDFL preside el Equipo Central (véase más abajo) y puede delegar su autoridad sobre una decisión o conjunto de decisiones concretas
 a cualquier otro miembro del Equipo Central.
 
-El BDFL puede nombrar a su sucesor, pero se espera que el Equipo Central sea consultado sobre esta decisión. If the BDFL is unable to appoint a
-successor (e.g. due to death or illness), the Core Team will choose a successor
-by voting with at least 2/3 of the Core Team members voting in favor of the
-chosen successor. Por lo menos 80% del Equipo Central debe participar en la votación. Si ningún candidato a la BDFL recibe 2/3 de los votos del Equipo Central, los miembros del Equipo Central propondrán los candidatos a la BDFL al Consejo Principal de NumFOCUS, quien
+El BDFL puede nombrar a su sucesor, pero se espera que el Equipo Central sea consultado sobre esta decisión. Si el BDFL no pueda nombrar a un
+sucesor (por ejemplo, por fallecimiento o enfermedad), el Equipo Core elegirá a un sucesor
+mediante votación, con al menos 2/3 de los miembros del Equipo Core votando a favor del
+sucesor elegido. Por lo menos 80% del Equipo Central debe participar en la votación. Si ningún candidato a la BDFL recibe 2/3 de los votos del Equipo Central, los miembros del Equipo Central propondrán los candidatos a la BDFL al Consejo Principal de NumFOCUS, quien
 tomará la decisión final.
 
 ### Equipo Central
 
-El Equipo Central del Proyecto estará formado por colaboradores del proyecto que hayan producido contribuciones sustanciales en calidad y cantidad, y continuas durante al menos un año. La función general del Equipo Central es garantizar, mediante con la BDFL y las contribuciones de la Comunidad, el bienestar a largo plazo del
+El Equipo Core del Proyecto estará formado por Colaboradores del Proyecto que hayan producido contribuciones sustanciales en calidad y cantidad, y continuas durante al menos un año. La función general del Equipo Central es garantizar, mediante con la BDFL y las contribuciones de la Comunidad, el bienestar a largo plazo del
 a largo plazo del proyecto, tanto desde el punto de vista técnico como comunitario.
 
 Durante las actividades diarias del Proyecto, el Equipo Central participa en todas las discusiones, revisiones de código y otras actividades del proyecto como compañeros con todos los demás colaboradores y la comunidad. En estas actividades cotidianas, el Equipo Core no tiene ningún poder o privilegio especial por su afiliación como Equipo Core. However, it is expected that because of the quality and quantity of their
