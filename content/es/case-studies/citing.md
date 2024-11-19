@@ -1,13 +1,13 @@
 # Citing and logo
 
-## Citing pandas
+## Citando pandas
 
-If you use _pandas_ for a scientific publication, we would appreciate citations to the published software and the
-following paper:
+Si utiliza _pandas_ para una publicación científica, le agradeceríamos que citara el software publicado y el
+siguiente artículo:
 
-- [pandas on Zenodo](https://zenodo.org/search?page=1\&size=20\&q=conceptrecid%3A%223509134%22\&sort=-version\&all_versions=True),
-  Please find us on Zenodo and replace with the citation for the version you are using. You can replace the full author
-  list from there with "The pandas development team" like in the example below.
+- [pandas en Zenodo](https://zenodo.org/search?page=1\&size=20\&q=conceptrecid%3A%223509134%22\&sort=-version\&all_versions=True),
+  Por favor, encuéntrenos en Zenodo y reemplácelo con la cita de la versión que está utilizando. Puede reemplazar la lista completa de autores
+  por «El equipo de desarrollo de pandas» como en el siguiente ejemplo.
 
   ```
     @software{reback2020pandas,
@@ -37,13 +37,13 @@ following paper:
     }
   ```
 
-## Brand and logo
+## Marca y logo
 
-When using the project name _pandas_, please use it in lower case, even at the beginning of a sentence.
+Cuando utilice el nombre del proyecto _pandas_, hágalo en minúsculas, incluso al principio de una frase.
 
-The official logos of _pandas_ are:
+Los logotipos oficiales de las _pandas_ son:
 
-### Primary logo
+### Logotipo principal
 
 <table class="table logo">
     <tbody><tr>
@@ -56,7 +56,7 @@ The official logos of _pandas_ are:
     </tr>
 </tbody></table>
 
-### Secondary logo
+### Logotipo secundario
 
 <table class="table logo">
     <tbody><tr>
@@ -69,7 +69,7 @@ The official logos of _pandas_ are:
     </tr>
 </tbody></table>
 
-### Logo mark
+### Marca del logotipo
 
 <table class="table logo">
     <tbody><tr>
@@ -82,21 +82,21 @@ The official logos of _pandas_ are:
     </tr>
 </tbody></table>
 
-### Logo usage
+### Uso del logotipo
 
-The pandas logo is available in full color and white accent.
-The full color logo should only appear against white backgrounds.
-The white accent logo should go against contrasting color background.
+El logotipo de pandas está disponible a todo color y con acento blanco.
+El logotipo a todo color solo debe aparecer sobre fondos blancos.
+El logotipo acentuado en blanco debe ir sobre un fondo de color contrastado.
 
-When using the logo, please follow the next directives:
+Cuando utilice el logotipo, siga las siguientes directrices:
 
-- Primary logo should never be seen under 1 inch in size for printing and 72px for web
-- The secondary logo should never be seen under 0.75 inch in size for printing and 55px for web
-- Leave enough margin around the logo (leave the height of the logo in the top, bottom and both sides)
-- Do not distort the logo by changing its proportions
-- Do not place text or other elements on top of the logo
+- El logotipo principal nunca debe verse por debajo de 1 pulgada de tamaño para impresión y 72px para web
+- El logotipo secundario nunca debe tener un tamaño inferior a 0,75 pulgadas para impresión y 55px para web.
+- Deje suficiente margen alrededor del logotipo (deje la altura del logotipo en la parte superior, inferior y en ambos lados)
+- No distorsione el logotipo cambiando sus proporciones
+- No coloque texto ni otros elementos encima del logotipo
 
-### Colors
+### Colores
 
 <table class="table">
     <tbody><tr>
