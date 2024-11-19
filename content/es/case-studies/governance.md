@@ -65,9 +65,9 @@ En particular, el Equipo Core puede:
 
 - Tomar decisiones acerca del alcance global, la visión y la dirección del proyecto.
 - Tomar decisiones acerca de las colaboraciones estratégicas con otras organizaciones o individuos.
-- Tomar decisiones acerca de asuntos técnicos específicos, características, errores y pull requests. Ellos son el mecanismo principal para guiar el proceso de revisión de código y la unión de los pull requests.
+- Tomar decisiones acerca de asuntos (issues) técnicos específicos, características, errores y pull requests. Ellos son el mecanismo principal para guiar el proceso de revisión de código y la unión de los pull requests.
 - Tomar decisiones acerca de los Servicios que son ejecutados por El Proyecto y gestionar dichos Servicios en beneficio del Proyecto y de la Comunidad.
-- Tomar decisiones cuando la discusión habitual de la comunidad no produzca un consenso en un plazo de tiempo razonable.
+- Tomar decisiones cuando la discusión habitual de la comunidad no produzca un consenso acerca de un asunto (issue) en un plazo de tiempo razonable.
 
 ### Miembros del Equipo Core
 
@@ -93,7 +93,7 @@ Se espera que el BDFL y los miembros del Equipo Core trabajen en una amplia gama
   filtrarse en su trabajo con el Proyecto.
 
 Todos los miembros del Equipo Core, incluido el BDFL, deberán revelar al resto del Equipo Core cualquier conflicto de intereses que puedan tener. Los Miembros con un conflicto de
-intereses en un tema en particular pueden participar en los debates del Equipo Core sobre ese
+intereses en un tema (issue) en particular pueden participar en los debates del Equipo Core sobre ese
 tema, pero deben abstenerse de votar sobre el mismo. Si el BDFL se ha
 recusado para una decisión particular, designará un BDFL sustituto para esa decisión.
 
@@ -136,9 +136,7 @@ El BDFL y el Equipo Core son los principales responsables del proyecto. Ninguna 
 
 Un Colaborador Institucional es cualquier Colaborador individual del Proyecto que contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional. Asimismo, un Miembro Institucional del Equipo Core es cualquier miembro del Equipo Core quien contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional.
 
-With these definitions, an Institutional Partner is any recognized legal entity
-in the United States or elsewhere that employs at least one Institutional
-Contributor or Institutional Core Team Member. Socios Institucionales pueden ser entidades con o sin ánimo de lucro.
+Con estas definiciones, un Socio Institucional es cualquier entidad jurídica reconocida en Estados Unidos o en cualquier otro país que emplee al menos a un Colaborador o Miembro del Equipo Core Institucional. Socios Institucionales pueden ser entidades con o sin ánimo de lucro.
 
 Las instituciones pueden convertirse en Socios Institucionales empleando a personas quienes contribuyan activamente al Proyecto como parte de sus deberes (duties) oficiales. Dicho de otro modo, la única forma de que un Socio Institucional influye en el proyecto es contribuyendo activamente al desarrollo abierto de del proyecto, en igualdad de condiciones con cualquier otro miembro de la comunidad de Colaboradores y Miembros del Equipo Core. El simple uso del Software o Servicios Pandas en un contexto institucional no permite a una entidad convertirse en Socio Institucional. Las donaciones económicas no permiten a una entidad convertirse en Socio Institucional. Una vez que una institución se convierte en elegible para la Asociación Institucional, el Equipo Core debe nominar y aprobar la Asociación.
 
@@ -153,31 +151,19 @@ Para reconocer las contribuciones institucionales, existen dos niveles de Socios
 
 **Nivel 1** = una institución con al menos un Miembro del Equipo Core Institucional
 
-- Acknowledged on the pandas website, in talks and T-shirts.
-- Ability to acknowledge their own funding sources on the pandas website, in
-  talks and T-shirts.
+- Reconocido en el sitio web de pandas, en charlas y camisetas.
+- Posibilidad de reconocer sus propias fuentes de financiación en el sitio web de pandas, en charlas y camisetas.
 - Capacidad de influir en el proyecto a través de la participación de los Miembros de su Equipo Core.
 
-**Tier 2** = an institution with at least one Institutional Contributor
+**Nivel 2** = una institución con al menos un Colaborador Institucional
 
-## Breach
+## Infracción
 
-Non-compliance with the terms of the governance documents shall be reported to
-the Core Team either through public or private channels as deemed appropriate.
+El incumplimiento de los términos de los documentos de gobierno se comunicará al Equipo Core, ya sea a través de canales públicos o privados, según se considere oportuno.
 
-## Changing the Governance
+## Cambiar el Gobierno
 
-Changes to the governance are submitted via a GitHub pull request to The Project's
-[governance page](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
-The pull request is then refined in response to public comment and review, with
-the goal being consensus in the community.  After this open period, a Core Team
-Member proposes to the Core Team that the changes be ratified and the pull
-request merged (accepting the proposed changes) or proposes that the pull
-request be closed without merging (rejecting the proposed changes). The Member
-should state the final commit hash in the pull request being proposed for
-acceptance or rejection and briefly summarize the pull request. A minimum of
-80% of the Core Team must vote and at least 2/3 of the votes must be positive
-to carry out the proposed action (fractions of a vote rounded up to the nearest
-integer). Since the BDFL holds ultimate authority in The Project, the BDFL has
-authority to act alone in accepting or rejecting changes or overriding Core
-Team decisions.
+Los cambios en el gobierno se envían a través de pull request de GitHub a la página del Proyecto
+(https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
+A continuación, el pull request se perfecciona en respuesta a los comentarios y revisiones del público, con el objetivo de lograr el consenso de la comunidad.  Después de este periodo abierto, un Miembro del Equipo Core propone al Equipo Core que los cambios sean ratificados y que se fusione (entendido en inglés como merged) el pull request (aceptando los cambios propuestos) o propone que se cierre el pull request sin su fusión (rechazando los cambios propuestos). El Miembro debe indicar el hash de confirmación final en el pull request que se propone para su aceptación o rechazo y resumir brevemente el pull resquest. Un mínimo del 80% del Equipo Core debe votar y al menos 2/3 de los votos deben ser positivos
+para llevar a cabo la acción propuesta (fracciones de voto redondeadas al número entero más cercano). Dado que el BDFL tiene la máxima autoridad en el Proyecto, el BDFL tiene autoridad para actuar solo al aceptar o rechazar cambios o anular las decisiones del Equipo Core.
