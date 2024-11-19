@@ -8,7 +8,7 @@ El Proyecto Pandas (El Proyecto) es un proyecto de software de código abierto a
 con la Fundación NumFOCUS 501(c)3. El objetivo de El Proyecto es desarrollar software
 de código abierto para la adquisición, preparación, análisis y visualización de datos para el lenguaje de programación Python. El Software desarrollado por El Proyecto se libera bajo la licencia BSD (o similar) de código abierto, desarrollado abiertamente y alojado en repositorios públicos de GitHub bajo la organización pandas
 organización GitHub. Ejemplos del Software del Proyecto
-incluyen el repositorio principal de código Pandas y la librería pandas-stubs.
+incluyen el repositorio principal de código pandas y la librería pandas-stubs.
 
 A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
 
@@ -138,7 +138,7 @@ Un Colaborador Institucional es cualquier Colaborador individual del Proyecto qu
 
 Con estas definiciones, un Socio Institucional es cualquier entidad jurídica reconocida en Estados Unidos o en cualquier otro país que emplee al menos a un Colaborador o Miembro del Equipo Core Institucional. Socios Institucionales pueden ser entidades con o sin ánimo de lucro.
 
-Las instituciones pueden convertirse en Socios Institucionales empleando a personas quienes contribuyan activamente al Proyecto como parte de sus deberes (duties) oficiales. Dicho de otro modo, la única forma de que un Socio Institucional influye en el proyecto es contribuyendo activamente al desarrollo abierto de del proyecto, en igualdad de condiciones con cualquier otro miembro de la comunidad de Colaboradores y Miembros del Equipo Core. El simple uso del Software o Servicios Pandas en un contexto institucional no permite a una entidad convertirse en Socio Institucional. Las donaciones económicas no permiten a una entidad convertirse en Socio Institucional. Una vez que una institución se convierte en elegible para la Asociación Institucional, el Equipo Core debe nominar y aprobar la Asociación.
+Las instituciones pueden convertirse en Socios Institucionales empleando a personas quienes contribuyan activamente al Proyecto como parte de sus deberes (duties) oficiales. Dicho de otro modo, la única forma de que un Socio Institucional influye en el proyecto es contribuyendo activamente al desarrollo abierto de del proyecto, en igualdad de condiciones con cualquier otro miembro de la comunidad de Colaboradores y Miembros del Equipo Core. El simple uso del Software o Servicios pandas en un contexto institucional no permite a una entidad convertirse en Socio Institucional. Las donaciones económicas no permiten a una entidad convertirse en Socio Institucional. Una vez que una institución se convierte en elegible para la Asociación Institucional, el Equipo Core debe nominar y aprobar la Asociación.
 
 Si un Socio Institucional existente deja de tener un empleado cotizante, se les dará un período de gracia de un año para que otros empleados empiecen a
 a contribuir.
