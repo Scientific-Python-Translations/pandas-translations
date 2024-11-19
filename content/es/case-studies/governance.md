@@ -142,33 +142,21 @@ Contributor or Institutional Core Team Member. Socios Institucionales pueden ser
 
 Las instituciones pueden convertirse en Socios Institucionales empleando a personas quienes contribuyan activamente al Proyecto como parte de sus deberes (duties) oficiales. Dicho de otro modo, la única forma de que un Socio Institucional influye en el proyecto es contribuyendo activamente al desarrollo abierto de del proyecto, en igualdad de condiciones con cualquier otro miembro de la comunidad de Colaboradores y Miembros del Equipo Core. El simple uso del Software o Servicios Pandas en un contexto institucional no permite a una entidad convertirse en Socio Institucional. Las donaciones económicas no permiten a una entidad convertirse en Socio Institucional. Una vez que una institución se convierte en elegible para la Asociación Institucional, el Equipo Core debe nominar y aprobar la Asociación.
 
-If an existing Institutional Partner no longer has a contributing employee,
-they will be given a one-year grace period for other employees to begin
-contributing.
+Si un Socio Institucional existente deja de tener un empleado cotizante, se les dará un período de gracia de un año para que otros empleados empiecen a
+a contribuir.
 
-An Institutional Partner is free to pursue funding for their work on The
-Project through any legal means. This could involve a non-profit organization
-raising money from private foundations and donors or a for-profit company
-building proprietary products and services that leverage Project Software and
-Services. Funding acquired by Institutional Partners to work on The Project is
-called Institutional Funding. However, no funding obtained by an Institutional
-Partner can override The Project BDFL and Core Team. If a Partner has funding
-to do pandas work and the Core Team decides to not pursue that work as a
-project, the Partner is free to pursue it on their own. However in this
-situation, that part of the Partner’s work will not be under the pandas
-umbrella and cannot use the Project trademarks in a way that suggests a formal
-relationship.
+Un Socio Institucional es libre de buscar financiación para su trabajo en El Proyecto por cualquier medio legal. Puede tratarse de una organización sin ánimo de lucro
+recaudar fondos de fundaciones privadas y donantes o una empresa con ánimo de lucro que cree productos y servicios propios que apalanquen el Software y los
+Servicios del Proyecto. La financiación adquirida por los Socios Institucionales para trabajar en El Proyecto se denomina Financiación Institucional. Sin embargo, ningún financiamiento obtenido por un Socio Institucional puede anular el BDFL y El Equipo Core del Proyecto. Si un Socio tiene fondos para realizar el trabajo de pandas y el Equipo Core decide no continuar con ese trabajo como proyecto, el Socio es libre de continuar con él por su cuenta. Sin embargo, en esta situación, esa parte del trabajo del Socio no estará bajo la sombrilla de pandas y no podrá utilizar las marcas registradas del Proyecto de una manera que sugiera una relación formal.
 
-To acknowledge institutional contributions, there are two levels of
-Institutional Partners, with associated benefits:
+Para reconocer las contribuciones institucionales, existen dos niveles de Socios Institucionales, con los beneficios asociados:
 
-**Tier 1** = an institution with at least one Institutional Core Team Member
+**Nivel 1** = una institución con al menos un Miembro del Equipo Core Institucional
 
 - Acknowledged on the pandas website, in talks and T-shirts.
 - Ability to acknowledge their own funding sources on the pandas website, in
   talks and T-shirts.
-- Ability to influence the project through the participation of their Core Team
-  Member.
+- Capacidad de influir en el proyecto a través de la participación de los Miembros de su Equipo Core.
 
 **Tier 2** = an institution with at least one Institutional Contributor
 
