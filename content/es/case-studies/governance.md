@@ -134,25 +134,13 @@ El Equipo Core mantendrá un subcomité específico para gestionar sus interacci
 
 El BDFL y el Equipo Core son los principales responsables del proyecto. Ninguna institución, persona física o jurídica externa tiene capacidad para poseer, controlar, usurpar o influir en el Proyecto, salvo mediante su participación en el mismo como Colaboradores y Equipo Core. Sin embargo, dado que las instituciones son el principal mecanismo de financiación del proyecto, es importante reconocer formalmente la participación institucional en el proyecto. Estos son Socios Institucionales.
 
-Un Colaborador Institucional es cualquier Colaborador individual del Proyecto que contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional. Likewise, an Institutional Core Team Member is any Core Team Member
-who contributes to the project as part of their official duties at an
-Institutional Partner.
+Un Colaborador Institucional es cualquier Colaborador individual del Proyecto que contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional. Asimismo, un Miembro Institucional del Equipo Core es cualquier miembro del Equipo Core quien contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional.
 
 With these definitions, an Institutional Partner is any recognized legal entity
 in the United States or elsewhere that employs at least one Institutional
-Contributor or Institutional Core Team Member. Institutional Partners can be
-for-profit or non-profit entities.
+Contributor or Institutional Core Team Member. Socios Institucionales pueden ser entidades con o sin ánimo de lucro.
 
-Institutions become eligible to become an Institutional Partner by employing
-individuals who actively contribute to The Project as part of their official
-duties. To state this another way, the only way for an Institutional Partner to
-influence the project is by actively contributing to the open development of
-the project, on equal terms with any other member of the community of
-Contributors and Core Team Members. Merely using pandas Software or Services in
-an institutional context does not allow an entity to become an Institutional
-Partner. Financial gifts do not enable an entity to become an Institutional
-Partner. Once an institution becomes eligible for Institutional Partnership,
-the Core Team must nominate and approve the Partnership.
+Las instituciones pueden convertirse en Socios Institucionales empleando a personas quienes contribuyan activamente al Proyecto como parte de sus deberes (duties) oficiales. Dicho de otro modo, la única forma de que un Socio Institucional influye en el proyecto es contribuyendo activamente al desarrollo abierto de del proyecto, en igualdad de condiciones con cualquier otro miembro de la comunidad de Colaboradores y Miembros del Equipo Core. El simple uso del Software o Servicios Pandas en un contexto institucional no permite a una entidad convertirse en Socio Institucional. Las donaciones económicas no permiten a una entidad convertirse en Socio Institucional. Una vez que una institución se convierte en elegible para la Asociación Institucional, el Equipo Core debe nominar y aprobar la Asociación.
 
 If an existing Institutional Partner no longer has a contributing employee,
 they will be given a one-year grace period for other employees to begin
