@@ -49,7 +49,7 @@ manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).
 
-## Governance
+## Governança
 
 This section describes the governance and leadership model of The Project.
 
