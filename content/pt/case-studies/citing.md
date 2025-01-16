@@ -1,4 +1,4 @@
-# Citing and logo
+# Citações e logo
 
 ## Citing pandas
 
