@@ -1,4 +1,4 @@
-# Code of conduct
+# Código de conduta
 
 As contributors and maintainers of this project, and in the interest of
 fostering an open and welcoming community, we pledge to respect all people who
