@@ -1,6 +1,6 @@
 # Getting started
 
-## Installation instructions
+## Instruções de instalação
 
 To install pandas, please reference the [installation page]({{ base_url}}docs/getting_started/install.html)
 from the pandas documentation.
