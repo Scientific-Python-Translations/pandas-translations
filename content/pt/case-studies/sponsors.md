@@ -1,15 +1,13 @@
-# Sponsors
+# Patrocinadores
 
 ## NumFOCUS
 
 ![](https://numfocus.org/wp-content/uploads/2018/01/optNumFocus_LRG.png)
 
-_pandas_ is a Sponsored Project of [NumFOCUS](https://numfocus.org/), a 501(c)(3) nonprofit charity in the United States.
-NumFOCUS provides _pandas_ with fiscal, legal, and administrative support to help ensure the
-health and sustainability of the project. Visit numfocus.org for more information.
+_pandas_ é um projeto patrocinado pela [NumFOCUS](https://numfocus.org/), uma instituição de caridade sem fins lucrativos nos Estados Unidos que segue a legislação 501(c)(3) daquele país.
+A NumFOCUS fornece ao _pandas_ apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visite numfocus.org para mais informações.
 
-Donations to _pandas_ are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible
-to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
+Doações para o _pandas_ são gerenciadas pela NumFOCUS. Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
 ## Become a sponsor
 
@@ -30,7 +28,7 @@ Current institutional partners include:
     {% endfor %}
 </ul>
 
-## Sponsors
+## Patrocinadores
 
 Sponsors are organizations that provide funding for pandas. Current sponsors include:
 
