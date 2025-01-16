@@ -1,4 +1,4 @@
-# Team
+# Equipe
 
 ## Contributors
 
@@ -39,7 +39,7 @@ If you want to support pandas development, you can find information in the [dona
 > Please send an email to [pandas-code-of-conduct-committee](mailto:pandas-coc@googlegroups.com), if you think we can do a
 > better job at achieving this goal.
 
-## Governance
+## Governança
 
 Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
