@@ -1,86 +1,82 @@
 # About pandas
 
-## History of development
+## Histórico de desenvolvimento
 
-In 2008, _pandas_ development began at [AQR Capital Management](https://www.aqr.com).
-By the end of 2009 it had been [open sourced](https://en.wikipedia.org/wiki/Open_source),
-and is actively supported today by a community of like-minded individuals around the world who
-contribute their valuable time and energy to help make open source _pandas_
-possible. Thank you to [all of our contributors](team.html).
+Em 2008, o desenvolvimento do _pandas_ começou na [AQR Capital Management](https://www.aqr.com).
+Até ao final de 2009 tinha sido transformado num projeto [open source](https://en.wikipedia.org/wiki/Open_source),
+e consta hoje com o suporte ativo de uma comunidade de indivíduos que pensam parecido ao redor do mundo e que
+contribuem com seu tempo e energia valiosos para ajudar a tornar o projeto de código aberto _pandas_
+possível. Obrigado a [todos os nossos contribuidores](team.html).
 
-Since 2015, _pandas_ is a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects).
-This will help ensure the success of development of _pandas_ as a world-class open-source project.
+Desde 2015, o _pandas_ é um [projeto patrocinado pela NumFOCUS](https://numfocus.org/sponsored-projects).
+Isso ajudará a garantir o sucesso do desenvolvimento de _pandas_ como um projeto open-source de classe mundial.
 
-### Timeline
+### Linha do Tempo
 
-- **2008**:  Development of _pandas_ started
-- **2009**: _pandas_ becomes open source
-- **2012**: First edition of _Python for Data Analysis_ is published
-- **2015**: _pandas_ becomes a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects)
-- **2018**: First in-person core developer sprint
+- **2008**: o desenvolvimento do _pandas_ começou
+- **2009**: _pandas_ se torna código aberto
+- **2012**: a primeira edição do _Python para Análise de Dados_ é publicada
+- **2015**: _pandas_ se torna um [projeto patrocinado pela NumFOCUS](https://numfocus.org/sponsored-projects)
+- **2018**: Primeiro sprint de desenvolvimento para o time de mantenedores principal presencial
 
-## Library Highlights
+## Destaques da Biblioteca
 
-- A fast and efficient **DataFrame** object for data manipulation with
-  integrated indexing;
+- Um objeto de **DataFrame** rápido e eficiente para manipulação de dados com
+  indexação integrada;
 
-- Tools for **reading and writing data** between in-memory data structures and
-  different formats: CSV and text files, Microsoft Excel, SQL databases, and
-  the fast HDF5 format;
+- Ferramentas para **ler e escrever dados** entre estruturas de dados em memória e
+  diferentes formatos: CSV e arquivos de texto, Microsoft Excel, bancos de dados SQL e
+  o formato rápido HDF5;
 
-- Intelligent **data alignment** and integrated handling of **missing data**:
-  gain automatic label-based alignment in computations and easily manipulate
-  messy data into an orderly form;
+- O **alinhamento de dados** inteligente e o manuseio integrado de **dados faltantes**:
+  obtém o alinhamento automático com base em rótulos em cálculos e manipula facilmente dados
+  confusos em uma forma ordenada;
 
-- Flexible **reshaping** and pivoting of data sets;
+- **Reformulação** e pivotamento flexível de conjuntos de dados;
 
-- Intelligent label-based **slicing**, **fancy indexing**, and **subsetting**
-  of large data sets;
+- **Slicing**, **fancy indexing** (indexação avançada), e **subparticionamento** de conjuntos de dados grandes de maneira inteligente, baseada em rótulos;
 
-- Columns can be inserted and deleted from data structures for **size
-  mutability**;
+- As colunas podem ser inseridas e excluídas das estruturas de dados garantindo **mutabilidade do seu tamanho**;
 
-- Aggregating or transforming data with a powerful **group by** engine
-  allowing split-apply-combine operations on data sets;
+- Agregação ou transformação de dados com um poderoso mecanismo **group by**
+  permitindo operações _split-apply-combine_ em conjuntos de dados;
 
-- High performance **merging and joining** of data sets;
+- **Mesclagem e união** de conjuntos de dados com alto desempenho;
 
-- **Hierarchical axis indexing** provides an intuitive way of working with
-  high-dimensional data in a lower-dimensional data structure;
+- A **indexação hierárquica de eixos** fornece uma maneira intuitiva de trabalhar com a
+  dados multidimensionais em uma estrutura de dados menor;
 
-- **Time series**-functionality: date range generation and frequency
-  conversion, moving window statistics, date shifting and lagging.
-  Even create domain-specific time offsets and join time
-  series without losing data;
+- Funcionalidade para **séries temporais**: geração de intervalo de datas e conversão
+  de frequência, estatísticas com janelas móveis, deslocamento de datas e atraso.
+  Crie até mesmo offsets de tempo para domínios específicos e junte séries temporais
+  sem perder dados;
 
-- Highly **optimized for performance**, with critical code paths written in
-  [Cython](https://cython.org) or C.
+- Altamente **otimizado para desempenho**, com caminhos de código críticos escritos em
+  [Cython](https://cython.org) ou C.
 
-- Python with _pandas_ is in use in a wide variety of **academic and
-  commercial** domains, including Finance, Neuroscience, Economics,
-  Statistics, Advertising, Web Analytics, and more.
+- Python com _pandas_ está em uso em uma grande variedade de domínios **acadêmicos e
+  comerciais**, incluindo Finanças, Neurociência, Economia,
+  Estatística, Publicidade, Análise de Dados Web e muito mais.
 
-## Mission
+## Missão
 
-_pandas_ aims to be the fundamental high-level building block for doing practical,
-real world data analysis in Python.
-Additionally, it has the broader goal of becoming the most powerful and flexible
-open source data analysis / manipulation tool available in any language.
+O _pandas_ visa ser a peça fundamental de alto nível na construção de análises de dados práticas, no mundo real, em Python.
+Além disso, ele tem o objetivo mais amplo de se tornar a ferramenta de código aberto mais poderosa e flexível para análise / manipulação de dados disponível em qualquer linguagem de programação.
 
-## Vision
+## Visão
 
-A world where data analytics and manipulation software is:
+Um mundo onde softwares para análise e manipulação de dados sejam:
 
-- Accessible to everyone
-- Free for users to use and modify
-- Flexible
-- Powerful
-- Easy to use
-- Fast
+- Acessíveis para todos
+- Grátis e livre para usuários usarem e modificarem
+- Flexível
+- Poderoso
+- Fácil de usar
+- Rápido
 
-## Values
+## Valores
 
-Is in the core of _pandas_ to be respectful and welcoming with everybody,
-users, contributors and the broader community. Regardless of level of experience,
-gender, gender identity and expression, sexual orientation, disability,
-personal appearance, body size, race, ethnicity, age, religion, or nationality.
+Está no centro do _pandas_ ser respeitoso e acolhedor com todas as pessoas, sejam
+usuários, colaboradores e a comunidade em geral. Independentemente do nível de experiência,
+gênero, identidade e expressão de gênero, orientação sexual, deficiência,
+aparência pessoal, tamanho do corpo, raça, etnia, idade, religião ou nacionalidade.
