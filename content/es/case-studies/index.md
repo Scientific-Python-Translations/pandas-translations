@@ -1,36 +1,34 @@
 # About pandas
 
-## History of development
+## Historial de desarrollo
 
-In 2008, _pandas_ development began at [AQR Capital Management](https://www.aqr.com).
-By the end of 2009 it had been [open sourced](https://en.wikipedia.org/wiki/Open_source),
-and is actively supported today by a community of like-minded individuals around the world who
-contribute their valuable time and energy to help make open source _pandas_
-possible. Thank you to [all of our contributors](team.html).
+En 2008, comenzó el desarrollo de _pandas_ en [AQR Capital Management] (https://www.aqr.com).
+A finales de 2009 el [código fue liberado](https://es.wikipedia.org/wiki/C%C3%B3digo_abierto),
+y es hoy en día soportado activamente  por una comunidad de personas en todo el mundo que aportan su valioso tiempo y energía para ayudar poder mantener a _pandas_. Gracias a [todos nuestros colaboradores] (team.html).
 
-Desde 2015, _pandas_ es un [Proyecto auspiciado por NumFOCUS](https://numfocus.org/sponsored-projects).
-This will help ensure the success of development of _pandas_ as a world-class open-source project.
+Desde 2015, _pandas_ es un [Proyecto patrocinado por NumFOCUS](https://numfocus.org/sponsored-projects).
+Esto ayudará a asegurar el éxito del desarrollo de _pandas_ como un proyecto de código abierto de clase mundial.
 
-### Timeline
+### Cronología
 
-- **2008**:  Development of _pandas_ started
-- **2009**: _pandas_ becomes open source
-- **2012**: First edition of _Python for Data Analysis_ is published
-- **2015**: _pandas_ becomes a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects)
+- **2008**: Se inicia el desarrollo de _pandas_
+- **2009**: _pandas_ se libera como código abierto
+- **2012**: Se publica la primera edición de _Python para el análisis de datos_
+- **2015**: _pandas_ se convierte en un [Proyecto patrocinado por NumFOCUS](https://numfocus.org/sponsored-projects)
 - **2018**: First in-person core developer sprint
 
-## Library Highlights
+## Aspectos destacados de la librería
 
-- A fast and efficient **DataFrame** object for data manipulation with
-  integrated indexing;
+- Un objeto **DataFrame** rápido y eficiente para la manipulación de datos con la
+  indexación integrada;
 
 - Tools for **reading and writing data** between in-memory data structures and
   different formats: CSV and text files, Microsoft Excel, SQL databases, and
   the fast HDF5 format;
 
-- Intelligent **data alignment** and integrated handling of **missing data**:
-  gain automatic label-based alignment in computations and easily manipulate
-  messy data into an orderly form;
+- **Alineación inteligente de datos** y manejo integrado de **datos faltantes**:
+  Permite obtener alineamiento automático basado en etiquetas en los cálculos y manipular fácilmente datos desordenados
+  en una forma ordenada;
 
 - Flexible **reshaping** and pivoting of data sets;
 
@@ -56,16 +54,14 @@ This will help ensure the success of development of _pandas_ as a world-class op
 - Highly **optimized for performance**, with critical code paths written in
   [Cython](https://cython.org) or C.
 
-- Python with _pandas_ is in use in a wide variety of **academic and
-  commercial** domains, including Finance, Neuroscience, Economics,
-  Statistics, Advertising, Web Analytics, and more.
+- Python con _pandas_ se utiliza en una amplia variedad de dominios **académicos y
+  comerciales**, incluidos finanzas, neurociencia, economía,
+  estadística, publicidad, análisis web y más.
 
-## Mission
+## Misión
 
-_pandas_ aims to be the fundamental high-level building block for doing practical,
-real world data analysis in Python.
-Additionally, it has the broader goal of becoming the most powerful and flexible
-open source data analysis / manipulation tool available in any language.
+_pandas_ apunta a ser el componente fundamental de alto nivel para poder realizar análisis de datos de forma práctica en Python.
+Además, tiene el objetivo más amplio de convertirse en la herramienta de manipulación y análisis de datos de código abierto más poderosa y flexible disponible en cualquier idioma.
 
 ## Vision
 
@@ -74,11 +70,11 @@ A world where data analytics and manipulation software is:
 - Accessible to everyone
 - Free for users to use and modify
 - Flexible
-- Powerful
-- Easy to use
-- Fast
+- Potente
+- Fácil de usar
+- Rápido
 
-## Values
+## Valores
 
 Is in the core of _pandas_ to be respectful and welcoming with everybody,
 users, contributors and the broader community. Regardless of level of experience,
