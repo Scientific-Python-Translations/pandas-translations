@@ -15,44 +15,43 @@ Esto ayudará a asegurar el éxito del desarrollo de _pandas_ como un proyecto d
 - **2009**: _pandas_ se libera como código abierto
 - **2012**: Se publica la primera edición de _Python para el análisis de datos_
 - **2015**: _pandas_ se convierte en un [Proyecto patrocinado por NumFOCUS](https://numfocus.org/sponsored-projects)
-- **2018**: First in-person core developer sprint
+- **2018**: Primer encuentro en persona de desarrolladores principales
 
 ## Aspectos destacados de la librería
 
 - Un objeto **DataFrame** rápido y eficiente para la manipulación de datos con la
   indexación integrada;
 
-- Tools for **reading and writing data** between in-memory data structures and
-  different formats: CSV and text files, Microsoft Excel, SQL databases, and
-  the fast HDF5 format;
+- Herramientas para **leer y escribir datos** entre estructuras de datos en memoria y
+  en diferentes formatos: archivos CSV y archivos de texto. Microsoft Excel, bases de datos SQL y
+  el formato HDF5;
 
 - **Alineación inteligente de datos** y manejo integrado de **datos faltantes**:
   Permite obtener alineamiento automático basado en etiquetas en los cálculos y manipular fácilmente datos desordenados
   en una forma ordenada;
 
-- Flexible **reshaping** and pivoting of data sets;
+- **Reorganización** flexible y pivotación de conjuntos de datos;
 
-- Intelligent label-based **slicing**, **fancy indexing**, and **subsetting**
-  of large data sets;
+- **División** inteligente basada en etiquetas, **indexación simplificada** y creación de **subconjuntos**
+  de grandes conjuntos de datos;
 
-- Columns can be inserted and deleted from data structures for **size
-  mutability**;
+- Las columnas pueden ser insertadas y eliminadas de las estructuras de datos para **mutabilidad
+  en el tamaño**;
 
-- Aggregating or transforming data with a powerful **group by** engine
-  allowing split-apply-combine operations on data sets;
+- Agregando o transformando de datos con un potente motor **Agrupar Por**
+  que permite operaciones de división-aplicación-combinación en conjuntos de datos;
 
-- High performance **merging and joining** of data sets;
+- **Fusión y unión** de alto rendimiento de conjuntos de datos;
 
-- **Hierarchical axis indexing** provides an intuitive way of working with
-  high-dimensional data in a lower-dimensional data structure;
+- La **Indexación de ejes jerárquicos** proporciona una forma intuitiva de trabajar con
+  datos de alta dimensión en una estructura de datos de menor dimensión;
 
-- **Time series**-functionality: date range generation and frequency
-  conversion, moving window statistics, date shifting and lagging.
-  Even create domain-specific time offsets and join time
-  series without losing data;
+- Funcionalidad de **series temporales**-: generación de rango de fechas y conversión de frecuencia,
+  estadísticas de ventanas móviles, cambio de fechas.
+  Incluso puedes crear compensaciones de tiempo de dominio específico y unir series de tiempo sin perder datos;
 
-- Highly **optimized for performance**, with critical code paths written in
-  [Cython](https://cython.org) or C.
+- Código altamente **optimizado para el rendimiento**, con código escrito en
+  [Cython](https://cython.org) o C.
 
 - Python con _pandas_ se utiliza en una amplia variedad de dominios **académicos y
   comerciales**, incluidos finanzas, neurociencia, economía,
