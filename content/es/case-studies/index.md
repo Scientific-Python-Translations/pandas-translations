@@ -63,12 +63,12 @@ Esto ayudará a asegurar el éxito del desarrollo de _pandas_ como un proyecto d
 _pandas_ apunta a ser el componente fundamental de alto nivel para poder realizar análisis de datos de forma práctica en Python.
 Además, tiene el objetivo más amplio de convertirse en la herramienta de manipulación y análisis de datos de código abierto más poderosa y flexible disponible en cualquier idioma.
 
-## Vision
+## Visión
 
-A world where data analytics and manipulation software is:
+Un mundo donde el software de análisis y manipulación de datos es:
 
-- Accessible to everyone
-- Free for users to use and modify
+- Accesible para todos
+- Libre para que los usuarios puedan usar y modificar
 - Flexible
 - Potente
 - Fácil de usar
@@ -76,7 +76,7 @@ A world where data analytics and manipulation software is:
 
 ## Valores
 
-Is in the core of _pandas_ to be respectful and welcoming with everybody,
-users, contributors and the broader community. Regardless of level of experience,
-gender, gender identity and expression, sexual orientation, disability,
-personal appearance, body size, race, ethnicity, age, religion, or nationality.
+Los valores esenciales de _pandas_ incluyen el ser respetuosos y acogedores con todos,
+usuarios, colaboradores y la comunidad en general. Independientemente del nivel de experiencia,
+género, identidad y expresión de género, orientación sexual, discapacidad,
+apariencia personal, tamaño del cuerpo, raza, etnicidad, edad, religión o nacionalidad.
