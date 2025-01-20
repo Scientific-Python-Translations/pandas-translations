@@ -8,7 +8,7 @@ and is actively supported today by a community of like-minded individuals around
 contribute their valuable time and energy to help make open source _pandas_
 possible. Thank you to [all of our contributors](team.html).
 
-Since 2015, _pandas_ is a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects).
+Desde 2015, _pandas_ es un [Proyecto auspiciado por NumFOCUS](https://numfocus.org/sponsored-projects).
 This will help ensure the success of development of _pandas_ as a world-class open-source project.
 
 ### Timeline
