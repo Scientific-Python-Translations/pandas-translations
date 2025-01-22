@@ -1,13 +1,12 @@
-# Gobierno del proyecto
+# Gobernanza del proyecto
 
 La versión oficial de este documento, junto con una lista de personas e instituciones que desempeñan las funciones definidas en la sección de gobierno se encuentra en la sección [Gobierno del Proyecto]({{ base_url }}about/governance.html) del sitio web de pandas.
 
 ## El Proyecto
 
-El Proyecto Pandas (El Proyecto) es un proyecto de software de código abierto afiliado
-con la Fundación NumFOCUS 501(c)3. El objetivo de El Proyecto es desarrollar software
-de código abierto para la adquisición, preparación, análisis y visualización de datos para el lenguaje de programación Python. El Software desarrollado por El Proyecto se libera bajo la licencia BSD (o similar) de código abierto, desarrollado abiertamente y alojado en repositorios públicos de GitHub bajo la organización pandas
-organización GitHub. Ejemplos del Software del Proyecto
+El Proyecto pandas (El Proyecto) es un proyecto de software de código abierto afiliado
+a la Fundación NumFOCUS 501(c)3. El objetivo de El Proyecto es desarrollar software
+de código abierto para la adquisición, preparación, análisis y visualización de datos para el lenguaje de programación Python. El Software desarrollado por El Proyecto se libera bajo la licencia BSD (o similar) de código abierto, desarrollado abiertamente y alojado en repositorios públicos de GitHub en la [organización de pandas](https://github.com/pandas-dev). Ejemplos del Software del Proyecto
 incluyen el repositorio principal de código pandas y la librería pandas-stubs.
 
 A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
