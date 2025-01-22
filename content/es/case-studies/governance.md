@@ -58,15 +58,15 @@ El Equipo Principal del Proyecto estará conformado por Colaboradores del Proyec
 con el BDFL y recibiendo aportes de la Comunidad, el bienestar a largo plazo del proyecto,
 tanto técnicamente como una comunidad.
 
-Durante las actividades diarias del proyecto, el Equipo Principal participa en todas las discusiones, revisiones de código y otras actividades del proyecto como colegas con todos los demás Colaboradores y la Comunidad. En estas actividades cotidianas, el Equipo Principal no tiene ningún poder o privilegio especial por su afiliación al mismo. Sin embargo, se espera que debido a la calidad y cantidad de sus contribuciones y su conocimiento experto del Software del Proyecto, el Equipo Core ofrezca una orientación útil, tanto técnica como de
+Durante las actividades diarias del proyecto, el Equipo Principal participa en todas las discusiones, revisiones de código y otras actividades del proyecto como colegas con todos los demás Colaboradores y la Comunidad. En estas actividades cotidianas, el Equipo Principal no tiene ningún poder o privilegio especial por su afiliación al mismo. Sin embargo, se espera que debido a la calidad y cantidad de sus contribuciones y su conocimiento experto del Proyecto, el Equipo Principal ofrezca una orientación útil, tanto técnica como de
 dirección del proyecto, a colaboradores potencialmente menos experimentados.
 
-El Equipo Core y sus Miembros juegan un papel especial en ciertas situaciones.
-En particular, el Equipo Core puede:
+El Equipo Principal y sus Miembros juegan un papel especial en ciertas situaciones.
+En particular, el Equipo Principal puede:
 
 - Tomar decisiones acerca del alcance global, la visión y la dirección del proyecto.
 - Tomar decisiones acerca de las colaboraciones estratégicas con otras organizaciones o individuos.
-- Tomar decisiones acerca de asuntos (issues) técnicos específicos, características, errores y pull requests. Ellos son el mecanismo principal para guiar el proceso de revisión de código y la unión de los pull requests.
+- Tomar decisiones sobre problemas técnicos específicos, mejoras, reportes y solicitudes de cambios. Estos son los mecanismos principales que guían el proceso de revisión de código y la fusión de las solicitudes de cambios.
 - Tomar decisiones acerca de los Servicios que son ejecutados por El Proyecto y gestionar dichos Servicios en beneficio del Proyecto y de la Comunidad.
 - Tomar decisiones cuando la discusión habitual de la comunidad no produzca un consenso acerca de un asunto (issue) en un plazo de tiempo razonable.
 
