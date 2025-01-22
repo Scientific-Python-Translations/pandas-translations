@@ -39,7 +39,7 @@ siguiente artículo:
 
 ## Marca y logo
 
-Cuando utilice el nombre del proyecto _pandas_, hágalo en minúsculas, incluso al principio de una frase.
+Cuando utilice el nombre del proyecto _pandas_, hágalo en minúsculas, incluso al inicio de una frase.
 
 Los logotipos oficiales de las _pandas_ son:
 
@@ -86,12 +86,12 @@ Los logotipos oficiales de las _pandas_ son:
 
 El logotipo de pandas está disponible a todo color y con acento blanco.
 El logotipo a todo color solo debe aparecer sobre fondos blancos.
-El logotipo acentuado en blanco debe ir sobre un fondo de color contrastado.
+El logotipo acentuado en blanco debe ir sobre un fondo de color con suficiente contraste.
 
-Cuando utilice el logotipo, siga las siguientes directrices:
+Cuando utilice el logotipo, tenga en cuenta las siguientes directrices:
 
 - El logotipo principal nunca debe verse por debajo de 1 pulgada de tamaño para impresión y 72px para web
-- El logotipo secundario nunca debe tener un tamaño inferior a 0,75 pulgadas para impresión y 55px para web.
+- El logotipo secundario nunca debe tener un tamaño inferior a 0,75 pulgadas para impresión y 55px para web
 - Deje suficiente margen alrededor del logotipo (deje la altura del logotipo en la parte superior, inferior y en ambos lados)
 - No distorsione el logotipo cambiando sus proporciones
 - No coloque texto ni otros elementos encima del logotipo
