@@ -6,7 +6,7 @@ Si utiliza _pandas_ para una publicación científica, le agradeceríamos que ci
 siguiente artículo:
 
 - [pandas en Zenodo](https://zenodo.org/search?page=1\&size=20\&q=conceptrecid%3A%223509134%22\&sort=-version\&all_versions=True),
-  Por favor, encuéntrenos en Zenodo y reemplácelo con la cita de la versión que está utilizando. Puede reemplazar la lista completa de autores
+  Nos puedes encontrar en Zenodo y reemplazar con la cita de la versión que está utilizando. Puede reemplazar la lista completa de autores
   por «El equipo de desarrollo de pandas» como en el siguiente ejemplo.
 
   ```
