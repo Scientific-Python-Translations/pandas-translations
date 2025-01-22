@@ -11,52 +11,54 @@ incluyen el repositorio principal de código pandas y la librería pandas-stubs.
 
 A través de su afiliación a NumFOCUS, El Proyecto tiene derecho a recibir donaciones deducibles de impuestos en los Estados Unidos de América.
 
-El Proyecto es desarrollado por un equipo de desarrolladores distribuidos, llamados Colaboradores. Los Colaboradores son personas que han aportado código, documentación, diseños u otros trabajos a uno o varios repositorios del Proyecto.
-Cualquiera puede ser Colaborador. Los Colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Los Colaboradores participan en el proyecto enviando,
-revisando y debatiendo en GitHub Pull Requests y problemas (Issues), y participando en discusiones abiertas y públicas del Proyecto en GitHub, listas de correo, y en otros lugares. La base en la participación del Proyecto es la apertura y la transparencia.
+El Proyecto es desarrollado por un equipo distribuido de desarrolladores, llamados Colaboradores. Los Colaboradores son personas que han aportado código, documentación, diseños u otros trabajos a uno o varios de los repositorios del Proyecto.
+Cualquiera puede ser un Colaborador. Los Colaboradores pueden estar afiliados a cualquier entidad o a ninguna. Los Colaboradores participan en el proyecto enviando,
+revisando y debatiendo en las Solicitudes de Cambios (Pull Requests) y problemas (Issues), y participando en discusiones abiertas y públicas del Proyecto en GitHub, listas de correo, y en otros medios. La base en la participación del Proyecto es la apertura y la transparencia.
 
 Aquí está la lista de los Colaboradores actuales del repositorio principal de pandas:
 
 [https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
 
-También hay muchos otros Colaboradores listados en los registros de otros repositorios del proyecto pandas.
+También hay muchos otros Colaboradores mencionados en los registros de otros repositorios del proyecto pandas.
 
 La Comunidad del Proyecto se compone de todos los Contribuidores y Usuarios del Proyecto.
-Los Colaboradores trabajan en nombre de la Comunidad del Proyecto y son responsables de esto. Nosotros nos esforzamos por mantener la barrera entre Colaboradores y Usuarios lo más baja posible.
+Los colaboradores trabajan en nombre de la Comunidad del Proyecto y son responsables ante la misma. Nos esforzamos por mantener la barrera entre colaboradores y usuarios lo más baja posible.
 
-El Proyecto está afiliado formalmente con la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el proyecto (véase la sección Socios Institucionales).
+El Proyecto está afiliado formalmente a la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el proyecto (ver la sección Socios Institucionales).
 
 ## Governance
 
 Esta sección describe el modelo de gobierno y liderazgo de El Proyecto.
 
-Los fundamentos del gobierno de Proyecto son:
+Los fundamentos de la gobernanza del Proyecto son:
 
 - Apertura y transparencia
 - Contribución Activa
 - Neutralidad Institucional
 
-Tradicionalmente, la dirección del Proyecto estaba a cargo de un BDFL (Wes McKinney) y un subconjunto de Colaboradores, llamado el Equipo Core, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de confirmación» en los repositorios de GitHub del Proyecto. En general todas las decisiones del Proyecto se toman por consenso del Equipo Core con los aportes de la Comunidad. El BDFL puede, pero raramente lo elige, anular al Equipo Core y tomar una decisión final sobre el asunto.
+Tradicionalmente, la dirección del Proyecto estaba a cargo de un BDFL (Wes McKinney) y un subconjunto de Colaboradores, llamado el Equipo Principal, cuyas contribuciones activas y constantes han sido reconocidas al recibir «derechos de cambio» (commit rights) en los repositorios del Proyecto en Github. En general todas las decisiones del Proyecto se toman por consenso del Equipo Principal con los aportes de la Comunidad. El BDFL puede, pero raramente elige anular una decisión tomada por el Equipo Principal y tomar una decisión final sobre un asunto.
 
-Mientras este enfoque ha funcionado bien, a medida que el Proyecto crece y se enfrenta a más decisiones legales y financieras e interacciones con otras instituciones, vemos la necesidad de tener un modelo más formal de gobierno. De cara al futuro, la dirección del Proyecto consistirá en un BDFL y un Equipo Core. Vemos este modelo de gobierno como la formalización de lo que realmente estamos haciendo, más que un cambio de rumbo.
+Mientras este enfoque ha funcionado bien, a medida que el Proyecto crece y se enfrenta a más decisiones legales y financieras e interacciones con otras instituciones, vemos la necesidad de tener un modelo más formal de gobierno. De cara al futuro, la dirección del Proyecto consistirá en un BDFL y un Equipo Principal. Vemos este modelo de gobierno como la formalización de lo que realmente estamos haciendo, más que un cambio de rumbo.
 
 ### BDFL
 
-El Proyecto tendrá un BDFL (Benevolent Dictator for Life), quién actualmente es Wes McKinney. Como autoridad, el BDFL tiene la potestad de tomar las decisiones finales para el Proyecto. Como benevolente, el BDFL, en la práctica elige diferir esa autoridad al consenso de los canales de discusión de la comunidad y del Equipo Core. Se espera, y en el pasado ha sido el caso, que el BDFL haga valer su autoridad final en contadas ocasiones. Dado que rara vez se utiliza, nos referimos a la autoridad final del BDFL como voto "especial" o "preponderante". Cuando esto ocurre, el voto del BDFL típicamente sucede en situaciones donde hay un punto muerto en el Equipo Core o si el Equipo Core pide al BDFL que tome una decisión sobre un asunto concreto. Para asegurar la benevolencia del BDFL, el Proyecto anima a otros a bifurcar el proyecto si no están de acuerdo con la dirección que está tomando el BDFL. El BDFL preside el Equipo Core (véase más abajo) y puede delegar su autoridad sobre una decisión o conjunto de decisiones concretas
-a cualquier otro miembro del Equipo Core.
+El Proyecto tendrá un BDFL (Benevolent Dictador fuer Lime), quién actualmente es Es McKinsey. Como autoridad, el BDFL tiene la potestad de tomar las decisiones finales para el Proyecto. Como benevolente, el BDFL, en la práctica elige diferir esa autoridad al consenso de los canales de discusión de la comunidad y del Equipo Principal. Se espera, y así ha sido en el pasado, que la BDFL
+rara vez hará valer su autoridad final. Dado que rara vez se utiliza, nos referimos a la autoridad final del BDFL como voto "especial" o "preponderante". Cuando esto ocurre, el voto del BDFL típicamente sucede en situaciones donde hay un bloqueo en el Equipo Principal o si el Equipo Principal le pide al BDFL que tome una decisión sobre un asunto concreto. Para garantizar la benevolencia del BDFL, El Proyecto alienta a otros a bifurcar el proyecto si no están de acuerdo con la dirección general que está tomando bajo el BDFL. El BDFL preside el Equipo Principal (ver más abajo) y puede delegar su autoridad sobre una decisión o conjunto de decisiones concretas
+a cualquier otro miembro del Equipo Principal.
 
-El BDFL puede nombrar a su sucesor, pero se espera que el Equipo Core sea consultado sobre esta decisión. Si el BDFL no pueda nombrar a un
-sucesor (por ejemplo, por fallecimiento o enfermedad), el Equipo Core elegirá a un sucesor
-mediante votación, con al menos 2/3 de los miembros del Equipo Core votando a favor del
-sucesor elegido. Por lo menos 80% del Equipo Core debe participar en la votación. Si ningún candidato a la BDFL recibe 2/3 de los votos del Equipo Core, los miembros del Equipo Core propondrán los candidatos a la BDFL al Consejo Principal de NumFOCUS, quien
+El BDFL puede nombrar a su sucesor, pero se espera que el Equipo Principal sea consultado sobre esta decisión. Si el BDFL no pueda nombrar a un
+sucesor (por ejemplo, por fallecimiento o enfermedad), el Equipo Principal elegirá a un sucesor
+mediante votación, con al menos 2/3 de los miembros del Equipo Principal votando a favor del
+sucesor elegido. Al lo menos 80% del Equipo Principal debe participar en la votación. Si ningún candidato a la BDFL recibe 2/3 de los votos del Equipo Principal, los miembros del Equipo Principal propondrán los candidatos a BDFL al Consejo Principal de NumFOCUS, quien
 tomará la decisión final.
 
-### Equipo Core
+### Equipo Principal
 
-El Equipo Core del Proyecto estará formado por Colaboradores del Proyecto que hayan producido contribuciones sustanciales en calidad y cantidad, y continuas durante al menos un año. La función general del Equipo Core es garantizar, mediante con la BDFL y las contribuciones de la Comunidad, el bienestar a largo plazo del
-a largo plazo del proyecto, tanto desde el punto de vista técnico como comunitario.
+El Equipo Principal del Proyecto estará conformado por Colaboradores del Proyecto que hayan producido contribuciones sustanciales en calidad y cantidad, y continuas durante al menos un año. La función general del Equipo Principal es garantizar, trabajando
+con el BDFL y recibiendo aportes de la Comunidad, el bienestar a largo plazo del proyecto,
+tanto técnicamente como una comunidad.
 
-Durante las actividades diarias del proyecto, el Equipo Core participa en todas las discusiones, revisiones de código y otras actividades del proyecto como compañeros con todos los demás Colaboradores y la Comunidad. En estas actividades cotidianas, el Equipo Core no tiene ningún poder o privilegio especial por su afiliación como Equipo Core. Sin embargo, se espera que debido a la calidad y cantidad de sus contribuciones y su conocimiento experto del Software del Proyecto, el Equipo Core ofrezca una orientación útil, tanto técnica como de
+Durante las actividades diarias del proyecto, el Equipo Principal participa en todas las discusiones, revisiones de código y otras actividades del proyecto como colegas con todos los demás Colaboradores y la Comunidad. En estas actividades cotidianas, el Equipo Principal no tiene ningún poder o privilegio especial por su afiliación al mismo. Sin embargo, se espera que debido a la calidad y cantidad de sus contribuciones y su conocimiento experto del Software del Proyecto, el Equipo Core ofrezca una orientación útil, tanto técnica como de
 dirección del proyecto, a colaboradores potencialmente menos experimentados.
 
 El Equipo Core y sus Miembros juegan un papel especial en ciertas situaciones.
