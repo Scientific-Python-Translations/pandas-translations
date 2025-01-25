@@ -1,9 +1,8 @@
 # Citing and logo
 
-## Citing pandas
+## pandas を引用することについて
 
-If you use _pandas_ for a scientific publication, we would appreciate citations to the published software and the
-following paper:
+もしあなたが学術論文で _pandas_ を使用する場合は、以下のソフトウェアと論文への引用をお願いいたします:
 
 - [pandas on Zenodo](https://zenodo.org/search?page=1\&size=20\&q=conceptrecid%3A%223509134%22\&sort=-version\&all_versions=True),
   Please find us on Zenodo and replace with the citation for the version you are using. You can replace the full author
