@@ -1,12 +1,12 @@
 # Equipe
 
-## Contributors
+## Contribuidores
 
-_pandas_ is made with love by more than [2,000 volunteer contributors](https://github.com/pandas-dev/pandas/graphs/contributors).
+_pandas_ é feita com amor por mais de [2.000 contribuidores voluntários](https://github.com/pandas-dev/pandas/graphs/contributors).
 
-If you want to support pandas development, you can find information in the [donations page]({{ base_url }}donate.html).
+Se você quiser apoiar o desenvolvimento do pandas, você pode encontrar informações na [página de doações]({{ base_url }}donate.html).
 
-## Active maintainers
+## Mantenedores ativos
 
 <div class="card-group maintainers">
     {% for username in maintainers.active %}
@@ -29,30 +29,30 @@ If you want to support pandas development, you can find information in the [dona
     {% endfor %}
 </div>
 
-## Diversity and Inclusion
+## Diversidade e Inclusão
 
-> _pandas_ expressly welcomes and encourages contributions from anyone who faces under-representation, discrimination in the technology industry
-> or anyone willing to increase the diversity of our team.
-> We have identified visible gaps and obstacles in sustaining diversity and inclusion in the open-source communities and we are proactive in increasing
-> the diversity of our team.
-> We have a [code of conduct]({{ base_url }}community/coc.html) to ensure a friendly and welcoming environment.
-> Please send an email to [pandas-code-of-conduct-committee](mailto:pandas-coc@googlegroups.com), if you think we can do a
-> better job at achieving this goal.
+> _pandas_ expressamente saúda e encoraja as contribuições de qualquer um que enfrente sub-representação, discriminação na indústria de tecnologia
+> ou qualquer pessoa que queira aumentar a diversidade da nossa equipe.
+> Identificamos lacunas e obstáculos visíveis na sustentação da diversidade e inclusão nas comunidades de código aberto e somos proativos no aumento de
+> da diversidade da nossa equipe.
+> Temos um [código de conduta]({{ base_url }}community/coc.html) para garantir um ambiente amigável e acolhedor.
+> Por favor, envie um e-mail para [pandas-code-of-conduct-committee](mailto:pandas-coc@googlegroups.com), se você acha que podemos fazer um trabalho
+> melhor para atingir este objetivo.
 
 ## Governança
 
-Wes McKinney is the Benevolent Dictator for Life (BDFL).
+Wes McKinney é o Ditador Benevolente Vitalício (BDFL).
 
-The project governance is available in the [project governance page]({{ base_url }}about/governance.html).
+A governança do projeto está disponível na [página de governança do projeto]({{ base_url }}about/governance.html).
 
-## Workgroups
+## Grupos de trabalho
 
 {% for k, workgroup in workgroups.items() %}
 
 ### {{ workgroup.name }}
 
 <ul>
-    <li><b>Contact:</b>
+    <li><b>Contato:</b>
         <a id="{{ workgroup.name|replace(' ', '-') }}" href="mailto:asp.{{ workgroup.contact }}">asp.{{ workgroup.contact }}</a>
         <script TYPE="text/javascript">
             var mail_tag_id = '{{ workgroup.name|replace(' ', '-') }}';
@@ -61,11 +61,11 @@ The project governance is available in the [project governance page]({{ base_url
             mail_tag_element.setAttribute('href', "mailto:"+mail_tag_element.innerHTML);
         </script>
     </li>
-    <li><b>Responsibilities:</b> {{ workgroup.responsibilities }}</li>
-    <li><b>Members:</b>
+    <li><b>Responsabilidades:</b> {{ workgroup.responsibilities }}</li>
+    <li><b>Membros:</b>
         <ul>
             {% for person in workgroup.members %}
-                <li>{{ person }}{% if loop.first %} (lead){% endif %}</li>
+                <li>{{ person }}{% if loop.first %} (líder){% endif %}</li>
             {% endfor %}
         </ul>
     </li>
@@ -73,7 +73,7 @@ The project governance is available in the [project governance page]({{ base_url
 
 {% endfor %}
 
-## Inactive maintainers
+## Mantenedores inativos
 
 <ul>
     {% for username in maintainers.inactive %}
