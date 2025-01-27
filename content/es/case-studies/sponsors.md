@@ -4,12 +4,11 @@
 
 ![](https://numfocus.org/wp-content/uploads/2018/01/optNumFocus_LRG.png)
 
-_pandas_ is a Sponsored Project of [NumFOCUS](https://numfocus.org/), a 501(c)(3) nonprofit charity in the United States.
-NumFOCUS provides _pandas_ with fiscal, legal, and administrative support to help ensure the
-health and sustainability of the project. Visit numfocus.org for more information.
+_pandas_ es un proyecto patrocinado de [NumFOCUS](https://numfocus.org/), una organización benéfica sin fines de lucro 501(c)(3) en los Estados Unidos.
+NumFOCUS proporciona a _pandas_ apoyo fiscal, legal y administrativo para ayudar a garantizar la
+salud y sostenibilidad del proyecto. Visita numfocus.org para obtener más información.
 
-Donations to _pandas_ are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible
-to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
+Las donaciones a _pandas_ son gestionadas por NumFOCUS. Para las donaciones en los Estados Unidos, su donación es deducible de impuestos en la medida de lo previsto por la ley. Como ocurre con cualquier donación, debes consultar con tu asesor fiscal sobre tu situación fiscal particular.
 
 ## Conviértase en patrocinador
 
