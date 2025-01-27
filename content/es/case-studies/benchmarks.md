@@ -1,13 +1,12 @@
 # Benchmarks
 
-Benchmarks are tests to measure the performance of pandas. There are two different
-kinds of benchmarks relevant to pandas:
+Los Benchmarks son pruebas para medir el desempeño pandas. Hay dos diferentes
+tipos de pruebas de referencia relevantes para pandas:
 
-- Internal pandas benchmarks to measure speed and memory usage over time
-- Community benchmarks comparing the speed or memory usage of different tools at
-  doing the same job
+- Las pruebas  de referencia internas se utilizan para medir la velocidad y el uso de memoria a lo largo del tiempo
+- Las pruebas de referencia de la comunidad que comparan la velocidad o el uso de memoria de diferentes herramientas al realizar el mismo trabajo
 
-## pandas benchmarks
+## Pruebas de referencia de pandas
 
 pandas benchmarks are implemented in the [asv_bench](https://github.com/pandas-dev/pandas/tree/main/asv_bench)
 directory of our repository. The benchmarks are implemented for the
