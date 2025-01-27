@@ -39,25 +39,23 @@ Deberá configurar un túnel SSH para verlas:
 ssh -L 8080:localhost:8080 pandas@panda.likescandy.com
 ```
 
-### OVH server configuration
+### Configuración del servidor OVH
 
-The server used to run the benchmarks has been configured to reduce system
-noise and maximize the stability of the benchmarks times.
+El servidor utilizado para ejecutar las pruebas de referencia se ha configurado para reducir el ruido del sistema y maximizar la estabilidad de los tiempos de las pruebas.
 
-The details on how the server is configured can be found in the
-[pandas-benchmarks repository](https://github.com/pandas-dev/pandas-benchmarks).
-There is a quick summary here:
+Los detalles sobre cómo está configurado el servidor se pueden encontrar en el [repositorio  pandas-benchmarks] (https://github.com/pandas-dev/pandas-benchmarks).
+Hay un resumen aquí:
 
-- CPU isolation: Avoid user space tasks to execute in the same CPU as benchmarks, possibly interrupting them during the execution (include all virtual CPUs using a physical core)
-- NoHZ: Stop the kernel tick that enables context switching in the isolated CPU
-- IRQ affinity: Ban benchmarks CPU to avoid many (but not all) kernel interruption in the isolated CPU
-- TurboBoost: Disable CPU scaling based on high CPU demand
-- P-States: Use "performance" governor to disable P-States and CPU frequency changes based on them
-- C-States: Set C-State to 0 and disable changes to avoid slower CPU after system inactivity
+- Aislamiento de la CPU: evite que las tareas del espacio de usuario se ejecuten en la misma CPU que las pruebas de referencia, posiblemente interrumpiéndolas durante la ejecución (incluya todas las CPU virtuales que utilizan un núcleo físico)
+- NoHZ: detenga la opción del kernel permite el cambio de contexto en la CPU aislada
+- Afinidad IRQ: prohíba las pruebas comparativas de la CPU para evitar muchas (pero no todas) las interrupciones del kernel en la CPU aislada
+- TurboBoost: deshabilite el escalado automático de la CPU basado en alta demanda
+- P-States: utilice el regulador de "rendimiento" para deshabilitar los P-States y los cambios de frecuencia de la CPU en función de ellos.
+- C-States: establezca el C-State en 0 y deshabilite los cambios para evitar una CPU más lenta después de la inactividad del sistema
 
-## Community benchmarks
+## Pruebas de referencia comunitarios
 
-The main benchmarks comparing dataframe tools that include pandas are:
+Las principales pruebas de referencia que comparan herramientas de marcos de datos que incluyen pandas son:
 
-- [DuckDB (former H2O.ai) benchmarks](https://duckdblabs.github.io/db-benchmark/)
-- [TPCH benchmarks](https://pola.rs/posts/benchmarks/)
+- [Pruebas de referencia de DuckDB (antiguo H2O.ai)](https://duckdblabs.github.io/db-benchmark/)
+- [Pruebas de referencia de TPCH](https://pola.rs/posts/benchmarks/)
