@@ -1,13 +1,12 @@
-# Roadmap
+# Planejamento (Roadmap)
 
-This page provides an overview of the major themes in pandas'
-development. Each of these items requires a relatively large amount of
-effort to implement. These may be achieved more quickly with dedicated
-funding or interest from contributors.
+Esta página fornece uma visão geral sobre os temas prioritários no desenvolvimento do pandas. Cada um desses itens requer uma quantidade relativamente grande de
+esforço para implementar. Estes podem ser alcançados mais rapidamente com
+financiamento dedicado ou interesse dos contribuidores.
 
-An item being on the roadmap does not mean that it will _necessarily_
-happen, even with unlimited funding. During the implementation period we
-may discover issues preventing the adoption of the feature.
+Se um item está no Planejamento, não significa que ele irá _necessariamente_
+acontecer, mesmo com financiamento ilimitado. Durante o período de implementação
+podem aparecer problemas que impeçam a adoção do recurso.
 
 Additionally, an item _not_ being on the roadmap does not exclude it
 from inclusion in pandas. The roadmap is intended for larger,
