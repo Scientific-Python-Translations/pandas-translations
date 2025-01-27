@@ -8,47 +8,32 @@ tipos de pruebas de referencia relevantes para pandas:
 
 ## Pruebas de referencia de pandas
 
-pandas benchmarks are implemented in the [asv_bench](https://github.com/pandas-dev/pandas/tree/main/asv_bench)
-directory of our repository. The benchmarks are implemented for the
-[airspeed velocity](https://asv.readthedocs.io/en/v0.6.1/) (asv for short) framework.
+Los pruebas de referencia de pandas se implementan en el directorio [asv_bench] (https://github.com/pandas-dev/pandas/tree/main/asv_bench)
+de nuestro repositorio. Los pruebas de referencia se implementan utilizando la herramienta [airspeed velocity] (https://asv.readthedocs.io/en/v0.6.1/) (asv, por sus siglas en inglés).
 
-The benchmarks can be run locally by any pandas developer. This can be done
-with the `asv run` command, and it can be useful to detect if local changes have
-an impact in performance, by running the benchmarks before and after the changes.
-More information on running the performance test suite is found
-[here](https://pandas.pydata.org/docs/dev/development/contributing_codebase.html#running-the-performance-test-suite).
+Cualquier desarrollador de pandas puede ejecutar los pruebas de referencia localmente. Esto se puede hacer ejecutando el comando `asv run`, y puede ser útil para detectar si se han realizado cambios locales que generen un impacto en el rendimiento, al ejecutar las pruebas de referencia antes y después de los cambios.
+Puede encontrar más información sobre cómo ejecutar el conjunto de pruebas de rendimiento.
+[aquí](https://pandas.pydata.org/docs/dev/development/contributing_codebase.html#running-the-performance-test-suite).
 
-Note that benchmarks are not deterministic, and running in different hardware or
-running in the same hardware with different levels of stress have a big impact in
-the result. Even running the benchmarks with identical hardware and almost identical
-conditions produces significant differences when running the same exact code.
+Tenga en cuenta que los pruebas de referencia no son deterministas y que al ejecutarse en hardware diferente o ejecutarse en el mismo hardware con diferentes niveles de utilización puede tener un gran impacto en el resultado. Incluso ejecutar las pruebas de referencia con hardware idéntico y condiciones casi idénticas produce diferencias significativas cuando se ejecuta exactamente el mismo código.
 
-## pandas benchmarks servers
+## Servidores de pruebas de referencia de pandas
 
-We currently have two physical servers running the benchmarks of pandas for every
-(or almost every) commit to the `main` branch. The servers run independently from
-each other. The original server has been running for a long time, and it is physically
-located with one of the pandas maintainers. The newer server is in a datacenter
-kindly sponsored by [OVHCloud](https://www.ovhcloud.com/). More information about
-pandas sponsors, and how your company can support the development of pandas is
-available at the [pandas sponsors]({{ base_url }}about/sponsors.html) page.
+Actualmente tenemos dos servidores físicos ejecutando las pruebas de referencia de pandas para cada (o casi cada) inclusión de código en la rama `main`. Los servidores funcionan independientemente el uno del otro. El servidor original ha estado funcionando durante mucho tiempo y está ubicado físicamente con uno de los mantenedores de pandas. El servidor más nuevo se encuentra en un centro de datos patrocinado amablemente por [OVHCloud](https://www.ovhcloud.com/). Más información sobre los patrocinadores de pandas y cómo su empresa puede apoyar el desarrollo de pandas está disponible en la página [patrocinadores de pandas]({{ base_url }}about/sponsors.html).
 
-Results of the benchmarks are available at:
+Los resultados de las pruebas de referencia están disponibles en:
 
-- Original server: [asv](https://asv-runner.github.io/asv-collection/pandas/)
-- OVH server: [asv](https://pandas.pydata.org/benchmarks/asv/) (benchmarks results can
-  also be visualized in this [Conbench PoC](http://57.128.112.95:5000/)
+- Servidor original: [asv](https://asv-runner.github.io/asv-collection/pandas/)
+- Servidor OVH: [asv](https://pandas.pydata.org/benchmarks/asv/) (los resultados de las pruebas de referencia también se pueden visualizar en este [Conbench PoC](http://57.128.112.95:5000/)
 
-### Original server configuration
+### Configuración original del servidor
 
-The machine can be configured with the Ansible playbook in
-[tomaugspurger/asv-runner](https://github.com/tomaugspurger/asv-runner).
-The results are published to another GitHub repository,
-[tomaugspurger/asv-collection](https://github.com/tomaugspurger/asv-collection).
+La máquina se puede configurar con las indicaciones para Ansible en [tomaugspurger/asv-runner](https://github.com/tomaugspurger/asv-runner).
+Los resultados se publican en otro repositorio de GitHub, [tomaugspurger/asv-collection](https://github.com/tomaugspurger/asv-collection).
 
-The benchmarks are scheduled by [Airflow](https://airflow.apache.org/).
-It has a dashboard for viewing and debugging the results.
-You’ll need to setup an SSH tunnel to view them:
+Las pruebas de referencia están programados por [Airflow](https://airflow.apache.org/).
+Cuenta con un panel para ver y depurar los resultados.
+Deberá configurar un túnel SSH para verlas:
 
 ```
 ssh -L 8080:localhost:8080 pandas@panda.likescandy.com
