@@ -159,63 +159,37 @@ nos Estados Unidos ou em outros lugares que emprega pelo menos um Contribuidor I
 
 As instituições tornam-se elegíveis para tornarem-se Parceiros Institucionais ao empregar
 indivíduos que contribuem ativamente para o Projeto como parte de suas atribuições
-oficiais. To state this another way, the only way for an Institutional Partner to
-influence the project is by actively contributing to the open development of
-the project, on equal terms with any other member of the community of
-Contributors and Core Team Members. Merely using pandas Software or Services in
-an institutional context does not allow an entity to become an Institutional
-Partner. Financial gifts do not enable an entity to become an Institutional
-Partner. Once an institution becomes eligible for Institutional Partnership,
-the Core Team must nominate and approve the Partnership.
+oficiais. Em outras palavras, a única maneira de um Parceiro Institucional influenciar o projeto é contribuindo ativamente para o desenvolvimento aberto do projeto, nos mesmos termos de qualquer outro membro da comunidade de Contribuidores e da Equipe Central. Apenas usar o Sotftware ou Serviços do pandas em um contexto institucional não permite a uma entidade tornar-se um Parceiro Institucional. Presentes financeiros não permitem que uma entidade se torne um Parceiro
+Institucional. Quando uma instituição se torna elegível para a Parceria Institucional,
+a Equipe Central deve nomear e aprovar a Parceria.
 
-If an existing Institutional Partner no longer has a contributing employee,
-they will be given a one-year grace period for other employees to begin
-contributing.
+Se um Parceiro Institucional existente não empregar mais um contribuidor, receberá um período de carência de um ano para empregar outros contribuidores.
 
-An Institutional Partner is free to pursue funding for their work on The
-Project through any legal means. This could involve a non-profit organization
-raising money from private foundations and donors or a for-profit company
-building proprietary products and services that leverage Project Software and
-Services. Funding acquired by Institutional Partners to work on The Project is
-called Institutional Funding. However, no funding obtained by an Institutional
-Partner can override The Project BDFL and Core Team. If a Partner has funding
-to do pandas work and the Core Team decides to not pursue that work as a
-project, the Partner is free to pursue it on their own. However in this
-situation, that part of the Partner’s work will not be under the pandas
-umbrella and cannot use the Project trademarks in a way that suggests a formal
-relationship.
+Um Parceiro Institucional é livre para buscar fundos para seu trabalho no Projeto
+por qualquer forma legal. Isso pode envolver uma organização sem fins lucrativos angariar dinheiro de instituições privadas e doadores ou uma empresa com fins lucrativos construir produtos e serviços proprietários que alavancam o Software e Serviços do Projeto. O financiamento adquirido por Parceiros Institucionais para trabalhar no Projeto é chamado de Fundo Institucional. No entanto, nenhum financiamento obtido por um Parceiro Institucional
+pode substituir o BDFL e Equipe Central do Projeto. Se um Parceiro tiver financiamento para trabalhar no pandas, e a Equipe Central decidir não prosseguir com esse trabalho como um projeto, o Parceiro é livre para persegui-lo sozinho. Entretanto nesta situação, esta parte do trabalho do Parceiro não estará sob o guarda-chuva pandas e não poderá usar as marcas do Projeto de uma forma que sugira uma relação formal.
 
-To acknowledge institutional contributions, there are two levels of
-Institutional Partners, with associated benefits:
+Para reconhecer as contribuições institucionais, existem dois níveis de Parceiros Institucionais com benefícios associados:
 
-**Tier 1** = an institution with at least one Institutional Core Team Member
+**Nível 1** = uma instituição com pelo menos um Membro da Equipe Central
 
-- Acknowledged on the pandas website, in talks and T-shirts.
-- Ability to acknowledge their own funding sources on the pandas website, in
-  talks and T-shirts.
-- Ability to influence the project through the participation of their Core Team
-  Member.
+- Reconhecimento no site do pandas, em palestras e camisetas.
+- Permissão para reconhecer suas próprias fontes de financiamento no site do pandas,
+  palestras e camisetas.
+- Capacidade de influenciar o projeto através da participação do seu Membro da Equipe Central.
 
-**Tier 2** = an institution with at least one Institutional Contributor
+**Nível 2** = uma instituição com pelo menos um Contribuidor Institucional
 
-## Breach
+## Violação
 
-Non-compliance with the terms of the governance documents shall be reported to
-the Core Team either through public or private channels as deemed appropriate.
+O não cumprimento dos termos dos documentos de governança será relatado à
+a Equipe Central, seja por meio de canais públicos ou privados, conforme considerado apropriado.
 
-## Changing the Governance
+## Mudando a governança
 
-Changes to the governance are submitted via a GitHub pull request to The Project's
-[governance page](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
-The pull request is then refined in response to public comment and review, with
-the goal being consensus in the community.  After this open period, a Core Team
-Member proposes to the Core Team that the changes be ratified and the pull
-request merged (accepting the proposed changes) or proposes that the pull
-request be closed without merging (rejecting the proposed changes). The Member
-should state the final commit hash in the pull request being proposed for
-acceptance or rejection and briefly summarize the pull request. A minimum of
-80% of the Core Team must vote and at least 2/3 of the votes must be positive
-to carry out the proposed action (fractions of a vote rounded up to the nearest
-integer). Since the BDFL holds ultimate authority in The Project, the BDFL has
-authority to act alone in accepting or rejecting changes or overriding Core
-Team decisions.
+Alterações na governança são enviadas por meio de uma pull request do GitHub para a
+[página de governança](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md) do Projeto.
+O pull request é então refinado em resposta a revisão e comentários públicos, com o
+objetivo de atingir consenso na comunidade.  Após este período aberto, um membro de Equipe Central propõe à Equipe Central que as alterações sejam ratificadas e que a pull request seja mesclada (aceitar as alterações propostas) ou propõe que a pull request seja fechada sem mesclar (rejeitando as alterações propostas). O Membro deve declarar o hash final do commit no pull request sendo proposto para aceitação ou rejeição e resumir brevemente o pull request. Um mínimo de
+80% da Equipe Central deve votar e pelo menos 2/3 dos votos devem ser a favor de realizar a ação proposta (frações de um voto são arredondadas para o número inteiro
+mais próximo). Como o BDFL tem autoridade final no Projeto, o BDFL tem autoridade para agir sozinho e aceitar ou rejeitar mudanças ou substituir decisões da Equipe Central.
