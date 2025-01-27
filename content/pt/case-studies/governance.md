@@ -1,144 +1,94 @@
-# Project governance
+# Governança do Projeto
 
-The official version of this document, along with a list of
-individuals and institutions in the roles defined in the governance
-section below, is contained in the
-[Project governance]({{ base_url }}about/governance.html)
-page of the pandas website.
+A versão oficial deste documento, juntamente com uma lista de
+indivíduos e instituições nos papéis definidos na seção de governança
+abaixo, está contido na página
+[Governança do projeto]({{ base_url }}sobre/governance.html)
+do site do pandas.
 
-## The Project
+## O Projeto
 
-The pandas Project (The Project) is an open source software project affiliated
-with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
-source software for data ingest, data preparation, data analysis, and data
-visualization for the Python programming language. The Software developed by
-The Project is released under the BSD (or similar) open source license,
-developed openly and hosted in public GitHub repositories under the pandas
-GitHub organization. Examples of Project Software
-include the main pandas code repository and the pandas-stubs library.
+O projeto pandas (The Project) é um projeto de software de código aberto afiliado
+com a Fundação 501(c)3 NumFOCUS. O objetivo do Projeto é desenvolver um software de código aberto
+para ingestão de dados, preparação de dados, análise de dados e visualização de dados
+para a linguagem de programação Python. O Software desenvolvido pelo Projeto é lançado sob a licença BSD (ou similar) de código aberto, desenvolvido abertamente e hospedado nos repositórios públicos do GitHub sob a [organização pandas no GitHub](https://github.com/pandas-dev). Exemplos do Projeto de Software
+incluem o repositório principal de código de pandas e a biblioteca pandas-stubs.
 
-Through its affiliation with NumFOCUS, The Project has the right to receive
-tax-deductible donations in the United States of America.
+Através da sua afiliação com a NumFOCUS, O Projeto tem o direito de receber doações compatíveis com deduções de imposto nos Estados Unidos da América.
 
-The Project is developed by a team of distributed developers, called
-Contributors. Contributors are individuals who have contributed code,
-documentation, designs or other work to one or more Project repositories.
-Anyone can be a Contributor. Contributors can be affiliated with any legal
-entity or none. Contributors participate in the project by submitting,
-reviewing and discussing GitHub Pull Requests and Issues and participating in
-open and public Project discussions on GitHub, mailing lists, and
-elsewhere. The foundation of Project participation is openness and
-transparency.
+O Projeto é desenvolvido por uma equipe de desenvolvedores distribuídos, chamados
+Contribuidores. Contribuidores são indivíduos que contribuíram com código,
+documentação, designs ou outras funcionalidades para um ou mais repositórios do Projeto.
+Qualquer pessoa pode ser um Contribuidor. Contribuidores podem ser afiliados a quaisquer entidades legais ou nenhuma. Contribuidores participam do projeto através da submissão, revisão e discussão de Pull Requests (solicitações de contribuição) e Issues (relatos de bug) no GitHub e através da participação em discussões públicas e abertas sobre o Projeto no GitHub, listas de e-mail, e em outros locais. A base da participação do Projeto é a abertura e
+transparência.
 
-Here is a list of the current Contributors to the main pandas repository:
+Aqui está uma lista dos atuais Contribuidores para o principal repositório pandas:
 
 [https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
 
-There are also many other Contributors listed in the logs of other repositories of
-the pandas project.
+Há também muitos outros Contribuidores listados nos registros de outros repositórios do
+projeto pandas.
 
-The Project Community consists of all Contributors and Users of the Project.
-Contributors work on behalf of and are responsible to the larger Project
-Community and we strive to keep the barrier between Contributors and Users as
-low as possible.
+A Comunidade do Projeto consiste em todos os Contribuidores e Usuários do Projeto.
+Contribuidores trabalham para e são responsáveis pela Comunidade do Projeto, e nós tentamos manter a barreira entre Contribuidores e Usuários tão baixa quanto possível.
 
-The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
-([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
-sponsor, may hold project trademarks and other intellectual property, helps
-manage project donations and acts as a parent legal entity. NumFOCUS is the
-only legal entity that has a formal relationship with the project (see
-Institutional Partners section below).
+O Projeto é formalmente afiliado à fundação 501(c)3 NumFOCUS
+([https://numfocus.org](https://numfocus.org)), que serve como seu patrocinador fiscal, pode ter marcas registradas do projeto e outras propriedades intelectuais, ajuda
+a gerenciar doações para o projeto e atua como sua entidade legal. NumFOCUS é a única entidade jurídica que tem uma relação formal com o projeto (veja
+a seção Parceiros Institucionais abaixo).
 
 ## Governança
 
-This section describes the governance and leadership model of The Project.
+Esta seção descreve o modelo de governação e liderança do Projeto.
 
-The foundations of Project governance are:
+As bases da governança do Projeto são:
 
-- Openness & Transparency
-- Active Contribution
-- Institutional Neutrality
+- Abertura e Transparência
+- Contribuição Ativa
+- Neutralidade Institucional
 
-Traditionally, Project leadership was provided by a BDFL (Wes McKinney) and
-subset of Contributors, called the Core Team, whose active and consistent
-contributions have been recognized by their receiving “commit rights” to the
-Project GitHub repositories. In general all Project decisions are made through
-consensus among the Core Team with input from the Community. The BDFL can, but
-rarely chooses to, override the Core Team and make a final decision on a
-matter.
+Tradicionalmente, a liderança do projeto foi fornecida por um BDFL (Wes McKinney) e
+um subconjunto de contribuidores, chamado de Core Team (Equipe Central), cujas contribuições ativas e consistentes foram reconhecidas pelos "direitos de commit" recebidos dos repositórios do Projeto no GitHub. Em geral, todas as decisões do Projeto são tomadas através de
+consenso entre a Equipe Central com contribuições da Comunidade. O BDFL pode, mas raramente o faz, se sobrepôr à Equipe Central e tomar uma decisão final sobre um assunto.
 
-While this approach has served us well, as the Project grows and faces more
-legal and financial decisions and interacts with other institutions, we see a
-need for a more formal governance model. Moving forward The Project leadership
-will consist of a BDFL and Core Team. We view this governance model as the
-formalization of what we are already doing, rather than a change in direction.
+Embora essa abordagem nos tenha servido bem, à medida que o Projeto cresce e enfrenta mais decisões legais e financeiras e interage com outras instituições, nós sentimos a
+necessidade de um modelo de governança mais formal. A partir de agora, a liderança do Projeto consistirá em um BDFL e uma Equipe Central. Nós vemos este modelo de governação como a formalização do que já estamos fazendo, em vez de uma mudança radical.
 
 ### BDFL
 
-The Project will have a BDFL (Benevolent Dictator for Life), who is currently
-Wes McKinney. As Dictator, the BDFL has the authority to make all final
-decisions for The Project. As Benevolent, the BDFL, in practice chooses to
-defer that authority to the consensus of the community discussion channels and
-the Core Team. It is expected, and in the past has been the case, that the BDFL
-will only rarely assert his/her final authority. Because it is rarely used, we
-refer to BDFL’s final authority as a “special” or “overriding” vote. When it
-does occur, the BDFL override typically happens in situations where there is a
-deadlock in the Core Team or if the Core Team ask the BDFL to make a decision
-on a specific matter. To ensure the benevolence of the BDFL, The Project
-encourages others to fork the project if they disagree with the overall
-direction the BDFL is taking. The BDFL is chair of the Core Team (see below)
-and may delegate his/her authority on a particular decision or set of decisions
-to any other Core Team Member at his/her discretion.
+O Projeto terá um BDFL (Benevolent Dictator for Life, Ditador Benevolente Vitalício), que atualmente é Wes McKinney. Como Ditador, o BDFL tem a autoridade de tomar todas as decisões finais pelo Projeto. Como Benevolente, o BDFL na prática escolhe transferir essa autoridade para o consenso da comunidade e da Equipe Central nos seus canais de discussão. É esperado, e no passado já foi o caso, que o BDFL raramente afirmará sua autoridade final. Como ele raramente é usado, nós chamamos a autoridade final do BDFL como um voto "especial" ou "sobrescrito". Quando ocorrer, o voto especial do BDFL normalmente acontecerá em situações em que há um impasse na Equipe Central ou se a Equipe Central pedir ao BDFL para tomar uma decisão
+sobre um assunto específico. Para garantir a benevolência do BDFL, O Projeto incentiva outros a fazerem um <i>fork</i> do projeto se eles discordarem do caminho geral que o BDFL está tomando. O BDFL é o presidente da Equipe Central (veja abaixo) e pode delegar sua autoridade em uma determinada decisão ou conjunto de decisões a qualquer outro Membro da Equipe Central a seu critério.
 
-The BDFL can appoint his/her successor, but it is expected that the Core Team
-would be consulted on this decision. If the BDFL is unable to appoint a
-successor (e.g. due to death or illness), the Core Team will choose a successor
-by voting with at least 2/3 of the Core Team members voting in favor of the
-chosen successor. At least 80% of the Core Team must participate in the
-vote. If no BDFL candidate receives 2/3 of the votes of the Core Team, the Core
-Team members shall propose the BDFL candidates to the Main NumFOCUS board, who
-will then make the final decision.
+O BDFL pode nomear seu sucessor, mas é esperado que a Equipe Central
+seja consultada sobre esta decisão. Se o BDFL não conseguir nomear um sucessor (por exemplo, devido à morte ou doença), a Equipe Central escolherá um sucessor em uma votação com pelo menos 2/3 dos membros da Equipe Central votando a favor do sucessor escolhido. Pelo menos 80% da Equipe Central deve participar da votação. Se nenhum candidato a BDFL receber 2/3 dos votos da Equipe Central, os membros desta Equipe propõem os candidatos BDFL ao Painel de Diretores (Board) da NumFOCUS, que
+tomará a decisão final.
 
-### Core Team
+### Equipe Central
 
-The Project's Core Team will consist of Project Contributors who have produced
-contributions that are substantial in quality and quantity, and sustained over
-at least one year. The overall role of the Core Team is to ensure, through
-working with the BDFL and taking input from the Community, the long-term
-well-being of the project, both technically and as a community.
+A Equipe Central do Projeto consistirá em Contribuidores do Projeto que produziram
+contribuições substanciais em qualidade e quantidade, consistentemente por mais de
+pelo menos um ano. O papel da Equipe Central é assegurar o bem estar do projeto a longo prazo, tanto tecnicamente quanto em comunidade, através do seu trabalho com o BDFL e das contribuições da Comunidade.
 
-During the everyday project activities, Core Team participate in all
-discussions, code review and other project activities as peers with all other
-Contributors and the Community. In these everyday activities, Core Team do not
-have any special power or privilege through their membership on the Core
-Team. However, it is expected that because of the quality and quantity of their
-contributions and their expert knowledge of the Project Software that the Core
-Team will provide useful guidance, both technical and in terms of project
-direction, to potentially less experienced contributors.
+Durante as atividades corriqueiras do projeto, a Equipe Central participa em todas as discussões, revisões de código e outras atividades do projeto como contribuidores regulares assim como todos os membros da Comunidade e outros Contribuidores. Nessas atividades corriqueiras, a Equipe Central não tem
+nenhum poder especial ou privilégio através de sua filiação à Equipe Central. No entanto é esperado que devido à qualidade e quantidade de suas contribuições
+e seu conhecimento especializado sobre o Software do Projeto que a Equipe Central
+proporcione orientações úteis para contribuidores potencialmente menos experientes, tanto tecnicamente como em termos da direção do projeto.
 
-The Core Team and its Members play a special role in certain situations.
-In particular, the Core Team may:
+A Equipe Central e os seus membros desempenham um papel especial em certas situações.
+Em particular, a Equipe Central pode:
 
-- Make decisions about the overall scope, vision and direction of the
-  project.
-- Make decisions about strategic collaborations with other organizations or
-  individuals.
-- Make decisions about specific technical issues, features, bugs and pull
-  requests. They are the primary mechanism of guiding the code review process
-  and merging pull requests.
-- Make decisions about the Services that are run by The Project and manage
-  those Services for the benefit of the Project and Community.
-- Make decisions when regular community discussion doesn't produce consensus
-  on an issue in a reasonable time frame.
+- Tomar decisões sobre o escopo, visão e direção do projeto.
+- Tomar decisões sobre colaborações estratégicas com outras organizações ou pessoas.
+- Tomar decisões sobre problemas técnicos específicos, recursos, bugs e pull requests. Eles são o mecanismo principal a guiar o processo de revisão de código
+  e aceitar pull requests.
+- Tomar decisões sobre os Serviços que são executados pelo Projeto e gerenciar
+  esses Serviços para o benefício do Projeto e da Comunidade.
+- Tomar decisões quando a discussão regular da comunidade não produz consenso
+  em uma issue em um período de tempo razoável.
 
-### Core Team membership
+### Membros da Equipe Central
 
-To become eligible for being a Core Team Member an individual must be a Project
-Contributor who has produced contributions that are substantial in quality and
-quantity, and sustained over at least one year. Potential Core Team Members are
-nominated by existing Core members and voted upon by the existing Core Team
-after asking if the potential Member is interested and willing to serve in that
-capacity. The Core Team will be initially formed from the set of existing
+Para se tornar elegível para membro da Equipe Central um indivíduo deve ser um Contribuidor do Projeto que produziu contribuições substanciais em qualidade e quantidade, e continuou por pelo menos um ano. Potenciais membros da Equipe Central são nomeados e votados por membros da Equipe Central existentes depois de perguntar se o membro em potencial está interessado e disposto a servir nesta capacidade. The Core Team will be initially formed from the set of existing
 Contributors who have been granted commit rights as of late 2015.
 
 When considering potential Members, the Core Team will look at candidates with
