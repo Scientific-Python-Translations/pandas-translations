@@ -1,4 +1,4 @@
-# About pandas
+# Sobre o pandas
 
 ## Histórico de desenvolvimento
 
