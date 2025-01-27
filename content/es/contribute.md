@@ -1,10 +1,8 @@
-# Contribute to pandas
+# Contribuir a pandas
 
-_pandas_ is and will always be **free**. To make the development sustainable, we need _pandas_ users, corporate
-and individual, to support the development by providing their time and money.
+_pandas_ es y siempre será **gratis**. Para que el desarrollo sea sostenible, necesitamos que los usuarios de _pandas_, corporativos e individuales, apoyen el desarrollo aportando su tiempo y dinero.
 
-You can find more information about current developers in the [team page]({{ base_url }}about/team.html),
-and about current sponsors in the [sponsors page]({{ base_url }}about/sponsors.html).
+Puede encontrar más información sobre los desarrolladores actuales en la [página del equipo]({{ base_url }}about/team.html) y sobre los patrocinadores actuales en la [página de patrocinadores]({{ base_url }}about/sponsors.html).
 
 <section>
     <div class="container mt-5">
@@ -14,28 +12,22 @@ and about current sponsors in the [sponsors page]({{ base_url }}about/sponsors.h
             <i class="fas fa-circle fa-stack-2x pink"></i>
             <i class="fas fa-building fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading mt-3 fw-bold blue">Corporate support</h4>
+          <h4 class="service-heading mt-3 fw-bold blue">Soporte corporativo</h4>
           <p class="text-muted">
-            pandas depends on companies and institutions using the software to support its development. Hiring
-            people to work on pandas, or letting existing employees to contribute to the
-            software. Or sponsoring pandas with funds, so the project can hire people to
-            progress on the <a href="{{ base_url }}about/roadmap.html">pandas roadmap</a>.
+            pandas depende de que empresas e instituciones utilicen el software para respaldar su desarrollo. Contratar personas para trabajar en pandas o permitir que los empleados existentes contribuyan al software. O patrocinar pandas con fondos, para que el proyecto pueda contratar personas para avanzar en la <a href="{{ base_url }}about/roadmap.html">hoja de ruta de pandas</a>.
           </p>
-          <p>More information in the <a href="{{ base_url }}about/sponsors.html">sponsors page</a></p>
+          <p>Más información en la <a href="{{ base_url }}about/roadmap.html">página de patrocinadores</a></p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x pink"></i>
             <i class="fas fa-users fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading mt-3 fw-bold blue">Individual contributors</h4>
+          <h4 class="service-heading mt-3 fw-bold blue">Contribuidores individuales</h4>
           <p class="text-muted">
-            pandas is mostly developed by volunteers. All kind of contributions are welcome,
-            such as contributions to the code, to the website (including graphical designers),
-            to the documentation (including translators) and others. There are tasks for all
-            levels, including beginners.
+            pandas es desarrollado principalmente por voluntarios. Todo tipo de contribuciones son bienvenidas, como contribuciones al código, al sitio web (incluidos los diseñadores gráficos), a la documentación (incluidos los traductores) y otros. Hay tareas para todos los niveles, incluidos principiantes.
           </p>
-          <p>More information in the <a href="{{ base_url }}docs/development/index.html">contributing page</a></p>
+          <p>Más información en la <a href="{{ base_url }}docs/development/index.html">página de contribución</a></p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -43,12 +35,8 @@ and about current sponsors in the [sponsors page]({{ base_url }}about/sponsors.h
             <i class="fas fa-dollar-sign fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading mt-3 fw-bold blue">Donations</h4>
-          <p class="text-muted">
-            Individual donations are appreciated, and are used for things like the project
-            infrastructure, travel expenses for our volunteer contributors to attend
-            the in-person sprints, or to give small grants to develop features.
-          </p>
-          <p>Make your donation in the <a href="{{ base_url }}donate.html">donate page</a></p>
+          <p class="text-muted">Las donaciones individuales son apreciadas y se utilizan para cosas como la infraestructura del proyecto, gastos de viaje para que nuestros contribuidores voluntarios asistan a los sprints en persona o para otorgar pequeñas subvenciones para desarrollar nuevas funciones.</p>
+          <p>Puedes hacer tu donación en la <a href="{{ base_url }}donate.html">página de donaciones</a></p>
         </div>
       </div>
     </div>
