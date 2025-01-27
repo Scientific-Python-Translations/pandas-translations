@@ -9,18 +9,16 @@ A NumFOCUS fornece ao _pandas_ apoio fiscal, legal e administrativo para ajudar 
 
 Doações para o _pandas_ são gerenciadas pela NumFOCUS. Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
-## Become a sponsor
+## Seja um Patrocinador
 
-As a free and open source project, _pandas_ relies on the support of the community of users for its development.
-If you work for an organization that uses and benefits from _pandas_, please consider supporting pandas. There
-are different ways, such as employing people to work on pandas, funding the project, or becoming a
-[NumFOCUS sponsor](https://numfocus.org/sponsors) to support the broader ecosystem. Please contact us at
-[admin@numfocus.org](mailto:admin@numfocus.org) to discuss.
+Como um projeto gratuito e de código aberto, _pandas_ depende do apoio da comunidade de usuários para seu desenvolvimento.
+Se você trabalha para uma organização que usa e se beneficia de _pandas_, por favor considere apoiar o pandas. Existem maneiras diferentes de fazer isso, tais como empregar pessoas para trabalhar no pandas, financiar o projeto, ou tornar-se um [patrocinador da NumFOCUS](https://numfocus.org/sponsors) para apoiar o ecossistema em geral. Entre em contato conosco em
+[admin@numfocus.org](mailto:admin@numfocus.org) para discutir.
 
-## Institutional partners
+## Parceiros Institucionais
 
-Institutional partners are companies and universities that support the project by employing contributors.
-Current institutional partners include:
+Os parceiros institucionais são empresas e universidades que apoiam o projeto empregando contribuidores.
+Os parceiros institucionais atuais incluem:
 
 <ul>
     {% for company in sponsors.active if company.kind == "partner" %}
@@ -30,7 +28,7 @@ Current institutional partners include:
 
 ## Patrocinadores
 
-Sponsors are organizations that provide funding for pandas. Current sponsors include:
+Os patrocinadores são organizações que financiam o pandas. Os patrocinadores atuais incluem:
 
 <ul>
     {% for company in sponsors.active if company.kind == "regular" %}
@@ -38,10 +36,10 @@ Sponsors are organizations that provide funding for pandas. Current sponsors inc
     {% endfor %}
 </ul>
 
-## In-kind sponsors
+## Patrocinadores em espécie
 
-In-kind sponsors are organizations that support pandas development with goods or services.
-Current in-kind sponsors include:
+Patrocinadores em espécie são organizações que apoiam o desenvolvimento de pandas com bens ou serviços.
+Os patrocinadores em espécie atuais incluem:
 
 <ul>
     {% for company in sponsors.inkind %}
@@ -49,7 +47,7 @@ Current in-kind sponsors include:
     {% endfor %}
 </ul>
 
-## Past institutional partners
+## Parceiros institucionais anteriores
 
 <ul>
     {% for company in sponsors.past if company.kind == "partner" %}
