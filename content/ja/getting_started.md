@@ -2,19 +2,15 @@
 
 ## Installation instructions
 
-To install pandas, please reference the [installation page]({{ base_url}}docs/getting_started/install.html)
-from the pandas documentation.
+pandasをインストールするには、pandasのドキュメントの[インストールページ]({{ base_url}}docs/getting_started/install.html)を参照してください。
 
 ## Tutorials
 
-You can learn more about pandas in the [tutorials]({{ base_url }}docs/getting_started/intro_tutorials/),
-and more about JupyterLab in the
-[JupyterLab documentation](https://jupyterlab.readthedocs.io/en/stable/user/interface.html).
+pandas については、[チュートリアル]({{ base_url }}docs/getting_started/intro_tutorials/) で、JupyterLab については、[JupyterLab のドキュメント](https://jupyterlab.readthedocs.io/en/stable/user/interface.html) で詳しく学ぶことができます。
 
-## Books
+## 書籍
 
-The book we recommend to learn pandas is [Python for Data Analysis](https://amzn.to/3DyLaJc),
-by [Wes McKinney](https://wesmckinney.com/), creator of pandas.
+pandasを学ぶためにおすすめする書籍は、pandasの作者である [Wes McKinney](https://wesmckinney.com/) による [Python for Data Analysis](\[https://amzn.to/3DyLaJc)です。
 
 <a href="https://amzn.to/3DyLaJc">
     <img alt="Python for Data Analysis" src="{{ base_url }}static/img/books/pydata_book.gif"/>
