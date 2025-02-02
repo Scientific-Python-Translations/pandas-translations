@@ -1,4 +1,4 @@
-# Donate to pandas
+# pandas に寄付する
 
 <div id="salsalabs-donate-container">
 </div>
