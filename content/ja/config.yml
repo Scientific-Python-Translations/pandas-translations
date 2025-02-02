@@ -48,7 +48,7 @@ navbar:
         name: "Citing and logo"
         target: about/citing.html
   - 
-    name: "Getting started"
+    name: "はじめに"
     target: getting_started.html
   - 
     name: "Documentation"
