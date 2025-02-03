@@ -1,10 +1,6 @@
 # Ecosystem
 
-Increasingly, packages are being built on top of pandas to address
-specific needs in data preparation, analysis and visualization. This is
-encouraging because it means pandas is not only helping users to handle
-their data tasks but also that it provides a better starting point for
-developers to build powerful and more focused data tools. The creation
+Cada vez más, se crean paquetes que utilizan pandas para suplir necesidades específicas en la preparación, análisis y visualización de datos. Esto es alentador porque significa que pandas no solo ayuda a los usuarios a trabajar con sus datos, sino que también proporciona un mejor punto de partida para que los desarrolladores creen herramientas de datos más potentes y enfocadas. The creation
 of libraries that complement pandas' functionality also allows pandas
 development to remain focused around its original requirements.
 
@@ -589,8 +585,7 @@ df.parallel_apply(func)
 
 ### [Vaex](https://vaex.io/docs/)
 
-Increasingly, packages are being built on top of pandas to address
-specific needs in data preparation, analysis and visualization. Vaex is
+Cada vez más, se crean paquetes que utilizan pandas para suplir necesidades específicas en la preparación, análisis y visualización de datos. Vaex is
 a python library for Out-of-Core DataFrames (similar to Pandas), to
 visualize and explore big tabular datasets. It can calculate statistics
 such as mean, sum, count, standard deviation etc, on an N-dimensional
