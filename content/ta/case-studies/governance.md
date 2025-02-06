@@ -6,8 +6,7 @@
 
 ## திட்டம்
 
-The pandas Project (The Project) is an open source software project affiliated
-with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
+பாண்டாஸ் திட்டம் (திட்டம்) என்பது 501(c)3 NumFOCUS அறக்கட்டளையுடன் இணைக்கப்பட்ட ஒரு திறந்த மூல மென்பொருள் திட்டமாகும். The goal of The Project is to develop open
 source software for data ingest, data preparation, data analysis, and data
 visualization for the Python programming language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
