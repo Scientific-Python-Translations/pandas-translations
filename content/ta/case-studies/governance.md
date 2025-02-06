@@ -1,12 +1,10 @@
-# Project governance
+# திட்ட நிர்வாகம்
 
-The official version of this document, along with a list of
-individuals and institutions in the roles defined in the governance
-section below, is contained in the
-[Project governance]({{ base_url }}about/governance.html)
-page of the pandas website.
+இந்த ஆவணத்தின் அதிகாரப்பூர்வ பதிப்பு, கீழே உள்ள ஆளுகைப் பிரிவில் வரையறுக்கப்பட்ட பாத்திரங்களில் உள்ள தனிநபர்கள் மற்றும் நிறுவனங்களின் பட்டியலுடன், பாண்டாஸ் வலைத்தளத்தின்
+[திட்ட நிர்வாகம்]({{ base_url }}about/governance.html)
+பக்கத்தில் உள்ளது.
 
-## The Project
+## திட்டம்
 
 The pandas Project (The Project) is an open source software project affiliated
 with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
