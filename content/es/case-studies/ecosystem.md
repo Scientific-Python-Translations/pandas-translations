@@ -279,15 +279,15 @@ arctic = adb.Arctic("lmdb://arcticdb_test")
 
 #### Configuración de biblioteca
 
-ArcticDB está orientado a almacenar muchas (potencialmente millones) de tablas. Individual tables (DataFrames) are called symbols and are stored in collections called libraries. A single library can store many symbols. Libraries must first be initialized prior to use:
+ArcticDB está orientado a almacenar muchas (potencialmente millones) de tablas. Las tablas individuales (DataFrames) se denominan `Symbols` y se almacenan en colecciones llamadas bibliotecas. Una sola biblioteca puede almacenar muchos `Symbols`. Las bibliotecas primero deben inicializarse antes de su uso:
 
 ```python
 lib = arctic.get_library('sample', create_if_missing=True)
 ```
 
-#### Writing Data to ArcticDB
+#### Escritura de datos en ArcticDB
 
-Now we have a library set up, we can get to reading and writing data. ArcticDB has a set of simple functions for DataFrame storage. Let's write a DataFrame to storage.
+Ahora que tenemos una biblioteca configurada, podemos comenzar a leer y escribir datos. ArcticDB tiene un conjunto de funciones simples para el almacenamiento de DataFrame. Escribamos un DataFrame en el almacenamiento.
 
 ```python
 df = pd.DataFrame(
@@ -305,24 +305,24 @@ df
 df.dtypes
 ```
 
-Write to ArcticDB.
+Escribe a ArcticDB.
 
 ```python
 write_record = lib.write("test", df)
 ```
 
-> **Note:** When writing pandas DataFrames, ArcticDB supports the following index types:
+> **Nota:** Al escribir pandas DataFrames, ArcticDB admite los siguientes tipos de índice:
 >
-> - `pandas.Index` containing int64 (or the corresponding dedicated types Int64Index, UInt64Index)
+> - `pandas.Index` que contiene int64 (o los tipos dedicados correspondientes Int64Index, UInt64Index)
 > - `RangeIndex`
 > - `DatetimeIndex`
-> - `MultiIndex` composed of above supported types
+> - `MultiIndex` compuesto por los tipos admitidos anteriormente
 >
-> The "row" concept in `head`/`tail` refers to the row number ('iloc'), not the value in the `pandas.Index` ('loc').
+> El concepto de "fila" en `head`/`tail` se refiere al número de fila ('iloc'), no al valor en `pandas.Index` ('loc').
 
-#### Reading Data from ArcticDB
+#### Lectura de datos de ArcticDB
 
-Read the data back from storage:
+Lea los datos desde el almacenamiento:
 
 ```python
 read_record = lib.read("test")
@@ -330,15 +330,15 @@ read_record.data
 df.dtypes
 ```
 
-ArcticDB also supports appending, updating, and querying data from storage to a pandas DataFrame. Please find more information [here](https://docs.arcticdb.io/latest/api/query_builder/).
+ArcticDB también admite agregar, actualizar y consultar datos desde el almacenamiento a un DataFrame de pandas. Encuentre más información [aquí](https://docs.arcticdb.io/latest/api/query_builder/).
 
 ### [Hugging Face](https://huggingface.co/datasets)
 
-The Hugging Face Dataset Hub provides a large collection of ready-to-use datasets for machine learning shared by the community. The platform offers a user-friendly interface to explore, discover and visualize datasets, and provides tools to easily load and work with these datasets in Python thanks to the [huggingface_hub](https://github.com/huggingface/huggingface_hub) library.
+Los datatsets de Hugging Face Hub proporcionan una gran colección de conjuntos de datos listos para usar para el aprendizaje automático compartidos por la comunidad. La plataforma ofrece una interfaz fácil de usar para explorar, descubrir y visualizar conjuntos de datos, y proporciona herramientas para cargar y trabajar fácilmente con estos conjuntos de datos en Python gracias a la biblioteca [huggingface_hub](https://github.com/huggingface/huggingface_hub).
 
-You can access datasets on Hugging Face using `hf://` paths in pandas, in the form `hf://datasets/username/dataset_name/...`.
+Puede acceder a conjuntos de datos en Hugging Face utilizando rutas `hf://` en pandas, en el formato `hf://datasets/username/dataset_name/...`.
 
-For example, here is how to load the [stanfordnlp/imdb dataset](https://huggingface.co/datasets/stanfordnlp/imdb):
+Por ejemplo, aquí se explica cómo cargar el [conjunto de datos de stanfordnlp/imdb] (https://huggingface.co/datasets/stanfordnlp/imdb):
 
 ```python
 import pandas as pd
@@ -347,41 +347,33 @@ import pandas as pd
 df = pd.read_parquet("hf://datasets/stanfordnlp/imdb/plain_text/train-00000-of-00001.parquet")
 ```
 
-Tip: on a dataset page, click on "Use this dataset" to get the code to load it in pandas.
+Consejo: en la página de un conjunto de datos, haga clic en "Usar este conjunto de datos" para obtener el código para cargarlo en pandas.
 
-To save a dataset on Hugging Face you need to [create a public or private dataset](https://huggingface.co/new-dataset) and [login](https://huggingface.co/docs/huggingface_hub/quick-start#login-command), and then you can use `df.to_csv/to_json/to_parquet`:
+Para guardar un conjunto de datos en Hugging Face, necesita [crear un conjunto de datos público o privado](https://huggingface.co/new-dataset) e [iniciar sesión](https://huggingface.co/docs/huggingface_hub/quick-start#login-command), y luego puede usar `df.to_csv/to_json/to_parquet`:
 
 ```python
-# Save the dataset to my Hugging Face account
-df.to_parquet("hf://datasets/username/dataset_name/train.parquet")
+# Guarda el conjunto de datos en mi cuenta de Hugging Face
+df.to_parquet("hf://datasets/nombre de usuario/dataset_name/train.parquet")
 ```
 
-You can find more information about the Hugging Face Dataset Hub in the [documentation](https://huggingface.co/docs/hub/en/datasets).
+Puede encontrar más información sobre los conutos d edatos de Hugging Face Hub en la [documentación](https://huggingface.co/docs/hub/en/datasets).
 
-## Out-of-core
+## Procesamiento fuera de memoria
 
 ### [Bodo](https://bodo.ai/)
 
-Bodo is a high-performance Python computing engine that automatically parallelizes and
-optimizes your code through compilation using HPC (high-performance computing) techniques.
-Designed to operate with native pandas dataframes, Bodo compiles your pandas code to execute
-across multiple cores on a single machine or distributed clusters of multiple compute nodes efficiently.
-Bodo also makes distributed pandas dataframes queryable with SQL.
+Bodo es un motor informático en Python de alto rendimiento que paraleliza y
+optimiza su código mediante la compilación utilizando técnicas HPC (computación de alto rendimiento).
+Diseñado para operar con DataFrames nativos de pandas, Bodo compila su código de pandas para ejecutarlo en múltiples núcleos en una sola máquina o en clústeres distribuidos de múltiples nodos informáticos de manera eficiente.
+Bodo también hace que los DataFrames de pandas distribuidos se puedan consultar con SQL.
 
-The community edition of Bodo is free to use on up to 8 cores. Beyond that, Bodo offers a paid
-enterprise edition. Free licenses of Bodo (for more than 8 cores) are available
-[upon request](https://www.bodo.ai/contact) for academic and non-profit use.
+La edición comunitaria de Bodo se puede utilizar de forma gratuita en hasta 8 núcleos. Más allá de eso, Bodo ofrece una edición empresarial paga. Hay licencias gratuitas de Bodo (para más de 8 núcleos) disponibles con [previa solicitud](https://www.bodo.ai/contact) para uso académico y sin fines de lucro.
 
 ### [Cylon](https://cylondata.org/)
 
-Cylon is a fast, scalable, distributed memory parallel runtime with a pandas
-like Python DataFrame API. ”Core Cylon” is implemented with C++ using Apache
-Arrow format to represent the data in-memory. Cylon DataFrame API implements
-most of the core operators of pandas such as merge, filter, join, concat,
-group-by, drop_duplicates, etc. These operators are designed to work across
-thousands of cores to scale applications. It can interoperate with pandas
-DataFrame by reading data from pandas or converting data to pandas so users
-can selectively scale parts of their pandas DataFrame applications.
+Cylon es un runtime paralelo de memoria distribuida, rápido y escalable con una API Python DataFrame similar a pandas. El "Core Cylon" se implementa con C++ usando el formato Apache Arrow para representar los datos en la memoria. La API Cylon DataFrame implementa
+la mayoría de las operadores principales de pandas como fusionar, filtrar, unir, concat,
+agrupar por, drop_duplicates, etc. Estos operadores están diseñados para trabajar en millas de núcleos para escalar aplicaciones. Puede interoperar con pandas DataFrame leyendo datos de pandas o convirtiendo datos a pandas para que los usuarios puedan escalar selectivamente partes de sus aplicaciones.
 
 ```python
 from pycylon import read_csv, DataFrame, CylonEnv
@@ -402,9 +394,7 @@ print(df3)
 
 ### [Dask](https://docs.dask.org)
 
-Dask is a flexible parallel computing library for analytics. Dask
-provides a familiar `DataFrame` interface for out-of-core, parallel and
-distributed computing.
+Dask es una biblioteca para análisis utilizando computación paralela flexible. Dask proporciona una interfaz familiar "DataFrame" para computación distribuida, paralela y fuera de memoria.
 
 ### [Dask-ML](https://ml.dask.org)
 
