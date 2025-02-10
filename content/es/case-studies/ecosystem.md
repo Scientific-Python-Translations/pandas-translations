@@ -1,91 +1,58 @@
 # Ecosystem
 
-Cada vez más, se crean paquetes que utilizan pandas para suplir necesidades específicas en la preparación, análisis y visualización de datos. Esto es alentador porque significa que pandas no solo ayuda a los usuarios a trabajar con sus datos, sino que también proporciona un mejor punto de partida para que los desarrolladores creen herramientas de datos más potentes y enfocadas. The creation
-of libraries that complement pandas' functionality also allows pandas
-development to remain focused around its original requirements.
+Cada vez más, se crean paquetes que utilizan pandas para suplir necesidades específicas en la preparación, análisis y visualización de datos. Esto es alentador porque significa que pandas no solo ayuda a los usuarios a trabajar con sus datos, sino que también proporciona un mejor punto de partida para que los desarrolladores creen herramientas de datos más potentes y enfocadas. La creación de bibliotecas que complementan la funcionalidad de pandas también permite que el desarrollo de pandas permanezca enfocado en sus requisitos originales.
 
-This is an community-maintained list of projects that build on pandas in order
-to provide tools in the PyData space. The pandas core development team does not necessarily endorse any particular project on this list or have any knowledge of the maintenance status of any particular library.
+Esta es una lista mantenida por la comunidad de proyectos que se basan en pandas para proporcionar herramientas en el espacio de PyData. El equipo principal de desarrollo de Pandas no necesariamente respalda ningún proyecto en particular de esta lista ni tiene conocimiento del estado de mantenimiento de ninguna biblioteca en particular.
 
-For a more complete list of projects that depend on pandas, see the libraries.io usage page for
-pandas or search pypi for
-pandas.
+Para obtener una lista más completa de proyectos que dependen de pandas, consulte la [página libraries.io para ver el uso de pandas](https://libraries.io/pypi/pandas/usage) o [busque pandas en pypi](https://pypi.org/search/?q=pandas).
 
-We'd like to make it easier for users to find these projects, if you
-know of other substantial projects that you feel should be on this list,
-please let us know.
+Nos gustaría que a los usuarios les resulte más fácil encontrar estos proyectos. Si conoce otros proyectos importantes que cree que deberían estar en esta lista, por favor háganoslo saber.
 
-## Statistics and machine learning
+## Estadística y aprendizaje automático
 
 ### [Statsmodels](https://www.statsmodels.org/)
 
-Statsmodels is the prominent Python "statistics and econometrics
-library" and it has a long-standing special relationship with pandas.
-Statsmodels provides powerful statistics, econometrics, analysis and
-modeling functionality that is out of pandas' scope. Statsmodels
-leverages pandas objects as the underlying data container for
-computation.
+Statsmodels es la "biblioteca de estadísticas y econometría" de Python y tiene una relación especial de larga data con pandas.
+Statsmodels proporciona potentes funciones de estadística, econometría, análisis y modelado que están fuera del alcance de pandas. Statsmodels aprovecha los objetos de pandas como contenedor de datos para realizar los cálculo.
 
 ### [Featuretools](https://github.com/alteryx/featuretools/)
 
-Featuretools is a Python library for automated feature engineering built
-on top of pandas. It excels at transforming temporal and relational
-datasets into feature matrices for machine learning using reusable
-feature engineering "primitives". Users can contribute their own
-primitives in Python and share them with the rest of the community.
+Featuretools es una biblioteca de Python para la ingeniería de características automatizada, construida sobre pandas. Destaca en la transformación de conjuntos de datos temporales y relacionales en matrices de características para aprendizaje automático, utilizando "primitivas" reutilizables de ingeniería de características. Los usuarios pueden contribuir con sus propias primitivas en Python y compartirlas con el resto de la comunidad.
 
 ### [Compose](https://github.com/alteryx/compose)
 
-Compose is a machine learning tool for labeling data and prediction engineering.
-It allows you to structure the labeling process by parameterizing
-prediction problems and transforming time-driven relational data into
-target values with cutoff times that can be used for supervised learning.
+Compose es una herramienta de aprendizaje automático para el etiquetado de datos y la ingeniería de predicciones.
+Permite estructurar el proceso de etiquetado mediante la parametrización de problemas de predicción y la transformación de datos relacionales basados en el tiempo en valores objetivo con tiempos de corte, que pueden utilizarse para el aprendizaje supervisado.
 
 ### [STUMPY](https://github.com/TDAmeritrade/stumpy)
 
-STUMPY is a powerful and scalable Python library for modern time series analysis.
-At its core, STUMPY efficiently computes something called a
-[matrix profile](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html),
-which can be used for a wide variety of time series data mining tasks.
+STUMPY es una biblioteca de Python potente y escalable para el análisis moderno de series temporales.
+STUMPY calcula de manera eficiente algo llamado [perfil de matriz](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html), que puede utilizarse para una amplia variedad de tareas de minería de datos en series temporales.
 
-## Visualization
+## Visualización
 
 ### [Altair](https://altair-viz.github.io/)
 
-Altair is a declarative statistical visualization library for Python.
-With Altair, you can spend more time understanding your data and its
-meaning. Altair's API is simple, friendly and consistent and built on
-top of the powerful Vega-Lite JSON specification. This elegant
-simplicity produces beautiful and effective visualizations with a
-minimal amount of code. Altair works with Pandas DataFrames.
+Altair es una biblioteca de visualización estadística declarativa para Python.
+Con Altair, puede dedicar más tiempo a comprender sus datos y su significado. La API de Altair es sencilla, intuitiva y coherente, y está construida sobre la potente especificación JSON de Vega-Lite. Esta elegante simplicidad permite crear visualizaciones hermosas y efectivas con una cantidad mínima de código. Altair funciona con DataFrames de Pandas.
 
-### [Bokeh](https://docs.bokeh.org)
+###
 
-Bokeh is a Python interactive visualization library for large datasets
-that natively uses the latest web technologies. Its goal is to provide
-elegant, concise construction of novel graphics in the style of
-Protovis/D3, while delivering high-performance interactivity over large
-data to thin clients.
+Bokeh es una biblioteca de visualización interactiva de Python para grandes conjuntos de datos que utiliza de forma nativa las últimas tecnologías web. Su objetivo es proporcionar una construcción elegante y concisa de gráficos innovadores al estilo de Protovis/D3, mientras que ofrece interactividad de alto rendimiento sobre grandes volúmenes de datos en clientes ligeros.
 
-[Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh) provides a
-high level API for Bokeh that can be loaded as a native Pandas plotting
-backend via
+[Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh) proporciona una API de alto nivel para Bokeh, que puede cargarse como un motor de visualización nativo de Pandas mediante:
 
 ```
 pd.set_option("plotting.backend", "pandas_bokeh")
 ```
 
-It is very similar to the matplotlib plotting backend, but provides
-interactive web-based charts and maps.
+Es muy similar al motor de visualización de Matplotlib, pero ofrece gráficos y mapas interactivos basados en tecnologías web.
 
 ### [pygwalker](https://github.com/Kanaries/pygwalker)
 
-PyGWalker is an interactive data visualization and
-exploratory data analysis tool built upon Graphic Walker
-with support for visualization, cleaning, and annotation workflows.
+PyGWalker es una herramienta interactiva de visualización de datos y análisis exploratorio, basada en Graphic Walker, con soporte para visualización, limpieza y anotación.
 
-pygwalker can save interactively created charts
-to Graphic-Walker and Vega-Lite JSON.
+PyGWalker puede guardar los gráficos creados interactivamente en formatos Graphic-Walker y Vega-Lite JSON.
 
 ```
 import pygwalker as pyg
