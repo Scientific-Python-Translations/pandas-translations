@@ -34,7 +34,7 @@ Puede encontrar más información sobre los desarrolladores actuales en la [pág
             <i class="fas fa-circle fa-stack-2x pink"></i>
             <i class="fas fa-dollar-sign fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading mt-3 fw-bold blue">Donations</h4>
+          <h4 class="service-heading mt-3 fw-bold blue">Donaciones</h4>
           <p class="text-muted">Las donaciones individuales son apreciadas y se utilizan para cosas como la infraestructura del proyecto, gastos de viaje para que nuestros contribuidores voluntarios asistan a los sprints en persona o para otorgar pequeñas subvenciones para desarrollar nuevas funciones.</p>
           <p>Puedes hacer tu donación en la <a href="{{ base_url }}donate.html">página de donaciones</a></p>
         </div>
