@@ -1,4 +1,4 @@
-# Getting started
+# Primeros pasos
 
 ## Instrucciones de instalación
 
