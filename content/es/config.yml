@@ -30,7 +30,7 @@ navbar:
     name: "About us"
     target:
       - 
-        name: "About pandas"
+        name: "Acerca de pandas"
         target: about/
       - 
         name: "Project roadmap"
@@ -48,13 +48,13 @@ navbar:
         name: "Citing and logo"
         target: about/citing.html
   - 
-    name: "Getting started"
+    name: "Primeros pasos"
     target: getting_started.html
   - 
-    name: "Documentation"
+    name: "Documentación"
     target: docs/
   - 
-    name: "Community"
+    name: "Comunidad"
     target:
       - 
         name: "Blog"
@@ -66,7 +66,7 @@ navbar:
         name: "Code of conduct"
         target: community/coc.html
       - 
-        name: "Ecosystem"
+        name: "Ecosistema"
         target: community/ecosystem.html
       - 
         name: "Benchmarks"
