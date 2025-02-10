@@ -1,18 +1,11 @@
-# Roadmap
+# Hoja de ruta
 
-This page provides an overview of the major themes in pandas'
-development. Each of these items requires a relatively large amount of
-effort to implement. These may be achieved more quickly with dedicated
-funding or interest from contributors.
+Esta página proporciona una descripción general de los temas principales en el desarrollo de pandas. Cada uno de estos elementos requiere una cantidad relativamente grande de esfuerzo para ser implementada. Esto se puede lograr más rápidamente con financiación dedicada o dependiendo del interés de los contribuyentes.
 
-An item being on the roadmap does not mean that it will _necessarily_
-happen, even with unlimited funding. During the implementation period we
-may discover issues preventing the adoption of the feature.
+Que un elemento esté en la hoja de ruta no significa que _necesariamente_ sucederá, incluso con financiación ilimitada. Durante el período de implementación
+es posible descubrir problemas que impidan la adopción de la función.
 
-Additionally, an item _not_ being on the roadmap does not exclude it
-from inclusion in pandas. The roadmap is intended for larger,
-fundamental changes to the project that are likely to take months or
-years of developer time. Smaller-scoped items will continue to be
+Además, un elemento que _no_ esté en la hoja de ruta no lo excluye de su inclusión en pandas. La hoja de ruta está destinada a cambios fundamentales más importantes en el proyecto que probablemente requieran meses o años de tiempo de desarrollo. Smaller-scoped items will continue to be
 tracked on our [issue tracker](https://github.com/pandas-dev/pandas/issues).
 
 The roadmap is defined as a set of major enhancement proposals named PDEPs.
