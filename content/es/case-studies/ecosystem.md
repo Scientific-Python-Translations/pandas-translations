@@ -201,25 +201,23 @@ sgaircase es un paquete de análisis de datos, construido sobre pandas y numpy, 
 ### [xarray](https://github.com/pydata/xarray)
 
 xarray lleva el poder de los datos etiquetados de pandas a las ciencias físicas al proporcionar variantes N-dimensionales de las estructuras de datos centrales de pandas.
-It aims to provide a pandas-like and pandas-compatible toolkit for
-analytics on multi-dimensional arrays, rather than the tabular data for
-which pandas excels.
+Su objetivo es proporcionar un conjunto de herramientas similar a pandas y compatible con pandas para el análisis de matrices multidimensionales, en lugar de los datos tabulares en los que Pandas sobresale.
 
-## IO
+## Entrada/salida (IO)
 
 ### [NTV-pandas](https://github.com/loco-philippe/ntv-pandas)
 
-NTV-pandas provides a JSON converter with more data types than the ones supported by pandas directly.
+NTV-pandas proporciona un convertidor de JSON con más tipos de datos que los soportados directamente por pandas.
 
-It supports the following data types:
+Soporta los siguientes tipos de datos:
 
-- pandas data types
-- data types defined in the [NTV format](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\(JSON-NTV\).htm)
-- data types defined in [Table Schema specification](http://dataprotocols.org/json-table-schema/#field-types-and-formats)
+- Tipos de datos de pandas
+- tipos de datos definidos en el [formato NTV](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\(JSON-NTV\).htm)
+- tipos de datos definidos en la [especificación del Table Schema] (http://dataprotocols.org/json-table-schema/#field-types-and-formats)
 
-The interface is always reversible (conversion round trip) with two formats (JSON-NTV and JSON-TableSchema).
+La interfaz es siempre reversible (conversión ida y vuelta) con dos formatos (JSON-NTV y JSON-TableSchema).
 
-Example:
+Ejemplo:
 
 ```python
 import ntv_pandas as npd
@@ -232,47 +230,41 @@ df.equals(npd.read_json(df.npd.to_json(df)))  # `True` in any case, whether `tab
 
 ### [BCPandas](https://github.com/yehoshuadimarsky/bcpandas)
 
-BCPandas provides high performance writes from pandas to Microsoft SQL Server,
-far exceeding the performance of the native `df.to_sql` method. Internally, it uses
-Microsoft's BCP utility, but the complexity is fully abstracted away from the end user.
-Rigorously tested, it is a complete replacement for `df.to_sql`.
+BCPandas proporciona escrituras de alto rendimiento desde pandas a Microsoft SQL Server,
+superando con creces el rendimiento del método nativo `df.to_sql`. Internamente, utiliza la utilidad BCP de Microsoft, pero la complejidad está completamente oculta para el usuario final.
+Probado rigurosamente, es un reemplazo completo de `df.to_sql`.
 
 ### [Deltalake](https://pypi.org/project/deltalake)
 
-Deltalake python package lets you access tables stored in
-[Delta Lake](https://delta.io/) natively in Python without the need to use Spark or
-JVM. It provides the `delta_table.to_pyarrow_table().to_pandas()` method to convert
-any Delta table into Pandas dataframe.
+El paquete python Deltalake le permite acceder a tablas almacenadas en [Delta Lake](https://delta.io/) de forma nativa en Python sin  necesidad de utilizar Spark o JVM. Proporciona el método `delta_table.to_pyarrow_table().to_pandas()` para convertir cualquier tabla Delta en un DataFrame de pandas.
 
 ### [pandas-gbq](https://github.com/googleapis/python-bigquery-pandas)
 
-pandas-gbq provides high performance reads and writes to and from
-[Google BigQuery](https://cloud.google.com/bigquery/). Previously (before version 2.2.0),
-these methods were exposed as `pandas.read_gbq` and `DataFrame.to_gbq`.
-Use `pandas_gbq.read_gbq` and `pandas_gbq.to_gbq`, instead.
+pandas-gbq proporciona lecturas y escrituras de alto rendimiento hacia y desde [Google BigQuery](https://cloud.google.com/bigquery/). Anteriormente (antes de la versión 2.2.0), estos métodos se exponían como `pandas.read_gbq` y `DataFrame.to_gbq`.
+Utilice `pandas_gbq.read_gbq` y `pandas_gbq.to_gbq` en su lugar.
 
 ### [ArcticDB](https://github.com/man-group/ArcticDB)
 
-ArcticDB is a serverless DataFrame database engine designed for the Python Data Science ecosystem. ArcticDB enables you to store, retrieve, and process pandas DataFrames at scale. It is a storage engine designed for object storage and also supports local-disk storage using LMDB. ArcticDB requires zero additional infrastructure beyond a running Python environment and access to object storage and can be installed in seconds. Please find full documentation [here](https://docs.arcticdb.io/latest/).
+ArcticDB es un motor de base de datos sin servidor para DataFrames diseñado para el ecosistema Python Científico. ArcticDB le permite almacenar, recuperar y procesar pandas DataFrames a escala. Es un motor de almacenamiento diseñado para el almacenamiento de objetos y también admite el almacenamiento en disco local mediante LMDB. ArcticDB no requiere infraestructura adicional más allá de un entorno Python en ejecución y acceso al almacenamiento de objetos, y se puede instalar en segundos. Encuentre la documentación completa [aquí](https://docs.arcticdb.io/latest/).
 
-#### ArcticDB Terminology
+#### Terminología de ArcticDB
 
-ArcticDB is structured to provide a scalable and efficient way to manage and retrieve DataFrames, organized into several key components:
+ArcticDB está estructurada para proporcionar una forma escalable y eficiente de administrar y recuperar DataFrames, organizados en varios componentes clave:
 
-- `Object Store` Collections of libraries. Used to separate logical environments from each other. Analogous to a database server.
-- `Library` Contains multiple symbols which are grouped in a certain way (different users, markets, etc). Analogous to a database.
-- `Symbol` Atomic unit of data storage. Identified by a string name. Data stored under a symbol strongly resembles a pandas DataFrame. Analogous to tables.
-- `Version` Every modifying action (write, append, update) performed on a symbol creates a new version of that object.
+- `Object Store` Colecciones de bibliotecas. Se utiliza para separar entornos lógicos entre sí. Análogo a un servidor de base de datos.
+- `Library` Contiene múltiples símbolos que están agrupados de cierta manera (diferentes usuarios, mercados, etc.). Análogo a una base de datos.
+- `Symbol` Unidad atómica de almacenamiento de datos. Identificado por un nombre como cadena de texto. Los datos almacenados bajo un `symbol` se parecen mucho a un DataFrame de pandas. Análogo a las tablas.
+- `Version` Cada acción de modificación (escribir, agregar, actualizar) realizada en un `Symbol` crea una nueva versión de ese objeto.
 
-#### Installation
+#### Instalación
 
-To install, simply run:
+Para instalar, simplemente ejecute:
 
 ```console
 pip install arcticdb
 ```
 
-To get started, we can import ArcticDB and instantiate it:
+Para comenzar, podemos importar ArcticDB y crear una instancia:
 
 ```python
 import arcticdb as adb
@@ -282,12 +274,12 @@ import pandas as pd
 arctic = adb.Arctic("lmdb://arcticdb_test")
 ```
 
-> **Note:** ArcticDB supports any S3 API compatible storage, including AWS. ArcticDB also supports Azure Blob storage.\
-> ArcticDB also supports LMDB for local/file based storage - to use LMDB, pass an LMDB path as the URI: `adb.Arctic('lmdb://path/to/desired/database')`.
+> **Nota:** ArcticDB admite cualquier almacenamiento compatible con el API S3, incluido AWS. ArcticDB también permite el almacenamiento en Azure Blob.\
+> ArcticDB también soporta LMDB para almacenamiento local/basado en archivos; para usar LMDB, utilice una ruta de LMDB como un URI: `adb.Arctic('lmdb://path/to/desired/database')`.
 
-#### Library Setup
+#### Configuración de biblioteca
 
-ArcticDB is geared towards storing many (potentially millions) of tables. Individual tables (DataFrames) are called symbols and are stored in collections called libraries. A single library can store many symbols. Libraries must first be initialized prior to use:
+ArcticDB está orientado a almacenar muchas (potencialmente millones) de tablas. Individual tables (DataFrames) are called symbols and are stored in collections called libraries. A single library can store many symbols. Libraries must first be initialized prior to use:
 
 ```python
 lib = arctic.get_library('sample', create_if_missing=True)
