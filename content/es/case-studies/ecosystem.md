@@ -1,4 +1,4 @@
-# Ecosystem
+# Ecosistema
 
 Cada vez más, se crean paquetes que utilizan pandas para suplir necesidades específicas en la preparación, análisis y visualización de datos. Esto es alentador porque significa que pandas no solo ayuda a los usuarios a trabajar con sus datos, sino que también proporciona un mejor punto de partida para que los desarrolladores creen herramientas de datos más potentes y enfocadas. La creación de bibliotecas que complementan la funcionalidad de pandas también permite que el desarrollo de pandas permanezca enfocado en sus requisitos originales.
 
@@ -398,28 +398,19 @@ Dask es una biblioteca para análisis utilizando computación paralela flexible.
 
 ### [Dask-ML](https://ml.dask.org)
 
-Dask-ML enables parallel and distributed machine learning using Dask
-alongside existing machine learning libraries like Scikit-Learn,
-XGBoost, and TensorFlow.
+Dask-ML permite el aprendizaje automático paralelo y distribuido utilizando Dask junto con bibliotecas de aprendizaje automático existentes como Scikit-Learn, XGBoost y TensorFlow.
 
 ### [Ibis](https://ibis-project.org/docs/)
 
-Ibis offers a standard way to write analytics code, that can be run in multiple engines. It helps in bridging the gap between local Python environments (like pandas) and remote storage and execution systems like Hadoop components (like HDFS, Impala, Hive, Spark) and SQL databases (Postgres, etc.).
+Ibis ofrece una forma estándar de escribir código analítico, que se puede ejecutar en varios motores. Ayuda a cerrar la brecha entre los entornos locales de Python (como pandas) y los sistemas de ejecución y almacenamiento remotos como los componentes de Hadoop (como HDFS, Impala, Hive, Spark) y las bases de datos SQL (Postgres, etc.).
 
 ### [Koalas](https://koalas.readthedocs.io/en/latest/)
 
-Koalas provides a familiar pandas DataFrame interface on top of Apache
-Spark. It enables users to leverage multi-cores on one machine or a
-cluster of machines to speed up or scale their DataFrame code.
+Koalas proporciona una interfaz familiar de los pandas DataFrames además de Apache Spark. Permite a los usuarios aprovechar múltiples núcleos en una máquina o en un grupo de máquinas para acelerar o escalar su código DataFrame.
 
 ### [Modin](https://github.com/modin-project/modin)
 
-The `modin.pandas` DataFrame is a parallel and distributed drop-in replacement
-for pandas. This means that you can use Modin with existing pandas code or write
-new code with the existing pandas API. Modin can leverage your entire machine or
-cluster to speed up and scale your pandas workloads, including traditionally
-time-consuming tasks like ingesting data (`read_csv`, `read_excel`,
-`read_parquet`, etc.).
+El DataFrame `modin.pandas` es un reemplazo paralelo y distribuido para pandas. Esto significa que puede usar Modin con el código de pandas existente o escribir código nuevo con la API de pandas existente. Modin puede aprovechar toda su máquina o clúster para acelerar y escalar sus cargas de trabajo de pandas, incluidas tareas que tradicionalmente consumen mucho tiempo, como la lectura de datos (`read_csv`, `read_excel`, `read_parquet`, etc.).
 
 ```python
 # import pandas as pd
@@ -430,8 +421,8 @@ df = pd.read_csv("big.csv")  # use all your cores!
 
 ### [Pandarallel](https://github.com/nalepae/pandarallel)
 
-Pandarallel provides a simple way to parallelize your pandas operations on all your CPUs by changing only one line of code.
-If also displays progress bars.
+Pandarallel proporciona una forma sencilla de paralelizar las operaciones de pandas en todas sus CPU cambiando solo una línea de código.
+Si también desea mostrar una barra de progreso.
 
 ```python
 from pandarallel import pandarallel
@@ -444,136 +435,102 @@ df.parallel_apply(func)
 
 ### [Vaex](https://vaex.io/docs/)
 
-Cada vez más, se crean paquetes que utilizan pandas para suplir necesidades específicas en la preparación, análisis y visualización de datos. Vaex is
-a python library for Out-of-Core DataFrames (similar to Pandas), to
-visualize and explore big tabular datasets. It can calculate statistics
-such as mean, sum, count, standard deviation etc, on an N-dimensional
-grid up to a billion (10^9) objects/rows per second. Visualization is
-done using histograms, density plots and 3d volume rendering, allowing
-interactive exploration of big data. Vaex uses memory mapping, zero
-memory copy policy and lazy computations for best performance (no memory
-wasted).
+Cada vez más, se crean paquetes que utilizan pandas para suplir necesidades específicas en la preparación, análisis y visualización de datos. Vaex es una biblioteca de Python para DataFrames fuera de memoria (similar a Pandas), para visualizar y explorar grandes conjuntos de datos tabulares. Puede calcular estadísticas como media, suma, recuento, desviación estándar, etc., en una cuadrícula N-dimensional de hasta mil millones (10^9) objetos/filas por segundo. La visualización se realiza mediante histogramas, gráficos de densidad y renderizado de volúmenes 3D, lo que permite la exploración interactiva de big data. Vaex utiliza mapeo de memoria, una política de copia de memoria cero y cálculos diferidos para obtener el mejor rendimiento (sin desperdiciar memoria).
 
 - `vaex.from_pandas`
 - `vaex.to_pandas_df`
 
 ### [Hail Query](https://hail.is/)
 
-An out-of-core, preemptible-safe, distributed, dataframe library serving
-the genetics community. Hail Query ships with on-disk data formats,
-in-memory data formats, an expression compiler, a query planner, and a
-distributed sort algorithm all designed to accelerate queries on large
-matrices of genome sequencing data.
+Una biblioteca de DataFrames distribuida, segura y descentralizada, que sirve a la comunidad genética. Hail Query provee  formatos de datos en disco, formatos de datos en memoria, un compilador de expresiones, un planificador de consultas y un algoritmo de clasificación distribuido, todos diseñados para acelerar las consultas en grandes matrices de datos de secuenciación del genoma.
 
-It is often easiest to use pandas to manipulate the summary statistics or
-other small aggregates produced by Hail. For this reason, Hail provides
-native import to and export from pandas DataFrames:
+A menudo es más fácil utilizar pandas para manipular las estadísticas resumidas u otros pequeños agregados estadísticos producidos por Hail. Por esta razón, Hail proporciona importación y exportación nativa desde pandas DataFrames:
 
 - [`Table.from_pandas`](https://hail.is/docs/latest/hail.Table.html#hail.Table.from_pandas)
 - [`Table.to_pandas`](https://hail.is/docs/latest/hail.Table.html#hail.Table.to_pandas)
 
-## Data cleaning and validation
+## Limpieza y validación de datos.
 
 ### [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)
 
-Pyjanitor provides a clean API for cleaning data, using method chaining.
+Pyjanitor proporciona una API limpia para limpiar datos mediante el encadenamiento de métodos.
 
 ### [Pandera](https://pandera.readthedocs.io/en/stable/)
 
-Pandera provides a flexible and expressive API for performing data validation on dataframes
-to make data processing pipelines more readable and robust.
-Dataframes contain information that pandera explicitly validates at runtime. This is useful in
-production-critical data pipelines or reproducible research settings.
+Pandera proporciona una API flexible y expresiva para realizar la validación de datos en DataFrames para hacer que los procesos de procesamiento de datos sean más legibles y sólidos.
+Los DataFrames contienen información que pandera valida explícitamente en tiempo de ejecución. Esto es útil en procesos críticos de producción de datos o en entornos de investigación reproducibles.
 
-## Extension data types
+## Tipos de datos de extensión
 
-Pandas provides an interface for defining
-[extension types](https://pandas.pydata.org/docs/development/extending.html#extension-types) to extend NumPy's type system.
-The following libraries implement that interface to provide types not found in NumPy or pandas,
-which work well with pandas' data containers.
+Pandas proporciona una interfaz para definir [tipos de extensión](https://pandas.pydata.org/docs/development/extending.html#extension-types) para extender el sistema de tipos de NumPy.
+Las siguientes bibliotecas implementan esa interfaz para proporcionar tipos que no se encuentran en NumPy o pandas, que funcionan bien con los contenedores de datos de pandas.
 
 ### [awkward-pandas](https://awkward-pandas.readthedocs.io/)
 
-Awkward-pandas provides an extension type for storing Awkward
-Arrays inside pandas' Series and
-DataFrame. It also provides an accessor for using awkward functions
-on Series that are of awkward type.
+Awkward-pandas proporciona un tipo de extensión para almacenar [Awkward Arrays](https://awkward-array.org/) dentro de la Series y los DataFrames de pandas. También proporciona acceso para usar funciones `awkward`  en Series que son de tipo `ackward`.
 
 ### [db-dtypes](https://github.com/googleapis/python-db-dtypes-pandas)
 
-db-dtypes provides an extension types for working with types like
-DATE, TIME, and JSON from database systems. This package is used
-by pandas-gbq to provide natural dtypes for BigQuery data types without
-a natural numpy type.
+db-dtypes proporciona tipos de extensión para trabajar con tipos como DATE, TIME y JSON de sistemas de bases de datos. pandas-gbq utiliza este paquete para proporcionar tipos de datos naturales para tipos de datos de BigQuery sin un tipo Numpy natural.
 
 ### [Pandas-Genomics](https://pandas-genomics.readthedocs.io/en/latest/)
 
-Pandas-Genomics provides an extension type and extension array for working
-with genomics data.  It also includes `genomics` accessors for many useful properties
-and methods related to QC and analysis of genomics data.
+Pandas-Genomics proporciona un tipo de extensión y una matriz de extensión para trabajar con datos genómicos.  También incluye formas de acceso en "genómica" para muchas propiedades y métodos útiles relacionados con el control de calidad y el análisis de datos genómicos.
 
 ### [Physipandas](https://github.com/mocquin/physipandas)
 
-Physipandas provides an extension for manipulating physical quantities
-(like scalar and numpy.ndarray) in association with a physical unit
-(like meter or joule) and additional features for integration of
-`physipy` accessors with pandas Series and Dataframe.
+Physipandas proporciona una extensión para manipular cantidades físicas (como escalares y numpy.ndarray) en asociación con una unidad física (como metro o julio) y características adicionales para la integración de formas de acceso `physipy` con Series y Dataframes de pandas.
 
 ### [Pint-Pandas](https://github.com/hgrecco/pint-pandas)
 
-Pint-Pandas provides an extension type for storing numeric arrays with units.
-These arrays can be stored inside pandas' Series and DataFrame. Operations
-between Series and DataFrame columns which use pint's extension array are then
-units aware.
+Pint-Pandas proporciona un tipo de extensión para almacenar matrices numéricas con unidades.
+Estas matrices se pueden almacenar dentro de Series y DataFrame de pandas. Las operaciones entre las columnas Series y DataFrame que utilizan la matriz de extensión de pint tienen en cuenta las unidades.
 
 ### [Text Extensions](https://ibm.biz/text-extensions-for-pandas)
 
-Text Extensions for Pandas provides extension types to cover common data structures for representing natural language data, plus library integrations that convert the outputs of popular natural language processing libraries into Pandas DataFrames.
+Text Extensions para pandas proporciona tipos de extensiones para cubrir estructuras de datos comunes para representar datos en lenguaje natural, además de integraciones de bibliotecas que convierten los resultados de bibliotecas populares de procesamiento de lenguaje natural en DataFrames de pandas.
 
-## Accessors
+## Métodos de acceso
 
-A directory of projects providing
-[extension accessors](https://pandas.pydata.org/docs/development/extending.html#registering-custom-accessors).
-This is for users to discover new accessors and for library
-authors to coordinate on the namespace.
+Un directorio de proyectos que proporciona [accesorios de extensión] (https://pandas.pydata.org/docs/development/extending.html#registering-custom-accessors).
+Esto es para que los usuarios descubran nuevos métodos de acceso y para que los autores de la biblioteca se coordinen en el espacio de nombres.
 
-| Library                                                              | Accessor   | Classes               |
-| -------------------------------------------------------------------- | ---------- | --------------------- |
-| [awkward-pandas](https://awkward-pandas.readthedocs.io/en/latest/)   | `ak`       | `Series`              |
-| [pdvega](https://altair-viz.github.io/pdvega/)                       | `vgplot`   | `Series`, `DataFrame` |
-| [pandas-genomics](https://pandas-genomics.readthedocs.io/en/latest/) | `genomics` | `Series`, `DataFrame` |
-| [pint-pandas](https://github.com/hgrecco/pint-pandas)                | `pint`     | `Series`, `DataFrame` |
-| [physipandas](https://github.com/mocquin/physipandas)                | `physipy`  | `Series`, `DataFrame` |
-| [composeml](https://github.com/alteryx/compose)                      | `slice`    | `DataFrame`           |
-| [gurobipy-pandas](https://github.com/Gurobi/gurobipy-pandas)         | `gppd`     | `Series`, `DataFrame` |
-| [staircase](https://www.staircase.dev/)                              | `sc`       | `Series`, `DataFrame` |
-| [woodwork](https://github.com/alteryx/woodwork)                      | `slice`    | `Series`, `DataFrame` |
+| Librería                                                             | Método de acceso | Clases                |
+| -------------------------------------------------------------------- | ---------------- | --------------------- |
+| [awkward-pandas](https://awkward-pandas.readthedocs.io/en/latest/)   | `ak`             | `Series`              |
+| [pdvega](https://altair-viz.github.io/pdvega/)                       | `vgplot`         | `Series`, `DataFrame` |
+| [pandas-genomics](https://pandas-genomics.readthedocs.io/en/latest/) | `genomics`       | `Series`, `DataFrame` |
+| [pint-pandas](https://github.com/hgrecco/pint-pandas)                | `pint`           | `Series`, `DataFrame` |
+| [physipandas](https://github.com/mocquin/physipandas)                | `physipy`        | `Series`, `DataFrame` |
+| [composeml](https://github.com/alteryx/compose)                      | `slice`          | `DataFrame`           |
+| [gurobipy-pandas](https://github.com/Gurobi/gurobipy-pandas)         | `gppd`           | `Series`, `DataFrame` |
+| [staircase](https://www.staircase.dev/)                              | `sc`             | `Series`, `DataFrame` |
+| [woodwork](https://github.com/alteryx/woodwork)                      | `slice`          | `Series`, `DataFrame` |
 
-## Development tools
+## Herramientas de desarrollo
 
 ### [pandas-stubs](https://github.com/VirtusLab/pandas-stubs)
 
-While pandas repository is partially typed, the package itself doesn't expose this information for external use.
-Install pandas-stubs to enable basic type coverage of pandas API.
+Si bien el repositorio de pandas está parcialmente tipado, el paquete en sí no expone esta información para uso externo.
+Instale pandas-stubs para habilitar la cobertura de tipado básico de la API de pandas.
 
-Learn more by reading through these issues [14468](https://github.com/pandas-dev/pandas/issues/14468),
+Obtenga más información leyendo estos reportes [14468](https://github.com/pandas-dev/pandas/issues/14468),
 [26766](https://github.com/pandas-dev/pandas/issues/26766), [28142](https://github.com/pandas-dev/pandas/issues/28142).
 
-See installation and usage instructions on the [GitHub page](https://github.com/VirtusLab/pandas-stubs).
+Consulte las instrucciones de instalación y uso en la [página de GitHub](https://github.com/VirtusLab/pandas-stubs).
 
 ### [Hamilton](https://github.com/dagworks-inc/hamilton)
 
-Hamilton is a declarative dataflow framework that came out of Stitch Fix. It was designed to help one manage a
-Pandas code base, specifically with respect to feature engineering for machine learning models.
+Hamilton provee un flujo de trabajo con datos def forma declarativa que surgió de Stitch Fix. Fue diseñado para ayudar a administrar una base de código de Pandas, específicamente con respecto a la ingeniería de funciones para modelos de aprendizaje automático.
 
-It prescribes an opinionated paradigm, that ensures all code is:
+Prescribe un paradigma que garantiza que todo el código sea:
 
-- unit testable
-- integration testing friendly
-- documentation friendly
-- transformation logic is reusable, as it is decoupled from the context of where it is used.
-- integratable with runtime data quality checks.
+- testeable a nivel de unidad
+- compatible con pruebas de integración
+- amigable con la documentación
+- La lógica de transformación es reutilizable, ya que está desacoplada del contexto en el que se utiliza.
+- Integrable con verificaciones de calidad de datos en tiempo de ejecución.
 
-This helps one to scale your pandas code base, at the same time, keeping maintenance costs low.
+Esto ayuda a escalar tu código basado en Pandas, al mismo tiempo que mantiene bajos los costos de mantenimiento.
 
-For more information, see [documentation](https://hamilton.readthedocs.io/).
+Para más información, consulta la [documentación](https://hamilton.readthedocs.io/).
