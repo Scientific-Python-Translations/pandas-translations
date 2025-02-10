@@ -61,15 +61,8 @@ pyg.walk(df)
 
 ### [seaborn](https://seaborn.pydata.org)
 
-Seaborn is a Python visualization library based on
-[matplotlib](https://matplotlib.org). It provides a high-level,
-dataset-oriented interface for creating attractive statistical graphics.
-The plotting functions in seaborn understand pandas objects and leverage
-pandas grouping operations internally to support concise specification
-of complex visualizations. Seaborn also goes beyond matplotlib and
-pandas with the option to perform statistical estimation while plotting,
-aggregating across observations and visualizing the fit of statistical
-models to emphasize patterns in a dataset.
+Seaborn es una biblioteca de visualización en Python basada en [matplotlib](https://matplotlib.org). Ofrece una interfaz de alto nivel, orientada a conjuntos de datos, para crear gráficos estadísticos atractivos.
+Las funciones de visualización en Seaborn pueden manipular objetos de Pandas y aprovechan internamente las operaciones de agrupamiento de pandas para permitir una especificación concisa de visualizaciones complejas. Seaborn va más allá de matplotlib y pandas al ofrecer la opción de realizar estimaciones estadísticas mientras se grafican los datos, agregando observaciones y visualizando el ajuste de modelos estadísticos para resaltar patrones en un conjunto de datos.
 
 ```
 import seaborn as sns
@@ -78,40 +71,21 @@ sns.set_theme()
 
 ### [plotnine](https://github.com/has2k1/plotnine/)
 
-Hadley Wickham's [ggplot2](https://ggplot2.tidyverse.org/) is a
-foundational exploratory visualization package for the R language. Based
-on "The Grammar of
-Graphics"
-it provides a powerful, declarative and extremely general way to
-generate bespoke plots of any kind of data.
-Various implementations to other languages are available.
-A good implementation for Python users is [has2k1/plotnine](https://github.com/has2k1/plotnine/).
+[ggplot2](https://ggplot2.tidyverse.org/) de Hadley Wickham es un paquete fundamental de visualización exploratoria para el lenguaje R. Basado en ["The Grammar of Graphics"](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html), ofrece una forma poderosa, declarativa y general de generar gráficos personalizados para cualquier tipo de datos.
+Existen diversas implementaciones disponibles para otros lenguajes.
+Una buena implementación para usuarios de Python es [has2k1/plotnine](https://github.com/has2k1/plotnine/).
 
 ### [IPython Vega](https://github.com/vega/ipyvega)
 
-[IPython Vega](https://github.com/vega/ipyvega) leverages [Vega](https://github.com/vega/vega) to create plots within Jupyter Notebook.
+[IPython Vega](https://github.com/vega/ipyvega) aprovecha [Vega](https://github.com/vega/vega) para crear gráficos dentro de un Jupyter Notebook.
 
 ### [Plotly](https://plot.ly/python)
 
-[Plotly's](https://plot.ly/) [Python API](https://plot.ly/python/)
-enables interactive figures and web shareability. Maps, 2D, 3D, and
-live-streaming graphs are rendered with WebGL and
-[D3.js](https://d3js.org/). The library supports plotting directly from
-a pandas DataFrame and cloud-based collaboration. Users of matplotlib,
-ggplot for Python, and
-Seaborn can
-convert figures into interactive web-based plots. Plots can be drawn in
-[IPython Notebooks](https://plot.ly/ipython-notebooks/) , edited with R
-or MATLAB, modified in a GUI, or embedded in apps and dashboards. Plotly
-is free for unlimited sharing, and has
-[cloud](https://plot.ly/product/plans/),
-[offline](https://plot.ly/python/offline/), or
-[on-premise](https://plot.ly/product/enterprise/) accounts for private
-use.
+La [API de Python](https://plot.ly/python/) de [Plotly](https://plot.ly/) permite crear figuras interactivas y compartirlas en la web. Mapas, gráficos 2D, 3D y de transmisión en vivo se renderizan con WebGL y [D3.js](https://d3js.org/). La biblioteca permite graficar directamente desde un DataFrame de Pandas y facilita la colaboración en la nube. Los usuarios de [Matplotlib, ggplot para Python y Seaborn](https://plot.ly/python/matplotlib-to-plotly-tutorial/) pueden convertir sus figuras en gráficos web interactivos. Los gráficos pueden dibujarse en [IPython Notebooks](https://plot.ly/ipython-notebooks/), editarse con R o MATLAB, modificarse en una interfaz gráfica o integrarse en aplicaciones y dashboards. Plotly es un servicio gratuito para compartir sin restricciones y ofrece cuentas [en la nube](https://plot.ly/product/plans/), [sin conexión](https://plot.ly/python/offline/) o [locales](https://plot.ly/product/enterprise/) para uso privado.
 
 ### [Lux](https://github.com/lux-org/lux)
 
-Lux is a Python library that facilitates fast and easy experimentation with data by automating the visual data exploration process. To use Lux, simply add an extra import alongside pandas:
+Lux es una biblioteca de Python que facilita la experimentación rápida y sencilla con datos al automatizar el proceso de exploración visual de datos. Para usar Lux, simplemente agrega una importación adicional junto con Pandas:
 
 ```python
 import lux
@@ -121,16 +95,11 @@ df = pd.read_csv("data.csv")
 df  # discover interesting insights!
 ```
 
-By printing out a dataframe, Lux automatically [recommends a set of visualizations](https://raw.githubusercontent.com/lux-org/lux-resources/master/readme_img/demohighlight.gif) that highlights interesting trends and patterns in the dataframe. Users can leverage any existing pandas commands without modifying their code, while being able to visualize their pandas data structures (e.g., DataFrame, Series, Index) at the same time. Lux also offers a [powerful, intuitive language](https://lux-api.readthedocs.io/en/latest/source/guide/vis.html>) that allow users to create  Altair, matplotlib, or Vega-Lite visualizations without having to think at the level of code.
+Al imprimir un DataFrame, Lux [recomienda automáticamente un conjunto de visualizaciones](https://raw.githubusercontent.com/lux-org/lux-resources/master/readme_img/demohighlight.gif) que resaltan tendencias y patrones interesantes en los datos. Los usuarios pueden aprovechar cualquier comando existente de pandas sin modificar su código, mientras visualizan simultáneamente sus estructuras de datos de pandas (como DataFrame, Series e Index). Lux también ofrece un [lenguaje poderoso e intuitivo](https://lux-api.readthedocs.io/en/latest/source/guide/vis.html) que permite a los usuarios crear visualizaciones en Altair, Matplotlib o Vega-Lite sin necesidad de preocuparse por el código.
 
 ### [D-Tale](https://github.com/man-group/dtale)
 
-D-Tale is a lightweight web client for visualizing pandas data structures. It
-provides a rich spreadsheet-style grid which acts as a wrapper for a lot of
-pandas functionality (query, sort, describe, corr...) so users can quickly
-manipulate their data. There is also an interactive chart-builder using Plotly
-Dash allowing users to build nice portable visualizations. D-Tale can be
-invoked with the following command
+D-Tale es un cliente web ligero para visualizar estructuras de datos de pandas. Ofrece una cuadrícula de estilo hoja de cálculo que actúa como un contenedor para muchas funciones de pandas (query, sort, describe, corr, etc.). para que los usuarios pueden manipular sus datos de forma rápida y sencilla. También cuenta con un generador de gráficos interactivo basado en Plotly Dash, que permite a los usuarios crear visualizaciones atractivas y portátiles. D-Tale se puede invocar con el siguiente comando:
 
 ```python
 import dtale
@@ -138,94 +107,59 @@ import dtale
 dtale.show(df)
 ```
 
-D-Tale integrates seamlessly with Jupyter notebooks, Python terminals, Kaggle
-& Google Colab. Here are some demos of the [grid](http://alphatechadmin.pythonanywhere.com/dtale/main/1).
+D-Tale se integra perfectamente con los Jupyter Notebooks, terminales de Python, Kaggle y Google Colab. Aquí tienes algunas demostraciones de la [cuadrícula](http://alphatechadmin.pythonanywhere.com/dtale/main/1).
 
 ### [hvplot](https://hvplot.holoviz.org/index.html)
 
-hvPlot is a high-level plotting API for the PyData ecosystem built on [HoloViews](https://holoviews.org/).
-It can be loaded as a native pandas plotting backend via
+hvPlot es una API de visualización de alto nivel para el ecosistema PyData, basada en [HoloViews](https://holoviews.org/).
+Se puede cargar como un motor de visualización nativo de pandas mediante:
 
 ```python
 pd.set_option("plotting.backend", "hvplot")
 ```
 
-## IDE
+## Entornos de Desarrollo Integrado
 
 ### [IPython](https://ipython.org/documentation.html)
 
-IPython is an interactive command shell and distributed computing
-environment. IPython tab completion works with Pandas methods and also
-attributes like DataFrame columns.
+IPython es un intérprete de comandos interactivo y un entorno de computación distribuida. El autocompletado en IPython funciona con los métodos de pandas y también con atributos como las columnas de un DataFrame.
 
 ### [Jupyter Notebook / Jupyter Lab](https://jupyter.org)
 
-Jupyter Notebook is a web application for creating Jupyter notebooks. A
-Jupyter notebook is a JSON document containing an ordered list of
-input/output cells which can contain code, text, mathematics, plots and
-rich media. Jupyter notebooks can be converted to a number of open
-standard output formats (HTML, HTML presentation slides, LaTeX, PDF,
-ReStructuredText, Markdown, Python) through 'Download As' in the web
-interface and `jupyter convert` in a shell.
+El Jupyter Notebook es una aplicación web para crear y gestionar cuadernos de Jupyter. Un cuaderno de Jupyter es un documento JSON que contiene una lista ordenada de celdas de entrada y salida, las cuales pueden incluir código, texto, matemáticas, gráficos y contenido multimedia enriquecido. Los cuadernos de Jupyter pueden convertirse a varios formatos de salida abiertos y estándar (HTML, diapositivas en HTML, LaTeX, PDF, ReStructuredText, Markdown, Python) mediante la opción **'Descargar como'** en la interfaz web o utilizando `jupyter convert` en la terminal.
 
-Pandas DataFrames implement `_repr_html_`and `_repr_latex` methods which
-are utilized by Jupyter Notebook for displaying (abbreviated) HTML or
-LaTeX tables. LaTeX output is properly escaped. (Note: HTML tables may
-or may not be compatible with non-HTML Jupyter output formats.)
+Los DataFrames de pandas implementan los métodos `_repr_html_` y `_repr_latex_`, que son utilizados por el Jupyter Notebook para mostrar tablas en formato HTML o LaTeX de manera abreviada. La salida en LaTeX se escapa correctamente. (Nota: Las tablas en HTML pueden ser o no compatibles con formatos de salida de Jupyter que no sean HTML).
 
-See [Options and Settings](https://pandas.pydata.org/docs/user_guide/options.html)
-for pandas `display.` settings.
+Consulta [Opciones y Configuraciones](https://pandas.pydata.org/docs/user_guide/options.html) para conocer las opciones de configuración de `display` en pandas.
 
 ### [Spyder](https://www.spyder-ide.org/)
 
-Spyder is a cross-platform PyQt-based IDE combining the editing,
-analysis, debugging and profiling functionality of a software
-development tool with the data exploration, interactive execution, deep
-inspection and rich visualization capabilities of a scientific
-environment like MATLAB or Rstudio.
+Spyder es una interfaz de desarrollo integrado multiplataforma basado en PyQt que combina las funciones de edición, análisis, depuración y perfilado de una herramienta de desarrollo de software con las capacidades de exploración de datos, ejecución interactiva, inspección profunda y visualización avanzada de un entorno científico como MATLAB o RStudio.
 
-Its Variable
-Explorer allows
-users to view, manipulate and edit pandas `Index`, `Series`, and
-`DataFrame` objects like a "spreadsheet", including copying and
-modifying values, sorting, displaying a "heatmap", converting data
-types and more. Pandas objects can also be renamed, duplicated, new
-columns added, copied/pasted to/from the clipboard (as TSV), and
-saved/loaded to/from a file. Spyder can also import data from a variety
-of plain text and binary files or the clipboard into a new pandas
-DataFrame via a sophisticated import wizard.
+Su [Explorador de Variables](https://docs.spyder-ide.org/current/panes/variableexplorer.html) permite a los usuarios ver, manipular y editar objetos `Index`, `Series` y `DataFrame` de pandas como si fueran una "hoja de cálculo". Incluye funciones para copiar y modificar valores, ordenar, mostrar un "mapa de calor", convertir tipos de datos y más. Los objetos de pandas también pueden renombrarse, duplicarse, agregar nuevas columnas, copiarse/pegarse desde o hacia el portapapeles (como TSV) y guardarse/cargarse desde un archivo. Spyder también puede importar datos desde una variedad de archivos de texto plano, archivos binarios o el portapapeles a un nuevo DataFrame de Pandas mediante un asistente de importación avanzado.
 
-Most pandas classes, methods and data attributes can be autocompleted in
-Spyder's [Editor](https://docs.spyder-ide.org/current/panes/editor.html) and IPython
-Console, and Spyder's
-[Help pane](https://docs.spyder-ide.org/current/panes/help.html) can retrieve and
-render Numpydoc documentation on pandas objects in rich text with Sphinx
-both automatically and on-demand.
+La mayoría de las clases, métodos y atributos de datos de pandas pueden autocompletarse en el [Editor](https://docs.spyder-ide.org/current/panes/editor.html) y la [Consola de IPython](https://docs.spyder-ide.org/current/panes/ipythonconsole.html) de Spyder. Además, el [panel de Ayuda](https://docs.spyder-ide.org/current/panes/help.html) puede recuperar y mostrar automáticamente, o bajo demanda, la documentación de Numpydoc sobre objetos de pandas en texto enriquecido mediante el uso de Sphinx.
 
 ### [marimo](https://marimo.io)
 
-marimo is a reactive notebook for Python and SQL that enhances productivity when working with dataframes. It provides several features to make data manipulation and visualization more interactive and fun:
+Marimo es un cuaderno reactivo para Python y SQL que mejora la productividad cuando se trabaja con DataFrames. Ofrece varias características que hacen que la manipulación y visualización de datos sean más interactivas y entretenidas:
 
-1. Rich, interactive displays: marimo can display pandas dataframes in interactive tables or charts with filtering and sorting capabilities.
-2. Data selection: Users can select data in tables or pandas-backed plots, and the selections are automatically sent to Python as pandas dataframes.
-3. No-code transformations: Users can interactively transform pandas dataframes using a GUI, without writing code. The generated code can be copied and pasted into the notebook.
-4. Custom filters: marimo allows the creation of pandas-backed filters using UI elements like sliders and dropdowns.
-5. Dataset explorer: marimo automatically discovers and displays all dataframes in the notebook, allowing users to explore and visualize data interactively.
-6. SQL integration: marimo allows users to write SQL queries against any pandas dataframes existing in memory.
+1. Visualizaciones interactivas y enriquecidas: marimo puede mostrar DataFrames de pandas en tablas o gráficos interactivos con capacidades de filtrado y ordenamiento.
+2. Selección de datos: Los usuarios pueden seleccionar datos en tablas o gráficos basados en pandas, y las selecciones se envían automáticamente a Python como DataFrames de Pandas.
+3. Transformaciones sin código: Los usuarios pueden transformar DataFrames de pandas de forma interactiva mediante una interfaz gráfica, sin necesidad de escribir código. El código generado puede copiarse y pegarse en el notebook.
+4. Filtros personalizados: marimo permite la creación de filtros basados en pandas mediante elementos de interfaz de usuario como deslizadores y menús desplegables.
+5. Explorador de conjuntos de datos: marimo detecta y muestra automáticamente todos los DataFrames en el cuaderno, permitiendo a los usuarios explorar y visualizar datos de forma interactiva.
+6. Integración con SQL: marimo permite a los usuarios escribir consultas SQL sobre cualquier DataFrame de Pandas que esté en memoria.
 
-## API
+## Interfaz de Programación de Aplicaciones (API)
 
 ### [pandas-datareader](https://github.com/pydata/pandas-datareader)
 
-`pandas-datareader` is a remote data access library for pandas
-(PyPI:`pandas-datareader`). It is based on functionality that was
-located in `pandas.io.data` and `pandas.io.wb` but was split off in
-v0.19. See more in the pandas-datareader
-docs:
+`pandas-datareader` es una biblioteca de acceso remoto a datos para Pandas (PyPI: `pandas-datareader`). Se basa en la funcionalidad que anteriormente se encontraba en `pandas.io.data` y `pandas.io.wb`, pero que fue separada en la versión 0.19. Consulta más información en la [documentación de pandas-datareader](https://pandas-datareader.readthedocs.io/en/latest/).
 
-The following data feeds are available:
+Los siguientes proveedores de datos están disponibles:
 
-- Google Finance
+- Finanzas de Google
 - Tiingo
 - Morningstar
 - IEX
@@ -234,8 +168,8 @@ The following data feeds are available:
 - Quandl
 - FRED
 - Fama/French
-- World Bank
-- OECD
+- Banco Mundial
+- Organización para la Cooperación y el Desarrollo Económico
 - Eurostat
 - TSP Fund Data
 - Nasdaq Trader Symbol Definitions
@@ -244,53 +178,29 @@ The following data feeds are available:
 
 ### [pandaSDMX](https://pandasdmx.readthedocs.io)
 
-pandaSDMX is a library to retrieve and acquire statistical data and
-metadata disseminated in [SDMX](https://sdmx.org) 2.1, an
-ISO-standard widely used by institutions such as statistics offices,
-central banks, and international organisations. pandaSDMX can expose
-datasets and related structural metadata including data flows,
-code-lists, and data structure definitions as pandas Series or
-MultiIndexed DataFrames.
+`pandaSDMX` es una biblioteca para recuperar y adquirir datos estadísticos y metadatos difundidos en [SDMX](https://sdmx.org) 2.1, un estándar ISO ampliamente utilizado por instituciones como oficinas de estadística, bancos centrales y organizaciones internacionales. `pandaSDMX` puede exponer conjuntos de datos y metadatos estructurales relacionados, incluyendo flujos de datos, listas de códigos y definiciones de estructuras de datos, como Series de pandas o DataFrames con múltiples índices.
 
 ### [fredapi](https://github.com/mortada/fredapi)
 
-fredapi is a Python interface to the Federal Reserve Economic Data
-(FRED) provided by the Federal Reserve
-Bank of St. Louis. It works with both the FRED database and ALFRED
-database that contains point-in-time data (i.e. historic data
-revisions). fredapi provides a wrapper in Python to the FRED HTTP API,
-and also provides several convenient methods for parsing and analyzing
-point-in-time data from ALFRED. fredapi makes use of pandas and returns
-data in a Series or DataFrame. This module requires a FRED API key that
-you can obtain for free on the FRED website.
+fredapi es una interfaz en Python para [Datos económicos de la Reserva Federal (FRED)] (https://fred.stlouisfed.org/) proporcionada por el Banco de la Reserva Federal de St. Louis. Funciona tanto con la base de datos FRED como con la base de datos ALFRED que contiene datos de un momento dado (es decir, revisiones de datos históricos). fredapi proporciona un contenedor en Python para la API HTTP de FRED y también proporciona varios métodos convenientes para analizar datos de un momento dado de ALFRED. fredapi hace uso de pandas y devuelve datos en una Serie o DataFrame de pandas. Este módulo requiere una llave del API de FRED que puede obtener de forma gratuita en el sitio web de FRED.
 
-## Domain specific
+## Librerías de dominio específico
 
 ### [Geopandas](https://github.com/geopandas/geopandas)
 
-Geopandas extends pandas data objects to include geographic information
-which support geometric operations. If your work entails maps and
-geographical coordinates, and you love pandas, you should take a close
-look at Geopandas.
+Geopandas amplía los objetos de datos de pandas para incluir información geográfica que admite operaciones geométricas. Si tu trabajo implica mapas y coordenadas geográficas, y te encanta pandas, deberías echarle un vistazo a Geopandas.
 
 ### [gurobipy-pandas](https://github.com/Gurobi/gurobipy-pandas)
 
-gurobipy-pandas provides a convenient accessor API to connect pandas with
-gurobipy. It enables users to more easily and efficiently build mathematical
-optimization models from data stored in DataFrames and Series, and to read
-solutions back directly as pandas objects.
+gurobipy-pandas proporciona una conveniente API de acceso para conectar pandas con gurobipy. Permite a los usuarios crear modelos de optimización matemática de manera más fácil y eficiente a partir de datos almacenados en DataFrames y Series, y leer soluciones directamente como objetos pandas.
 
 ### [staircase](https://github.com/staircase-dev/staircase)
 
-staircase is a data analysis package, built upon pandas and numpy, for modelling and
-manipulation of mathematical step functions. It provides a rich variety of arithmetic
-operations, relational operations, logical operations, statistical operations and
-aggregations for step functions defined over real numbers, datetime and timedelta domains.
+sgaircase es un paquete de análisis de datos, construido sobre pandas y numpy, para modelar y manipular funciones matemáticas de pasos. Stair es un paquete de análisis de datos, construido sobre pandas y numpy, para modelar y manipular funciones matemáticas escalonadas.
 
 ### [xarray](https://github.com/pydata/xarray)
 
-xarray brings the labeled data power of pandas to the physical sciences
-by providing N-dimensional variants of the core pandas data structures.
+xarray lleva el poder de los datos etiquetados de pandas a las ciencias físicas al proporcionar variantes N-dimensionales de las estructuras de datos centrales de pandas.
 It aims to provide a pandas-like and pandas-compatible toolkit for
 analytics on multi-dimensional arrays, rather than the tabular data for
 which pandas excels.
