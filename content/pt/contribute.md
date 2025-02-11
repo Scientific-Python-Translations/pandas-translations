@@ -12,10 +12,10 @@ Você pode encontrar mais informações sobre o time de desenvolvedores atuais n
             <i class="fas fa-circle fa-stack-2x pink"></i>
             <i class="fas fa-building fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading mt-3 fw-bold blue">Suporte Corporativo</h4>
+          <h4 class="service-heading mt-3 fw-bold blue">Suporte corporativo</h4>
           <p class="text-muted">
             pandas depende de empresas e instituições que utilizam o software que apoiam o seu desenvolvimento. Contratar
-            pessoas para trabalhar na pandas ou permitir que funcionários existentes contribuam com o software. Ou patrocinando pandas com valores financeiros, para que o projeto possa contratar pessoas para executar o roadmap (planejamento) do pandas <a href="{{ base_url }}about/roadmap.html"></a>.
+            pessoas para trabalhar na pandas ou permitir que funcionários existentes contribuam com o software. Ou patrocinando pandas com valores financeiros, para que o projeto possa contratar pessoas para executar o <a href="{{ base_url }}about/roadmap.html">roadmap (planejamento) do pandas</a>.
           </p>
           <p>Mais informações na <a href="{{ base_url }}about/sponsors.html">página de patrocinadores</a></p>
         </div>
