@@ -1,4 +1,4 @@
-# Benchmarks
+# Pruebas de rendimiento
 
 Los Benchmarks son pruebas para medir el desempeño pandas. Hay dos diferentes
 tipos de pruebas de referencia relevantes para pandas:
