@@ -1,95 +1,74 @@
 # Ecossistema
 
-Increasingly, packages are being built on top of pandas to address
-specific needs in data preparation, analysis and visualization. This is
-encouraging because it means pandas is not only helping users to handle
-their data tasks but also that it provides a better starting point for
-developers to build powerful and more focused data tools. The creation
-of libraries that complement pandas' functionality also allows pandas
-development to remain focused around its original requirements.
+Cada vez mais, os pacotes estão sendo construídos em cima do pandas para abordar
+necessidades específicas na preparação de dados, análise e visualização. Isso é
+encorajador porque significa que pandas não só está ajudando os usuários a lidar com
+suas tarefas de dados, mas também que fornece um melhor ponto de partida para desenvolvedores
+construírem ferramentas de dados poderosas e mais focadas. A criação
+de bibliotecas que complementam a funcionalidade do pandas também permite desenvolvimento do pandas
+manter foco em torno de suas necessidades originais.
 
-This is an community-maintained list of projects that build on pandas in order
-to provide tools in the PyData space. The pandas core development team does not necessarily endorse any particular project on this list or have any knowledge of the maintenance status of any particular library.
+Esta é uma lista com manutenção da comunidade de projetos que constroem em pandas para
+fornecer ferramentas no espaço PyData. A equipe principal de desenvolvimento do pandas não apoia necessariamente nenhum projeto específico nesta lista nem tem qualquer conhecimento do status de manutenção de qualquer biblioteca em particular.
 
-For a more complete list of projects that depend on pandas, see the libraries.io usage page for
-pandas or search pypi for
+Para uma lista mais completa de projetos que dependem dos pandas, veja a página de uso de libraries.io para
+pandas ou procure no pypi por
 pandas.
 
-We'd like to make it easier for users to find these projects, if you
-know of other substantial projects that you feel should be on this list,
-please let us know.
+Gostaríamos de facilitar para os usuários encontrarem esses projetos.
+Se você conhece outros projetos importantes que acha que deveriam
+estar nesta lista, informe-nos.
 
-## Statistics and machine learning
+## Estatísticas e aprendizado de máquina
 
 ### [Statsmodels](https://www.statsmodels.org/)
 
-Statsmodels is the prominent Python "statistics and econometrics
-library" and it has a long-standing special relationship with pandas.
-Statsmodels provides powerful statistics, econometrics, analysis and
-modeling functionality that is out of pandas' scope. Statsmodels
-leverages pandas objects as the underlying data container for
-computation.
+Statsmodels é a principal "biblioteca de estatística e econometria"
+do Python e tem um relacionamento especial de longa data com o Pandas.
+O Statsmodels fornece estatísticas poderosas, econometria, análises e
+funcionalidades de modelagem que estão fora do escopo do Pandas. O Statsmodels
+utiliza objetos pandas como o contêiner de dados subjacente
+para computação.
 
 ### [Featuretools](https://github.com/alteryx/featuretools/)
 
-Featuretools is a Python library for automated feature engineering built
-on top of pandas. It excels at transforming temporal and relational
-datasets into feature matrices for machine learning using reusable
-feature engineering "primitives". Users can contribute their own
-primitives in Python and share them with the rest of the community.
+Featuretools é uma biblioteca Python para engenharia de recursos automatizada
+construída sobre o Pandas. Ela se destaca na transformação de conjuntos de dados temporais e relacionais em matrizes de recursos para aprendizado de máquina usando "primitivos" de engenharia de recursos reutilizáveis. Os usuários podem contribuir com seus próprios primitivos em Python e compartilhá-los com o resto da comunidade.
 
 ### [Compose](https://github.com/alteryx/compose)
 
-Compose is a machine learning tool for labeling data and prediction engineering.
-It allows you to structure the labeling process by parameterizing
-prediction problems and transforming time-driven relational data into
-target values with cutoff times that can be used for supervised learning.
+Compose é uma ferramenta de aprendizagem de máquina para rotulagem de dados e engenharia de predição.
+Ela permite que você estruture o processo de rotulagem parametrizando problemas de predição e transformando dados relacionais orientados por tempo em valores-alvo com tempos de corte que podem ser usados ​​para aprendizado supervisionado.
 
 ### [STUMPY](https://github.com/TDAmeritrade/stumpy)
 
-STUMPY is a powerful and scalable Python library for modern time series analysis.
-At its core, STUMPY efficiently computes something called a
-[matrix profile](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html),
-which can be used for a wide variety of time series data mining tasks.
+STUMPY é uma biblioteca Python poderosa e escalável para análise moderna de séries temporais.
+Em sua essência, o STUMPY calcula com eficiência algo chamado [perfil de matriz](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html), que pode ser usado para uma ampla variedade de tarefas de mineração de dados de séries temporais.
 
-## Visualization
+## Visualização
 
 ### [Altair](https://altair-viz.github.io/)
 
-Altair is a declarative statistical visualization library for Python.
-With Altair, you can spend more time understanding your data and its
-meaning. Altair's API is simple, friendly and consistent and built on
-top of the powerful Vega-Lite JSON specification. This elegant
-simplicity produces beautiful and effective visualizations with a
-minimal amount of code. Altair works with Pandas DataFrames.
+Altair é uma biblioteca de visualização estatística declarativa para Python.
+Com Altair, você pode gastar mais tempo entendendo seus dados e seu significado. A API do Altair é simples, amigável e consistente e construída sobre a poderosa especificação Vega-Lite JSON. Essa simplicidade elegante produz visualizações bonitas e eficazes com uma quantidade mínima de código. Altair funciona com Pandas DataFrames.
 
 ### [Bokeh](https://docs.bokeh.org)
 
-Bokeh is a Python interactive visualization library for large datasets
-that natively uses the latest web technologies. Its goal is to provide
-elegant, concise construction of novel graphics in the style of
-Protovis/D3, while delivering high-performance interactivity over large
-data to thin clients.
+Bokeh é uma biblioteca de visualização interativa Python para grandes conjuntos de dados que usa nativamente as últimas tecnologias da web. Seu objetivo é fornecer construção elegante e concisa de novos gráficos no estilo do Protovis/D3, ao mesmo tempo em que fornece interatividade de alto desempenho sobre grandes dados para thin clients.
 
-[Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh) provides a
-high level API for Bokeh that can be loaded as a native Pandas plotting
-backend via
+[Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh) fornece uma API de alto nível para Bokeh que pode ser carregada como um backend de plotagem nativa do Pandas via
 
 ```
 pd.set_option("plotting.backend", "pandas_bokeh")
 ```
 
-It is very similar to the matplotlib plotting backend, but provides
-interactive web-based charts and maps.
+É muito semelhante ao backend de plotagem matplotlib, mas fornece gráficos e mapas interativos baseados na web.
 
 ### [pygwalker](https://github.com/Kanaries/pygwalker)
 
-PyGWalker is an interactive data visualization and
-exploratory data analysis tool built upon Graphic Walker
-with support for visualization, cleaning, and annotation workflows.
+PyGWalker é uma ferramenta interativa de visualização de dados e análise exploratória de dados construída sobre o Graphic Walker com suporte para fluxos de trabalho de visualização, limpeza e anotação.
 
-pygwalker can save interactively created charts
-to Graphic-Walker and Vega-Lite JSON.
+O pygwalker pode salvar gráficos criados interativamente no Graphic-Walker e Vega-Lite JSON.
 
 ```
 import pygwalker as pyg
@@ -98,15 +77,8 @@ pyg.walk(df)
 
 ### [seaborn](https://seaborn.pydata.org)
 
-Seaborn is a Python visualization library based on
-[matplotlib](https://matplotlib.org). It provides a high-level,
-dataset-oriented interface for creating attractive statistical graphics.
-The plotting functions in seaborn understand pandas objects and leverage
-pandas grouping operations internally to support concise specification
-of complex visualizations. Seaborn also goes beyond matplotlib and
-pandas with the option to perform statistical estimation while plotting,
-aggregating across observations and visualizing the fit of statistical
-models to emphasize patterns in a dataset.
+Seaborn é uma biblioteca de visualização Python baseada em [matplotlib](https://matplotlib.org). Ela fornece uma interface de alto nível, orientada a conjuntos de dados para criar gráficos estatísticos atraentes.
+As funções de plotagem em seaborn entendem objetos pandas e alavancam operações de agrupamento pandas internamente para dar suporte à especificação concisa de visualizações complexas. Seaborn também vai além de matplotlib e pandas com a opção de executar estimativas estatísticas durante a plotagem, agregando entre observações e visualizando o ajuste de modelos estatísticos para enfatizar padrões em um conjunto de dados.
 
 ```
 import seaborn as sns
@@ -115,31 +87,17 @@ sns.set_theme()
 
 ### [plotnine](https://github.com/has2k1/plotnine/)
 
-Hadley Wickham's [ggplot2](https://ggplot2.tidyverse.org/) is a
-foundational exploratory visualization package for the R language. Based
-on "The Grammar of
-Graphics"
-it provides a powerful, declarative and extremely general way to
-generate bespoke plots of any kind of data.
-Various implementations to other languages are available.
-A good implementation for Python users is [has2k1/plotnine](https://github.com/has2k1/plotnine/).
+O [ggplot2](https://ggplot2.tidyverse.org/) de Hadley Wickham é um pacote de visualização exploratória fundamental para a linguagem R. Baseado em ["The Grammar of Graphics"](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html), ele fornece uma maneira poderosa, declarativa e extremamente geral de gerar gráficos personalizados de qualquer tipo de dado. Várias implementações para outras linguagens estão disponíveis. Uma boa implementação para usuários de Python é has2k1/plotnine.
+Várias implementações para outras linguagens estão disponíveis.
+Uma boa implementação para usuários de Python é [has2k1/plotnine](https://github.com/has2k1/plotnine/).
 
 ### [IPython Vega](https://github.com/vega/ipyvega)
 
-[IPython Vega](https://github.com/vega/ipyvega) leverages [Vega](https://github.com/vega/vega) to create plots within Jupyter Notebook.
+[IPython Vega](https://github.com/vega/ipyvega) utiliza [Vega](https://github.com/vega/vega) para criar gráficos no Jupyter Notebook.
 
 ### [Plotly](https://plot.ly/python)
 
-[Plotly's](https://plot.ly/) [Python API](https://plot.ly/python/)
-enables interactive figures and web shareability. Maps, 2D, 3D, and
-live-streaming graphs are rendered with WebGL and
-[D3.js](https://d3js.org/). The library supports plotting directly from
-a pandas DataFrame and cloud-based collaboration. Users of matplotlib,
-ggplot for Python, and
-Seaborn can
-convert figures into interactive web-based plots. Plots can be drawn in
-[IPython Notebooks](https://plot.ly/ipython-notebooks/) , edited with R
-or MATLAB, modified in a GUI, or embedded in apps and dashboards. Plotly
+A [API Python](https://plot.ly/python/) do [Plotly's](https://plot.ly/) permite figuras interativas e compartilhamento na web. Mapas, gráficos 2D, 3D e streaming ao vivo são renderizados com WebGL e [D3.js](https://d3js.org/). A biblioteca oferece suporte a plotagem diretamente de um DataFrame do pandas e colaboração baseada em nuvem. Usuários do [matplotlib, ggplot para Python e Seaborn](https://plot.ly/python/matplotlib-to-plotly-tutorial/) podem converter figuras em gráficos interativos baseados na web. Os gráficos podem ser desenhados em [IPython Notebooks](https://plot.ly/ipython-notebooks/), editados com R ou MATLAB, modificados em uma GUI ou incorporados em aplicativos e painéis. Plotly
 is free for unlimited sharing, and has
 [cloud](https://plot.ly/product/plans/),
 [offline](https://plot.ly/python/offline/), or
@@ -589,8 +547,8 @@ df.parallel_apply(func)
 
 ### [Vaex](https://vaex.io/docs/)
 
-Increasingly, packages are being built on top of pandas to address
-specific needs in data preparation, analysis and visualization. Vaex is
+Cada vez mais, os pacotes estão sendo construídos em cima do pandas para abordar
+necessidades específicas na preparação de dados, análise e visualização. Vaex is
 a python library for Out-of-Core DataFrames (similar to Pandas), to
 visualize and explore big tabular datasets. It can calculate statistics
 such as mean, sum, count, standard deviation etc, on an N-dimensional
