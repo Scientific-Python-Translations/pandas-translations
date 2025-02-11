@@ -1,19 +1,17 @@
 # Benchmarks
 
-Benchmarks are tests to measure the performance of pandas. There are two different
-kinds of benchmarks relevant to pandas:
+Os benchmarks são testes para medir a desempenho do pandas. Existem dois tipos diferentes de benchmarks relevantes para o pandas:
 
-- Internal pandas benchmarks to measure speed and memory usage over time
-- Community benchmarks comparing the speed or memory usage of different tools at
-  doing the same job
+- Benchmarks internos ao pandas para medir a velocidade e o uso de memória ao longo do tempo
+- Benchmarks da comunidade que comparam a velocidade ou o uso de memória de diferentes ferramentas ao realizar a mesma tarefa
 
-## pandas benchmarks
+## benchmarks do pandas
 
-pandas benchmarks are implemented in the [asv_bench](https://github.com/pandas-dev/pandas/tree/main/asv_bench)
-directory of our repository. The benchmarks are implemented for the
-[airspeed velocity](https://asv.readthedocs.io/en/v0.6.1/) (asv for short) framework.
+benchmarks do pandas são implementados no diretório [asv_bench](https://github.com/pandas-dev/pandas/tree/main/asv_bench)
+do nosso repositório. Os benchmarks são implementados para o framework
+[airspeed velocity](https://asv.readthedocs.io/en/v0.6.1/) (abreviado como asv).
 
-The benchmarks can be run locally by any pandas developer. This can be done
+Os benchmarks podem ser executados localmente por qualquer desenvolvedor do pandas. This can be done
 with the `asv run` command, and it can be useful to detect if local changes have
 an impact in performance, by running the benchmarks before and after the changes.
 More information on running the performance test suite is found
@@ -71,7 +69,7 @@ There is a quick summary here:
 - P-States: Use "performance" governor to disable P-States and CPU frequency changes based on them
 - C-States: Set C-State to 0 and disable changes to avoid slower CPU after system inactivity
 
-## Community benchmarks
+## Benchmarks da comunidade
 
 The main benchmarks comparing dataframe tools that include pandas are:
 
