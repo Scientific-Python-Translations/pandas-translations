@@ -9,13 +9,13 @@ A NumFOCUS fornece ao _pandas_ apoio fiscal, legal e administrativo para ajudar 
 
 Doações para o _pandas_ são gerenciadas pela NumFOCUS. Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
-## Seja um Patrocinador
+## Seja um patrocinador
 
 Como um projeto gratuito e de código aberto, _pandas_ depende do apoio da comunidade de usuários para seu desenvolvimento.
 Se você trabalha para uma organização que usa e se beneficia de _pandas_, por favor considere apoiar o pandas. Existem maneiras diferentes de fazer isso, tais como empregar pessoas para trabalhar no pandas, financiar o projeto, ou tornar-se um [patrocinador da NumFOCUS](https://numfocus.org/sponsors) para apoiar o ecossistema em geral. Entre em contato conosco em
 [admin@numfocus.org](mailto:admin@numfocus.org) para discutir.
 
-## Parceiros Institucionais
+## Parceiros institucionais
 
 Os parceiros institucionais são empresas e universidades que apoiam o projeto empregando contribuidores.
 Os parceiros institucionais atuais incluem:
