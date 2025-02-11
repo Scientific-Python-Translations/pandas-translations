@@ -47,20 +47,20 @@ ssh -L 8080:localhost:8080 pandas@panda.likescandy.com
 
 O servidor usado para executar os benchmarks foi configurado para reduzir o ruído do sistema e maximizar a estabilidade dos benchmarks.
 
-The details on how the server is configured can be found in the
-[pandas-benchmarks repository](https://github.com/pandas-dev/pandas-benchmarks).
-There is a quick summary here:
+Os detalhes sobre como o servidor é configurado podem ser encontrados no
+[repositório pandas-benchmarks](https://github.com/pandas-dev/pandas-benchmarks).
+Segue um breve resumo:
 
-- CPU isolation: Avoid user space tasks to execute in the same CPU as benchmarks, possibly interrupting them during the execution (include all virtual CPUs using a physical core)
-- NoHZ: Stop the kernel tick that enables context switching in the isolated CPU
-- IRQ affinity: Ban benchmarks CPU to avoid many (but not all) kernel interruption in the isolated CPU
-- TurboBoost: Disable CPU scaling based on high CPU demand
-- P-States: Use "performance" governor to disable P-States and CPU frequency changes based on them
-- C-States: Set C-State to 0 and disable changes to avoid slower CPU after system inactivity
+- Isolamento da CPU: Evite que tarefas do espaço do usuário sejam executadas na mesma CPU que os benchmarks, possivelmente interrompendo sua execução (inclua todas as CPUs virtuais que utilizam um núcleo físico)
+- NoHZ: Pare o tick do kernel que permite alternar o contexto na CPU isolada
+- Afinidade IRQ: Banir CPU de benchmarks para evitar muitas (mas nem todas) interrupções no kernel na CPU isolada
+- TurboBoost: Desativar escala da CPU com base na alta demanda da CPU
+- P-States: Use o governador "performance" para desativar os P-States e impedir mudanças na frequência da CPU com base neles
+- C-States: Defina o C-State para 0 e desative as alterações para evitar que a CPU mais lenta após a inatividade do sistema
 
 ## Benchmarks da comunidade
 
-The main benchmarks comparing dataframe tools that include pandas are:
+Os principais benchmarks comparando ferramentas de dataframe que incluem o pandas são:
 
-- [DuckDB (former H2O.ai) benchmarks](https://duckdblabs.github.io/db-benchmark/)
-- [TPCH benchmarks](https://pola.rs/posts/benchmarks/)
+- [Benchmarks DuckDB (antigo H2O.ai)](https://duckdblabs.github.io/db-benchmark/)
+- [Benchmarks TPCH](https://pola.rs/posts/benchmarks/)
