@@ -137,7 +137,7 @@ workgroups:
   finance:
     name: Finanças
     contact: finance@pandas.pydata.org
-    responsibilities: "Gerencia o financiamento. Coordena a solicitação de apoio financeiro. Aprova as despesas do projeto."
+    responsibilities: "Gerenciar o financiamento. Coordenar a solicitação de apoio financeiro. Aprovar as despesas do projeto."
     members:
       - Matthew Roeschke
       - Jeff Reback
@@ -146,7 +146,7 @@ workgroups:
   infrastructure:
     name: Infraestrutura
     contact: infrastructure@pandas.pydata.org
-    responsibilities: "Mantenha a infraestrutura do pandas funcionando. Em particular os servidores para o site, benchmarks, CI e outras necessidades."
+    responsibilities: "Manter a infraestrutura do pandas funcionando. Em particular os servidores para o site, benchmarks, CI e outras necessidades."
     members:
       - Marc Garcia
       - Matthew Roeschke
@@ -154,7 +154,7 @@ workgroups:
   communications:
     name: Comunicações
     contact: communications@pandas.pydata.org
-    responsibilities: "Compartilhe informações relevantes com a comunidade em geral, principalmente através de nossas redes sociais, além de ser o principal ponto de contato entre a NumFOCUS e a equipe principal."
+    responsibilities: "Compartilhar informações relevantes com a comunidade em geral, principalmente através de nossas redes sociais, além de ser o principal ponto de contato entre a NumFOCUS e a equipe principal."
     members:
       - Marco Gorelli
       - Marc Garcia
@@ -218,7 +218,7 @@ sponsors:
       url: https://www.bodo.ai/
       logo: static/img/partners/bodo.svg
       kind: regular
-      description: "A plataforma de computação paralela da Bodo usa a API pandas, e a Bodo apoia financeiramente o desenvolvimento do pandas para ajudar a melhorar em particular a API pandas"
+      description: "A plataforma de computação paralela da Bodo usa a API pandas, e a Bodo apoia financeiramente o desenvolvimento do pandas para ajudar a melhorar em particular a API do pandas"
   inkind:
     - 
       name: "OVH"
