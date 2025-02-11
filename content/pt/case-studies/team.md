@@ -2,7 +2,7 @@
 
 ## Contribuidores
 
-_pandas_ é feita com amor por mais de [2.000 contribuidores voluntários](https://github.com/pandas-dev/pandas/graphs/contributors).
+_pandas_ é feito com amor por mais de [2.000 contribuidores voluntários](https://github.com/pandas-dev/pandas/graphs/contributors).
 
 Se você quiser apoiar o desenvolvimento do pandas, você pode encontrar informações na [página de doações]({{ base_url }}donate.html).
 
@@ -29,7 +29,7 @@ Se você quiser apoiar o desenvolvimento do pandas, você pode encontrar informa
     {% endfor %}
 </div>
 
-## Diversidade e Inclusão
+## Diversidade e inclusão
 
 > _pandas_ expressamente saúda e encoraja as contribuições de qualquer um que enfrente sub-representação, discriminação na indústria de tecnologia
 > ou qualquer pessoa que queira aumentar a diversidade da nossa equipe.
