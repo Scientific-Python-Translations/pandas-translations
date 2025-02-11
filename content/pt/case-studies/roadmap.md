@@ -8,14 +8,14 @@ Se um item está no Planejamento, não significa que ele irá _necessariamente_
 acontecer, mesmo com financiamento ilimitado. Durante o período de implementação
 podem aparecer problemas que impeçam a adoção do recurso.
 
-Additionally, an item _not_ being on the roadmap does not exclude it
-from inclusion in pandas. The roadmap is intended for larger,
-fundamental changes to the project that are likely to take months or
-years of developer time. Smaller-scoped items will continue to be
-tracked on our [issue tracker](https://github.com/pandas-dev/pandas/issues).
+Além disso, um item _não_ estar no planejamento não exclui ele
+da inclusão no pandas. O planejamento destina-se a mudanças
+maiores e fundamentais no projeto que provavelmente levam meses ou
+anos do tempo do time de desenvolvedores. Itens de escopo menor continuarão sendo
+rastreados em nosso [rastreador de problemas](https://github.com/pandas-dev/pandas/issues).
 
-The roadmap is defined as a set of major enhancement proposals named PDEPs.
-For more information about PDEPs, and how to submit one, please refer to
+O planejamento é definido como um conjunto de importantes propostas de melhorias denominadas PDEPs.
+Para mais informações sobre PDEPs, e como enviar uma, consulte
 [PEDP-1]({{ base_url }}pdeps/0001-purpose-and-guidelines.html).
 
 ## PDEPs
