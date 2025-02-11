@@ -8,10 +8,10 @@ do site do pandas.
 
 ## O Projeto
 
-O projeto pandas (The Project) é um projeto de software de código aberto afiliado
+O projeto pandas (o Projeto) é um projeto de software de código aberto afiliado
 com a Fundação 501(c)3 NumFOCUS. O objetivo do Projeto é desenvolver um software de código aberto
 para ingestão de dados, preparação de dados, análise de dados e visualização de dados
-para a linguagem de programação Python. O Software desenvolvido pelo Projeto é lançado sob a licença BSD (ou similar) de código aberto, desenvolvido abertamente e hospedado nos repositórios públicos do GitHub sob a [organização pandas no GitHub](https://github.com/pandas-dev). Exemplos do Projeto de Software
+para a linguagem de programação Python. O Software desenvolvido pelo Projeto é lançado sob a licença BSD (ou similar) de código aberto, desenvolvido abertamente e hospedado nos repositórios públicos do GitHub sob a [organização do pandas no GitHub](https://github.com/pandas-dev). Exemplos de Softwares do Projeto
 incluem o repositório principal de código de pandas e a biblioteca pandas-stubs.
 
 Através da sua afiliação com a NumFOCUS, O Projeto tem o direito de receber doações compatíveis com deduções de imposto nos Estados Unidos da América.
