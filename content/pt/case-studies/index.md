@@ -9,9 +9,9 @@ contribuem com seu tempo e energia valiosos para ajudar a tornar o projeto de c�
 possível. Obrigado a [todos os nossos contribuidores](team.html).
 
 Desde 2015, o _pandas_ é um [projeto patrocinado pela NumFOCUS](https://numfocus.org/sponsored-projects).
-Isso ajudará a garantir o sucesso do desenvolvimento de _pandas_ como um projeto open-source de classe mundial.
+Isso ajudará a garantir o sucesso do desenvolvimento de _pandas_ como um projeto open source de classe mundial.
 
-### Linha do Tempo
+### Linha do tempo
 
 - **2008**: o desenvolvimento do _pandas_ começou
 - **2009**: _pandas_ se torna código aberto
@@ -19,7 +19,7 @@ Isso ajudará a garantir o sucesso do desenvolvimento de _pandas_ como um projet
 - **2015**: _pandas_ se torna um [projeto patrocinado pela NumFOCUS](https://numfocus.org/sponsored-projects)
 - **2018**: Primeiro sprint de desenvolvimento para o time de mantenedores principal presencial
 
-## Destaques da Biblioteca
+## Destaques da biblioteca
 
 - Um objeto de **DataFrame** rápido e eficiente para manipulação de dados com
   indexação integrada;
@@ -34,11 +34,11 @@ Isso ajudará a garantir o sucesso do desenvolvimento de _pandas_ como um projet
 
 - **Reformulação** e pivotamento flexível de conjuntos de dados;
 
-- **Slicing**, **fancy indexing** (indexação avançada), e **subparticionamento** de conjuntos de dados grandes de maneira inteligente, baseada em rótulos;
+- **Ffatiamento**, **fancy indexing** (indexação avançada), e **subparticionamento** de conjuntos de dados grandes de maneira inteligente, baseada em rótulos;
 
 - As colunas podem ser inseridas e excluídas das estruturas de dados garantindo **mutabilidade do seu tamanho**;
 
-- Agregação ou transformação de dados com um poderoso mecanismo **group by**
+- Agregação ou transformação de dados com um poderoso mecanismo de **group by**
   permitindo operações _split-apply-combine_ em conjuntos de dados;
 
 - **Mesclagem e união** de conjuntos de dados com alto desempenho;
@@ -52,7 +52,7 @@ Isso ajudará a garantir o sucesso do desenvolvimento de _pandas_ como um projet
   sem perder dados;
 
 - Altamente **otimizado para desempenho**, com caminhos de código críticos escritos em
-  [Cython](https://cython.org) ou C.
+  [Cython](https://cython.org) ou em C.
 
 - Python com _pandas_ está em uso em uma grande variedade de domínios **acadêmicos e
   comerciais**, incluindo Finanças, Neurociência, Economia,
