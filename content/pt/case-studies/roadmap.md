@@ -45,80 +45,76 @@ Para mais informações sobre PDEPs, e como enviar uma, consulte
 ### Extensibilidade
 
 Pandas `extending.extension-types` permite
-para estender tipos de número com tipos de dados personalizados e armazenamento de array.
+para estender tipos de número com tipos de dados personalizados e armazenamento de matrizes.
 Pandas usa tipos de extensão internamente e fornece uma interface para bibliotecas de
 terceiros para definir seus próprios tipos de dados personalizados.
 
-Muitas partes das pandas ainda convertem dados em um array NumPy. Estes problemas são especialmente pronunciados por dados aninhados.
+Muitas partes das pandas ainda convertem dados em um matriz NumPy. Estes problemas são especialmente pronunciados por dados aninhados.
 
-Gostaríamos de melhorar a manipulação de arrays de extensões em toda a biblioteca, tornando seu comportamento mais consistente com a manipulação de
-arrays NumPy. Vamos fazer isso limpando as partes internas do pandas e
-adicionando novos métodos à interface do array de extensão.
+Gostaríamos de melhorar a manipulação de matrizes de extensões em toda a biblioteca, tornando seu comportamento mais consistente com a manipulação de matrizes do NumPy. Vamos fazer isso limpando as partes internas do pandas e
+adicionando novos métodos à interface de matrizes de extensão.
 
 ### Tipo de dados string
 
-Atualmente, pandas armazena dados de texto em um array dtype `object` do NumPy.
-The current implementation has two primary drawbacks: First, `object`
--dtype is not specific to strings: any Python object can be stored in an
-`object` -dtype array, not just strings. Second: this is not efficient.
-The NumPy memory model isn't especially well-suited to variable width
-text data.
+Atualmente, o pandas armazena dados de texto em um matriz NumPy de dtype `object`.
+A implementação atual tem duas desvantagens principais: Primeiro, dtype `object`
+não é específico de strings: qualquer objeto Python pode ser armazenado em uma matriz de dtype
+`object` e não apenas strings. Segundo: isto não é eficiente.
+O modelo de memória do NumPy não é especialmente adequado para dados de texto de largura variável.
 
-To solve the first issue, we propose a new extension type for string
-data. This will initially be opt-in, with users explicitly requesting
-`dtype="string"`. The array backing this string dtype may initially be
-the current implementation: an `object` -dtype NumPy array of Python
-strings.
+Para resolver o primeiro problema, propomos um novo tipo de extensão para dados string. Inicialmente, isto estará ativado por padrão, com usuários explicitamente solicitando
+`dtype="string"`. A matriz que oferece suporte a este dtype pode inicialmente ser
+a implementação atual: uma matriz NumPy de dtype `object` com strings Python.
 
-To solve the second issue (performance), we'll explore alternative
-in-memory array libraries (for example, Apache Arrow). As part of the
-work, we may need to implement certain operations expected by pandas
-users (for example the algorithm used in, `Series.str.upper`). That work
-may be done outside of pandas.
+Para resolver o segundo problema (desempenho), exploraremos bibliotecas
+alternativas de matriz em memória (por exemplo, Apache Arrow). Como parte do
+trabalho, talvez precisemos implementar certas operações esperadas pelos usuários do pandas
+(por exemplo, o algoritmo usado em, `Series.str.upper`). O trabalho
+pode ser feito fora do pandas.
 
-### Apache Arrow interoperability
+### Interoperabilidade do Apache Arrow
 
-[Apache Arrow](https://arrow.apache.org) is a cross-language development
-platform for in-memory data. The Arrow logical types are closely aligned
-with typical pandas use cases.
+[Apache Arrow](https://arrow.apache.org) é uma plataforma de desenvolvimento multilinguagem
+para dados em memória. Os tipos lógicos do Arrow estão estreitamente alinhados
+com os típicos casos de uso do pandas.
 
-We'd like to provide better-integrated support for Arrow memory and
-data types within pandas. This will let us take advantage of its I/O
-capabilities and provide for better interoperability with other
-languages and libraries using Arrow.
+Gostaríamos de fornecer suporte integrado melhor para a memória do Arrow e tipos
+de dados no pandas. Isso nos permitirá aproveitar seus recursos de E/S
+e proporcionar melhor interoperabilidade com outras
+linguagens e bibliotecas usando o Arrow.
 
-### Decoupling of indexing and internals
+### Desacoplamento da indexação e de partes internas
 
-The code for getting and setting values in pandas' data structures
-needs refactoring. In particular, we must clearly separate code that
-converts keys (e.g., the argument to `DataFrame.loc`) to positions from
-code that uses these positions to get or set values. This is related to
-the proposed BlockManager rewrite. Currently, the BlockManager sometimes
-uses label-based, rather than position-based, indexing. We propose that
-it should only work with positional indexing, and the translation of
-keys to positions should be entirely done at a higher level.
+O código para obter e configurar valores nas estruturas de dados
+do pandas precisa ser refatorado. Em particular, devemos separar claramente o código que
+converte as chaves (por exemplo, o argumento para `DataFrame. oc`) para posições de um código
+que usa essas posições para obter ou definir valores. Isto está relacionado a
+a reescrita proposta do BlockManager. Atualmente, o BlockManager às vezes
+usa indexação baseada em rótulo, ao invés de baseada em posicionamento. Nós propomos que
+funcione somente com indexação posicional, e a tradução de chaves
+para posições devem ser feitas inteiramente em um nível mais alto.
 
-Indexing is a complicated API with many subtleties. This refactor will require care
-and attention. The following principles should inspire refactoring of indexing code and
-should result on cleaner, simpler, and more performant code.
+Indexação é uma API complicada com muitas sutilezas. Esta refatoração exigirá cuidado
+e atenção. Os princípios a seguir devem inspirar a refatoração do código de indexação e
+deve resultar em código mais limpo, mais simples e mais desempenho.
 
-1. Label indexing must never involve looking in an axis twice for the same label(s).
-   This implies that any validation step must either:
+1. Indexação de rótulos nunca deve envolver busca em um eixo duas vezes para os mesmo rótulos.
+   Isso implica que qualquer passo de validação também deve:
 
-- limit validation to general features (e.g. dtype/structure of the key/index), or
-- reuse the result for the actual indexing.
+- limitar validação para recursos gerais (por exemplo, dtype/estrutura da chave/índice), ou
+- reutilizar o resultado para a indexação real.
 
-2. Indexers must never rely on an explicit call to other indexers.
-   For instance, it is OK to have some internal method of `.loc` call some
-   internal method of `__getitem__` (or of their common base class),
-   but never in the code flow of `.loc` should `the_obj[something]` appear.
+2. Os indexadores nunca devem depender de uma chamada explícita para outros indexadores.
+   Por exemplo, é aceitável que algum método interno de `.loc` chame algum
+   método interno de `__getitem__` (ou de sua classe base comum),
+   mas nunca no fluxo de código de `.loc` deve aparecer `the_obj[algumacoisa]`.
 
-3. Execution of positional indexing must never involve labels (as currently, sadly, happens).
-   That is, the code flow of a getter call (or a setter call in which the right hand side is non-indexed)
-   to `.iloc` should never involve the axes of the object in any way.
+3. Execução da indexação posicional nunca deve envolver rótulos (como atualmente, infelizmente, acontece).
+   Ou seja, o fluxo de código de uma chamada de um getter (ou um setter call no qual o lado direito não é indexado)
+   para `. loc` nunca deve envolver os eixos do objeto de alguma forma.
 
-4. Indexing must never involve accessing/modifying values (i.e., act on `._data` or `.values`) more than once.
-   The following steps must hence be clearly decoupled:
+4. A indexação nunca deve envolver acesso/modificação de valores (ou seja, atuar em `._data` ou `.values`) mais de uma vez.
+   Por conseguinte, os passos seguintes devem ser claramente dissociados:
 
 - find positions we need to access/modify on each axis
 - (if we are accessing) derive the type of object we need to return (dimensionality)
