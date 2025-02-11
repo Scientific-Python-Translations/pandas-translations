@@ -26,7 +26,7 @@ Los colaboradores trabajan en nombre de la Comunidad del Proyecto y son responsa
 
 El Proyecto está afiliado formalmente a la Fundación NumFOCUS 501(c) 3 ([https://numfocus.org](https://numfocus.org)), la cual actúa como su patrocinador fiscal, puede tener marcas registradas del proyecto y otra propiedad intelectual, ayuda a administrar las donaciones del proyecto y actúa como entidad legal matriz. NumFOCUS es la única entidad legal que mantiene una relación formal con el proyecto (ver la sección Socios Institucionales).
 
-## Governance
+## Gobernanza
 
 Esta sección describe el modelo de gobierno y liderazgo de El Proyecto.
 
