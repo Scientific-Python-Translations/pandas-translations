@@ -116,34 +116,30 @@ deve resultar em código mais limpo, mais simples e mais desempenho.
 4. A indexação nunca deve envolver acesso/modificação de valores (ou seja, atuar em `._data` ou `.values`) mais de uma vez.
    Por conseguinte, os passos seguintes devem ser claramente dissociados:
 
-- find positions we need to access/modify on each axis
-- (if we are accessing) derive the type of object we need to return (dimensionality)
-- actually access/modify the values
-- (if we are accessing) construct the return object
+- encontrar posições que precisamos acessar/modificar em cada eixo
+- (se estivermos acessando) derivar o tipo de objeto que precisamos retornar (dimensionalidade)
+- realmente acessar/modificar os valores
+- (se estivermos acessando) construir o objeto de retorno
 
-5. As a corollary to the decoupling between 4.i and 4.iii, any code which deals on how data is stored
-   (including any combination of handling multiple dtypes, and sparse storage, categoricals, third-party types)
-   must be independent from code that deals with identifying affected rows/columns,
-   and take place only once step 4.i is completed.
+5. Como corolário do desacoplamento entre 4.i e 4.iii, qualquer código que trate de como os dados são armazenados (incluindo qualquer combinação de manipulação de múltiplos dtypes e armazenamento esparso, categóricos, tipos de terceiros) deve ser independente do código que lida com a identificação de linhas/colunas afetadas e ocorrer somente quando a etapa 4.i for concluída.
 
-- In particular, such code should most probably not live in `pandas/core/indexing.py`
-- ... and must not depend in any way on the type(s) of axes (e.g. no `MultiIndex` special cases)
+- Em particular, esse código muito provavelmente não deve ficar em `pandas/core/indexing.py`
+- ... e não deve depender de qualquer forma do(s) tipo(s) de eixos (por exemplo, sem casos especiais de `MultiIndex`)
 
-6. As a corollary to point 1.i, `Index` (sub)classes must provide separate methods for any desired validity check of label(s) which does not involve actual lookup,
-   on the one side, and for any required conversion/adaptation/lookup of label(s), on the other.
+6. Como corolário do ponto 1.i, as (sub)classes `Index` devem fornecer métodos separados para qualquer verificação de validade desejada de rótulo(s) que não envolva consulta real, por um lado, e para qualquer conversão/adaptação/consulta necessária de rótulo(s), por outro.
 
-7. Use of trial and error should be limited, and anyway restricted to catch only exceptions
-   which are actually expected (typically `KeyError`).
+7. O uso de tentativa e erro deve ser limitado, e de qualquer forma, restrito para capturar apenas exceções
+   que são realmente esperadas (tipicamente `KeyError`).
 
-- In particular, code should never (intentionally) raise new exceptions in the `except` portion of a `try... exception`
+- Em particular, o código nunca deve (intencionalmente) levantar novas exceções na porção `except` de uma `try... exception`
 
-8. Any code portion which is not specific to setters and getters must be shared,
-   and when small differences in behavior are expected (e.g. getting with `.loc` raises for
-   missing labels, setting still doesn't), they can be managed with a specific parameter.
+8. Qualquer porção de código que não seja específica para setters e getters deve ser compartilhada,
+   e quando pequenas diferenças de comportamento são esperadas (por exemplo, receber com `.loc` levanta erros para
+   rótulos que faltam, definindo ainda não), eles podem ser gerenciados com um parâmetro específico.
 
-### Numba-accelerated operations
+### Operações com aceleração numérica
 
-[Numba](https://numba.pydata.org) is a JIT compiler for Python code.
+[Numba](https://numba.pydata.org) é um compilador JIT para código Python.
 We'd like to provide ways for users to apply their own Numba-jitted
 functions where pandas accepts user-defined functions (for example,
 `Series.apply`,
