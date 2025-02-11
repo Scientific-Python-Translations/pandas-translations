@@ -11,52 +11,41 @@ benchmarks do pandas são implementados no diretório [asv_bench](https://github
 do nosso repositório. Os benchmarks são implementados para o framework
 [airspeed velocity](https://asv.readthedocs.io/en/v0.6.1/) (abreviado como asv).
 
-Os benchmarks podem ser executados localmente por qualquer desenvolvedor do pandas. This can be done
-with the `asv run` command, and it can be useful to detect if local changes have
-an impact in performance, by running the benchmarks before and after the changes.
-More information on running the performance test suite is found
-[here](https://pandas.pydata.org/docs/dev/development/contributing_codebase.html#running-the-performance-test-suite).
+Os benchmarks podem ser executados localmente por qualquer desenvolvedor do pandas. Isso pode ser feito com o comando `asv run`, e pode ser útil detectar se as alterações locais têm
+um impacto no desempenho, executando os benchmarks antes e depois das alterações.
+Mais informações sobre a execução da suíte de testes de desempenho podem ser encontradas
+[aqui](https://pandas.pydata.org/docs/dev/development/contributing_codebase.html#running-the-performance-test-suite).
 
-Note that benchmarks are not deterministic, and running in different hardware or
-running in the same hardware with different levels of stress have a big impact in
-the result. Even running the benchmarks with identical hardware and almost identical
-conditions produces significant differences when running the same exact code.
+Note que os benchmarks não são determinísticos, e executá-los em hardwares diferentes ou no mesmo hardware com diferentes níveis de estresse tem um grande impacto no resultado. Mesmo executando os benchmarks com hardwares idênticos e em condições quase idênticas, ocorrem diferenças significativas ao rodar o mesmo código.
 
-## pandas benchmarks servers
+## servidores para os benchmarks do pandas
 
-We currently have two physical servers running the benchmarks of pandas for every
-(or almost every) commit to the `main` branch. The servers run independently from
-each other. The original server has been running for a long time, and it is physically
-located with one of the pandas maintainers. The newer server is in a datacenter
-kindly sponsored by [OVHCloud](https://www.ovhcloud.com/). More information about
-pandas sponsors, and how your company can support the development of pandas is
-available at the [pandas sponsors]({{ base_url }}about/sponsors.html) page.
+Atualmente temos dois servidores físicos executando os benchmarks do pandas para todos
+(ou quase todos) de commit na branch `main`. Os servidores operam de forma independente. O servidor original está em execução há muito tempo, e é fisicamente localizado com um dos mantenedores do pandas. O servidor mais novo está em um datacenter gentilmente patrocinado por [OVHCloud](https://www.ovhcloud.com/). Mais informações sobre os patrocinadores do pandas e como sua empresa pode apoiar o desenvolvimento do pandas está disponível na página [patrocinadores das pandas]({{ base_url }}about/sponsors.html).
 
-Results of the benchmarks are available at:
+Os resultados dos benchmarks estão disponíveis em:
 
-- Original server: [asv](https://asv-runner.github.io/asv-collection/pandas/)
-- OVH server: [asv](https://pandas.pydata.org/benchmarks/asv/) (benchmarks results can
-  also be visualized in this [Conbench PoC](http://57.128.112.95:5000/)
+- Servidor original: [asv](https://asv-runner.github.io/asv-collection/pandas/)
+- Servidor OVH: [asv](https://pandas.pydata.org/benchmarks/asv/) (os resultados também podem ser visualizados em [Conbench PoC](http://57.128.112.95:5000/)
 
-### Original server configuration
+### Configuração do servidor original
 
-The machine can be configured with the Ansible playbook in
+A máquina pode ser configurada com o Ansible playbook em
 [tomaugspurger/asv-runner](https://github.com/tomaugspurger/asv-runner).
-The results are published to another GitHub repository,
+Os resultados são publicados em outro repositório do GitHub,
 [tomaugspurger/asv-collection](https://github.com/tomaugspurger/asv-collection).
 
-The benchmarks are scheduled by [Airflow](https://airflow.apache.org/).
-It has a dashboard for viewing and debugging the results.
-You’ll need to setup an SSH tunnel to view them:
+Os benchmarks são agendados pelo [Airflow](https://airflow.apache.org/).
+Ele possui um painel para visualizar e depurar os resultados.
+Você precisará configurar um túnel SSH para visualizá-los:
 
 ```
 ssh -L 8080:localhost:8080 pandas@panda.likescandy.com
 ```
 
-### OVH server configuration
+### Configuração do servidor OVH
 
-The server used to run the benchmarks has been configured to reduce system
-noise and maximize the stability of the benchmarks times.
+O servidor usado para executar os benchmarks foi configurado para reduzir o ruído do sistema e maximizar a estabilidade dos benchmarks.
 
 The details on how the server is configured can be found in the
 [pandas-benchmarks repository](https://github.com/pandas-dev/pandas-benchmarks).
