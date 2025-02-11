@@ -140,47 +140,43 @@ deve resultar em código mais limpo, mais simples e mais desempenho.
 ### Operações com aceleração numérica
 
 [Numba](https://numba.pydata.org) é um compilador JIT para código Python.
-We'd like to provide ways for users to apply their own Numba-jitted
-functions where pandas accepts user-defined functions (for example,
+Nós gostaríamos de fornecer maneiras para os usuários aplicarem suas próprias funções
+Numba implementadas com JIT onde pandas aceita funções definidas pelo usuário (por exemplo,
 `Series.apply`,
 `DataFrame.apply`,
-`DataFrame.applymap`, and in groupby and
-window contexts). This will improve the performance of
-user-defined-functions in these operations by staying within compiled
-code.
+`DataFrame.applymap`, e em contextos de window
+e groupby). Isto irá melhorar o desempenho de funções
+de usuário definida nestas operações permanecendo dentro do código
+compilado.
 
-### Documentation improvements
+### Melhorias de documentação
 
-We'd like to improve the content, structure, and presentation of the
-pandas documentation. Some specific goals include
+Gostaríamos de melhorar o conteúdo, a estrutura e a apresentação
+da documentação do pandas. Algumas metas específicas incluem
 
-- Overhaul the HTML theme with a modern, responsive design
+- Reformular o tema HTML com um design moderno e responsivo
   (`15556`)
-- Improve the "Getting Started" documentation, designing and writing
-  learning paths for users different backgrounds (e.g. brand new to
-  programming, familiar with other languages like R, already familiar
-  with Python).
-- Improve the overall organization of the documentation and specific
-  subsections of the documentation to make navigation and finding
-  content easier.
+- Melhorar a documentação "Primeiros passos", projetando e escrevendo
+  caminhos de aprendizagem para usuários com diferentes origens
+  (por exemplo, novatos em programação, familiarizados com outras
+  linguagens como R, já familiarizados com Python).
+- Melhorar a organização geral da documentação e subseções específicas da documentação para facilitar a navegação e a localização de conteúdo.
 
-### Performance monitoring
+### Monitoramento do desempenho
 
-Pandas uses [airspeed velocity](https://asv.readthedocs.io/en/stable/)
-to monitor for performance regressions. ASV itself is a fabulous tool,
-but requires some additional work to be integrated into an open source
-project's workflow.
+Pandas usa [airspeed velocity](https://asv.readthedocs.io/en/stable/)
+para monitorar as regressões de desempenho. ASV em si é uma ferramenta fabulosa,
+mas requer algum trabalho adicional para ser integrado no fluxo de trabalho de um projeto
+de código aberto.
 
-The [asv-runner](https://github.com/asv-runner) organization, currently
-made up of pandas maintainers, provides tools built on top of ASV. We
-have a physical machine for running a number of project's benchmarks,
-and tools managing the benchmark runs and reporting on results.
+A organização [asv-runner](https://github.com/asv-runner), atualmente
+composta por mantenedores de pandas, fornece ferramentas construídas em cima do ASV. Temos uma máquina física para executar diversas análises de desempenho de projetos, além de ferramentas para gerenciar as execuções de tais análises e gerar relatórios sobre os resultados.
 
-We'd like to fund improvements and maintenance of these tools to
+Gostaríamos de financiar melhorias e manutenção dessas ferramentas para
 
-- Be more stable. Currently, they're maintained on the nights and
-  weekends when a maintainer has free time.
-- Tune the system for benchmarks to improve stability, following
+- Serem mais estáveis. Atualmente, elas são mantidas nas noites e
+  fim de semana quando um mantenedor tem tempo livre.
+- Ajustarem o sistema de análises de desempenho para melhorar a estabilidade, seguindo
   <https://pyperf.readthedocs.io/en/latest/system.html>
-- Build a GitHub bot to request ASV runs _before_ a PR is merged.
-  Currently, the benchmarks are only run nightly.
+- Construirmos um bot GitHub para solicitar execução do ASV _antes_ de um PR ser mesclado.
+  Atualmente, as análises de desempenho só são executadas noturnamente.
