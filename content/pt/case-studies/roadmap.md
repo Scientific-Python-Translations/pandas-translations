@@ -20,7 +20,7 @@ Para mais informações sobre PDEPs, e como enviar uma, consulte
 
 ## PDEPs
 
-{% for pdep_type in ["Under discussion", "Accepted", "Implemented", "Rejected"] %}
+{% for pdep_type in ["Em discussão", "Aceita", "Implementada", "Rejeitada"] %}
 
 <h3 id="pdeps-{{pdep_type}}">{{ pdep_type.replace("_", " ").capitalize() }}</h3>
 
@@ -28,38 +28,36 @@ Para mais informações sobre PDEPs, e como enviar uma, consulte
 {% for pdep in pdeps[pdep_type] %}
     <li><a href="{% if not pdep.url.startswith("http") %}{{ base_url }}{% endif %}{{ pdep.url }}">{{ pdep.title }}</a></li>
 {% else %}
-    <li>There are currently no PDEPs with this status</li>
+    <li>Atualmente não há PDEPs com este status</li>
 {% endfor %}
 </ul>
 
 {% endfor %}
 
-## Roadmap points pending a PDEP
+## Pontos de planejamento pendentes de uma PDEP
 
 <div class="alert alert-warning" role="alert">
-  pandas is in the process of moving roadmap points to PDEPs (implemented in
-  August 2022). During the transition, some roadmap points will exist as PDEPs,
-  while others will exist as sections below.
+  pandas está no processo de mover os pontos de planejamento para PDEPs (implementada em
+  agosto de 2022). Durante a transição, alguns pontos de planejamento existirão como PDEPs,
+  enquanto outros existirão como as seções abaixo.
 </div>
 
-### Extensibility
+### Extensibilidade
 
-Pandas `extending.extension-types` allow
-for extending NumPy types with custom data types and array storage.
-Pandas uses extension types internally, and provides an interface for
-3rd-party libraries to define their own custom data types.
+Pandas `extending.extension-types` permite
+para estender tipos de número com tipos de dados personalizados e armazenamento de array.
+Pandas usa tipos de extensão internamente e fornece uma interface para bibliotecas de
+terceiros para definir seus próprios tipos de dados personalizados.
 
-Many parts of pandas still unintentionally convert data to a NumPy
-array. These problems are especially pronounced for nested data.
+Muitas partes das pandas ainda convertem dados em um array NumPy. Estes problemas são especialmente pronunciados por dados aninhados.
 
-We'd like to improve the handling of extension arrays throughout the
-library, making their behavior more consistent with the handling of
-NumPy arrays. We'll do this by cleaning up pandas' internals and
-adding new methods to the extension array interface.
+Gostaríamos de melhorar a manipulação de arrays de extensões em toda a biblioteca, tornando seu comportamento mais consistente com a manipulação de
+arrays NumPy. Vamos fazer isso limpando as partes internas do pandas e
+adicionando novos métodos à interface do array de extensão.
 
-### String data type
+### Tipo de dados string
 
-Currently, pandas stores text data in an `object` -dtype NumPy array.
+Atualmente, pandas armazena dados de texto em um array dtype `object` do NumPy.
 The current implementation has two primary drawbacks: First, `object`
 -dtype is not specific to strings: any Python object can be stored in an
 `object` -dtype array, not just strings. Second: this is not efficient.
