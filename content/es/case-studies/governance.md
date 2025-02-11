@@ -72,10 +72,10 @@ En particular, el Equipo Principal puede:
 
 ### Miembros del Equipo Core
 
-Para poder ser miembro del Equipo Core, un individuo debe ser un Colaborador del Proyecto que haya realizado contribuciones sustanciales en calidad y cantidad, y durante por lo menos un año.   Los Miembros Potenciales del Equipo Core son nominados por los miembros actuales del Equipo Core y votados por el Equipo Core después de preguntar si el Miembro potencial está interesado y dispuesto a servir en esa capacidad. El Equipo Core se formará inicialmente a partir del conjunto de los Contribuidores existentes a los que se ha concedido derechos de confirmación desde finales de 2015.
+Para poder ser miembro del Equipo Core, un individuo debe ser un Colaborador del Proyecto que haya realizado contribuciones sustanciales en calidad y cantidad, y durante por lo menos un año. Los Miembros Potenciales del Equipo Core son nominados por los miembros actuales del Equipo Core y votados por el Equipo Core después de preguntar si el Miembro potencial está interesado y dispuesto a servir en esa capacidad. El Equipo Core se formará inicialmente a partir del conjunto de los Contribuidores existentes a los que se ha concedido derechos de confirmación desde finales de 2015.
 
 A la hora de considerar posibles miembros, el Equipo Core examinará a los candidatos con
-una visión global de sus contribuciones. Esto incluirá, pero no está limitado, al código, revisión de código, trabajo de infraestructura, listas de correo y chat de participación, ayuda/construcción de la comunidad, educación y divulgación, trabajo de diseño, etcétera. No establecemos deliberadamente métricas cuantitativas arbitrarias (como «100
+una visión global de sus contribuciones. Esto incluirá, pero no está limitado, al código, revisión de código, trabajo de infraestructura, listas de correo y chat de participación, ayuda/construcción de la comunidad, educación y divulgación, trabajo de diseño, etcétera. No establecemos deliberadamente métricas cuantitativas arbitrarias (como "100
 commits en este repositorio") para evitar alentar el comportamiento que juega a las métricas
 en lugar del bienestar general del proyecto. Queremos fomentar la diversidad de orígenes, puntos de vista y talentos en nuestro equipo, por lo que no definimos explícitamente el código como la única métrica en la que se será evaluada.
 
