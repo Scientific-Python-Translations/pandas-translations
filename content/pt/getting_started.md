@@ -12,7 +12,7 @@ e sobre o JupyterLab na
 
 ## Livros
 
-O livro que recomendamos para aprender pandas é [Python for Data Analys](https://amzn.to/3DyLaJc),
+O livro que recomendamos para aprender pandas é [Python for Data Analysis](https://amzn.to/3DyLaJc),
 de [Wes McKinney](https://wesmckinney.com/), criador do pandas.
 
 <a href="https://amzn.to/3DyLaJc">
