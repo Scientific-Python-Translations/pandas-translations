@@ -90,7 +90,7 @@ Se espera que el BDFL y los miembros del Equipo Core trabajen en una amplia gama
 
 - Intereses financieros, como inversiones, empleo o trabajos de contratación,
   fuera del Proyecto que puedan influir en su trabajo en El Proyecto.
-- Acceso a información privada de su empleador que podría potencialmente filtrarse en su trabajo con el Proyecto.
+- Acceso a información propietaria de su empleador que podría potencialmente filtrarse en su trabajo con el Proyecto.
 
 Todos los miembros del Equipo Core, incluido el BDFL, deberán revelar al resto del Equipo Core cualquier conflicto de intereses que puedan tener. Los Miembros con un conflicto de
 intereses en un tema (issue) en particular pueden participar en los debates del Equipo Core sobre ese
