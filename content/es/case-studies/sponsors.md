@@ -1,4 +1,4 @@
-# Sponsors
+# Patrocinadores
 
 ## NumFOCUS
 
@@ -27,7 +27,7 @@ Los socios institucionales actuales incluyen:
         <li><a href="{{ company.url }}">{{ company.name }}</a>: {{ company.description }}</li>
     {% endfor %}</ul>
 
-## Sponsors
+## Patrocinadores
 
 Los patrocinadores son organizaciones que proporcionan financiación para los pandas. Los patrocinadores actuales incluyen:
 
