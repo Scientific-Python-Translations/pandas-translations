@@ -1,4 +1,4 @@
-# Team
+# Equipo
 
 ## Colaboradores
 
@@ -35,7 +35,7 @@ Si desea apoyar el desarrollo de pandas, puede encontrar información en la [pá
 > Tenemos un [código de conducta]({{ base_url }}community/coc.html) para garantizar un ambiente amigable y acogedor.
 > Puede enviar un correo electrónico a [pandas-code-of-conduct-committee](mailto:pandas-coc@googlegroups.com), si cree que podemos hacer un mejor trabajo para lograr este objetivo.
 
-## Governance
+## Gobernanza
 
 Wes McKinney es el dictador benévolo vitalicio (Benevolent Dictator for Life  - BDFL).
 
