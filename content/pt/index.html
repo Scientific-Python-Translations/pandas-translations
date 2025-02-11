@@ -56,7 +56,7 @@
                             {% endfor %}
                         </div>
                     {% endfor %}
-                    <p class="mt-4">A lista completa de empresas que apoiam <i>pandas</i> está disponível na página de patrocinadores <a href="{{ base_url }}about/sponsors.html"></a>.
+                    <p class="mt-4">A lista completa de empresas que apoiam <i>pandas</i> está disponível na <a href="{{ base_url }}about/sponsors.html">página de patrocinadores</a>.
                 </section>
             </div>
             <div class="col-md-3">
@@ -64,9 +64,9 @@
                     <h4>Versão mais recente: {{ releases[0].name }}</h4>
                     <ul>
                         <li><a href="{{ base_url }}docs/whatsnew/v{{ releases[0].name }}.html">Novidades em {{ releases[0].name }}</a></li>
-                        <li>Data de lançamento:<br/>{{ releases[0].published.strftime("%b %d, %Y") }}</li>
+                        <li>Data de lançamento:<br/>{{ releases[0].published.strftime("%d %b %Y") }}</li>
                         <li><a href="{{ base_url}}docs/">Documentação (web)</a></li>
-                        <li><a href="{{ releases[0].url }}">Baixar código fonte</a></li>
+                        <li><a href="{{ releases[0].url }}">Baixar código-fonte</a></li>
                     </ul>
                 {% endif %}
                 <h4>Siga-nos</h4>
@@ -106,10 +106,10 @@
                     <ul>
                         {% for release in releases[1:5] %}
                             <li class="small">
-                                {{ release.name }} ({{ release.published.strftime("%b %d, %Y") }})<br/>
+                                {{ release.name }} ({{ release.published.strftime("%d %b %Y") }})<br/>
                                 <a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/{{ release.tag }}.html">changelog</a> |
-                                <a href="https://pandas.pydata.org/pandas-docs/version/{{ release.name }}/">docs</a> |
-                                <a href="{{ release.url }}">code</a>
+                                <a href="https://pandas.pydata.org/pandas-docs/version/{{ release.name }}/">documentação</a> |
+                                <a href="{{ release.url }}">código</a>
                             </li>
                         {% endfor %}
                     </ul>
@@ -123,8 +123,8 @@
                             <li class="small">
                                 {{ release.name }} ({{ release.published.strftime("%Y-%m-%d") }})<br/>
                                 <a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/{{ release.tag }}.html">changelog</a> |
-                                <a href="https://pandas.pydata.org/pandas-docs/version/{{ release.name }}/">docs</a> |
-                                <a href="{{ release.url }}">code</a>
+                                <a href="https://pandas.pydata.org/pandas-docs/version/{{ release.name }}/">documentação</a> |
+                                <a href="{{ release.url }}">código</a>
                             </li>
                         {% endfor %}
                     </ul>
