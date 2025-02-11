@@ -1,48 +1,34 @@
 # Código de conduta
 
-As contributors and maintainers of this project, and in the interest of
-fostering an open and welcoming community, we pledge to respect all people who
-contribute through reporting issues, posting feature requests, updating
-documentation, submitting pull requests or patches, and other activities.
+Como colaboradores e mantenedores deste projeto, e no interesse de promover uma comunidade aberta e acolhedora, prometemos respeitar todas as pessoas que contribuem relatando problemas, publicando solicitações de recursos, atualizando documentação, enviando solicitações de pull ou patches e outras atividades.
 
-We are committed to making participation in this project a harassment-free
-experience for everyone, regardless of level of experience, gender, gender
-identity and expression, sexual orientation, disability, personal appearance,
-body size, race, ethnicity, age, religion, or nationality.
+Estamos comprometidos em fazer com que a participação neste projeto seja para todos uma experiência sem assédio, independentemente do nível de experiência, gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência pessoal, tamanho corporal, raça, etnia, idade, religião ou nacionalidade.
 
-Examples of unacceptable behavior by participants include:
+Exemplos de comportamento inaceitável por parte dos participantes incluem:
 
-- The use of sexualized language or imagery
-- Personal attacks
-- Trolling or insulting/derogatory comments
-- Public or private harassment
-- Publishing other's private information, such as physical or electronic
-  addresses, without explicit permission
-- Other unethical or unprofessional conduct
+- O uso de linguagem sexualizada ou imagens
+- Ataques pessoais
+- Comentários trolls ou insultos/depreciativos
+- Assédio público ou privado
+- Publicar informações particulares dos outros, como endereços físicos ou eletrônicos, sem permissão explícita
+- Outro comportamento não ético ou não profissional
 
-Furthermore, we encourage inclusive behavior - for example,
-please don't say “hey guys!” but “hey everyone!”.
+Além disso, nós encorajamos o comportamento inclusivo - por exemplo,
+por favor, não diga "E aí, caras!", mas "E aí, pessoal!".
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+Os mantenedores do projeto têm o direito e a responsabilidade de remover, editar, ou rejeitar comentários, commits, código, edições na wiki, issues, e outras contribuições que não estão alinhadas a este Código de Conduta, ou banir temporariamente ou permanentemente qualquer contribuidor por outros comportamentos que considerem inapropriados, ameaçadores, ofensivos ou prejudiciais.
 
-By adopting this Code of Conduct, project maintainers commit themselves to
-fairly and consistently applying these principles to every aspect of managing
-this project. Project maintainers who do not follow or enforce the Code of
-Conduct may be permanently removed from the project team.
+Ao adotar este Código de Conduta, os mantenedores do projeto se comprometem com
+de forma justa e consistente aplicando esses princípios a todos os aspectos do gerenciamento de
+deste projeto. Mantenedores do projeto que não seguem ou apliquem o Código de Conduta
+podem ser permanentemente removidos da equipe de projeto.
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community.
+Este Código de Conduta se aplica tanto nos espaços do projeto quanto em espaços públicos quando um indivíduo está representando o projeto ou sua comunidade.
 
-A working group of community members is committed to promptly addressing any
-reported issues. The working group is made up of pandas contributors and users.
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the working group by e-mail (pandas-coc@googlegroups.com).
-Messages sent to this e-mail address will not be publicly visible but only to
-the working group members. The working group currently includes
+Um grupo de trabalho de membros da comunidade está comprometido em resolver
+prontamente quaisquer problemas relatados. O grupo de trabalho é composto por contribuidores e usuários do pandas.
+Casos de comportamento abusivo, assediador ou inaceitável podem ser relatados entrando em contato com o grupo de trabalho por e-mail (pandas-coc@googlegroups.com).
+As mensagens enviadas para este endereço de e-mail não serão visíveis publicamente, mas apenas para os membros do grupo de trabalho. O grupo de trabalho atualmente inclui
 
 <ul>
     {% for person in maintainers.coc %}
@@ -50,15 +36,14 @@ the working group members. The working group currently includes
     {% endfor %}
 </ul>
 
-All complaints will be reviewed and investigated and will result in a response
-that is deemed necessary and appropriate to the circumstances. Maintainers are
-obligated to maintain confidentiality with regard to the reporter of an
-incident.
+Todas as reclamações serão revisadas e investigadas e resultarão em uma resposta considerada necessária e apropriada às circunstâncias. Mantenedores são
+obrigados a manter a confidencialidade com relação a quem relatou um
+incidente.
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 1.3.0, available at
-[https://www.contributor-covenant.org/version/1/3/0/][version],
-and the [Swift Code of Conduct][swift].
+Este Código de Conduta foi adaptado do [Contributor Covenant][homepage],
+versão 1.3.0, disponível em
+[https://www. ontributor-covenant.org/version/1/3/0/][version],
+e o [Código de Conduta][swift].
 
 [homepage]: https://www.contributor-covenant.org
 [version]: https://www.contributor-covenant.org/version/1/3/0/
