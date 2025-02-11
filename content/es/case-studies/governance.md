@@ -80,18 +80,17 @@ commits en este repositorio") para evitar alentar el comportamiento que juega a 
 en lugar del bienestar general del proyecto. Queremos fomentar la diversidad de orígenes, puntos de vista y talentos en nuestro equipo, por lo que no definimos explícitamente el código como la única métrica en la que se será evaluada.
 
 Si un miembro del Equipo Core permanece inactivo en el proyecto durante un periodo de un año, se considerará su destitución del Equipo Core. Antes de la destitución, el Miembro inactivo será contactada por el BDFL para ver si planea regresar a la participación activa. En caso contrario, será destituido inmediatamente tras una votación del Equipo Core. Si tiene previsto reincorporarse pronto a la participación activa, se le concederá un periodo de gracia de un año. Si no vuelve a participar activamente dentro de ese periodo de tiempo, será eliminado por el voto del Equipo Core sin un periodo de gracia. Todos los ex-miembros del Equipo Core pueden ser considerados para volver a ser miembros en cualquier momento en el futuro, al igual que cualquier otro Colaborador del Proyecto.
-Los miembros jubilados del Equipo Core permanecerán en el sitio web del proyecto, reconociendo el periodo durante el que estuvieron activos en el Equipo Core.
+Los ex-miembros del Equipo Core permanecerán en el sitio web del proyecto, reconociendo el periodo durante el que estuvieron activos en el Equipo Core.
 
-El Equipo Central se reserva el derecho de expulsar a los miembros actuales, distintos del BDFL, si se considera que son activamente perjudiciales para el bienestar del proyecto, y han fracasado los intentos de comunicación y resolución de conflictos.
+El Equipo Core se reserva el derecho de expulsar a los miembros actuales, distintos del BDFL, si se considera que son activamente perjudiciales para el bienestar del proyecto, y si han fracasado los intentos de comunicación y resolución de conflictos.
 
-### Conflicto de interés
+### Conflicto de intereses
 
-Se espera que el BDFL y los miembros del Equipo Core trabajen en una amplia gama de empresas, universidades y organizaciones sin ánimo de lucro. Por ello, es posible que los Miembros tengan conflictos de intereses. Estos conflictos de interés incluye, pero no se limita a:
+Se espera que el BDFL y los miembros del Equipo Core trabajen en una amplia gama de empresas, universidades y organizaciones sin fines de lucro. Por ello, es posible que los Miembros tengan conflictos de intereses. Estos conflictos de interés incluyen, pero no se limitan a:
 
 - Intereses financieros, como inversiones, empleo o trabajos de contratación,
   fuera del Proyecto que puedan influir en su trabajo en El Proyecto.
-- Acceso a información privada de su empleador que podría potencialmente
-  filtrarse en su trabajo con el Proyecto.
+- Acceso a información privada de su empleador que podría potencialmente filtrarse en su trabajo con el Proyecto.
 
 Todos los miembros del Equipo Core, incluido el BDFL, deberán revelar al resto del Equipo Core cualquier conflicto de intereses que puedan tener. Los Miembros con un conflicto de
 intereses en un tema (issue) en particular pueden participar en los debates del Equipo Core sobre ese
@@ -101,7 +100,7 @@ recusado para una decisión particular, designará un BDFL sustituto para esa de
 ### Comunicaciones privadas del Equipo Core
 
 A menos que se requiera específicamente, todos los debates y actividades del Equipo Core serán
-públicas y se realizarán en colaboración y debate con los Colaboradores del Proyecto
+públicos y se realizarán en colaboración y debate con los Colaboradores del Proyecto
 y la Comunidad. El Equipo Core dispondrá de una lista de correo privada que se utilizará con moderación y solo cuando un asunto específico requiera privacidad. Cuando las comunicaciones y decisiones privadas sean necesarias, el Equipo Core hará todo lo posible por resumirlas a la Comunidad tras eludir la información personal/privada/sensible
 sensible que no debe publicarse en Internet.
 
@@ -162,9 +161,9 @@ Para reconocer las contribuciones institucionales, existen dos niveles de Socios
 
 El incumplimiento de los términos de los documentos de gobierno se comunicará al Equipo Core, ya sea a través de canales públicos o privados, según se considere oportuno.
 
-## Cambiar el Gobierno
+## Cambios en la gobernanza
 
-Los cambios en el gobierno se envían a través de pull request de GitHub a la página del Proyecto
+Los cambios en la gobernanza se envían a través de un pull request de GitHub a la página del Proyecto
 (https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
 A continuación, el pull request se perfecciona en respuesta a los comentarios y revisiones del público, con el objetivo de lograr el consenso de la comunidad.  Después de este periodo abierto, un Miembro del Equipo Core propone al Equipo Core que los cambios sean ratificados y que se fusione (entendido en inglés como merged) el pull request (aceptando los cambios propuestos) o propone que se cierre el pull request sin su fusión (rechazando los cambios propuestos). El Miembro debe indicar el hash de confirmación final en el pull request que se propone para su aceptación o rechazo y resumir brevemente el pull resquest. Un mínimo del 80% del Equipo Core debe votar y al menos 2/3 de los votos deben ser positivos
 para llevar a cabo la acción propuesta (fracciones de voto redondeadas al número entero más cercano). Dado que el BDFL tiene la máxima autoridad en el Proyecto, el BDFL tiene autoridad para actuar solo al aceptar o rechazar cambios o anular las decisiones del Equipo Core.
