@@ -504,7 +504,7 @@ Physipandas fornece uma extensão para a manipulação de quantidades físicas
 ### [Pint-Pandas](https://github.com/hgrecco/pint-pandas)
 
 Pint-Pandas fornece uma extensão de tipo para armazenar matrizes numéricas com unidades.
-Estas arrays podem ser armazenadas dentro de Séries e DataFrames pandas. Operações entre colunas de Series e DataFrames que utilizam a extensão de array do pint tem suporte à unidades.
+Estas arrays podem ser armazenadas dentro de Séries e DataFrames pandas. Operações entre colunas de Series e DataFrames que utilizam a extensão de matrizes do pint tem suporte à unidades.
 
 ### [Text Extensions](https://ibm.biz/text-extensions-for-pandas)
 
@@ -518,7 +518,7 @@ Isso serve para que os usuários possam descobrir novos acessadores e para que o
 
 | Biblioteca                                                           | Acessador  | Classes               |
 | -------------------------------------------------------------------- | ---------- | --------------------- |
-| [awkward-pandas](https://awkward-pandas.readthedocs.io/en/latest/)   | `ak`       | `Séries`              |
+| [awkward-pandas](https://awkward-pandas.readthedocs.io/en/latest/)   | `ak`       | `Series`              |
 | [pdvega](https://altair-viz.github.io/pdvega/)                       | `vgplot`   | `Series`, `DataFrame` |
 | [pandas-genomics](https://pandas-genomics.readthedocs.io/en/latest/) | `genomics` | `Series`, `DataFrame` |
 | [pint-pandas](https://github.com/hgrecco/pint-pandas)                | `pint`     | `Series`, `DataFrame` |
