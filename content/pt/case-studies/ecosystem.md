@@ -349,60 +349,49 @@ O ArcticDB também suporta anexar, atualizar e consultar dados do armazenamento 
 
 ### [Hugging Face](https://huggingface.co/datasets)
 
-The Hugging Face Dataset Hub provides a large collection of ready-to-use datasets for machine learning shared by the community. The platform offers a user-friendly interface to explore, discover and visualize datasets, and provides tools to easily load and work with these datasets in Python thanks to the [huggingface_hub](https://github.com/huggingface/huggingface_hub) library.
+O Hugging Face Dataset Hub fornece uma grande coleção de conjuntos de dados prontos para uso para aprendizado de máquina compartilhados pela comunidade. A plataforma oferece uma interface amigável para explorar, descobrir e visualizar conjuntos de dados, e fornece ferramentas para carregar e trabalhar facilmente com esses conjuntos de dados em Python graças à biblioteca [huggingface_hub](https://github.com/huggingface/huggingface_hub).
 
-You can access datasets on Hugging Face using `hf://` paths in pandas, in the form `hf://datasets/username/dataset_name/...`.
+Você pode acessar conjuntos de dados no Hugging Face usando caminhos `hf://` em pandas, no formato `hf://datasets/username/nome_dataset/...`.
 
-For example, here is how to load the [stanfordnlp/imdb dataset](https://huggingface.co/datasets/stanfordnlp/imdb):
+Por exemplo, aqui está como carregar o [conjunto de dados stanfordnlp/imdb](https://huggingface.co/datasets/stanfordnlp/imdb):
 
 ```python
 import pandas as pd
 
-# Load the IMDB dataset
+# Carrega o conjunto de dados do IMDB
 df = pd.read_parquet("hf://datasets/stanfordnlp/imdb/plain_text/train-00000-of-00001.parquet")
 ```
 
-Tip: on a dataset page, click on "Use this dataset" to get the code to load it in pandas.
+Dica: em uma página de conjunto de dados, clique em "Use this dataset" para obter o código para carregá-lo no pandas.
 
-To save a dataset on Hugging Face you need to [create a public or private dataset](https://huggingface.co/new-dataset) and [login](https://huggingface.co/docs/huggingface_hub/quick-start#login-command), and then you can use `df.to_csv/to_json/to_parquet`:
+Para salvar um conjunto de dados no Hugging Face, você precisa [criar um conjunto de dados público ou privado](https://huggingface.co/new-dataset) e [fazer login](https://huggingface.co/docs/huggingface_hub/quick-start#login-command), e então você pode usar `df.to_csv/to_json/to_parquet`:
 
 ```python
-# Save the dataset to my Hugging Face account
+# Salva o conjunto de dados para minha conta Hugging Face
 df.to_parquet("hf://datasets/username/dataset_name/train.parquet")
 ```
 
-You can find more information about the Hugging Face Dataset Hub in the [documentation](https://huggingface.co/docs/hub/en/datasets).
+Você pode encontrar mais informações sobre o Hugging Face Dataset Hub na [documentação](https://huggingface.co/docs/hub/en/datasets).
 
-## Out-of-core
+## Fora do núcleo
 
 ### [Bodo](https://bodo.ai/)
 
-Bodo is a high-performance Python computing engine that automatically parallelizes and
-optimizes your code through compilation using HPC (high-performance computing) techniques.
-Designed to operate with native pandas dataframes, Bodo compiles your pandas code to execute
-across multiple cores on a single machine or distributed clusters of multiple compute nodes efficiently.
-Bodo also makes distributed pandas dataframes queryable with SQL.
+Bodo é um mecanismo de computação Python de alto desempenho que paraleliza e otimiza automaticamente seu código por meio de compilação usando técnicas de HPC (computação de alto desempenho).
+Projetado para operar com dataframes nativos do Pandas, o Bodo compila seu código Pandas para executar em vários núcleos em uma única máquina ou clusters distribuídos de vários nós de computação de forma eficiente.
+O Bodo também torna dataframes distribuídos do Pandas consultáveis ​​com SQL.
 
-The community edition of Bodo is free to use on up to 8 cores. Beyond that, Bodo offers a paid
-enterprise edition. Free licenses of Bodo (for more than 8 cores) are available
-[upon request](https://www.bodo.ai/contact) for academic and non-profit use.
+A edição comunitária do Bodo é gratuita para uso em até 8 núcleos. Além disso, o Bodo oferece uma edição empresarial paga. Licenças gratuitas do Bodo (para mais de 8 núcleos) estão disponíveis [mediante solicitação](https://www.bodo.ai/contact) para uso acadêmico e sem fins lucrativos.
 
 ### [Cylon](https://cylondata.org/)
 
-Cylon is a fast, scalable, distributed memory parallel runtime with a pandas
-like Python DataFrame API. ”Core Cylon” is implemented with C++ using Apache
-Arrow format to represent the data in-memory. Cylon DataFrame API implements
-most of the core operators of pandas such as merge, filter, join, concat,
-group-by, drop_duplicates, etc. These operators are designed to work across
-thousands of cores to scale applications. It can interoperate with pandas
-DataFrame by reading data from pandas or converting data to pandas so users
-can selectively scale parts of their pandas DataFrame applications.
+Cylon é um tempo de execução paralelo de memória distribuído, rápido e escalável com uma API Python DataFrame semelhante à do pandas. O "Core Cylon" é implementado com C++ usando o formato Apache Arrow para representar os dados na memória. A API Cylon DataFrame implementa a maioria dos operadores principais do pandas, como merge, filter, join, concat, group-by, drop_duplicates, etc. Esses operadores são projetados para funcionar em milhares de núcleos para escalar aplicações. Ele pode interoperar com o DataFrame do pandas lendo dados do pandas ou convertendo dados para pandas para que os usuários possam escalar seletivamente partes de suas aplicações DataFrame do pandas.
 
 ```python
 from pycylon import read_csv, DataFrame, CylonEnv
 from pycylon.net import MPIConfig
 
-# Inicialize um ambiente de desenvolvimento distribuído Cylon
+# Inicializa um ambiente de desenvolvimento distribuído Cylon
 config: MPIConfig = MPIConfig()
 env: CylonEnv = CylonEnv(config=config, distributed=True)
 
@@ -417,34 +406,23 @@ print(df3)
 
 ### [Dask](https://docs.dask.org)
 
-Dask is a flexible parallel computing library for analytics. Dask
-provides a familiar `DataFrame` interface for out-of-core, parallel and
-distributed computing.
+Dask é uma biblioteca de computação paralela flexível para análise. Dask fornece uma interface familiar de `DataFrame` para computação distribuída, fora de núcleo e paralel.
 
 ### [Dask-ML](https://ml.dask.org)
 
-Dask-ML enables parallel and distributed machine learning using Dask
-alongside existing machine learning libraries like Scikit-Learn,
-XGBoost, and TensorFlow.
+O Dask-ML permite o aprendizado de máquina paralelo e distribuído usando o Dask juntamente com bibliotecas de aprendizado de máquina existentes, como Scikit-Learn, XGBoost e TensorFlow.
 
 ### [Ibis](https://ibis-project.org/docs/)
 
-Ibis offers a standard way to write analytics code, that can be run in multiple engines. It helps in bridging the gap between local Python environments (like pandas) and remote storage and execution systems like Hadoop components (like HDFS, Impala, Hive, Spark) and SQL databases (Postgres, etc.).
+O Ibis oferece uma maneira padrão de escrever código analítico, que pode ser executado em vários mecanismos. Ele ajuda a preencher a lacuna entre ambientes Python locais (como pandas) e sistemas de armazenamento e execução remotos, como componentes Hadoop (como HDFS, Impala, Hive, Spark) e bancos de dados SQL (Postgres, etc.).
 
 ### [Koalas](https://koalas.readthedocs.io/en/latest/)
 
-Koalas provides a familiar pandas DataFrame interface on top of Apache
-Spark. It enables users to leverage multi-cores on one machine or a
-cluster of machines to speed up or scale their DataFrame code.
+Koalas fornece uma interface familiar de DataFrame pandas sobre o Apache Spark. Ela permite aos usuários alavancar múltiplos núcleos em uma máquina ou um cluster de máquinas para acelerar ou escalonar seu código com Dataframes.
 
 ### [Modin](https://github.com/modin-project/modin)
 
-The `modin.pandas` DataFrame is a parallel and distributed drop-in replacement
-for pandas. This means that you can use Modin with existing pandas code or write
-new code with the existing pandas API. Modin can leverage your entire machine or
-cluster to speed up and scale your pandas workloads, including traditionally
-time-consuming tasks like ingesting data (`read_csv`, `read_excel`,
-`read_parquet`, etc.).
+O DataFrame `modin.pandas` é um substituto paralelo e distribuído para o pandas. Isso significa que você pode usar o Modin com código pandas existente ou escrever novo código com a API do pandas. O Modin pode aproveitar toda a sua máquina ou cluster para acelerar e dimensionar suas cargas de trabalho pandas, incluindo tarefas tradicionalmente demoradas, como ingestão de dados (`read_csv`, `read_excel`, `read_parquet`, etc.).
 
 ```python
 # import pandas as pd
@@ -470,91 +448,67 @@ df.parallel_apply(func)
 ### [Vaex](https://vaex.io/docs/)
 
 Cada vez mais, os pacotes estão sendo construídos em cima do pandas para abordar
-necessidades específicas na preparação de dados, análise e visualização. Vaex is
-a python library for Out-of-Core DataFrames (similar to Pandas), to
-visualize and explore big tabular datasets. It can calculate statistics
-such as mean, sum, count, standard deviation etc, on an N-dimensional
-grid up to a billion (10^9) objects/rows per second. Visualization is
-done using histograms, density plots and 3d volume rendering, allowing
-interactive exploration of big data. Vaex uses memory mapping, zero
-memory copy policy and lazy computations for best performance (no memory
-wasted).
+necessidades específicas na preparação de dados, análise e visualização. Vaex é uma biblioteca Python para DataFrames fora de núcleo (semelhante ao Pandas), destinada a visualizar e explorar grandes conjuntos de dados tabulares. Ele pode calcular estatísticas tais como média, soma, contagem, desvio padrão etc, em uma grade N-dimensional com até um bilhão (10^9) de objetos/linhas por segundo. A visualização é feita usando histogramas, plots de densidade e renderização de volume 3d, permitindo
+exploração interativa em big data. O Vaex utiliza mapeamento de memória, uma política de cópia zero de memória e computações lazy para alcançar o melhor desempenho (sem desperdício de memória).
 
 - `vaex.from_pandas`
 - `vaex.to_pandas_df`
 
 ### [Hail Query](https://hail.is/)
 
-An out-of-core, preemptible-safe, distributed, dataframe library serving
-the genetics community. Hail Query ships with on-disk data formats,
-in-memory data formats, an expression compiler, a query planner, and a
-distributed sort algorithm all designed to accelerate queries on large
-matrices of genome sequencing data.
+Uma biblioteca de DataFrame distribuída, segura para a preempção e fora do núcleo, voltada para a comunidade genética. O Hail Query inclui formatos de dados em disco, formatos de dados em memória, um compilador de expressões, um planejador de consultas e um algoritmo de ordenação distribuída, todos projetados para acelerar consultas em grandes matrizes de dados de sequenciamento genômico.
 
-It is often easiest to use pandas to manipulate the summary statistics or
-other small aggregates produced by Hail. For this reason, Hail provides
-native import to and export from pandas DataFrames:
+Normalmente, é mais fácil usar o pandas para manipular as estatísticas resumidas ou outros agregados pequenos produzidos pelo Hail. Por essa razão, o Hail oferece importação e exportação nativas para DataFrames do pandas:
 
 - [`Table.from_pandas`](https://hail.is/docs/latest/hail.Table.html#hail.Table.from_pandas)
 - [`Table.to_pandas`](https://hail.is/docs/latest/hail.Table.html#hail.Table.to_pandas)
 
-## Data cleaning and validation
+## Limpeza e validação de dados
 
 ### [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)
 
-Pyjanitor provides a clean API for cleaning data, using method chaining.
+Pyjanitor fornece uma API limpa para limpar dados usando cadeia de métodos.
 
 ### [Pandera](https://pandera.readthedocs.io/en/stable/)
 
-Pandera provides a flexible and expressive API for performing data validation on dataframes
-to make data processing pipelines more readable and robust.
-Dataframes contain information that pandera explicitly validates at runtime. This is useful in
-production-critical data pipelines or reproducible research settings.
+O Pandera provê uma API flexível e expressiva para executar validação de dados em dataframes
+para tornar o processamento de pipelines mais legíveis e robustas.
+Dataframes contêm informações que o pandera valida explicitamente em tempo de execução. Isso é útil em pipelines de dados críticos para produção ou em ambientes de pesquisa reproduzível.
 
-## Extension data types
+## Extensões para tipos de dados
 
-Pandas provides an interface for defining
-[extension types](https://pandas.pydata.org/docs/development/extending.html#extension-types) to extend NumPy's type system.
-The following libraries implement that interface to provide types not found in NumPy or pandas,
-which work well with pandas' data containers.
+O pandas fornece uma interface para definir [extensões de tipos](https://pandas.pydata.org/docs/development/extending.html#extension-types) a fim de estender o sistema de tipos do NumPy.
+As seguintes bibliotecas implementam essa interface para fornecer tipos não encontrados no NumPy ou pandas, que funcionam bem com contêineres de dados do pandas.
 
 ### [awkward-pandas](https://awkward-pandas.readthedocs.io/)
 
-Awkward-pandas provides an extension type for storing Awkward
-Arrays inside pandas' Series and
-DataFrame. It also provides an accessor for using awkward functions
-on Series that are of awkward type.
+Awkward-pandas fornece uma extensão de tipo para armazenar Awkward
+Arrays nas Séries e DataFrames pandas. Ele também oferece um acessador para usar funções do awkward em Series que são do tipo awkward.
 
 ### [db-dtypes](https://github.com/googleapis/python-db-dtypes-pandas)
 
-db-dtypes provides an extension types for working with types like
-DATE, TIME, and JSON from database systems. This package is used
-by pandas-gbq to provide natural dtypes for BigQuery data types without
-a natural numpy type.
+db-dtypes fornece extensão de tipos para trabalhar com tipos como DATE, TIME, e JSON de sistemas de banco de dados. Este pacote é usado pelo pandas-gbq para fornecer dtypes naturais para os tipos de dados BigQuery sem
+um tipo natural do numpy.
 
 ### [Pandas-Genomics](https://pandas-genomics.readthedocs.io/en/latest/)
 
-Pandas-Genomics provides an extension type and extension array for working
-with genomics data.  It also includes `genomics` accessors for many useful properties
-and methods related to QC and analysis of genomics data.
+Pandas-Genomics oferece extensões de tipos e de matrizes para trabalhar com dados genômicos.  Ele também inclui acessadores `genomicas` para muitas propriedades úteis e métodos relacionados com o QC e análise de dados genômicos.
 
 ### [Physipandas](https://github.com/mocquin/physipandas)
 
-Physipandas provides an extension for manipulating physical quantities
-(like scalar and numpy.ndarray) in association with a physical unit
-(like meter or joule) and additional features for integration of
-`physipy` accessors with pandas Series and Dataframe.
+Physipandas fornece uma extensão para a manipulação de quantidades físicas
+(como escalares e numpy. darray) em associação com uma unidade física
+(como metro ou joule) e recursos adicionais para integração de acessadores
+`physipy` com Series e Dataframes pandas.
 
 ### [Pint-Pandas](https://github.com/hgrecco/pint-pandas)
 
-Pint-Pandas provides an extension type for storing numeric arrays with units.
-These arrays can be stored inside pandas' Series and DataFrame. Operations
-between Series and DataFrame columns which use pint's extension array are then
-units aware.
+Pint-Pandas fornece uma extensão de tipo para armazenar matrizes numéricas com unidades.
+Estas arrays podem ser armazenadas dentro de Séries e DataFrames pandas. Operações entre colunas de Series e DataFrames que utilizam a extensão de array do pint tem suporte à unidades.
 
 ### [Text Extensions](https://ibm.biz/text-extensions-for-pandas)
 
-Text Extensions for Pandas provides extension types to cover common data structures for representing natural language data, plus library integrations that convert the outputs of popular natural language processing libraries into Pandas DataFrames.
+O Text Extensions para Pandas fornece extensão de tipos para cobrir estruturas de dados comuns usadas na representação de dados de linguagem natural, além de integrações com bibliotecas que convertem as saídas de bibliotecas populares de processamento de linguagem natural em DataFrames do Pandas.
 
 ## Acessadores
 
