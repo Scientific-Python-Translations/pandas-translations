@@ -5,7 +5,7 @@ Os benchmarks são testes para medir a desempenho do pandas. Existem dois tipos 
 - Benchmarks internos ao pandas para medir a velocidade e o uso de memória ao longo do tempo
 - Benchmarks da comunidade que comparam a velocidade ou o uso de memória de diferentes ferramentas ao realizar a mesma tarefa
 
-## benchmarks do pandas
+## Benchmarks do pandas
 
 benchmarks do pandas são implementados no diretório [asv_bench](https://github.com/pandas-dev/pandas/tree/main/asv_bench)
 do nosso repositório. Os benchmarks são implementados para o framework
@@ -18,7 +18,7 @@ Mais informações sobre a execução da suíte de testes de desempenho podem se
 
 Note que os benchmarks não são determinísticos, e executá-los em hardwares diferentes ou no mesmo hardware com diferentes níveis de estresse tem um grande impacto no resultado. Mesmo executando os benchmarks com hardwares idênticos e em condições quase idênticas, ocorrem diferenças significativas ao rodar o mesmo código.
 
-## servidores para os benchmarks do pandas
+## Servidores para os benchmarks do pandas
 
 Atualmente temos dois servidores físicos executando os benchmarks do pandas para todos
 (ou quase todos) de commit na branch `main`. Os servidores operam de forma independente. O servidor original está em execução há muito tempo, e é fisicamente localizado com um dos mantenedores do pandas. O servidor mais novo está em um datacenter gentilmente patrocinado por [OVHCloud](https://www.ovhcloud.com/). Mais informações sobre os patrocinadores do pandas e como sua empresa pode apoiar o desenvolvimento do pandas está disponível na página [patrocinadores das pandas]({{ base_url }}about/sponsors.html).
