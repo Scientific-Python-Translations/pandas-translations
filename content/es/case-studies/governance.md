@@ -99,8 +99,7 @@ recusado para una decisión particular, designará un BDFL sustituto para esa de
 ### Comunicaciones privadas del Equipo Principal
 
 A menos que se requiera específicamente, todos los debates y actividades del Equipo Principal serán públicos y se realizarán en colaboración y debate con los Colaboradores del Proyecto
-y la Comunidad. El Equipo Principal dispondrá de una lista de correo privada que se utilizará con moderación y solo cuando un asunto específico requiera privacidad. Cuando las comunicaciones y decisiones privadas sean necesarias, el Equipo Principal hará todo lo posible por resumirlas para la Comunidad tras remover información personal/privada/sensible
-sensible que no debe publicarse en Internet.
+y la Comunidad. El Equipo Principal dispondrá de una lista de correo privada que se utilizará con moderación y solo cuando un asunto específico requiera privacidad. Cuando las comunicaciones y decisiones privadas sean necesarias, el Equipo Principal hará todo lo posible por resumirlas para la Comunidad tras remover información personal/privada/sensible que no deba publicarse en Internet.
 
 ### Subcomités
 
@@ -115,37 +114,32 @@ modelo de «lugartenientes».
 
 ### Subcomité de NumFOCUS
 
-El Equipo Core mantendrá un subcomité específico para gestionar sus interacciones con NumFOCUS.
+El Equipo Principal mantendrá un subcomité específico para gestionar sus interacciones con NumFOCUS.
 
-- El Subcomité NumFOCUS está formado por al menos 5 personas que gestionan
-  la financiación de proyectos a través de NumFOCUS. Se espera que estos fondos
-  se gasten de forma coherente con la misión sin ánimo de lucro de
-  sin ánimo de lucro de NumFOCUS y con la dirección del Proyecto determinada por el Equipo Core
-  completo.
-- Este Subcomité NO tomará decisiones sobre la dirección, alcance o
-  dirección técnica del Proyecto.
+- El Subcomité NumFOCUS está formado por al menos 5 personas que gestionan la financiación de proyectos a través de NumFOCUS. Se espera que estos fondos se gasten de forma coherente con la misión sin fines de lucro de NumFOCUS y con la dirección del Proyecto determinada por el Equipo Principal.
+- Este Subcomité NO tomará decisiones sobre la dirección, alcance o dirección técnica del Proyecto.
 - Este Subcomité contará con al menos 5 miembros. No más de 2 Miembros del Subcomité pueden reportar a una persona (ya sea directa o indirectamente) a través de un empleo o trabajo de contratación (incluido el reportado, es decir, el reportado + 1 es el máximo). Esto evita que las mayorías efectivas recaigan en una sola persona.
 
 ## Socios institucionales y financiación
 
 El BDFL y el Equipo Core son los principales responsables del proyecto. Ninguna institución, persona física o jurídica externa tiene capacidad para poseer, controlar, usurpar o influir en el Proyecto, salvo mediante su participación en el mismo como Colaboradores y Equipo Core. Sin embargo, dado que las instituciones son el principal mecanismo de financiación del proyecto, es importante reconocer formalmente la participación institucional en el proyecto. Estos son Socios Institucionales.
 
-Un Colaborador Institucional es cualquier Colaborador individual del Proyecto que contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional. Asimismo, un Miembro Institucional del Equipo Core es cualquier miembro del Equipo Core quien contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional.
+Un Colaborador Institucional es cualquier Colaborador individual del Proyecto que contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional. Asimismo, un Miembro Institucional del Equipo Principal es cualquier miembro del Equipo Principal que contribuye al proyecto como parte de sus funciones oficiales en un Socio Institucional.
 
-Con estas definiciones, un Socio Institucional es cualquier entidad jurídica reconocida en Estados Unidos o en cualquier otro país que emplee al menos a un Colaborador o Miembro del Equipo Core Institucional. Socios Institucionales pueden ser entidades con o sin ánimo de lucro.
+Con estas definiciones, un Socio Institucional es cualquier entidad jurídica reconocida en los Estados Unidos o en cualquier otro país que emplee al menos a un Colaborador o Miembro del Equipo Core Institucional. Socios Institucionales pueden ser entidades con o sin fines de lucro.
 
-Las instituciones pueden convertirse en Socios Institucionales empleando a personas quienes contribuyan activamente al Proyecto como parte de sus deberes (duties) oficiales. Dicho de otro modo, la única forma de que un Socio Institucional influye en el proyecto es contribuyendo activamente al desarrollo abierto de del proyecto, en igualdad de condiciones con cualquier otro miembro de la comunidad de Colaboradores y Miembros del Equipo Core. El simple uso del Software o Servicios pandas en un contexto institucional no permite a una entidad convertirse en Socio Institucional. Las donaciones económicas no permiten a una entidad convertirse en Socio Institucional. Una vez que una institución se convierte en elegible para la Asociación Institucional, el Equipo Core debe nominar y aprobar la Asociación.
+Las instituciones pueden convertirse en Socios Institucionales empleando a personas que contribuyan activamente al Proyecto como parte de sus responsabilidades oficiales. Dicho de otro modo, la única forma de que un Socio Institucional influya en el proyecto es contribuyendo activamente al desarrollo abierto del proyecto, en igualdad de condiciones con cualquier otro miembro de la comunidad de Colaboradores y Miembros del Equipo Principal. El simple uso del Software o Servicios pandas en un contexto institucional no permite a una entidad convertirse en Socio Institucional. Las donaciones económicas no permiten a una entidad a convertirse en Socio Institucional. Una vez que una institución se convierte en elegible para ser Asociación Institucional, el Equipo Principal debe nominar y aprobar la Asociación.
 
-Si un Socio Institucional existente deja de tener un empleado cotizante, se les dará un período de gracia de un año para que otros empleados empiecen a
+Si un Socio Institucional existente deja de tener un empleado contribuyente, se les dará un período de gracia de un año para que otros empleados comiencen a
 a contribuir.
 
-Un Socio Institucional es libre de buscar financiación para su trabajo en El Proyecto por cualquier medio legal. Puede tratarse de una organización sin ánimo de lucro
-recaudar fondos de fundaciones privadas y donantes o una empresa con ánimo de lucro que cree productos y servicios propios que apalanquen el Software y los
-Servicios del Proyecto. La financiación adquirida por los Socios Institucionales para trabajar en El Proyecto se denomina Financiación Institucional. Sin embargo, ningún financiamiento obtenido por un Socio Institucional puede anular el BDFL y El Equipo Core del Proyecto. Si un Socio tiene fondos para realizar el trabajo de pandas y el Equipo Core decide no continuar con ese trabajo como proyecto, el Socio es libre de continuar con él por su cuenta. Sin embargo, en esta situación, esa parte del trabajo del Socio no estará bajo la sombrilla de pandas y no podrá utilizar las marcas registradas del Proyecto de una manera que sugiera una relación formal.
+Un Socio Institucional es libre de buscar financiación para su trabajo en El Proyecto por cualquier medio legal. Por ejemplo, una organización sin fines de lucro
+podría recaudar fondos de fundaciones privadas y donantes, o una empresa con fines de lucro que crea productos y servicios propietarios que aprovechen del Software y los
+Servicios del Proyecto. La financiación adquirida por los Socios Institucionales para trabajar en El Proyecto se denomina Financiación Institucional. Sin embargo, ningún financiamiento obtenido por un Socio Institucional puede anular el BDFL y El Equipo Principal del Proyecto. Si un Socio tiene fondos para realizar el trabajo de pandas y el Equipo Principal decide no continuar con ese trabajo como proyecto, el Socio es libre de continuar con él por su cuenta. Sin embargo, en esta situación, esa parte del trabajo del Socio no estará bajo la sombrilla de pandas y no podrá utilizar las marcas registradas del Proyecto de una manera que sugiera una relación formal.
 
 Para reconocer las contribuciones institucionales, existen dos niveles de Socios Institucionales, con los beneficios asociados:
 
-**Nivel 1** = una institución con al menos un Miembro del Equipo Core Institucional
+**Nivel 1** = una institución con al menos un Miembro del Equipo Principal Institucional
 
 - Reconocido en el sitio web de pandas, en charlas y camisetas.
 - Posibilidad de reconocer sus propias fuentes de financiación en el sitio web de pandas, en charlas y camisetas.
@@ -161,5 +155,5 @@ El incumplimiento de los términos de los documentos de gobierno se comunicará 
 
 Los cambios en la gobernanza se envían a través de un pull request de GitHub a la página del Proyecto
 (https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
-A continuación, el pull request se perfecciona en respuesta a los comentarios y revisiones del público, con el objetivo de lograr el consenso de la comunidad.  Después de este periodo abierto, un Miembro del Equipo Core propone al Equipo Core que los cambios sean ratificados y que se fusione (entendido en inglés como merged) el pull request (aceptando los cambios propuestos) o propone que se cierre el pull request sin su fusión (rechazando los cambios propuestos). El Miembro debe indicar el hash de confirmación final en el pull request que se propone para su aceptación o rechazo y resumir brevemente el pull resquest. Un mínimo del 80% del Equipo Core debe votar y al menos 2/3 de los votos deben ser positivos
+A continuación, el pull request se perfecciona en respuesta a los comentarios y revisiones del público, con el objetivo de lograr el consenso de la comunidad.  Después de este periodo abierto, un Miembro del Equipo Principl propone al Equipo Principal que los cambios sean ratificados y que se fusione (entendido en inglés como merged) el pull request (aceptando los cambios propuestos) o propone que se cierre el pull request sin su fusión (rechazando los cambios propuestos). El Miembro debe indicar el hash de confirmación final en el pull request que se propone para su aceptación o rechazo y resumir brevemente el pull resquest. Un mínimo del 80% del Equipo Core debe votar y al menos 2/3 de los votos deben ser positivos
 para llevar a cabo la acción propuesta (fracciones de voto redondeadas al número entero más cercano). Dado que el BDFL tiene la máxima autoridad en el Proyecto, el BDFL tiene autoridad para actuar solo al aceptar o rechazar cambios o anular las decisiones del Equipo Core.
