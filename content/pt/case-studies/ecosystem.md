@@ -97,35 +97,25 @@ Uma boa implementação para usuários de Python é [has2k1/plotnine](https://gi
 
 ### [Plotly](https://plot.ly/python)
 
-A [API Python](https://plot.ly/python/) do [Plotly's](https://plot.ly/) permite figuras interativas e compartilhamento na web. Mapas, gráficos 2D, 3D e streaming ao vivo são renderizados com WebGL e [D3.js](https://d3js.org/). A biblioteca oferece suporte a plotagem diretamente de um DataFrame do pandas e colaboração baseada em nuvem. Usuários do [matplotlib, ggplot para Python e Seaborn](https://plot.ly/python/matplotlib-to-plotly-tutorial/) podem converter figuras em gráficos interativos baseados na web. Os gráficos podem ser desenhados em [IPython Notebooks](https://plot.ly/ipython-notebooks/), editados com R ou MATLAB, modificados em uma GUI ou incorporados em aplicativos e painéis. Plotly
-is free for unlimited sharing, and has
-[cloud](https://plot.ly/product/plans/),
-[offline](https://plot.ly/python/offline/), or
-[on-premise](https://plot.ly/product/enterprise/) accounts for private
-use.
+A [API Python](https://plot.ly/python/) do [Plotly's](https://plot.ly/) permite figuras interativas e compartilhamento na web. Mapas, gráficos 2D, 3D e streaming ao vivo são renderizados com WebGL e [D3.js](https://d3js.org/). A biblioteca oferece suporte a plotagem diretamente de um DataFrame do pandas e colaboração baseada em nuvem. Usuários do [matplotlib, ggplot para Python e Seaborn](https://plot.ly/python/matplotlib-to-plotly-tutorial/) podem converter figuras em gráficos interativos baseados na web. Os gráficos podem ser desenhados em [IPython Notebooks](https://plot.ly/ipython-notebooks/), editados com R ou MATLAB, modificados em uma GUI ou incorporados em aplicativos e painéis. O Plotly é gratuito para compartilhamento ilimitado e tem contas na [nuvem](https://plot.ly/product/plans/), [offline](https://plot.ly/python/offline/) ou [on-premise](https://plot.ly/product/enterprise/) para uso privado.
 
 ### [Lux](https://github.com/lux-org/lux)
 
-Lux is a Python library that facilitates fast and easy experimentation with data by automating the visual data exploration process. To use Lux, simply add an extra import alongside pandas:
+Lux é uma biblioteca Python que facilita a experimentação rápida e fácil com dados ao automatizar o processo de exploração visual de dados. Para usar Lux, basta adicionar uma importação extra junto com pandas:
 
 ```python
 import lux
 import pandas as pd
 
 df = pd.read_csv("data.csv")
-df  # discover interesting insights!
+df  # descubra insights interessantes!
 ```
 
-By printing out a dataframe, Lux automatically [recommends a set of visualizations](https://raw.githubusercontent.com/lux-org/lux-resources/master/readme_img/demohighlight.gif) that highlights interesting trends and patterns in the dataframe. Users can leverage any existing pandas commands without modifying their code, while being able to visualize their pandas data structures (e.g., DataFrame, Series, Index) at the same time. Lux also offers a [powerful, intuitive language](https://lux-api.readthedocs.io/en/latest/source/guide/vis.html>) that allow users to create  Altair, matplotlib, or Vega-Lite visualizations without having to think at the level of code.
+Ao imprimir um dataframe, o Lux automaticamente [recomenda um conjunto de visualizações](https://raw.githubusercontent.com/lux-org/lux-resources/master/readme_img/demohighlight.gif) que destaca tendências e padrões interessantes no dataframe. Os usuários podem aproveitar quaisquer comandos pandas existentes sem modificar seu código, enquanto conseguem visualizar suas estruturas de dados pandas (por exemplo, DataFrame, Series, Index) ao mesmo tempo. O Lux também oferece uma [linguagem poderosa e intuitiva](https://lux-api.readthedocs.io/en/latest/source/guide/vis.html>) que permite aos usuários criar visualizações Altair, matplotlib ou Vega-Lite sem ter que pensar no nível do código.
 
 ### [D-Tale](https://github.com/man-group/dtale)
 
-D-Tale is a lightweight web client for visualizing pandas data structures. It
-provides a rich spreadsheet-style grid which acts as a wrapper for a lot of
-pandas functionality (query, sort, describe, corr...) so users can quickly
-manipulate their data. There is also an interactive chart-builder using Plotly
-Dash allowing users to build nice portable visualizations. D-Tale can be
-invoked with the following command
+O D-Tale é um cliente web leve para visualizar estruturas de dados do pandas. Ele fornece uma grade rica em estilo de planilha que atua como um wrapper para muitas funcionalidades do pandas (consulta, classificação, descrição, corr...) para que os usuários possam manipular seus dados rapidamente. Há também um construtor de gráficos interativo usando o Plotly Dash, permitindo que os usuários criem visualizações portáteis agradáveis. O D-Tale pode ser invocado com o seguinte comando
 
 ```python
 import dtale
@@ -133,13 +123,12 @@ import dtale
 dtale.show(df)
 ```
 
-D-Tale integrates seamlessly with Jupyter notebooks, Python terminals, Kaggle
-& Google Colab. Here are some demos of the [grid](http://alphatechadmin.pythonanywhere.com/dtale/main/1).
+O D-Tale integra-se perfeitamente com notebooks Jupyter, terminais Python, Kaggle e Google Colab. Aqui estão algumas demonstrações da [grade](http://alphatechadmin.pythonanywhere.com/dtale/main/1).
 
 ### [hvplot](https://hvplot.holoviz.org/index.html)
 
-hvPlot is a high-level plotting API for the PyData ecosystem built on [HoloViews](https://holoviews.org/).
-It can be loaded as a native pandas plotting backend via
+hvPlot é uma API de plotagem de alto nível para o ecossistema PyData construída em [HoloViews](https://holoviews.org/).
+Ele pode ser carregado como um backend de plotagem pandas nativo via
 
 ```python
 pd.set_option("plotting.backend", "hvplot")
