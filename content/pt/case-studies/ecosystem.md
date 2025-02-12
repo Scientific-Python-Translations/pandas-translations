@@ -152,46 +152,28 @@ Veja [Options and Settings](https://pandas.pydata.org/docs/user_guide/options.ht
 
 Spyder é um IDE multiplataforma baseado em PyQt que combina a funcionalidade de edição, análise, depuração e criação de perfil de uma ferramenta de desenvolvimento de software com a exploração de dados, execução interativa, inspeção profunda e recursos de visualização avançada de um ambiente científico como MATLAB ou Rstudio.
 
-Its Variable
-Explorer allows
-users to view, manipulate and edit pandas `Index`, `Series`, and
-`DataFrame` objects like a "spreadsheet", including copying and
-modifying values, sorting, displaying a "heatmap", converting data
-types and more. Pandas objects can also be renamed, duplicated, new
-columns added, copied/pasted to/from the clipboard (as TSV), and
-saved/loaded to/from a file. Spyder can also import data from a variety
-of plain text and binary files or the clipboard into a new pandas
-DataFrame via a sophisticated import wizard.
+Seu [Variable Explorer](https://docs.spyder-ide.org/current/panes/variableexplorer.html) permite que os usuários visualizem, manipulem e editem objetos `Index`, `Series` e `DataFrame` do pandas como uma "planilha", incluindo copiar e modificar valores, classificar, exibir um "mapa de calor", converter tipos de dados e muito mais. Objetos do pandas também podem ser renomeados, duplicados, novas colunas adicionadas, copiados/colados para/da área de transferência (como TSV) e salvos/carregados para/de um arquivo. Spyder também pode importar dados de uma variedade de arquivos de texto simples e binários ou da área de transferência para um novo DataFrame do pandas por meio de um sofisticado assistente de importação.
 
-Most pandas classes, methods and data attributes can be autocompleted in
-Spyder's [Editor](https://docs.spyder-ide.org/current/panes/editor.html) and IPython
-Console, and Spyder's
-[Help pane](https://docs.spyder-ide.org/current/panes/help.html) can retrieve and
-render Numpydoc documentation on pandas objects in rich text with Sphinx
-both automatically and on-demand.
+A maioria das classes, métodos e atributos de dados do pandas podem ser preenchidos automaticamente no [Editor](https://docs.spyder-ide.org/current/panes/editor.html) do Spyder e no [Console do IPython](https://docs.spyder-ide.org/current/panes/ipythonconsole.html), e o [painel de Ajuda](https://docs.spyder-ide.org/current/panes/help.html) do Spyder pode recuperar e renderizar a documentação do Numpydoc sobre objetos do Pandas em rich text com o Sphinx, tanto automaticamente quanto sob demanda.
 
 ### [marimo](https://marimo.io)
 
-marimo is a reactive notebook for Python and SQL that enhances productivity when working with dataframes. It provides several features to make data manipulation and visualization more interactive and fun:
+marimo é um notebook reativo para Python e SQL que aumenta a produtividade ao trabalhar com dataframes. Ele fornece vários recursos para tornar a manipulação e visualização de dados mais interativas e divertidas:
 
-1. Rich, interactive displays: marimo can display pandas dataframes in interactive tables or charts with filtering and sorting capabilities.
-2. Data selection: Users can select data in tables or pandas-backed plots, and the selections are automatically sent to Python as pandas dataframes.
-3. No-code transformations: Users can interactively transform pandas dataframes using a GUI, without writing code. The generated code can be copied and pasted into the notebook.
-4. Custom filters: marimo allows the creation of pandas-backed filters using UI elements like sliders and dropdowns.
-5. Dataset explorer: marimo automatically discovers and displays all dataframes in the notebook, allowing users to explore and visualize data interactively.
-6. SQL integration: marimo allows users to write SQL queries against any pandas dataframes existing in memory.
+1. Exibições ricas e interativas: o marimo pode exibir dataframes do pandas em tabelas ou gráficos interativos com recursos de filtragem e classificação.
+2. Seleção de dados: os usuários podem selecionar dados em tabelas ou gráficos baseados em pandas, e as seleções são enviadas automaticamente para o Python como dataframes do pandas.
+3. Transformações sem código: os usuários podem transformar dataframes do pandas interativamente usando uma GUI, sem escrever código. O código gerado pode ser copiado e colado no notebook.
+4. Filtros personalizados: o marimo permite a criação de filtros baseados em pandas usando elementos de IU como controles deslizantes e menus suspensos.
+5. Explorador de conjunto de dados: o marimo descobre e exibe automaticamente todos os dataframes no notebook, permitindo que os usuários explorem e visualizem dados interativamente.
+6. Integração com SQL: o marimo permite que os usuários escrevam consultas SQL em quaisquer dataframes do pandas existentes na memória.
 
 ## API
 
 ### [pandas-datareader](https://github.com/pydata/pandas-datareader)
 
-`pandas-datareader` is a remote data access library for pandas
-(PyPI:`pandas-datareader`). It is based on functionality that was
-located in `pandas.io.data` and `pandas.io.wb` but was split off in
-v0.19. See more in the pandas-datareader
-docs:
+`pandas-datareader` é uma biblioteca de acesso remoto a dados para o pandas (PyPI:`pandas-datareader`). Ela é baseada em uma funcionalidade que estava localizada em pandas.io.data e pandas.io.wb, mas foi separada na v0.19. Veja mais na [documentação do pandas-datareader](https://pandas-datareader.readthedocs.io/en/latest/):
 
-The following data feeds are available:
+Os seguintes feeds de dados estão disponíveis:
 
 - Google Finance
 - Tiingo
@@ -212,148 +194,115 @@ The following data feeds are available:
 
 ### [pandaSDMX](https://pandasdmx.readthedocs.io)
 
-pandaSDMX is a library to retrieve and acquire statistical data and
-metadata disseminated in [SDMX](https://sdmx.org) 2.1, an
-ISO-standard widely used by institutions such as statistics offices,
-central banks, and international organisations. pandaSDMX can expose
-datasets and related structural metadata including data flows,
-code-lists, and data structure definitions as pandas Series or
-MultiIndexed DataFrames.
+pandaSDMX é uma biblioteca para recuperar e adquirir dados estatísticos e metadados disseminados no [SDMX](https://sdmx.org) 2.1, um padrão ISO amplamente utilizado por instituições como escritórios de estatística, bancos centrais e organizações internacionais. O pandaSDMX pode expor conjuntos de dados e metadados estruturais relacionados, incluindo fluxos de dados, listas de códigos e definições de estrutura de dados como pandas Series ou MultiIndexed DataFrames.
 
 ### [fredapi](https://github.com/mortada/fredapi)
 
-fredapi is a Python interface to the Federal Reserve Economic Data
-(FRED) provided by the Federal Reserve
-Bank of St. Louis. It works with both the FRED database and ALFRED
-database that contains point-in-time data (i.e. historic data
-revisions). fredapi provides a wrapper in Python to the FRED HTTP API,
-and also provides several convenient methods for parsing and analyzing
-point-in-time data from ALFRED. fredapi makes use of pandas and returns
-data in a Series or DataFrame. This module requires a FRED API key that
-you can obtain for free on the FRED website.
+fredapi é uma interface Python para o [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/) fornecido pelo Federal Reserve Bank of St. Louis. Ele funciona tanto com o banco de dados do FRED quanto com o banco de dados do ALFRED que contém dados de ponto no tempo (ou seja, revisões de dados históricos). fredapi fornece um wrapper em Python para a API HTTP do FRED e também fornece vários métodos convenientes para analisar e analisar dados de ponto no tempo do ALFRED. fredapi faz uso do pandas e retorna dados em uma Series ou DataFrame. Este módulo requer uma chave de API do FRED que você pode obter gratuitamente no site do FRED.
 
-## Domain specific
+## Específico por domínio
 
 ### [Geopandas](https://github.com/geopandas/geopandas)
 
-Geopandas extends pandas data objects to include geographic information
-which support geometric operations. If your work entails maps and
-geographical coordinates, and you love pandas, you should take a close
-look at Geopandas.
+Geopandas estende objetos de dados do pandas para incluir informações geográficas que suportam operações geométricas. Se seu trabalho envolve mapas e coordenadas geográficas, e você ama o pandas, você deveria dar uma olhada no Geopandas.
 
 ### [gurobipy-pandas](https://github.com/Gurobi/gurobipy-pandas)
 
-gurobipy-pandas provides a convenient accessor API to connect pandas with
-gurobipy. It enables users to more easily and efficiently build mathematical
-optimization models from data stored in DataFrames and Series, and to read
-solutions back directly as pandas objects.
+gurobipy-pandas fornece uma API de acesso conveniente para conectar pandas com gurobipy. Ele permite que os usuários construam modelos de otimização matemática de forma mais fácil e eficiente a partir de dados armazenados em DataFrames e Series, e leiam soluções de volta diretamente como objetos do pandas.
 
 ### [staircase](https://github.com/staircase-dev/staircase)
 
-staircase is a data analysis package, built upon pandas and numpy, for modelling and
-manipulation of mathematical step functions. It provides a rich variety of arithmetic
-operations, relational operations, logical operations, statistical operations and
-aggregations for step functions defined over real numbers, datetime and timedelta domains.
+staircase é um pacote de análise de dados, construído sobre pandas e numpy, para modelagem e manipulação de funções de passo matemáticas. Ele fornece uma rica variedade de operações aritméticas, operações relacionais, operações lógicas, operações estatísticas e agregações para funções de passo definidas sobre domínios de números reais, datetime e timedelta.
 
 ### [xarray](https://github.com/pydata/xarray)
 
-xarray brings the labeled data power of pandas to the physical sciences
-by providing N-dimensional variants of the core pandas data structures.
-It aims to provide a pandas-like and pandas-compatible toolkit for
-analytics on multi-dimensional arrays, rather than the tabular data for
-which pandas excels.
+xarray traz o poder de dados rotulados do pandas para as ciências físicas ao fornecer variantes N-dimensionais das principais estruturas de dados do pandas.
+Ele visa fornecer um kit de ferramentas semelhante e compatível com o pandas para análises em matrizes multidimensionais, em vez dos dados tabulares para os quais o pandas se destaca.
 
-## IO
+## E/S
 
 ### [NTV-pandas](https://github.com/loco-philippe/ntv-pandas)
 
-NTV-pandas provides a JSON converter with more data types than the ones supported by pandas directly.
+O NTV-pandas fornece um conversor JSON com mais tipos de dados do que os suportados diretamente pelo pandas.
 
-It supports the following data types:
+Ele suporta os seguintes tipos de dados:
 
-- pandas data types
-- data types defined in the [NTV format](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\(JSON-NTV\).htm)
-- data types defined in [Table Schema specification](http://dataprotocols.org/json-table-schema/#field-types-and-formats)
+- tipos de dados do pandas
+- tipos de dados definidos no [formato NTV](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\(JSON-NTV\).htm)
+- tipos de dados definidos na [especificação Table Schema](http://dataprotocols.org/json-table-schema/#field-types-and-formats)
 
-The interface is always reversible (conversion round trip) with two formats (JSON-NTV and JSON-TableSchema).
+A interface é sempre reversível (conversão de ida e volta) com dois formatos (JSON-NTV e JSON-TableSchema).
 
-Example:
+Exemplo:
 
 ```python
 import ntv_pandas as npd
 
-jsn = df.npd.to_json(table=False)  # save df as a JSON-value (format Table Schema if table is True else format NTV )
-df  = npd.read_json(jsn)  # load a JSON-value as a `DataFrame`
+jsn = df.npd.to_json(table=False)  # salva df como um valor JSON (formata Table Schema se a tabela for True, do contrário format NTV)
+df  = npd.read_json(jsn)  # carrega um valor JSON como um `DataFrame`
 
-df.equals(npd.read_json(df.npd.to_json(df)))  # `True` in any case, whether `table=True` or not
+df.equals(npd.read_json(df.npd.to_json(df)))  # `True` em qualquer caso, independente de `table=True` ou não
 ```
 
 ### [BCPandas](https://github.com/yehoshuadimarsky/bcpandas)
 
-BCPandas provides high performance writes from pandas to Microsoft SQL Server,
-far exceeding the performance of the native `df.to_sql` method. Internally, it uses
-Microsoft's BCP utility, but the complexity is fully abstracted away from the end user.
-Rigorously tested, it is a complete replacement for `df.to_sql`.
+O BCPandas fornece escritas de alto desempenho do pandas para o Microsoft SQL Server, excedendo em muito o desempenho do método nativo df.to_sql. Internamente, ele usa o utilitário BCP da Microsoft, mas a complexidade é totalmente abstraída do usuário final.
+Rigorosamente testado, é um substituto completo para df.to_sql.
 
 ### [Deltalake](https://pypi.org/project/deltalake)
 
-Deltalake python package lets you access tables stored in
-[Delta Lake](https://delta.io/) natively in Python without the need to use Spark or
-JVM. It provides the `delta_table.to_pyarrow_table().to_pandas()` method to convert
-any Delta table into Pandas dataframe.
+O pacote python Deltalake permite que você acesse tabelas armazenadas no [Delta Lake](https://delta.io/) nativamente em Python sem a necessidade de usar Spark ou JVM. Ele fornece o método `delta_table.to_pyarrow_table().to_pandas()` para converter qualquer tabela Delta em Pandas dataframe.
 
 ### [pandas-gbq](https://github.com/googleapis/python-bigquery-pandas)
 
-pandas-gbq provides high performance reads and writes to and from
-[Google BigQuery](https://cloud.google.com/bigquery/). Previously (before version 2.2.0),
-these methods were exposed as `pandas.read_gbq` and `DataFrame.to_gbq`.
-Use `pandas_gbq.read_gbq` and `pandas_gbq.to_gbq`, instead.
+pandas-gbq fornece leituras e escritas de alto desempenho de e para o [Google BigQuery](https://cloud.google.com/bigquery/). Anteriormente (antes da versão 2.2.0), estes métodos eram expostos como `pandas.read_gbq` e `DataFrame.to_gbq`.
+Use `pandas_gbq.read_gbq` e `pandas_gbq.to_gbq`.
 
 ### [ArcticDB](https://github.com/man-group/ArcticDB)
 
-ArcticDB is a serverless DataFrame database engine designed for the Python Data Science ecosystem. ArcticDB enables you to store, retrieve, and process pandas DataFrames at scale. It is a storage engine designed for object storage and also supports local-disk storage using LMDB. ArcticDB requires zero additional infrastructure beyond a running Python environment and access to object storage and can be installed in seconds. Please find full documentation [here](https://docs.arcticdb.io/latest/).
+O ArcticDB é um mecanismo de banco de dados DataFrame sem servidor projetado para o ecossistema Python Data Science. O ArcticDB permite que você armazene, recupere e processe DataFrames do pandas em escala. É um mecanismo de armazenamento projetado para armazenamento de objetos e também oferece suporte ao armazenamento em disco local usando LMDB. O ArcticDB não requer infraestrutura adicional além de um ambiente Python em execução e acesso ao armazenamento de objetos e pode ser instalado em segundos. Encontre a documentação completa [aqui](https://docs.arcticdb.io/latest/).
 
-#### ArcticDB Terminology
+#### Terminologia do ArcticDB
 
-ArcticDB is structured to provide a scalable and efficient way to manage and retrieve DataFrames, organized into several key components:
+O ArcticDB é estruturado para fornecer uma maneira escalável e eficiente de gerenciar e recuperar DataFrames, organizados em vários componentes principais:
 
-- `Object Store` Collections of libraries. Used to separate logical environments from each other. Analogous to a database server.
-- `Library` Contains multiple symbols which are grouped in a certain way (different users, markets, etc). Analogous to a database.
-- `Symbol` Atomic unit of data storage. Identified by a string name. Data stored under a symbol strongly resembles a pandas DataFrame. Analogous to tables.
-- `Version` Every modifying action (write, append, update) performed on a symbol creates a new version of that object.
+- Coleções de bibliotecas de `Object Store`. Usadas para separar ambientes lógicos uns dos outros. Análogo a um servidor de banco de dados.
+- `Library` contém vários símbolos que são agrupados de uma certa maneira (diferentes usuários, mercados, etc.). Análogo a um banco de dados. Análogo a um banco de dados.
+- `Symbol` Unidade atômica de armazenamento de dados. Identificado por um nome string. Dados armazenados sob um símbolo se assemelham muito a um DataFrame do pandas. Análogo a tabelas.
+- `Version` Cada ação de modificação (escrever, anexar, atualizar) realizada em um símbolo cria uma nova versão desse objeto.
 
-#### Installation
+#### Instalação
 
-To install, simply run:
+Para instalar, simplesmente execute:
 
 ```console
 pip install arcticdb
 ```
 
-To get started, we can import ArcticDB and instantiate it:
+Para começar, podemos importar o ArcticDB e instanciá-lo:
 
 ```python
 import arcticdb as adb
 import numpy as np
 import pandas as pd
-# this will set up the storage using the local file system
+# isso vai configurar o armazenamento usando o sistema de arquivos local
 arctic = adb.Arctic("lmdb://arcticdb_test")
 ```
 
-> **Note:** ArcticDB supports any S3 API compatible storage, including AWS. ArcticDB also supports Azure Blob storage.\
-> ArcticDB also supports LMDB for local/file based storage - to use LMDB, pass an LMDB path as the URI: `adb.Arctic('lmdb://path/to/desired/database')`.
+> **Observação:** o ArcticDB oferece suporte a qualquer armazenamento compatível com a API S3, incluindo AWS. O ArcticDB também oferece suporte ao armazenamento Azure Blob.\
+> O ArcticDB também oferece suporte ao LMDB para armazenamento local/baseado em arquivo - para usar o LMDB, passe um caminho do LMDB como URI: adb.Arctic('lmdb://caminho/para/banco-de-dados/desejado').
 
-#### Library Setup
+#### Configuração da biblioteca
 
-ArcticDB is geared towards storing many (potentially millions) of tables. Individual tables (DataFrames) are called symbols and are stored in collections called libraries. A single library can store many symbols. Libraries must first be initialized prior to use:
+O ArcticDB é voltado para armazenar muitas (potencialmente milhões) tabelas. Tabelas individuais (DataFrames) são chamadas de símbolos e são armazenadas em coleções chamadas bibliotecas. Uma única biblioteca pode armazenar muitos símbolos. As bibliotecas devem ser inicializadas antes do uso:
 
 ```python
 lib = arctic.get_library('sample', create_if_missing=True)
 ```
 
-#### Writing Data to ArcticDB
+#### Escrevendo dados para ArcticDB
 
-Now we have a library set up, we can get to reading and writing data. ArcticDB has a set of simple functions for DataFrame storage. Let's write a DataFrame to storage.
+Agora que temos uma biblioteca configurada, podemos começar a ler e escrever dados. O ArcticDB tem um conjunto de funções simples para armazenamento de DataFrame. Vamos escrever um DataFrame para armazenamento.
 
 ```python
 df = pd.DataFrame(
@@ -371,24 +320,24 @@ df
 df.dtypes
 ```
 
-Write to ArcticDB.
+Escreva para ArcticDB.
 
 ```python
 write_record = lib.write("test", df)
 ```
 
-> **Note:** When writing pandas DataFrames, ArcticDB supports the following index types:
+> **Note:** Ao escrever DataFrames do pandas, o ArcticDB suporta os seguintes tipos de índice:
 >
-> - `pandas.Index` containing int64 (or the corresponding dedicated types Int64Index, UInt64Index)
+> - `pandas.Index` contendo int64 (ou os tipos dedicados correspondentes Int64Index, UInt64Index)
 > - `RangeIndex`
 > - `DatetimeIndex`
-> - `MultiIndex` composed of above supported types
+> - `MultiIndex` composto dos tipos suportados acima
 >
-> The "row" concept in `head`/`tail` refers to the row number ('iloc'), not the value in the `pandas.Index` ('loc').
+> O conceito de "linha" em `head`/`tail` se refere ao número da linha ('iloc'), não ao valor no `pandas.Index` ('loc').
 
-#### Reading Data from ArcticDB
+#### Lendo dados de ArcticDB
 
-Read the data back from storage:
+Leia os dados novamente do armazenamento:
 
 ```python
 read_record = lib.read("test")
@@ -396,7 +345,7 @@ read_record.data
 df.dtypes
 ```
 
-ArcticDB also supports appending, updating, and querying data from storage to a pandas DataFrame. Please find more information [here](https://docs.arcticdb.io/latest/api/query_builder/).
+O ArcticDB também suporta anexar, atualizar e consultar dados do armazenamento para um DataFrame do pandas. Encontre mais informações [aqui](https://docs.arcticdb.io/latest/api/query_builder/).
 
 ### [Hugging Face](https://huggingface.co/datasets)
 
@@ -453,14 +402,14 @@ can selectively scale parts of their pandas DataFrame applications.
 from pycylon import read_csv, DataFrame, CylonEnv
 from pycylon.net import MPIConfig
 
-# Initialize Cylon distributed environment
+# Inicialize um ambiente de desenvolvimento distribuído Cylon
 config: MPIConfig = MPIConfig()
 env: CylonEnv = CylonEnv(config=config, distributed=True)
 
 df1: DataFrame = read_csv('/tmp/csv1.csv')
 df2: DataFrame = read_csv('/tmp/csv2.csv')
 
-# Using 1000s of cores across the cluster to compute the join
+# Usando milhares de núcleos ao longo do cluster para computar o seguinte join
 df3: Table = df1.join(other=df2, on=[0], algorithm="hash", env=env)
 
 print(df3)
@@ -501,13 +450,13 @@ time-consuming tasks like ingesting data (`read_csv`, `read_excel`,
 # import pandas as pd
 import modin.pandas as pd
 
-df = pd.read_csv("big.csv")  # use all your cores!
+df = pd.read_csv("big.csv")  # utilize todos os seus núcleos!
 ```
 
 ### [Pandarallel](https://github.com/nalepae/pandarallel)
 
-Pandarallel provides a simple way to parallelize your pandas operations on all your CPUs by changing only one line of code.
-If also displays progress bars.
+Pandarallel oferece uma maneira simples de paralelizar suas operações do pandas em todas as suas CPUs alterando apenas uma linha de código.
+Ele também exibe barras de progresso.
 
 ```python
 from pandarallel import pandarallel
@@ -607,16 +556,15 @@ units aware.
 
 Text Extensions for Pandas provides extension types to cover common data structures for representing natural language data, plus library integrations that convert the outputs of popular natural language processing libraries into Pandas DataFrames.
 
-## Accessors
+## Acessadores
 
-A directory of projects providing
-[extension accessors](https://pandas.pydata.org/docs/development/extending.html#registering-custom-accessors).
-This is for users to discover new accessors and for library
-authors to coordinate on the namespace.
+Um diretório de projetos fornecendo
+[extensões de acessadores](https://pandas.pydata.org/docs/development/extending.html#registering-custom-accessors).
+Isso serve para que os usuários possam descobrir novos acessadores e para que os autores de bibliotecas possam coordenar o uso do namespace.
 
-| Library                                                              | Accessor   | Classes               |
+| Biblioteca                                                           | Acessador  | Classes               |
 | -------------------------------------------------------------------- | ---------- | --------------------- |
-| [awkward-pandas](https://awkward-pandas.readthedocs.io/en/latest/)   | `ak`       | `Series`              |
+| [awkward-pandas](https://awkward-pandas.readthedocs.io/en/latest/)   | `ak`       | `Séries`              |
 | [pdvega](https://altair-viz.github.io/pdvega/)                       | `vgplot`   | `Series`, `DataFrame` |
 | [pandas-genomics](https://pandas-genomics.readthedocs.io/en/latest/) | `genomics` | `Series`, `DataFrame` |
 | [pint-pandas](https://github.com/hgrecco/pint-pandas)                | `pint`     | `Series`, `DataFrame` |
@@ -626,31 +574,30 @@ authors to coordinate on the namespace.
 | [staircase](https://www.staircase.dev/)                              | `sc`       | `Series`, `DataFrame` |
 | [woodwork](https://github.com/alteryx/woodwork)                      | `slice`    | `Series`, `DataFrame` |
 
-## Development tools
+## Ferramentas de desenvolvimento
 
 ### [pandas-stubs](https://github.com/VirtusLab/pandas-stubs)
 
-While pandas repository is partially typed, the package itself doesn't expose this information for external use.
-Install pandas-stubs to enable basic type coverage of pandas API.
+Embora o repositório do pandas seja parcialmente tipado, o pacote em si não expõe essas informações para uso externo.
+Instale o pandas-stubs para habilitar uma cobertura básica de tipagem na API do pandas.
 
-Learn more by reading through these issues [14468](https://github.com/pandas-dev/pandas/issues/14468),
+Saiba mais lendo estas issues: [14468](https://github.com/pandas-dev/pandas/issues/14468),
 [26766](https://github.com/pandas-dev/pandas/issues/26766), [28142](https://github.com/pandas-dev/pandas/issues/28142).
 
-See installation and usage instructions on the [GitHub page](https://github.com/VirtusLab/pandas-stubs).
+Veja as instruções de instalação e de uso na [página do GitHub](https://github.com/VirtusLab/pandas-stubs).
 
 ### [Hamilton](https://github.com/dagworks-inc/hamilton)
 
-Hamilton is a declarative dataflow framework that came out of Stitch Fix. It was designed to help one manage a
-Pandas code base, specifically with respect to feature engineering for machine learning models.
+Hamilton é um framework declarativo de fluxo de dados criado pela Stitch Fix. Ele foi projetado para ajudar a gerenciar uma base de código Pandas, especificamente no que diz respeito à engenharia de features para modelos de aprendizado de máquina.
 
-It prescribes an opinionated paradigm, that ensures all code is:
+Ele prescreve um paradigma opinativo que garante todo o código é:
 
-- unit testable
-- integration testing friendly
-- documentation friendly
-- transformation logic is reusable, as it is decoupled from the context of where it is used.
-- integratable with runtime data quality checks.
+- testável de forma unitária
+- amigável para testes de integração
+- fácil de documentar
+- reutilizável em sua lógica de transformação, pois é desacoplada do contexto da qual é utilizada
+- integrável com verificações de qualidade de dados em tempo de execução
 
-This helps one to scale your pandas code base, at the same time, keeping maintenance costs low.
+Isso ajuda a escalar sua base de código em pandas, ao mesmo tempo em que mantém os custos de manutenção baixos.
 
-For more information, see [documentation](https://hamilton.readthedocs.io/).
+Para mais informações, consulte a [documentação](https://hamilton.readthedocs.io/).
