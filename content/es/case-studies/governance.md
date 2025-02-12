@@ -79,40 +79,36 @@ una visión global de sus contribuciones. Esto incluirá, pero no está limitado
 commits en este repositorio") para evitar alentar el comportamiento que juega a las métricas
 en lugar del bienestar general del proyecto. Queremos fomentar la diversidad de orígenes, puntos de vista y talentos en nuestro equipo, por lo que no definimos explícitamente el código como la única métrica en la que se será evaluada.
 
-Si un miembro del Equipo Core permanece inactivo en el proyecto durante un periodo de un año, se considerará su destitución del Equipo Core. Antes de ser removido, el Miembro inactivo será contactado por el BDFL para ver si planea regresar a la participación activa. En caso contrario, será destituido inmediatamente tras una votación del Equipo Core. Si tiene previsto reincorporarse pronto a la participación activa, se le concederá un periodo de gracia de un año. Si no vuelve a participar activamente dentro de ese periodo de tiempo, será eliminado por el voto del Equipo Core sin un periodo de gracia. Todos los ex-miembros del Equipo Core pueden ser considerados para volver a ser miembros en cualquier momento en el futuro, al igual que cualquier otro Colaborador del Proyecto.
-Los ex-miembros del Equipo Core permanecerán en el sitio web del proyecto, reconociendo el periodo durante el que estuvieron activos en el Equipo Core.
+Si un miembro del Equipo Core permanece inactivo en el proyecto durante un periodo de un año, se considerará su destitución del Equipo Core. Antes de ser removido, el Miembro inactivo será contactado por el BDFL para ver si planea regresar a la participación activa. En caso contrario, será destituido inmediatamente tras una votación del Equipo Core. Si tiene previsto reincorporarse pronto a la participación activa, se le concederá un periodo de gracia de un año. Si no vuelve a participar activamente dentro de ese periodo de tiempo, será eliminado por el voto del Equipo Principal sin un periodo de gracia. Todos los ex-miembros del Equipo Principal pueden ser considerados para volver a ser miembros en cualquier momento en el futuro, al igual que cualquier otro Colaborador del Proyecto.
+Los ex-miembros del Equipo Principal permanecerán en el sitio web del proyecto, reconociendo el periodo durante el que estuvieron activos en el Equipo Principal.
 
-El Equipo Core se reserva el derecho de expulsar a los miembros actuales, distintos del BDFL, si se considera que son activamente perjudiciales para el bienestar del proyecto, y si han fracasado los intentos de comunicación y resolución de conflictos.
+El Equipo Principal se reserva el derecho de expulsar a los miembros actuales, distintos del BDFL, si se considera que son activamente perjudiciales para el bienestar del proyecto, y si han fracasado los intentos de comunicación y resolución de conflictos.
 
 ### Conflicto de intereses
 
-Se espera que el BDFL y los miembros del Equipo Core trabajen en una amplia gama de empresas, universidades y organizaciones sin fines de lucro. Por ello, es posible que los Miembros tengan conflictos de intereses. Estos conflictos de interés incluyen, pero no se limitan a:
+Se espera que el BDFL y los miembros del Equipo Principal trabajen en una amplia gama de empresas, universidades y organizaciones sin fines de lucro. Por ello, es posible que los Miembros tengan conflictos de intereses. Estos conflictos de interés incluyen, pero no se limitan a:
 
 - Intereses financieros, como inversiones, empleo o trabajos de contratación,
   fuera del Proyecto que puedan influir en su trabajo en El Proyecto.
 - Acceso a información propietaria de su empleador que podría potencialmente filtrarse en su trabajo con el Proyecto.
 
-Todos los miembros del Equipo Core, incluido el BDFL, deberán revelar al resto del Equipo Core cualquier conflicto de intereses que puedan tener. Los Miembros con un conflicto de
-intereses en un tema (issue) en particular pueden participar en los debates del Equipo Core sobre ese
-tema, pero deben abstenerse de votar sobre el mismo. Si el BDFL se ha
+Todos los miembros del Equipo Principal, incluido el BDFL, deberán revelar al resto del Equipo Principal cualquier conflicto de intereses que puedan tener. Los Miembros con un conflicto de
+intereses en un tema en particular pueden participar en los debates del Equipo Principal sobre ese tema, pero deben abstenerse de votar sobre el mismo. Si el BDFL se ha
 recusado para una decisión particular, designará un BDFL sustituto para esa decisión.
 
-### Comunicaciones privadas del Equipo Core
+### Comunicaciones privadas del Equipo Principal
 
-A menos que se requiera específicamente, todos los debates y actividades del Equipo Core serán
-públicos y se realizarán en colaboración y debate con los Colaboradores del Proyecto
-y la Comunidad. El Equipo Core dispondrá de una lista de correo privada que se utilizará con moderación y solo cuando un asunto específico requiera privacidad. Cuando las comunicaciones y decisiones privadas sean necesarias, el Equipo Core hará todo lo posible por resumirlas a la Comunidad tras eludir la información personal/privada/sensible
+A menos que se requiera específicamente, todos los debates y actividades del Equipo Principal serán públicos y se realizarán en colaboración y debate con los Colaboradores del Proyecto
+y la Comunidad. El Equipo Principal dispondrá de una lista de correo privada que se utilizará con moderación y solo cuando un asunto específico requiera privacidad. Cuando las comunicaciones y decisiones privadas sean necesarias, el Equipo Principal hará todo lo posible por resumirlas para la Comunidad tras remover información personal/privada/sensible
 sensible que no debe publicarse en Internet.
 
 ### Subcomités
 
-El Equipo Core puede crear subcomités que se encarguen de dirigir y orientar aspectos específicos del proyecto. Al igual que el Equipo Core en su conjunto, los subcomités deben llevar a cabo sus actividades de forma abierta y pública, a menos que se
-se solicite específicamente. Las comunicaciones privadas del subcomité deben realizarse en la lista de correo privada principal del Equipo Core, a menos que se solicite específicamente lo contrario.
+El Equipo Principal puede crear subcomités que se encarguen de dirigir y orientar aspectos específicos del proyecto. Al igual que el Equipo Principal en su conjunto, los subcomités deben llevar a cabo sus actividades de forma abierta y pública, a menos que se solicite específicamente privacidad. Las comunicaciones privadas del subcomité deben realizarse en la lista de correo privada principal del Equipo Principal, a menos que se solicite específicamente lo contrario.
 
 Pregunta: si el BDFL no está en un subcomité, ¿todavía tiene autoridad de destitución?
 
-Sugerencia: lo hacen, pero deberían nombrar a un delegado que desempeñe ese papel la mayor parte del tiempo, y solo se solicite la intervención explícita del BDFL si el comité no está de acuerdo con la decisión de ese delegado y no es posible una resolución
-dentro del equipo. Esto es diferente de un delegado de la BDFL para una decisión específica
+Sugerencia: la tienen, pero deberían nombrar a un delegado que desempeñe ese papel la mayor parte del tiempo, y solo se solicita la intervención explícita del BDFL si el comité no está de acuerdo con la decisión de ese delegado y no es posible una resolución dentro del equipo. Esto es diferente de un delegado de la BDFL para una decisión específica
 (o una situación de recusación), donde el BDFL está literalmente cediendo su
 autoridad a otra persona en su totalidad. Es más como lo que Linus Torvalds utiliza con su
 modelo de «lugartenientes».
