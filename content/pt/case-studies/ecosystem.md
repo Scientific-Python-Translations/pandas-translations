@@ -138,35 +138,19 @@ pd.set_option("plotting.backend", "hvplot")
 
 ### [IPython](https://ipython.org/documentation.html)
 
-IPython is an interactive command shell and distributed computing
-environment. IPython tab completion works with Pandas methods and also
-attributes like DataFrame columns.
+IPython é um shell de comando interativo e ambiente de computação distribuída. O preenchimento de tabulação do IPython funciona com métodos Pandas e também com atributos como colunas DataFrame.
 
 ### [Jupyter Notebook / Jupyter Lab](https://jupyter.org)
 
-Jupyter Notebook is a web application for creating Jupyter notebooks. A
-Jupyter notebook is a JSON document containing an ordered list of
-input/output cells which can contain code, text, mathematics, plots and
-rich media. Jupyter notebooks can be converted to a number of open
-standard output formats (HTML, HTML presentation slides, LaTeX, PDF,
-ReStructuredText, Markdown, Python) through 'Download As' in the web
-interface and `jupyter convert` in a shell.
+O Jupyter Notebook é uma aplicação web para criar notebooks do Jupyter. Um notebook Jupyter é um documento JSON contendo uma lista ordenada de células de entrada/saída que podem conter código, texto, matemática, gráficos e rich media. Os Jupyter notebooks podem ser convertidos para vários formatos de saída de padrão aberto (HTML, slides de apresentação HTML, LaTeX, PDF, ReStructuredText, Markdown, Python) por meio de 'Download As' na interface da web e `jupyter convert` em um shell.
 
-Pandas DataFrames implement `_repr_html_`and `_repr_latex` methods which
-are utilized by Jupyter Notebook for displaying (abbreviated) HTML or
-LaTeX tables. LaTeX output is properly escaped. (Note: HTML tables may
-or may not be compatible with non-HTML Jupyter output formats.)
+DataFrames do Pandas implementam métodos `_repr_html_`e `_repr_latex` que são utilizados pelo Jupyter Notebook para exibir tabelas HTML ou LaTeX (abreviadas). A saída LaTeX é escapada corretamente. (Observação: tabelas HTML podem ou não ser compatíveis com formatos de saída não HTML do Jupyter.)
 
-See [Options and Settings](https://pandas.pydata.org/docs/user_guide/options.html)
-for pandas `display.` settings.
+Veja [Options and Settings](https://pandas.pydata.org/docs/user_guide/options.html) para as configurações de `display.` do pandas.
 
 ### [Spyder](https://www.spyder-ide.org/)
 
-Spyder is a cross-platform PyQt-based IDE combining the editing,
-analysis, debugging and profiling functionality of a software
-development tool with the data exploration, interactive execution, deep
-inspection and rich visualization capabilities of a scientific
-environment like MATLAB or Rstudio.
+Spyder é um IDE multiplataforma baseado em PyQt que combina a funcionalidade de edição, análise, depuração e criação de perfil de uma ferramenta de desenvolvimento de software com a exploração de dados, execução interativa, inspeção profunda e recursos de visualização avançada de um ambiente científico como MATLAB ou Rstudio.
 
 Its Variable
 Explorer allows
