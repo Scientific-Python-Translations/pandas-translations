@@ -2,7 +2,7 @@
 
 A versão oficial deste documento, juntamente com uma lista de
 indivíduos e instituições nos papéis definidos na seção de governança
-abaixo, está contido na página
+abaixo, está contida na página
 [Governança do projeto]({{ base_url }}sobre/governance.html)
 do site do pandas.
 
