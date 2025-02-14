@@ -33,8 +33,7 @@ A Comunidade do Projeto consiste em todos os Contribuidores e Usuários do Proje
 Contribuidores trabalham para e são responsáveis pela Comunidade do Projeto, e nós tentamos manter a barreira entre Contribuidores e Usuários tão baixa quanto possível.
 
 O Projeto é formalmente afiliado à Fundação 501(c)3 NumFOCUS
-([https://numfocus.org](https://numfocus.org)), que serve como seu patrocinador fiscal, pode ter marcas registradas do projeto e outras propriedades intelectuais, ajuda
-a gerenciar doações para o projeto e atua como sua entidade legal. NumFOCUS é a única entidade jurídica que tem uma relação formal com o projeto (veja
+([https://numfocus.org](https://numfocus.org)), que serve como patrocinadora fiscal, ajuda a gerenciar doações para o projeto, atua como sua entidade legal e pode ter marcas registradas do projeto e outras propriedades intelectuais. NumFOCUS é a única entidade jurídica que tem uma relação formal com o projeto (veja
 a seção Parceiros Institucionais abaixo).
 
 ## Governança
