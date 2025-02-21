@@ -11,7 +11,7 @@ tipos de pruebas de referencia relevantes para pandas:
 Los pruebas de referencia de pandas se implementan en el directorio [asv_bench] (https://github.com/pandas-dev/pandas/tree/main/asv_bench)
 de nuestro repositorio. Los pruebas de referencia se implementan utilizando la herramienta [airspeed velocity] (https://asv.readthedocs.io/en/v0.6.1/) (asv, por sus siglas en inglés).
 
-Cualquier desarrollador de pandas puede ejecutar los pruebas de referencia localmente. Esto se puede hacer ejecutando el comando `asv run`, y puede ser útil para detectar si se han realizado cambios locales que generen un impacto en el rendimiento, al ejecutar las pruebas de referencia antes y después de los cambios.
+Cualquier desarrollador de pandas puede ejecutar las pruebas de referencia localmente. Esto se puede hacer ejecutando el comando `asv run`, y puede ser útil para detectar si se han realizado cambios locales que generen un impacto en el rendimiento, al ejecutar las pruebas de referencia antes y después de los cambios.
 Puede encontrar más información sobre cómo ejecutar el conjunto de pruebas de rendimiento.
 [aquí](https://pandas.pydata.org/docs/dev/development/contributing_codebase.html#running-the-performance-test-suite).
 
@@ -51,7 +51,7 @@ Hay un resumen aquí:
 - Afinidad IRQ: prohíba las pruebas comparativas de la CPU para evitar muchas (pero no todas) las interrupciones del kernel en la CPU aislada
 - TurboBoost: deshabilite el escalado automático de la CPU basado en alta demanda
 - P-States: utilice el regulador de "rendimiento" para deshabilitar los P-States y los cambios de frecuencia de la CPU en función de ellos.
-- C-States: establezca el C-State en 0 y deshabilite los cambios para evitar una CPU más lenta después de la inactividad del sistema
+- C-States: establece el C-State en 0 y desactiva los cambios para evitar una ralentización de la CPU después de la inactividad del sistema
 
 ## Pruebas de referencia comunitarios
 
