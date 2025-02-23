@@ -2,8 +2,8 @@
 
 ## Installation instructions
 
-To install pandas, please reference the [installation page]({{ base_url}}docs/getting_started/install.html)
-from the pandas documentation.
+Pour installer pandas, veuillez consulter la [page d'installation]({{ base_url}}docs/getting_started/install.html)
+de la documentation pandas.
 
 ## Tutorials
 
@@ -11,7 +11,7 @@ You can learn more about pandas in the [tutorials]({{ base_url }}docs/getting_st
 and more about JupyterLab in the
 [JupyterLab documentation](https://jupyterlab.readthedocs.io/en/stable/user/interface.html).
 
-## Books
+## Livres
 
 The book we recommend to learn pandas is [Python for Data Analysis](https://amzn.to/3DyLaJc),
 by [Wes McKinney](https://wesmckinney.com/), creator of pandas.
