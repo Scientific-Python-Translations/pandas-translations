@@ -13,8 +13,8 @@ and more about JupyterLab in the
 
 ## Livres
 
-The book we recommend to learn pandas is [Python for Data Analysis](https://amzn.to/3DyLaJc),
-by [Wes McKinney](https://wesmckinney.com/), creator of pandas.
+Le livre que nous recommandons pour apprendre pandas est [Python for Data Analysis](https://amzn.to/3DyLaJc),
+de [Wes McKinney](https://wesmckinney.com/), créateur de pandas.
 
 <a href="https://amzn.to/3DyLaJc">
     <img alt="Python for Data Analysis" src="{{ base_url }}static/img/books/pydata_book.gif"/>
@@ -27,6 +27,6 @@ src="https://www.youtube.com/embed/_T8LGqJtuGc"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
-## Cheat sheet
+## Cheat Sheet
 
 [pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
