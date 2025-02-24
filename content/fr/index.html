@@ -6,43 +6,43 @@
                 <section class="h-30 p-5 bg-light border rounded-3 text-center mb-4">
                     <h1>pandas</h1>
                     <p>
-                        <strong>pandas</strong> is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,<br/>
-                        built on top of the <a href="https://www.python.org">Python</a> programming language.
+                        <strong>pandas</strong> est un outil open source d'analyse et de manipulation de données rapide, puissant, flexible et facile à utiliser,<br/>
+                        conçu à partir du langage de programmation <a href="https://www.python.org">Python</a>.
                     </p>
                     <p>
-                        <a class="btn btn-primary" href="{{ base_url }}getting_started.html">Installez pandas maintenant !</a>
+                        <a class="btn btn-primary" href="{{ base_url }}getting_started.html">Installer pandas maintenant ! </a>
                     </p>
                 </section>
 
                 <div class="row">
                     <div class="col-md-4">
-                        <h5>Getting started</h5>
+                        <h5>Prise en main</h5>
                         <ul>
                             <!-- <li><a href="{{ base_url }}/try.html">Try pandas online</a></li> -->
-                            <li><a href="{{ base_url }}getting_started.html">Install pandas</a></li>
-                            <li><a href="{{ base_url }}docs/getting_started/index.html">Getting started</a></li>
+                            <li><a href="{{ base_url }}getting_started.html">Installer pandas</a></li>
+                            <li><a href="{{ base_url }}docs/getting_started/index.html">Prise en main</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <h5>Documentation</h5>
                         <ul>
-                            <li><a href="{{ base_url }}docs/user_guide/index.html">User guide</a></li>
-                            <li><a href="{{ base_url }}docs/reference/index.html">API reference</a></li>
-                            <li><a href="{{ base_url }}docs/development/index.html">Contributing to pandas</a></li>
-                            <li><a href="{{ base_url }}docs/whatsnew/index.html">Release notes</a></li>
+                            <li><a href="{{ base_url }}docs/user_guide/index.html">Guide de l'utilisateur</a></li>
+                            <li><a href="{{ base_url }}docs/reference/index.html">Référence de l'API</a></li>
+                            <li><a href="{{ base_url }}docs/development/index.html">Contribuer à pandas</a></li>
+                            <li><a href="{{ base_url }}docs/whatsnew/index.html">Notes de version</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <h5>Community</h5>
+                        <h5>Communauté</h5>
                         <ul>
-                            <li><a href="{{ base_url }}about/index.html">About pandas</a></li>
-                            <li><a href="https://stackoverflow.com/questions/tagged/pandas">Ask a question</a></li>
-                            <li><a href="{{ base_url }}community/ecosystem.html">Ecosystem</a></li>
+                            <li><a href="{{ base_url }}about/index.html">A propos de pandas</a></li>
+                            <li><a href="https://stackoverflow.com/questions/tagged/pandas">Poser une question</a></li>
+                            <li><a href="{{ base_url }}community/ecosystem.html">Écosystème</a></li>
                         </ul>
                     </div>
                 </div>
                 <section>
-                    <h5>With the support of:</h5>
+                    <h5>Avec le soutien de :</h5>
                     {% for row in sponsors.active | batch(6, "") %}
                         <div class="row mx-auto h-100">
                             {% for company in row %}
@@ -56,20 +56,20 @@
                             {% endfor %}
                         </div>
                     {% endfor %}
-                    <p class="mt-4">The full list of companies supporting <i>pandas</i> is available in the <a href="{{ base_url }}about/sponsors.html">sponsors page</a>.
+                    <p class="mt-4">La liste complète des entreprises qui soutiennent <i>pandas</i> est disponible sur la page <a href="{{ base_url }}about/sponsors.html">sponsors</a>.
                 </section>
             </div>
             <div class="col-md-3">
                 {% if releases %}
-                    <h4>Latest version: {{ releases[0].name }}</h4>
+                    <h4>Dernière version : {{ releases[0].name }}</h4>
                     <ul>
-                        <li><a href="{{ base_url }}docs/whatsnew/v{{ releases[0].name }}.html">What's new in {{ releases[0].name }}</a></li>
-                        <li>Release date:<br/>{{ releases[0].published.strftime("%b %d, %Y") }}</li>
+                        <li><a href="{{ base_url }}docs/whatsnew/v{{ releases[0].name }}.html">Les nouveautés de {{ releases[0].name }}</a></li>
+                        <li>Date de sortie :<br/>{{ releases[0].published.strftime("%b %d, %Y") }}</li>
                         <li><a href="{{ base_url}}docs/">Documentation (web)</a></li>
-                        <li><a href="{{ releases[0].url }}">Download source code</a></li>
+                        <li><a href="{{ releases[0].url }}">Télécharger le code source</a></li>
                     </ul>
                 {% endif %}
-                <h4>Follow us</h4>
+                <h4>Suivez-nous</h4>
                 <div class="text-center">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
@@ -90,7 +90,7 @@
                     </ul>
 
                 </div>
-				<h4>Recommended books</h4>
+				<h4>Livres recommandés</h4>
 				<p class="book">
 					<a href="https://amzn.to/3DyLaJc">
 						<img class="img-fluid" alt="Python for Data Analysis" src="{{ base_url }}static/img/books/pydata_book.gif"/>
@@ -102,7 +102,7 @@
 					</a>
 				</p>
                 {% if releases[1:5] %}
-                    <h4>Previous versions</h4>
+                    <h4>Versions précédentes</h4>
                     <ul>
                         {% for release in releases[1:5] %}
                             <li class="small">
@@ -116,7 +116,7 @@
                 {% endif %}
                 {% if releases[5:] %}
                     <p class="text-center">
-                        <a data-bs-toggle="collapse" href="#show-more-releases" role="button" aria-expanded="false" aria-controls="show-more-releases">Show more</a>
+                        <a data-bs-toggle="collapse" href="#show-more-releases" role="button" aria-expanded="false" aria-controls="show-more-releases">Afficher plus</a>
                     </p>
                     <ul id="show-more-releases" class="collapse">
                         {% for release in releases[5:] %}
