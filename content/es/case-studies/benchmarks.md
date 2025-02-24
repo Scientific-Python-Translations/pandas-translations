@@ -1,7 +1,7 @@
 # Pruebas de rendimiento
 
-Los Benchmarks son pruebas para medir el desempeño pandas. Hay dos diferentes
-tipos de pruebas de referencia relevantes para pandas:
+Los Benchmarks (Pruebas de Referencia) son pruebas para medir el desempeño pandas. Hay dos tipos diferentes
+de pruebas de referencia relevantes para pandas:
 
 - Las pruebas  de referencia internas se utilizan para medir la velocidad y el uso de memoria a lo largo del tiempo
 - Las pruebas de referencia de la comunidad que comparan la velocidad o el uso de memoria de diferentes herramientas al realizar el mismo trabajo
@@ -32,8 +32,8 @@ La máquina se puede configurar con las indicaciones para Ansible en [tomaugspur
 Los resultados se publican en otro repositorio de GitHub, [tomaugspurger/asv-collection](https://github.com/tomaugspurger/asv-collection).
 
 Las pruebas de referencia están programados por [Airflow](https://airflow.apache.org/).
-Cuenta con un panel para ver y depurar los resultados.
-Deberá configurar un túnel SSH para verlas:
+Cuenta con un panel de control para ver y depurar los resultados.
+Usted deberá configurar un túnel SSH para verlas:
 
 ```
 ssh -L 8080:localhost:8080 pandas@panda.likescandy.com
@@ -44,7 +44,7 @@ ssh -L 8080:localhost:8080 pandas@panda.likescandy.com
 El servidor utilizado para ejecutar las pruebas de referencia se ha configurado para reducir el ruido del sistema y maximizar la estabilidad de los tiempos de las pruebas.
 
 Los detalles sobre cómo está configurado el servidor se pueden encontrar en el [repositorio  pandas-benchmarks] (https://github.com/pandas-dev/pandas-benchmarks).
-Hay un resumen aquí:
+Hay un breve resumen aquí:
 
 - Aislamiento de la CPU: evite que las tareas del espacio de usuario se ejecuten en la misma CPU que las pruebas de referencia, posiblemente interrumpiéndolas durante la ejecución (incluya todas las CPU virtuales que utilizan un núcleo físico)
 - NoHZ: detenga la opción del kernel permite el cambio de contexto en la CPU aislada
