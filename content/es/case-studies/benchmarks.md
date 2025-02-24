@@ -9,10 +9,10 @@ tipos de pruebas de referencia relevantes para pandas:
 ## Pruebas de referencia de pandas
 
 Los pruebas de referencia de pandas se implementan en el directorio [asv_bench] (https://github.com/pandas-dev/pandas/tree/main/asv_bench)
-de nuestro repositorio. Los pruebas de referencia se implementan utilizando la herramienta [airspeed velocity] (https://asv.readthedocs.io/en/v0.6.1/) (asv, por sus siglas en inglés).
+de nuestro repositorio. Los pruebas de referencia se implementan utilizando el marco de referencia [airspeed velocity] (https://asv.readthedocs.io/en/v0.6.1/) (asv, por sus siglas en inglés).
 
 Cualquier desarrollador de pandas puede ejecutar las pruebas de referencia localmente. Esto se puede hacer ejecutando el comando `asv run`, y puede ser útil para detectar si se han realizado cambios locales que generen un impacto en el rendimiento, al ejecutar las pruebas de referencia antes y después de los cambios.
-Puede encontrar más información sobre cómo ejecutar el conjunto de pruebas de rendimiento.
+Puede encontrar más información sobre cómo ejecutar el conjunto de pruebas de rendimiento
 [aquí](https://pandas.pydata.org/docs/dev/development/contributing_codebase.html#running-the-performance-test-suite).
 
 Tenga en cuenta que los pruebas de referencia no son deterministas y que al ejecutarse en hardware diferente o ejecutarse en el mismo hardware con diferentes niveles de utilización puede tener un gran impacto en el resultado. Incluso ejecutar las pruebas de referencia con hardware idéntico y condiciones casi idénticas produce diferencias significativas cuando se ejecuta exactamente el mismo código.
