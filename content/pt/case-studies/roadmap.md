@@ -99,22 +99,22 @@ e atenção. Os princípios a seguir devem inspirar a refatoração do código d
 deve resultar em código mais limpo, mais simples e mais desempenho.
 
 1. Indexação de rótulos nunca deve envolver busca em um eixo duas vezes para os mesmo rótulos.
-   Isso implica que qualquer passo de validação também deve:
+  Isso implica que qualquer passo de validação também deve:
 
 - limitar validação para recursos gerais (por exemplo, dtype/estrutura da chave/índice), ou
 - reutilizar o resultado para a indexação real.
 
 2. Os indexadores nunca devem depender de uma chamada explícita para outros indexadores.
-   Por exemplo, é aceitável que algum método interno de `.loc` chame algum
-   método interno de `__getitem__` (ou de sua classe base comum),
-   mas nunca no fluxo de código de `.loc` deve aparecer `the_obj[algumacoisa]`.
+  Por exemplo, é aceitável que algum método interno de `.loc` chame algum
+  método interno de `__getitem__` (ou de sua classe base comum),
+  mas nunca no fluxo de código de `.loc` deve aparecer `the_obj[algumacoisa]`.
 
 3. Execução da indexação posicional nunca deve envolver rótulos (como atualmente, infelizmente, acontece).
-   Ou seja, o fluxo de código de uma chamada de um getter (ou um setter call no qual o lado direito não é indexado)
-   para `. loc` nunca deve envolver os eixos do objeto de alguma forma.
+  Ou seja, o fluxo de código de uma chamada de um getter (ou um setter call no qual o lado direito não é indexado)
+  para `. loc` nunca deve envolver os eixos do objeto de alguma forma.
 
 4. A indexação nunca deve envolver acesso/modificação de valores (ou seja, atuar em `._data` ou `.values`) mais de uma vez.
-   Por conseguinte, os passos seguintes devem ser claramente dissociados:
+  Por conseguinte, os passos seguintes devem ser claramente dissociados:
 
 - encontrar posições que precisamos acessar/modificar em cada eixo
 - (se estivermos acessando) derivar o tipo de objeto que precisamos retornar (dimensionalidade)
@@ -129,13 +129,13 @@ deve resultar em código mais limpo, mais simples e mais desempenho.
 6. Como corolário do ponto 1.i, as (sub)classes `Index` devem fornecer métodos separados para qualquer verificação de validade desejada de rótulo(s) que não envolva consulta real, por um lado, e para qualquer conversão/adaptação/consulta necessária de rótulo(s), por outro.
 
 7. O uso de tentativa e erro deve ser limitado, e de qualquer forma, restrito para capturar apenas exceções
-   que são realmente esperadas (tipicamente `KeyError`).
+  que são realmente esperadas (tipicamente `KeyError`).
 
 - Em particular, o código nunca deve (intencionalmente) levantar novas exceções na porção `except` de uma `try... exception`
 
 8. Qualquer porção de código que não seja específica para setters e getters deve ser compartilhada,
-   e quando pequenas diferenças de comportamento são esperadas (por exemplo, receber com `.loc` levanta erros para
-   rótulos que faltam, definindo ainda não), eles podem ser gerenciados com um parâmetro específico.
+  e quando pequenas diferenças de comportamento são esperadas (por exemplo, receber com `.loc` levanta erros para
+  rótulos que faltam, definindo ainda não), eles podem ser gerenciados com um parâmetro específico.
 
 ### Operações com aceleração numérica
 
