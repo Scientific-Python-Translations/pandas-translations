@@ -366,8 +366,20 @@ Bodo es un motor informático en Python de alto rendimiento que paraleliza y
 optimiza su código mediante la compilación utilizando técnicas HPC (computación de alto rendimiento).
 Diseñado para operar con DataFrames nativos de pandas, Bodo compila su código de pandas para ejecutarlo en múltiples núcleos en una sola máquina o en clústeres distribuidos de múltiples nodos informáticos de manera eficiente.
 Bodo también hace que los DataFrames de pandas distribuidos se puedan consultar con SQL.
+Bodo also provides a SQL engine that can query distributed pandas dataframes efficiently.
 
-La edición comunitaria de Bodo se puede utilizar de forma gratuita en hasta 8 núcleos. Más allá de eso, Bodo ofrece una edición empresarial paga. Hay licencias gratuitas de Bodo (para más de 8 núcleos) disponibles con [previa solicitud](https://www.bodo.ai/contact) para uso académico y sin fines de lucro.
+```python
+import pandas as pd
+import bodo
+
+@bodo.jit
+def process_data():
+    df = pd.read_parquet("my_data.pq")
+    df2 = pd.DataFrame({"A": df.apply(lambda r: 0 if r.A == 0 else (r.B // r.A), axis=1)})
+    df2.to_parquet("out.pq")
+
+process_data()
+```
 
 ### [Cylon](https://cylondata.org/)
 
