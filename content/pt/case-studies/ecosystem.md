@@ -380,8 +380,20 @@ Você pode encontrar mais informações sobre o Hugging Face Dataset Hub na [doc
 Bodo é um mecanismo de computação Python de alto desempenho que paraleliza e otimiza automaticamente seu código por meio de compilação usando técnicas de HPC (computação de alto desempenho).
 Projetado para operar com dataframes nativos do Pandas, o Bodo compila seu código Pandas para executar em vários núcleos em uma única máquina ou clusters distribuídos de vários nós de computação de forma eficiente.
 O Bodo também torna dataframes distribuídos do Pandas consultáveis ​​com SQL.
+Bodo also provides a SQL engine that can query distributed pandas dataframes efficiently.
 
-A edição comunitária do Bodo é gratuita para uso em até 8 núcleos. Além disso, o Bodo oferece uma edição empresarial paga. Licenças gratuitas do Bodo (para mais de 8 núcleos) estão disponíveis [mediante solicitação](https://www.bodo.ai/contact) para uso acadêmico e sem fins lucrativos.
+```python
+import pandas as pd
+import bodo
+
+@bodo.jit
+def process_data():
+    df = pd.read_parquet("my_data.pq")
+    df2 = pd.DataFrame({"A": df.apply(lambda r: 0 if r.A == 0 else (r.B // r.A), axis=1)})
+    df2.to_parquet("out.pq")
+
+process_data()
+```
 
 ### [Cylon](https://cylondata.org/)
 
