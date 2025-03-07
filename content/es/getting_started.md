@@ -18,11 +18,23 @@ El libro que recomendamos para aprender pandas es [Python para análisis de dato
 
 ## Vídeos
 
-<iframe width="560" height="315" frameborder="0"
-src="https://www.youtube.com/embed/_T8LGqJtuGc"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+<iframe
+  src="https://www.youtube.com/embed/_T8LGqJtuGc"
+  style="width: 100%; max-width: 560px; height: 315px;"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 
 ## Hoja de referencia
 
 [hoja de trucos de pandas](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+
+## Try pandas in your browser (experimental)
+
+You can try pandas in your browser with the following interactive shell
+without needing to install anything on your system.
+
+<p>
+    <a class="btn btn-primary" href="{{ base_url }}try.html">Try it in your browser</a>
+</p>
