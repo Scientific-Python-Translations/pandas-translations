@@ -37,8 +37,6 @@ Si desea apoyar el desarrollo de pandas, puede encontrar información en la [pá
 
 ## Gobernanza
 
-Wes McKinney es el dictador benévolo vitalicio (Benevolent Dictator for Life  - BDFL).
-
 La gobernanza del proyecto está disponible en la [página de gobernanza del proyecto]({{ base_url }}about/governance.html).
 
 ## Grupos de Trabajo
