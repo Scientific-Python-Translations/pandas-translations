@@ -64,19 +64,19 @@ La indexación es una API complicada con muchas sutilezas. Esta refactorización
 y atención. Los siguientes principios deberían inspirar la refactorización del código de indexación y deberían dar como resultado un código más limpio, más simple y con mayor rendimiento.
 
 1. La indexación de etiquetas nunca debe implicar buscar dos veces en un eje las mismas etiquetas.
-   Esto implica que cualquier paso de validación debe:
+  Esto implica que cualquier paso de validación debe:
 
 - limitar la validación a características generales (por ejemplo, tipo/estructura de la llave/índice), o
 - reutilizar el resultado para la indexación real.
 
 2. Los indexadores nunca deben confiar en una llamada explícita a otros indexadores.
-   Por ejemplo, está bien que algún método interno de `.loc` llame a algún método interno de `__getitem__` (o de su clase base común), pero nunca en el flujo de código de `.loc` debería aparecer `the_obj[algo]`.
+  Por ejemplo, está bien que algún método interno de `.loc` llame a algún método interno de `__getitem__` (o de su clase base común), pero nunca en el flujo de código de `.loc` debería aparecer `the_obj[algo]`.
 
 3. La ejecución de la indexación posicional nunca debe involucrar etiquetas (como lamentablemente sucede actualmente).
-   Es decir, el flujo de código de una llamada getter (o una llamada setter en la que el lado derecho no está indexado) a `.iloc` nunca debe involucrar los ejes del objeto de ninguna manera.
+  Es decir, el flujo de código de una llamada getter (o una llamada setter en la que el lado derecho no está indexado) a `.iloc` nunca debe involucrar los ejes del objeto de ninguna manera.
 
 4. La indexación nunca debe implicar acceder/modificar valores (es decir, actuar sobre `._data` o `.values`) más de una vez.
-   Por tanto, es necesario desacoplar claramente los siguientes pasos:
+  Por tanto, es necesario desacoplar claramente los siguientes pasos:
 
 - encontrar posiciones a las que necesitamos acceder/modificar en cada eje
 - (si estamos accediendo) derivar el tipo de objeto que necesitamos devolver (dimensionalidad)
@@ -91,7 +91,7 @@ y atención. Los siguientes principios deberían inspirar la refactorización de
 6. Como corolario del punto 1.i, las (sub)clases `Index` deben proporcionar métodos separados para cualquier verificación de validez deseada de las etiquetas que no implique una búsqueda real, por un lado, y para cualquier conversión/adaptación/búsqueda requerida de etiquetas, por el otro.
 
 7. El uso de prueba y error debe ser limitado, y en cualquier caso, restringido para detectar únicamente excepciones.
-   que realmente se esperan (normalmente "KeyError").
+  que realmente se esperan (normalmente "KeyError").
 
 - En particular, el código nunca debe generar (intencionalmente) nuevas excepciones en la parte `except` de un `try... exception`
 
