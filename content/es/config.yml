@@ -150,14 +150,12 @@ workgroups:
     members:
       - Marc Garcia
       - Matthew Roeschke
-      - Thomas Li
   communications:
     name: Comunicaciones
     contact: communications@pandas.pydata.org
     responsibilities: "Compartir información relevante con la comunidad en general, principalmente a través de nuestras redes sociales, además de ser el principal punto de contacto entre NumFOCUS y el equipo principal."
     members:
       - Marco Gorelli
-      - Marc Garcia
 sponsors:
   active:
     - 
