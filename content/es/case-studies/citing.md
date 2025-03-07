@@ -5,37 +5,37 @@
 Si utiliza _pandas_ para una publicación científica, le agradeceríamos que citara el software publicado y el
 siguiente artículo:
 
-- [pandas en Zenodo](https://zenodo.org/search?page=1\&size=20\&q=conceptrecid%3A%223509134%22\&sort=-version\&all_versions=True),
-  Nos puedes encontrar en Zenodo y reemplazar con la cita de la versión que está utilizando. Puede reemplazar la lista completa de autores
-  por «El equipo de desarrollo de pandas» como en el siguiente ejemplo.
+- pandas en Zenodo,
+   Nos puedes encontrar en Zenodo y reemplazar con la cita de la versión que está utilizando. Puede reemplazar la lista completa de autores
+   por «El equipo de desarrollo de pandas» como en el siguiente ejemplo.
 
-  ```
-    @software{reback2020pandas,
-        author       = {The pandas development team},
-        title        = {pandas-dev/pandas: Pandas},
-        month        = feb,
-        year         = 2020,
-        publisher    = {Zenodo},
-        version      = {latest},
-        doi          = {10.5281/zenodo.3509134},
-        url          = {https://doi.org/10.5281/zenodo.3509134}
-    }
-  ```
+   ```
+     @software{reback2020pandas,
+         author       = {The pandas development team},
+         title        = {pandas-dev/pandas: Pandas},
+         month        = feb,
+         year         = 2020,
+         publisher    = {Zenodo},
+         version      = {latest},
+         doi          = {10.5281/zenodo.3509134},
+         url          = {https://doi.org/10.5281/zenodo.3509134}
+     }
+   ```
 
 - [Data structures for statistical computing in python](https://conference.scipy.org/proceedings/scipy2010/pdfs/mckinney.pdf),
-  McKinney, Proceedings of the 9th Python in Science Conference, Volume 445, 2010.
+   McKinney, Proceedings of the 9th Python in Science Conference, Volume 445, 2010.
 
-  ```
-    @InProceedings{ mckinney-proc-scipy-2010,
-      author    = { {W}es {M}c{K}inney },
-      title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
-      booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
-      pages     = { 56 - 61 },
-      year      = { 2010 },
-      editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
-      doi       = { 10.25080/Majora-92bf1922-00a }
-    }
-  ```
+   ```
+     @InProceedings{ mckinney-proc-scipy-2010,
+       author    = { {W}es {M}c{K}inney },
+       title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
+       booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
+       pages     = { 56 - 61 },
+       year      = { 2010 },
+       editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
+       doi       = { 10.25080/Majora-92bf1922-00a }
+     }
+   ```
 
 ## Marca y logo
 
