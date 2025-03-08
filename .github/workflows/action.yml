@@ -1,0 +1,19 @@
+name: Integration Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Test action
+        uses: Scientific-Python-Translations/content-sync@main
+        with:
+          source-repo: "pandas-dev/pandas"
+          source-folder: "pandas/web/pandas/"
+          source-ref: "main"
+          translations-repo: "scientific-python-translations/pandas-translations"
+          translations-folder: "pandas-translations/content/en/"
+          translations-ref: "main"
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
