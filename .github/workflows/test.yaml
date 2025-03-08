@@ -10,7 +10,7 @@ jobs:
         with:
           source-repo: "pandas-dev/pandas"
           source-folder: "pandas/web/pandas/"
-          source-ref: "main"
+          source-ref: "test-trans"
           translations-repo: "scientific-python-translations/pandas-translations"
           translations-folder: "pandas-translations/content/en/"
           translations-ref: "main"
