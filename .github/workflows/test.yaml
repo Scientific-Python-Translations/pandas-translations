@@ -8,7 +8,7 @@ jobs:
       - name: Test action
         uses: Scientific-Python-Translations/content-sync@main
         with:
-          source-repo: "scientific-python-translations/pandas"
+          source-repo: "scientificpythontranslations/pandas"
           source-folder: "pandas/web/pandas/"
           source-ref: "test-trans"
           translations-repo: "scientific-python-translations/pandas-translations"
