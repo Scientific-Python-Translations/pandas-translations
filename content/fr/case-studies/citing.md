@@ -86,7 +86,6 @@ The official logos of _pandas_ are:
 
 The pandas logo is available in full color and white accent.
 The full color logo should only appear against white backgrounds.
-The white accent logo should go against contrasting color background.
 
 When using the logo, please follow the next directives:
 
