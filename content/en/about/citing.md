@@ -1,5 +1,7 @@
 # Citing and logo
 
+TEST CHANGE
+
 ## Citing pandas
 
 If you use _pandas_ for a scientific publication, we would appreciate citations to the published software and the
