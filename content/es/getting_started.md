@@ -30,10 +30,9 @@ El libro que recomendamos para aprender pandas es [Python para análisis de dato
 
 [hoja de trucos de pandas](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 
-## Try pandas in your browser (experimental)
+## Prueba pandas en tu navegador (experimental)
 
-You can try pandas in your browser with the following interactive shell
-without needing to install anything on your system.
+Puedes probar pandas en tu navegador utilizando la línea de comandos interactiva sin necesidad de instalar cualquier cosa en tu sistema.
 
 <p>
     <a class="btn btn-primary" href="{{ base_url }}try.html">Try it in your browser</a>
