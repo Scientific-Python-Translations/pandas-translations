@@ -1,6 +1,6 @@
 # Prueba pandas en tu navegador (experimental)
 
-Prueba nuestra línea de comando experimental [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) con `pandas`, desarrollada por [Pyodide](https://pyodide.org/en/stable/).
+Prueba nuestra línea de comando experimental [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) con `pandas`, impulsada por [Pyodide](https://pyodide.org/en/stable/).
 
 **Por favor considerar que la línea de comando puede tardarse un poco(>30 segundos) en ser iniciada y estar lista para correr comandos.**
 
