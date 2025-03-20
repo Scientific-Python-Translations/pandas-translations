@@ -30,6 +30,12 @@ funcionalidades de modelagem que estão fora do escopo do Pandas. O Statsmodels
 utiliza objetos pandas como o contêiner de dados subjacente
 para computação.
 
+### [skrub](https://skrub-data.org)
+
+Skrub facilitates machine learning on dataframes. It bridges pandas
+to scikit-learn and related. In particular it facilitates building
+features from dataframes.
+
 ### [Featuretools](https://github.com/alteryx/featuretools/)
 
 Featuretools é uma biblioteca Python para engenharia de recursos automatizada
