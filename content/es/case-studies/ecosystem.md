@@ -15,6 +15,12 @@ Nos gustaría que a los usuarios les resulte más fácil encontrar estos proyect
 Statsmodels es la "biblioteca de estadísticas y econometría" de Python y tiene una relación especial de larga data con pandas.
 Statsmodels proporciona potentes funciones de estadística, econometría, análisis y modelado que están fuera del alcance de pandas. Statsmodels aprovecha los objetos de pandas como contenedor de datos para realizar los cálculo.
 
+### [skrub](https://skrub-data.org)
+
+Skrub facilitates machine learning on dataframes. It bridges pandas
+to scikit-learn and related. In particular it facilitates building
+features from dataframes.
+
 ### [Featuretools](https://github.com/alteryx/featuretools/)
 
 Featuretools es una biblioteca de Python para la ingeniería de características automatizada, construida sobre pandas. Destaca en la transformación de conjuntos de datos temporales y relacionales en matrices de características para aprendizaje automático, utilizando "primitivas" reutilizables de ingeniería de características. Los usuarios pueden contribuir con sus propias primitivas en Python y compartirlas con el resto de la comunidad.
