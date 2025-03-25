@@ -168,19 +168,19 @@ sponsors:
       url: https://www.twosigma.com/
       logo: static/img/partners/two_sigma.svg
       kind: partner
-      description: "Jeff Reback"
+      description: "Patrick Hoefler"
     - 
       name: "Voltron Data"
       url: https://voltrondata.com/
       logo: static/img/partners/voltron_data.svg
       kind: partner
-      description: "Joris Van den Bossche"
+      description: "Marco Gorelli"
     - 
       name: "Coiled"
       url: https://www.coiled.io
       logo: static/img/partners/coiled.svg
       kind: partner
-      description: "Patrick Hoefler"
+      description: "Matthew Roeschke"
     - 
       name: "Quansight"
       url: https://quansight.com/
@@ -193,30 +193,6 @@ sponsors:
       logo: static/img/partners/nvidia.svg
       kind: partner
       description: "Matthew Roeschke"
-    - 
-      name: "Intel"
-      url: https://www.intel.com/
-      logo: /static/img/partners/intel.svg
-      kind: partner
-      description: "Brock Mendel"
-    - 
-      name: "Tidelift"
-      url: https://tidelift.com
-      logo: static/img/partners/tidelift.svg
-      kind: regular
-      description: "<i>pandas</i> faz parte do programa <a href=\"https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme\">Tidelift subscription</a>. Você pode apoiar o pandas tornando-se um assinante Tidelift."
-    - 
-      name: "Chan Zuckerberg Initiative"
-      url: https://chanzuckerberg.com/
-      logo: static/img/partners/czi.svg
-      kind: regular
-      description: "O <i>pandas</i> é financiado pelo programa Essential Open Source Software for Science da Chan Zuckerberg Initiative. O financiamento é utilizado para manutenção geral, para melhorar tipos de extensões e para um tipo de string mais eficiente."
-    - 
-      name: "Bodo"
-      url: https://www.bodo.ai/
-      logo: static/img/partners/bodo.svg
-      kind: regular
-      description: "A plataforma de computação paralela da Bodo usa a API pandas, e a Bodo apoia financeiramente o desenvolvimento do pandas para ajudar a melhorar em particular a API do pandas"
   inkind:
     - 
       name: "OVH"
