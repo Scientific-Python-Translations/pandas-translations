@@ -107,7 +107,6 @@ maintainers:
     - fangchenli
     - lithomas1
     - lukemanley
-    - noatamir
   inactive:
     - lodagro
     - jseabold
@@ -124,6 +123,7 @@ maintainers:
     - gfyoung
     - mzeitlin11
     - twoertwein
+    - MarcoGorelli
 workgroups:
   coc:
     name: Código de Conduta
@@ -174,7 +174,7 @@ sponsors:
       url: https://voltrondata.com/
       logo: static/img/partners/voltron_data.svg
       kind: partner
-      description: "Marco Gorelli"
+      description: "Matthew Roeschke"
     - 
       name: "Coiled"
       url: https://www.coiled.io
@@ -187,12 +187,6 @@ sponsors:
       logo: static/img/partners/quansight_labs.svg
       kind: partner
       description: "Marco Gorelli"
-    - 
-      name: "Nvidia"
-      url: https://www.nvidia.com
-      logo: static/img/partners/nvidia.svg
-      kind: partner
-      description: "Matthew Roeschke"
   inkind:
     - 
       name: "OVH"
