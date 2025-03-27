@@ -17,9 +17,7 @@ Statsmodels proporciona potentes funciones de estadística, econometría, análi
 
 ### [skrub](https://skrub-data.org)
 
-Skrub facilitates machine learning on dataframes. It bridges pandas
-to scikit-learn and related. In particular it facilitates building
-features from dataframes.
+Skrub facilita machine learning en dataframes. Enlaza pandas a scikit-learn y relacionados. En particular facilita la construcción de atributos de dataframes.
 
 ### [Featuretools](https://github.com/alteryx/featuretools/)
 
@@ -372,7 +370,7 @@ Bodo es un motor informático en Python de alto rendimiento que paraleliza y
 optimiza su código mediante la compilación utilizando técnicas HPC (computación de alto rendimiento).
 Diseñado para operar con DataFrames nativos de pandas, Bodo compila su código de pandas para ejecutarlo en múltiples núcleos en una sola máquina o en clústeres distribuidos de múltiples nodos informáticos de manera eficiente.
 Bodo también hace que los DataFrames de pandas distribuidos se puedan consultar con SQL.
-..
+Bodo también provee un motor SQL que puede consultar dataframes distribuidos de pandas eficientemente.
 
 ```python
 import pandas as pd
@@ -440,7 +438,7 @@ df = pd.read_csv("big.csv")  # use all your cores!
 ### [Pandarallel](https://github.com/nalepae/pandarallel)
 
 Pandarallel proporciona una forma sencilla de paralelizar las operaciones de pandas en todas sus CPU cambiando solo una línea de código.
-Si también desea mostrar una barra de progreso.
+También muestra barras de progreso.
 
 ```python
 from pandarallel import pandarallel
