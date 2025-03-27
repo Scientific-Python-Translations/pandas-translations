@@ -5,7 +5,7 @@ fomentar una comunidad abierta y acogedora, nos comprometemos a respetar a todas
 
 Nos comprometemos a hacer de la participación en este proyecto una experiencia
 libre de acoso para todas las personas, sin importar el nivel de experiencia, género, identidad y expresión de género, orientación sexual, discapacidad, apariencia personal,
-tamaño del cuerpo, raza, etnicidad, edad, religión o nacionalidad.
+tamaño del cuerpo, raza, etnia, edad, religión o nacionalidad.
 
 Ejemplos de comportamiento inaceptable por parte de los participantes incluyen:
 
@@ -29,8 +29,7 @@ Este Código de Conducta aplica tanto a espacios propios del proyecto, como a es
 Existe un grupo de trabajo de miembros de la comunidad comprometido a abordar rápidamente cualquier problema reportado. Este grupo de trabajo está conformado por colaboradores y usuarios de pandas.
 Las situaciones de comportamiento abusivo, acoso o de cualquier otra conducta inaceptable pueden ser
 reportadas poniéndose en contacto con el grupo de trabajo vía correo electrónico (pandas-coc@googlegroups.com).
-Los mensajes enviados a esta dirección de correo electrónico no serán visibles públicamente, sino solo para
-quienes son parte del grupo de trabajo. El grupo de trabajo incluye actualmente
+Los mensajes enviados a esta dirección de correo electrónico no serán visibles públicamente, sino solo para quienes son parte del grupo de trabajo. El grupo de trabajo incluye actualmente
 
 <ul>
     {% for person in maintainers.coc %}
