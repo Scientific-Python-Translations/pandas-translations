@@ -1,0 +1,136 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <section class="h-30 p-5 bg-light border rounded-3 text-center mb-4">
+                    <h1>pandas</h1>
+                    <p>
+                        <strong>pandas</strong> es una herramienta de análisis y manipulación de datos de código abierto, rápida, potente, flexible y fácil de usar,<br/>
+                        basada en el lenguaje de programación <a href="https://www.python.org">Python</a>.
+                    </p>
+                    <p>
+                        <a class="btn btn-primary" href="{{ base_url }}getting_started.html">¡Instala pandas ahora!</a>
+                    </p>
+                </section>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Primeros pasos</h5>
+                        <ul>
+                            <li><a href="{{ base_url }}getting_started.html">Instale pandas</a></li>
+                            <li><a href="{{ base_url }}docs/getting_started/index.html">Primeros pasos</a></li>
+                            <li><a href="{{ base_url }}try.html">Prueba pandas online</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Documentación</h5>
+                        <ul>
+                            <li><a href="{{ base_url }}docs/user_guide/index.html">Guía del usuario</a></li>
+                            <li><a href="{{ base_url }}docs/reference/index.html">Referencia de la API</a></li>
+                            <li><a href="{{ base_url }}docs/development/index.html">Contribuir a pandas</a></li>
+                            <li><a href="{{ base_url }}docs/whatsnew/index.html">Notas de la versión</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Comunidad</h5>
+                        <ul>
+                            <li><a href="{{ base_url }}about/index.html">Acerca de pandas</a></li>
+                            <li><a href="https://stackoverflow.com/questions/tagged/pandas">Haga una pregunta</a></li>
+                            <li><a href="{{ base_url }}community/ecosystem.html">Ecosistema</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <section>
+                    <h5>Con el soporte de:</h5>
+                    {% for row in sponsors.active | batch(6, "") %}
+                        <div class="row mx-auto h-100">
+                            {% for company in row %}
+                                <div class="col-6 col-md-2 d-flex align-items-center justify-content-center">
+                                    {% if company %}
+                                        <0>
+                                            <1/>
+                                        </0>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                    <p class="mt-4">La lista completa de empresas que apoyan a <0>pandas</0> está disponible en la <1>página de patrocinadores</1>.
+                </section>
+            </div>
+            <div class="col-md-3">
+                {% if releases %}
+                    <h4>Última versión: {{ releases[0].name }}</h4>
+                    <ul>
+                        <li><a href="{{ base_url }}docs/whatsnew/v{{ releases[0].name }}.html">Novedades en {{ releases[0].name }}</a></li>
+                        <li>Fecha de lanzamiento:<0/>{{ lanzamientos[0].published.strftime("%b %d, %Y") }}</li>
+                        <li><a href="{{ base_url}}docs/">Documentación (web)</a></li>
+                        <li><a href="{{ releases[0].url }}">Descargar el código fuente</a></li>
+                    </ul>
+                {% endif %}
+                <h4>Síganos</h4>
+                <div class="text-center">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://t.me/s/pandas_dev">
+                                <i class="follow-us-button fab bi bi-telegram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://fosstodon.org/@pandas_dev" rel="me">
+                                <i class="follow-us-button fab bi bi-mastodon"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://x.com/pandas_dev">
+                                <i class="follow-us-button fab bi bi-twitter-x"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+				<h4>Libros recomendados</h4>
+				<p class="book">
+					<a href="https://amzn.to/3DyLaJc">
+						<img class="img-fluid" alt="Python para análisis de datos" src="{{ base_url }}static/img/books/pydata_book.gif"/>
+					</a>
+				</p>
+				<p class="book">
+					<a href="https://store.metasnake.com/effective-pandas-book/lhte7">
+						<img class="img-fluid" alt="Pandas efectivo 2" src="{{ base_url }}static/img/books/effective_pandas_2.gif"/>
+					</a>
+				</p>
+                {% if releases[1:5] %}
+                    <h4>Versiones anteriores</h4>
+                    <ul>
+                        {% for release in releases[1:5] %}
+                            <li class="small">
+                                {{ release.name }} ({{ release.published.strftime("%b %d, %Y") }})<br/>
+                                <a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/{{ release.tag }}.html">changelog</a> |
+                                <a href="https://pandas.pydata.org/pandas-docs/version/{{ release.name }}/">docs</a> |
+                                <a href="{{ release.url }}">code</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                {% if releases[5:] %}
+                    <p class="text-center">
+                        <a data-bs-toggle="collapse" href="#show-more-releases" role="button" aria-expanded="false" aria-controls="show-more-releases">Ver más</a>
+                    </p>
+                    <ul id="show-more-releases" class="collapse">
+                        {% for release in releases[5:] %}
+                            <li class="small">
+                                {{ release.name }} ({{ release.published.strftime("%b %d, %Y") }})<br/>
+                                <a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/{{ release.tag }}.html">changelog</a> |
+                                <a href="https://pandas.pydata.org/pandas-docs/version/{{ release.name }}/">docs</a> |
+                                <a href="{{ release.url }}">code</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
