@@ -49,7 +49,7 @@ Hay un breve resumen aquí:
 - NoHZ: detiene la opción del kernel permite el cambio de contexto en la CPU aislada
 - Afinidad IRQ: prohíba las pruebas comparativas de la CPU para evitar muchas (pero no todas) las interrupciones del kernel en la CPU aislada
 - TurboBoost: desactiva el escalado automático de la CPU basado en alta demanda
-- P-States: utiliza el regulador de "rendimiento" para deshabilitar los P-States y los cambios de frecuencia de la CPU en función de ellos.
+- P-States: utiliza el regulador de "rendimiento" para deshabilitar los P-States y los cambios de frecuencia de la CPU en función de ellos
 - C-States: establece el C-State en 0 y desactiva los cambios para evitar una ralentización de la CPU después de la inactividad del sistema
 
 ## Pruebas de referencia comunitarias
