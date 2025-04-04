@@ -103,7 +103,9 @@ Uma boa implementação para usuários de Python é [has2k1/plotnine](https://gi
 
 ### [Plotly](https://plot.ly/python)
 
-A [API Python](https://plot.ly/python/) do [Plotly's](https://plot.ly/) permite figuras interativas e compartilhamento na web. Mapas, gráficos 2D, 3D e streaming ao vivo são renderizados com WebGL e [D3.js](https://d3js.org/). A biblioteca oferece suporte a plotagem diretamente de um DataFrame do pandas e colaboração baseada em nuvem. Usuários do [matplotlib, ggplot para Python e Seaborn](https://plot.ly/python/matplotlib-to-plotly-tutorial/) podem converter figuras em gráficos interativos baseados na web. Os gráficos podem ser desenhados em [IPython Notebooks](https://plot.ly/ipython-notebooks/), editados com R ou MATLAB, modificados em uma GUI ou incorporados em aplicativos e painéis. O Plotly é gratuito para compartilhamento ilimitado e tem contas na [nuvem](https://plot.ly/product/plans/), [offline](https://plot.ly/python/offline/) ou [on-premise](https://plot.ly/product/enterprise/) para uso privado.
+A [API Python](https://plot.ly/python/) do [Plotly's](https://plot.ly/) permite figuras interativas e compartilhamento na web. Mapas, gráficos 2D, 3D e streaming ao vivo são renderizados com WebGL e [D3.js](https://d3js.org/). A biblioteca oferece suporte a plotagem diretamente de um DataFrame do pandas e colaboração baseada em nuvem. Usuários do [matplotlib, ggplot para Python e Seaborn](https://plot.ly/python/matplotlib-to-plotly-tutorial/) podem converter figuras em gráficos interativos baseados na web. Os gráficos podem ser desenhados em [IPython Notebooks](https://plot.ly/ipython-notebooks/), editados com R ou MATLAB, modificados em uma GUI ou incorporados em aplicativos e painéis. Plotly
+is free for unlimited sharing, and has cloud, offline, or on-premise
+accounts for private use.
 
 ### [Lux](https://github.com/lux-org/lux)
 
