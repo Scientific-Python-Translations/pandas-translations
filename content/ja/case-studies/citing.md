@@ -4,9 +4,9 @@
 
 もしあなたが学術論文で _pandas_ を使用する場合は、以下のソフトウェアおよび論文への引用をお願いいたします:
 
-- pandas on Zenodo,
-   Please find us on Zenodo and replace with the citation for the version you are using. You can replace the full author
-   list from there with "The pandas development team" like in the example below.
+- Zenodo における pandas,
+   Zenodo で私たちを見つけて、使用しているバージョンの引用に置き換えてください。 以下の例のように、作者の
+   リストを"パンダ開発チーム"に置き換えることができます。
 
              @software{reback2020pandas,
                  author       = {The pandas development team},
