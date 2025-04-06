@@ -2,7 +2,7 @@
 
 ## pandas を引用することについて
 
-もしあなたが学術論文で _pandas_ を使用する場合は、以下のソフトウェアと論文への引用をお願いいたします:
+もしあなたが学術論文で _pandas_ を使用する場合は、以下のソフトウェアおよび論文への引用をお願いいたします:
 
 - pandas on Zenodo,
    Please find us on Zenodo and replace with the citation for the version you are using. You can replace the full author
@@ -19,7 +19,7 @@
                  url          = {https://doi.org/10.5281/zenodo.3509134}
              }
 
-- [Data structures for statistical computing in python](https://pub.curvenote.com/01908378-3686-7168-a380-d82bbf21c799/public/mckinney-57fc0d4e8a08cd7f26a4b8bf468a71f4.pdf),
+- [Data structures for statistical computing in python](https://pub.curvenote.com/01908378-3686-7168-a380-d82bbf21c799/public/mckinney-57fc0d4e8a08cd7f26a4b8bf468a71f4.pdf),\
    McKinney, Proceedings of the 9th Python in Science Conference, Volume 445, 2010.
 
              @InProceedings{ mckinney-proc-scipy-2010,
@@ -32,13 +32,13 @@
                doi       = { 10.25080/Majora-92bf1922-00a }
              }
 
-## Brand and logo
+## ブランドとロゴ
 
-When using the project name _pandas_, please use it in lower case, even at the beginning of a sentence.
+プロジェクト名 _pandas_ を使用する際は、文頭であっても小文字で記載してください。
 
-The official logos of _pandas_ are:
+_pandas_ の公式ロゴは次の通りです:
 
-### Primary logo
+### 主要ロゴ
 
 <table class="table logo">
     <tbody><tr>
@@ -51,7 +51,7 @@ The official logos of _pandas_ are:
     </tr>
 </tbody></table>
 
-### Secondary logo
+### セカンダリーロゴ
 
 <table class="table logo">
     <tbody><tr>
@@ -64,7 +64,7 @@ The official logos of _pandas_ are:
     </tr>
 </tbody></table>
 
-### Logo mark
+### ロゴマーク
 
 <table class="table logo">
     <tbody><tr>
@@ -77,21 +77,21 @@ The official logos of _pandas_ are:
     </tr>
 </tbody></table>
 
-### Logo usage
+### ロゴの使用方法
 
 The pandas logo is available in full color and white accent.
 The full color logo should only appear against white backgrounds.
 The white accent logo should go against contrasting color background.
 
-When using the logo, please follow the next directives:
+ロゴを使用する際は、以下の指示に従ってください:
 
-- Primary logo should never be seen under 1 inch in size for printing and 72px for web
-- The secondary logo should never be seen under 0.75 inch in size for printing and 55px for web
-- Leave enough margin around the logo (leave the height of the logo in the top, bottom and both sides)
-- Do not distort the logo by changing its proportions
-- Do not place text or other elements on top of the logo
+- プライマリロゴは印刷時は1インチ未満、ウェブ時は72px未満のサイズで使用しないでください。
+- セカンダリーロゴは印刷時は0.75インチ未満、ウェブ時は55px未満のサイズで使用しないでください。
+- ロゴの周囲に十分な余白を残してください（ロゴの高さ分の余白を上部、下部、左右に設ける）。
+- ロゴの比率を変更して歪めないでください。
+- ロゴの上にテキストやその他の要素を配置しないでください。
 
-### Colors
+### カラー
 
 <table class="table">
     <tbody><tr>
