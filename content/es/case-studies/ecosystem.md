@@ -483,7 +483,7 @@ Los DataFrames contienen información que pandera valida explícitamente en tiem
 Pandas proporciona una interfaz para definir [tipos de extensión](https://pandas.pydata.org/docs/development/extending.html#extension-types) para extender el sistema de tipos de NumPy.
 Las siguientes bibliotecas implementan esa interfaz para proporcionar tipos que no se encuentran en NumPy o pandas, que funcionan bien con los contenedores de datos de pandas.
 
-### [awkward-pandas](https://awkward-pandas.readthedocs.io/)
+### [awkward-pandas](https://github.com/scikit-hep/awkward)
 
 Awkward-pandas proporciona un tipo de extensión para almacenar [Awkward Arrays](https://awkward-array.org/) dentro de la Series y los DataFrames de pandas. También proporciona acceso para usar funciones `awkward`  en Series que son de tipo `ackward`.
 
