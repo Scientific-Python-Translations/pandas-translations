@@ -353,7 +353,7 @@ read_record.data
 df.dtypes
 ```
 
-O ArcticDB também suporta anexar, atualizar e consultar dados do armazenamento para um DataFrame do pandas. Encontre mais informações [aqui](https://docs.arcticdb.io/latest/api/query_builder/).
+O ArcticDB também suporta anexar, atualizar e consultar dados do armazenamento para um DataFrame do pandas. Please find more information [here](https://docs.arcticdb.io/latest/api/processing/#arcticdb.QueryBuilder).
 
 ### [Hugging Face](https://huggingface.co/datasets)
 
