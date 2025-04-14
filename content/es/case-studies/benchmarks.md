@@ -22,8 +22,8 @@ Actualmente tenemos dos servidores físicos ejecutando las pruebas de referencia
 
 Los resultados de las pruebas de referencia están disponibles en:
 
-- Servidor original: [asv](https://asv-runner.github.io/asv-collection/pandas/)
-- Servidor OVH: [asv](https://pandas.pydata.org/benchmarks/asv/) (los resultados de las pruebas de referencia también se pueden visualizar en este [Conbench PoC](http://57.128.112.95:5000/)
+- GitHub Actions results: [asv](https://pandas-dev.github.io/asv-runner/)
+- OVH server: [asv](https://pandas.pydata.org/benchmarks/asv/)
 
 ### Configuración original del servidor
 
