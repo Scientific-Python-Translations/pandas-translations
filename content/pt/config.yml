@@ -146,11 +146,6 @@ sponsors:
     url: https://numfocus.org/
     logo: static/img/partners/numfocus.svg
     kind: numfocus
-  - name: "Two Sigma"
-    url: https://www.twosigma.com/
-    logo: static/img/partners/two_sigma.svg
-    kind: partner
-    description: "Patrick Hoefler"
   - name: "Voltron Data"
     url: https://voltrondata.com/
     logo: static/img/partners/voltron_data.svg
@@ -191,6 +186,21 @@ sponsors:
     kind: partner
   - name: "d-fine GmbH"
     url: https://www.d-fine.com/en/
+    kind: partner
+  - name: "Two Sigma"
+    url: https://www.twosigma.com/
+    kind: partner
+  - name: "Voltron Data"
+    url: https://voltrondata.com/
+    kind: partner
+  - name: "Intel"
+    url: https://www.intel.com/
+    kind: partner
+  - name: "Chan Zuckerberg Initiative"
+    url: https://chanzuckerberg.com/
+    kind: partner
+  - name: "Two Sigma"
+    url: https://www.twosigma.com/
     kind: partner
 roadmap:
   pdeps_path: pdeps
