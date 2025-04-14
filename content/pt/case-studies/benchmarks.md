@@ -25,8 +25,8 @@ Atualmente temos dois servidores físicos executando os benchmarks do pandas par
 
 Os resultados dos benchmarks estão disponíveis em:
 
-- Servidor original: [asv](https://asv-runner.github.io/asv-collection/pandas/)
-- Servidor OVH: [asv](https://pandas.pydata.org/benchmarks/asv/) (os resultados também podem ser visualizados em [Conbench PoC](http://57.128.112.95:5000/)
+- GitHub Actions results: [asv](https://pandas-dev.github.io/asv-runner/)
+- OVH server: [asv](https://pandas.pydata.org/benchmarks/asv/)
 
 ### Configuração do servidor original
 
