@@ -8,49 +8,23 @@ Los Benchmarks son pruebas para medir el desempeño de pandas. Hay dos tipos dif
 ## Pruebas de referencia de pandas
 
 Los pruebas de referencia de pandas se implementan en el directorio [asv_bench] (https://github.com/pandas-dev/pandas/tree/main/asv_bench)
-de nuestro repositorio. Las pruebas de referencia se implementan utilizando la herramienta [airspeed velocity] (https://asv.readthedocs.io/en/v0.6.1/) (asv, por sus siglas en inglés).
+de nuestro repositorio. The benchmarks are implemented for the
+[airspeed velocity](https://asv.readthedocs.io/en/latest/) (asv for short) framework.
 
 Cualquier desarrollador de pandas puede ejecutar las pruebas de referencia localmente. Esto se puede hacer ejecutando el comando `asv run`, y puede ser útil para detectar si se han realizado cambios locales que generen un impacto en el rendimiento, al ejecutar las pruebas de referencia antes y después de los cambios.
 Puede encontrar más información sobre cómo ejecutar el conjunto de pruebas de rendimiento
 [aquí](https://pandas.pydata.org/docs/dev/development/contributing_codebase.html#running-the-performance-test-suite).
 
-Tenga en cuenta que los pruebas de referencia no son deterministas y que al ejecutarse en hardware diferente o ejecutarse en el mismo hardware con diferentes niveles de utilización puede tener un gran impacto en el resultado. Incluso ejecutar las pruebas de referencia con hardware idéntico y condiciones casi idénticas produce diferencias significativas cuando se ejecuta exactamente el mismo código.
+Tenga en cuenta que los pruebas de referencia no son deterministas y que al ejecutarse en hardware diferente o ejecutarse en el mismo hardware con diferentes niveles de utilización puede tener un gran impacto en el resultado. Even running the benchmarks with identical hardware and almost identical
+conditions can produce significant differences when running the same exact code.
 
-## Servidores de pruebas de referencia de pandas
+## Automated benchmark runner
 
-Actualmente tenemos dos servidores físicos ejecutando las pruebas de referencia de pandas para cada (o casi cada) inclusión de código en la rama `main`. Los servidores funcionan independientemente el uno del otro. El servidor original ha estado funcionando durante mucho tiempo y está ubicado físicamente con uno de los mantenedores de pandas. El servidor más nuevo se encuentra en un centro de datos patrocinado amablemente por [OVHCloud](https://www.ovhcloud.com/). Más información sobre los patrocinadores de pandas y cómo su empresa puede apoyar el desarrollo de pandas está disponible en la página [patrocinadores de pandas]({{ base_url }}about/sponsors.html).
+The [asv-runner](https://github.com/pandas-dev/asv-runner/) repository automatically runs the pandas asv benchmark suite
+for every (or almost every) commit to the `main` branch. It is run on GitHub actions.
+See the linked repository for more details. The results are available at:
 
-Los resultados de las pruebas de referencia están disponibles en:
-
-- GitHub Actions results: [asv](https://pandas-dev.github.io/asv-runner/)
-- OVH server: [asv](https://pandas.pydata.org/benchmarks/asv/)
-
-### Configuración original del servidor
-
-La máquina se puede configurar con las indicaciones para Ansible en [tomaugspurger/asv-runner](https://github.com/tomaugspurger/asv-runner).
-Los resultados se publican en otro repositorio de GitHub, [tomaugspurger/asv-collection](https://github.com/tomaugspurger/asv-collection).
-
-Las pruebas de referencia están programados por [Airflow](https://airflow.apache.org/).
-Cuenta con un panel de control para ver y depurar los resultados.
-Usted deberá configurar un túnel SSH para verlas:
-
-```
-ssh -L 8080:localhost:8080 pandas@panda.likescandy.com
-```
-
-### Configuración del servidor OVH
-
-El servidor utilizado para ejecutar las pruebas de referencia se ha configurado para reducir el ruido del sistema y maximizar la estabilidad de los tiempos de las pruebas.
-
-Los detalles sobre cómo está configurado el servidor se pueden encontrar en el [repositorio  pandas-benchmarks] (https://github.com/pandas-dev/pandas-benchmarks).
-Hay un breve resumen aquí:
-
-- Aislamiento de la CPU: evite que las tareas del espacio de usuario se ejecuten en la misma CPU que las pruebas de referencia, posiblemente interrumpiéndolas durante la ejecución (incluya todas las CPU virtuales que utilizan un núcleo físico)
-- NoHZ: detiene la opción del kernel permite el cambio de contexto en la CPU aislada
-- Afinidad IRQ: prohíba las pruebas comparativas de la CPU para evitar muchas (pero no todas) las interrupciones del kernel en la CPU aislada
-- TurboBoost: desactiva el escalado automático de la CPU basado en alta demanda
-- P-States: utiliza el regulador de "rendimiento" para deshabilitar los P-States y los cambios de frecuencia de la CPU en función de ellos
-- C-States: establece el C-State en 0 y desactiva los cambios para evitar una ralentización de la CPU después de la inactividad del sistema
+https://pandas-dev.github.io/asv-runner/
 
 ## Pruebas de referencia comunitarias
 
