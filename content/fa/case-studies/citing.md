@@ -9,29 +9,33 @@ following paper:
    لطفاً ما را در Zenodo پیدا کنید و استناد مربوط به نسخه‌ای که استفاده می‌کنید را جایگزین کنید. You can replace the full author
    list from there with "The pandas development team" like in the example below.
 
-             @software{reback2020pandas,
-                 author       = {The pandas development team},
-                 title        = {pandas-dev/pandas: Pandas},
-                 month        = feb,
-                 year         = 2020,
-                 publisher    = {Zenodo},
-                 version      = {latest},
-                 doi          = {10.5281/zenodo.3509134},
-                 url          = {https://doi.org/10.5281/zenodo.3509134}
-             }
+         ```
+           @software{reback2020pandas,
+               author       = {The pandas development team},
+               title        = {pandas-dev/pandas: Pandas},
+               month        = feb,
+               year         = 2020,
+               publisher    = {Zenodo},
+               version      = {latest},
+               doi          = {10.5281/zenodo.3509134},
+               url          = {https://doi.org/10.5281/zenodo.3509134}
+           }
+         ```
 
 - [Data structures for statistical computing in python](https://pub.curvenote.com/01908378-3686-7168-a380-d82bbf21c799/public/mckinney-57fc0d4e8a08cd7f26a4b8bf468a71f4.pdf),
    McKinney, Proceedings of the 9th Python in Science Conference, Volume 445, 2010.
 
-             @InProceedings{ mckinney-proc-scipy-2010,
-               author    = { {W}es {M}c{K}inney },
-               title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
-               booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
-               pages     = { 56 - 61 },
-               year      = { 2010 },
-               editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
-               doi       = { 10.25080/Majora-92bf1922-00a }
-             }
+         ```
+           @InProceedings{ mckinney-proc-scipy-2010,
+             author    = { {W}es {M}c{K}inney },
+             title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
+             booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
+             pages     = { 56 - 61 },
+             year      = { 2010 },
+             editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
+             doi       = { 10.25080/Majora-92bf1922-00a }
+           }
+         ```
 
 ## Brand and logo
 
