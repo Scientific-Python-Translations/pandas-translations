@@ -75,7 +75,11 @@ sns.set_theme()
 
 ### [plotnine](https://github.com/has2k1/plotnine/)
 
-[ggplot2](https://ggplot2.tidyverse.org/) de Hadley Wickham es un paquete fundamental de visualización exploratoria para el lenguaje R. Basado en ["The Grammar of Graphics"](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html), ofrece una forma poderosa, declarativa y general de generar gráficos personalizados para cualquier tipo de datos.
+[ggplot2](https://ggplot2.tidyverse.org/) de Hadley Wickham es un paquete fundamental de visualización exploratoria para el lenguaje R. Based
+on "The Grammar of
+Graphics"
+it provides a powerful, declarative and extremely general way to
+generate bespoke plots of any kind of data.
 Existen diversas implementaciones disponibles para otros lenguajes.
 Una buena implementación para usuarios de Python es [has2k1/plotnine](https://github.com/has2k1/plotnine/).
 
