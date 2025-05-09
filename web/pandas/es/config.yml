@@ -1,0 +1,206 @@
+main:
+  templates_path: _templates
+  base_template: "layout.html"
+  production_url: "https://pandas.pydata.org/"
+  ignore:
+  - _templates/layout.html
+  - config.yml
+  github_repo_url: pandas-dev/pandas
+  context_preprocessors:
+  - pandas_web.Preprocessors.current_year
+  - pandas_web.Preprocessors.navbar_add_info
+  - pandas_web.Preprocessors.blog_add_posts
+  - pandas_web.Preprocessors.maintainers_add_info
+  - pandas_web.Preprocessors.home_add_releases
+  - pandas_web.Preprocessors.roadmap_pdeps
+  markdown_extensions:
+  - toc
+  - tables
+  - fenced_code
+  - meta
+  - footnotes
+  - codehilite
+static:
+  logo: static/img/pandas_white.svg
+  css:
+  - static/css/pandas.css
+  - static/css/codehilite.css
+navbar:
+  - name: "Sobre nosotros"
+    target:
+    - name: "Acerca de pandas"
+      target: about/
+    - name: "Hoja de ruta"
+      target: about/roadmap.html
+    - name: "Gobernanza"
+      target: about/governance.html
+    - name: "Equipo"
+      target: about/team.html
+    - name: "Patrocinadores"
+      target: about/sponsors.html
+    - name: "Citas y logotipo"
+      target: about/citing.html
+  - name: "Primeros pasos"
+    target: getting_started.html
+  - name: "Documentación"
+    target: docs/
+  - name: "Comunidad"
+    target:
+    - name: "Blog"
+      target: community/blog/
+    - name: "Hacer una pregunta (StackOverflow)"
+      target: https://stackoverflow.com/questions/tagged/pandas
+    - name: "Código de conducta"
+      target: community/coc.html
+    - name: "Ecosistema"
+      target: community/ecosystem.html
+    - name: "Pruebas de rendimiento"
+      target: community/benchmarks.html
+  - name: "Contribuir"
+    target: contribute.html
+blog:
+  num_posts: 50
+  posts_path: community/blog
+  author: "equipo de pandas"
+  feed_name: "blog de pandas"
+  feed:
+  - https://wesmckinney.com/feeds/pandas.atom.xml
+  - https://tomaugspurger.github.io/feed
+  - https://jorisvandenbossche.github.io/feeds/pandas.atom.xml
+  - https://datapythonista.me/blog/feeds/pandas.atom.xml
+  - https://numfocus.org/tag/pandas/feed/
+  - https://phofl.github.io/feeds/pandas.atom.xml
+maintainers:
+  active:
+  - jorisvandenbossche
+  - TomAugspurger
+  - jreback
+  - WillAyd
+  - mroeschke
+  - jbrockmendel
+  - datapythonista
+  - simonjayhawkins
+  - topper-123
+  - alimcmaster1
+  - bashtage
+  - Dr-Irv
+  - rhshadrach
+  - phofl
+  - attack68
+  - fangchenli
+  - lithomas1
+  - lukemanley
+  - noatamir
+  inactive:
+  - lodagro
+  - jseabold
+  - jtratner
+  - shoyer
+  - chris-b1
+  - sinhrks
+  - cpcloud
+  - toobaz
+  - jschendel
+  - charlesdong1991
+  - dsaxton
+  - wesm
+  - gfyoung
+  - mzeitlin11
+  - twoertwein
+  - MarcoGorelli
+workgroups:
+  coc:
+    name: Código de conducta
+    contact: coc@pandas.pydata.org
+    responsibilities: "Asegurarse de que pandas sea la comunidad acogedora e inclusiva que queremos que sea. Mantener el código de conducta actualizado y abordar los informes de infracciones."
+    members:
+    - Tom Augspurger
+    - Bijay Regmi
+    - Wuraola Oyewusi
+    - Мария Чакчурина
+  finance:
+    name: Finanzas
+    contact: finance@pandas.pydata.org
+    responsibilities: "Gestionar la financiación. Coordinar la solicitud de subvenciones. Aprobar los gastos del proyecto."
+    members:
+    - Matthew Roeschke
+    - Jeff Reback
+    - Joris Van den Bossche
+    - Patrick Hoefler
+  infrastructure:
+    name: Infraestructura
+    contact: infrastructure@pandas.pydata.org
+    responsibilities: "Mantener la infraestructura de pandas en funcionamiento. En particular los servidores para el sitio web, las pruebas de rendimiento, integración continua y otros necesarios."
+    members:
+    - William Ayd
+    - Thomas Li
+  communications:
+    name: Comunicaciones
+    contact: communications@pandas.pydata.org
+    responsibilities: "Compartir información relevante con la comunidad en general, principalmente a través de nuestras redes sociales, además de ser el principal punto de contacto entre NumFOCUS y el equipo principal."
+    members:
+    - datapythonista
+sponsors:
+  active:
+  - name: "NumFOCUS"
+    url: https://numfocus.org/
+    logo: static/img/partners/numfocus.svg
+    kind: numfocus
+  - name: "Nvidia"
+    url: https://www.nvidia.com
+    logo: static/img/partners/nvidia.svg
+    kind: partner
+    description: "Matthew Roeschke"
+  - name: "Tidelift"
+    url: https://tidelift.com
+    logo: static/img/partners/tidelift.svg
+    kind: regular
+    description: "**pandas** es parte de [Tidelift](https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme). Puedes apoyar a pandas convirtiéndote en suscriptor de Tidelift."
+  - name: "Bodo"
+    url: https://www.bodo.ai/
+    logo: static/img/partners/bodo.svg
+    kind: regular
+    description: "La plataforma de computación paralela de Bodo utiliza la API de pandas y Bodo apoya financieramente el desarrollo de pandas para ayudar a mejorarlo, en particular su API."
+  inkind:
+  - name: "OVH"
+    url: https://us.ovhcloud.com/
+    description: "Sitio web y documentación de alojamiento."
+  - name: "Indeed"
+    url: https://opensource.indeedeng.io/
+    description: "Diseño de logotipo <i>pandas</i>"
+  past:
+  - name: "Paris-Saclay Center for Data Science"
+    url: https://www.datascience-paris-saclay.fr/
+    kind: partner
+  - name: "Anaconda"
+    url: https://www.anaconda.com/
+    kind: partner
+  - name: "RStudio"
+    url: https://www.rstudio.com/
+    kind: partner
+  - name: "Ursa Labs"
+    url: https://ursalabs.org/
+    kind: partner
+  - name: "Gousto"
+    url: https://www.gousto.co.uk/
+    kind: partner
+  - name: "d-fine GmbH"
+    url: https://www.d-fine.com/en/
+    kind: partner
+  - name: "Two Sigma"
+    url: https://www.twosigma.com/
+    kind: partner
+  - name: "Voltron Data"
+    url: https://voltrondata.com/
+    kind: partner
+  - name: "Intel"
+    url: https://www.intel.com/
+    kind: partner
+  - name: "Chan Zuckerberg Initiative"
+    url: https://chanzuckerberg.com/
+    kind: regular
+  - name: "Coiled"
+    url: https://www.coiled.io
+    kind: partner
+roadmap:
+  pdeps_path: pdeps
