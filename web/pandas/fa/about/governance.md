@@ -1,0 +1,206 @@
+# دستورکار (حاکمیت) پروژه
+
+نسخه رسمی این سند، به همراه فهرستی از افراد و مؤسساتی که در نقش‌های تعریف‌شده در دستورکار قرار دارند
+بخش زیر در صفحه [دستورکار پروژه]({{ base_url }}about/governance.html) در وب‌سایت پانداس قرار دارد.
+
+## پروژه
+
+پروژه پانداس (پروژه) یک پروژه نرم‌افزار منبع‌باز است که وابسته به بنیاد NumFOCUS با وضعیت ۵۰۱(c)۳ می‌باشد. هدف پروژه توسعه نرم‌افزار منبع‌باز برای واردسازی داده، آماده‌سازی داده، تحلیل داده و تجسم داده‌ها برای زبان برنامه‌نویسی پایتون است. نرم‌افزار توسعه‌یافته توسط پروژه تحت مجوز نرم‌افزار منبع‌باز BSD (یا مشابه آن) منتشر می‌شود، به طور عمومی توسعه داده می‌شود و در مخازن عمومی گیت‌هاب تحت سازمان پانداس در [گیت‌هاب](https://github.com/pandas-dev) میزبانی می‌شود. نمونه‌های نرم‌افزار پروژه شامل مخزن اصلی کد پانداس و کتابخانه pandas-stubs می‌باشد.
+
+از طریق وابستگی به NumFOCUS، پروژه حق دریافت کمک‌های مالی قابل کسر از مالیات در ایالات متحده آمریکا را دارد.
+
+پروژه توسط تیمی از توسعه‌دهندگان توزیع‌شده که مشارکت‌کنندگان نامیده می‌شوند، توسعه می‌یابد. مشارکت‌کنندگان افرادی هستند که کد، مستندات، طراحی‌ها یا سایر آثار را به یکی از مخازن پروژه یا بیشتر از آن‌ها ارائه داده‌اند.
+هر کسی می‌تواند یک مشارکت‌کننده باشد. مشارکت‌کنندگان می‌توانند به هر نهاد قانونی وابسته باشند یا هیچ وابستگی قانونی نداشته باشند. مشارکت‌کنندگان با ارسال، بازبینی و بحث درباره درخواست‌های ادغام (Pull Requests) و مسائل (Issues) گیت‌هاب و همچنین مشارکت در بحث‌های باز و عمومی پروژه در گیت‌هاب، فهرست‌های پستی و سایر مکان‌ها، در پروژه شرکت می‌کنند. پایه‌گذار مشارکت در پروژه، باز بودن و شفافیت است.
+
+در اینجا فهرستی از مشارکت‌کنندگان فعلی مخزن اصلی پانداس آورده شده است:
+
+[https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
+
+همچنین بسیاری از مشارکت‌کنندگان دیگر در گزارش‌های سایر مخازن پروژه پانداس فهرست شده‌اند.
+
+جامعه پروژه شامل تمامی مشارکت‌کنندگان و کاربران پروژه است.
+مشارکت‌کنندگان به نمایندگی از جامعه بزرگتر پروژه فعالیت می‌کنند و مسئولیت پاسخگویی به آن را دارند و ما تلاش می‌کنیم تا موانع بین مشارکت‌کنندگان و کاربران را تا حد امکان کاهش دهیم.
+
+پروژه به طور رسمی وابسته به بنیاد NumFOCUS با وضعیت ۵۰۱(c)3 است ([https://numfocus.org](https://numfocus.org))، که به عنوان حامی مالی پروژه عمل می‌کند، ممکن است مالک علائم تجاری و سایر مالکیت‌های معنوی پروژه باشد، به مدیریت کمک‌های مالی پروژه می‌پردازد و به عنوان نهاد قانونی مادر عمل می‌کند. NumFOCUS تنها نهاد قانونی است که رابطه رسمی با پروژه دارد (برای جزئیات بیشتر به بخش شرکای نهادی زیر مراجعه کنید).
+
+## دستور کار (حاکمیت)
+
+این بخش مدل دستورکار و رهبری پروژه را توضیح می‌دهد.
+
+بنیان‌های دستورکار پروژه عبارتند از:
+
+- باز بودن و شفافیت
+- مشارکت فعال
+- بی‌طرفی نهادی
+
+به طور سنتی، رهبری پروژه توسط یک BDFL (وس مک‌کینی) و گروهی از مشارکت‌کنندگان به نام تیم اصلی که مشارکت‌های فعال و مداوم آن‌ها مورد توجه قرار گرفته، انجام می‌شد. این تیم به دلیل دریافت "حق کامیت" (commit rights) به مخازن گیت‌هاب پروژه، شناخته شده است. به طور کلی، تمام تصمیمات پروژه از طریق اجماع در میان تیم اصلی و با دریافت نظرات از جامعه اتخاذ می‌شود. BDFL می‌تواند تصمیمات تیم اصلی را نادیده بگیرد و تصمیم نهایی را در مورد یک موضوع اتخاذ کند، اما این کار به ندرت انجام می‌دهد.
+
+در حالی که این رویکرد تا کنون برای ما مفید بوده است، با رشد پروژه و مواجهه آن با تصمیمات حقوقی و مالی بیشتر و تعامل با نهادهای دیگر، نیاز به یک مدل دستورکار رسمی‌تر احساس می‌شود. در آینده رهبری پروژه شامل یک BDFL و تیم اصلی خواهد بود. ما این مدل حکمرانی را به‌عنوان رسمی‌سازی آنچه که در حال حاضر انجام می‌دهیم می‌بینیم، نه تغییر جهت.
+
+### BDFL
+
+پروژه یک رهبر مطلق مهربان برای همیشه (BDFL) خواهد داشت، که در حال حاضر وس مک‌کینی است. به عنوان رهبر مطلق، BDFL اختیار اتخاذ تمام تصمیمات نهایی برای پروژه را دارد. به عنوان مهربان، BDFL در عمل ترجیح می‌دهد که این اختیار را به اجماع کانال‌های بحث جامعه و تیم اصلی واگذار کند. انتظار می‌رود و در گذشته نیز این‌گونه بوده است که BDFL تنها به ندرت اختیار نهایی خود را اعمال کند. از آنجا که این اختیار به ندرت استفاده می‌شود، ما اختیار نهایی BDFL را به عنوان رأی "ویژه" یا "رأی قاطع" می‌نامیم. هنگامی که این اتفاق می‌افتد، اعمال رأی برتر BDFL معمولاً در شرایطی رخ می‌دهد که در تیم اصلی بن‌بست ایجاد شود یا اگر تیم اصلی از BDFL بخواهد که در مورد یک موضوع خاص تصمیم‌گیری کند. برای اطمینان از خیرخواهی BDFL، پروژه دیگران را تشویق می‌کند که در صورت مخالفت با جهت‌گیری کلی BDFL، پروژه را انشعاب (fork) دهند. BDFL رئیس تیم اصلی است (به توضیحات زیر مراجعه کنید) و می‌تواند بنا به صلاحدید خود، اختیار خود در مورد یک تصمیم خاص یا مجموعه‌ای از تصمیمات را به هر یک از اعضای تیم اصلی واگذار کند.
+
+BDFL می‌تواند جانشین خود را منصوب کند، اما انتظار می‌رود که در این تصمیم با تیم اصلی مشورت شود. اگر BDFL نتواند جانشین خود را منصوب کند (مثلاً به دلیل فوت یا بیماری)، تیم اصلی از طریق رأی‌گیری جانشین را انتخاب خواهد کرد، به شرطی که دست‌کم دو سوم اعضای تیم اصلی به جانشین منتخب رأی موافق دهند. دست‌کم ۸۰٪ از اعضای تیم اصلی باید در رأی‌گیری شرکت کنند. اگر هیچ یک از نامزدهای BDFL موفق به کسب دو سوم آراء تیم اصلی نشود، اعضای تیم اصلی نامزدهای BDFL را به هیئت اصلی NumFOCUS معرفی خواهند کرد و سپس این هیئت تصمیم نهایی را اتخاذ خواهد کرد.
+
+### تیم اصلی
+
+تیم اصلی پروژه شامل مشارکت‌کنندگانی خواهد بود که مشارکت‌های آن‌ها از نظر کیفیت و کمیت قابل توجه بوده و حداقل به مدت یک سال به طور پیوسته ادامه داشته است. نقش کلی تیم اصلی این است که از طریق همکاری با BDFL و دریافت بازخورد از جامعه، سلامت بلندمدت پروژه را هم از نظر فنی و هم به عنوان یک جامعه تضمین کند.
+
+در فعالیت‌های روزمره پروژه، تیم اصلی به عنوان هم‌رده با سایر مشارکت‌کنندگان و جامعه در تمامی گفتگوها، بازبینی کد و دیگر فعالیت‌های پروژه شرکت می‌کند. در این فعالیت‌های روزمره، اعضای تیم اصلی به دلیل عضویت در تیم اصلی هیچ قدرت یا امتیاز ویژه‌ای ندارند. با این حال، انتظار می‌رود که به دلیل کیفیت و کمیت مشارکت‌هایشان و دانش تخصصی آن‌ها از نرم‌افزار پروژه، تیم اصلی راهنمایی‌های مفید، هم از نظر فنی و هم در جهت‌دهی پروژه، به مشارکت‌کنندگان کم‌تجربه‌تر ارائه دهد.
+
+تیم اصلی و اعضای آن در برخی شرایط نقش ویژه‌ای ایفا می‌کنند.
+به‌ویژه، تیم اصلی ممکن است:
+
+- در مورد دامنه کلی، چشم‌انداز و جهت‌گیری پروژه تصمیم‌گیری کند.
+- در مورد همکاری‌های راهبردی با سایر سازمان‌ها یا افراد تصمیم‌گیری کند.
+- در مورد مسائل فنی خاص، ویژگی‌ها، اشکالات و درخواست‌های ادغام (Pull Requests) تصمیم‌گیری کند. آن‌ها سازوکار اصلی برای هدایت فرایند بازبینی کد و ادغام درخواست‌های ادغام (Pull Requests) هستند.
+- در مورد خدماتی که توسط پروژه اجرا می‌شوند، تصمیم‌گیری کرده و این خدمات را به نفع پروژه و جامعه مدیریت کند.
+- در مواردی که بحث‌های معمول جامعه در یک بازه زمانی منطقی به هم‌رأیی نمی‌رسد، تصمیم‌گیری کند.
+
+### پیوستن به تیم اصلی
+
+برای اینکه فردی واجد شرایط پیوستن به تیم اصلی شود، باید مشارکت‌کننده پروژه باشد که مشارکت‌های او از نظر کیفیت و کمیت قابل توجه بوده و حداقل به مدت یک سال به طور پیوسته ادامه داشته باشد. اعضای بالقوه تیم اصلی توسط اعضای کنونی تیم نامزد می‌شوند و پس از پرسش از فرد نامزد درباره علاقه‌مندی و آمادگی او برای فعالیت در این جایگاه، توسط تیم اصلی کنونی رأی‌گیری می‌شود. تیم اصلی در ابتدا از مجموعه‌ای از مشارکت‌کنندگانی تشکیل خواهد شد که تا اواخر سال ۲۰۱۵ حق کامیت دریافت کرده‌اند.
+
+هنگام بررسی اعضای پیشنهادی، تیم اصلی با نگاهی جامع به مشارکت‌های نامزدها خواهد نگریست. این موارد شامل اما نه محدود به کد نویسی، بازبینی کد، کارهای زیرساختی، مشارکت در فهرست‌های پستی و گفتگوها، کمک به جامعه/ساخت جامعه، آموزش و آگاهی‌رسانی، طراحی و سایر موارد است. ما به‌طور عمدی از تعیین معیارهای کمی خودسرانه (مانند "۱۰۰ کامیت در این مخزن") خودداری می‌کنیم تا از ایجاد رفتارهایی که صرفاً در راستای دستیابی به این معیارها است، به جای توجه به سلامت کلی پروژه، جلوگیری کنیم. ما می‌خواهیم طیف گسترده‌ای از پیشینه‌ها، دیدگاه‌ها و استعدادها را در تیم خود تشویق کنیم، به همین دلیل به‌صراحت کدنویسی را به عنوان تنها معیار برای ارزیابی عضویت در تیم اصلی تعریف نمی‌کنیم.
+
+اگر یکی از اعضای تیم اصلی به مدت یک سال در پروژه غیرفعال باشد، ممکن است مورد بررسی برای حذف از تیم اصلی قرار گیرد. پیش از حذف، BDFL با عضو غیرفعال تماس خواهد گرفت تا ببیند آیا قصد بازگشت به مشارکت فعال را دارد یا خیر. در صورت عدم تمایل، بلافاصله پس از رأی‌گیری تیم اصلی از تیم حذف خواهند شد. اگر قصد بازگشت به مشارکت فعال را در آینده نزدیک داشته باشند، به آن‌ها یک دوره مهلت یک‌ساله داده خواهد شد. اگر در طی آن دوره به مشارکت فعال بازنگردند، بدون هیچ مهلت اضافی، با رأی تیم اصلی از تیم حذف خواهند شد. تمام اعضای پیشین تیم اصلی می‌توانند در هر زمانی در آینده، مانند هر مشارکت‌کننده پروژه دیگری، دوباره برای عضویت مورد بررسی قرار گیرند.
+اعضای بازنشسته تیم اصلی در وب‌سایت پروژه فهرست خواهند شد و مدت زمانی که در تیم اصلی فعال بوده‌اند، مورد اشاره قرار خواهد گرفت.
+
+تیم اصلی این حق را برای خود محفوظ می‌دارد که اعضای فعلی، به‌جز BDFL، را در صورتی که به طور فعال به سلامت پروژه آسیب برسانند و تلاش‌ها برای برقراری ارتباط و حل اختلاف ناکام مانده باشد، از تیم اخراج کند.
+
+### تضاد منافع
+
+انتظار می‌رود که BDFL و اعضای تیم اصلی در طیف گسترده‌ای از شرکت‌ها، دانشگاه‌ها و سازمان‌های غیرانتفاعی مشغول به کار باشند. به همین دلیل، این امکان وجود دارد که اعضا با تعارض منافع روبه‌رو شوند. این تعارض منافع شامل موارد زیر می‌شود، اما به این‌ها محدود نیست:
+
+- منافع مالی، مانند سرمایه‌گذاری‌ها، اشتغال یا قراردادهای کاری خارج از پروژه که ممکن است بر فعالیت آن‌ها در پروژه تأثیر بگذارد.
+- دسترسی به اطلاعات اختصاصی کارفرمای خود که ممکن است به طور ناخواسته به فعالیت‌های آن‌ها در پروژه نفوذ کند.
+
+تمام اعضای تیم اصلی، از جمله BDFL، باید هرگونه تعارض منافع احتمالی خود را به سایر اعضای تیم اصلی اطلاع دهند. اعضایی که در یک موضوع خاص تعارض منافع دارند، می‌توانند در بحث‌های تیم اصلی درباره آن موضوع شرکت کنند، اما باید از رأی دادن در مورد آن موضوع خودداری کنند. If the BDFL has
+recused his/herself for a particular decision, they will appoint a substitute
+BDFL for that decision.
+
+### Private communications of the Core Team
+
+Unless specifically required, all Core Team discussions and activities will be
+public and done in collaboration and discussion with the Project Contributors
+and Community. The Core Team will have a private mailing list that will be used
+sparingly and only when a specific matter requires privacy. When private
+communications and decisions are needed, the Core Team will do its best to
+summarize those to the Community after eliding personal/private/sensitive
+information that should not be posted to the public internet.
+
+### Subcommittees
+
+The Core Team can create subcommittees that provide leadership and guidance for
+specific aspects of the project. Like the Core Team as a whole, subcommittees
+should conduct their business in an open and public manner unless privacy is
+specifically called for. Private subcommittee communications should happen on
+the main private mailing list of the Core Team unless specifically called for.
+
+Question: if the BDFL is not on a subcommittee, do they still have override
+authority?
+
+Suggestion: they do, but they should appoint a delegate who plays that role
+most of the time, and explicit BDFL intervention is sought only if the
+committee disagrees with that delegate’s decision and no resolution is possible
+within the team. This is different from a BDFL delegate for a specific decision
+(or a recusal situation), where the BDFL is literally giving up his/her
+authority to someone else in full. It’s more like what Linus Torvalds uses with his
+“lieutenants” model.
+
+### NumFOCUS Subcommittee
+
+The Core Team will maintain one narrowly focused subcommittee to manage its
+interactions with NumFOCUS.
+
+- The NumFOCUS Subcommittee is comprised of at least 5 persons who manage
+  project funding that comes through NumFOCUS. It is expected that these funds
+  will be spent in a manner that is consistent with the non-profit mission of
+  NumFOCUS and the direction of the Project as determined by the full Core
+  Team.
+- This Subcommittee shall NOT make decisions about the direction, scope or
+  technical direction of the Project.
+- This Subcommittee will have at least 5 members. No more than 2 Subcommittee
+  Members can report to one person (either directly or indirectly) through
+  employment or contracting work (including the reportee, i.e. the reportee + 1
+  is the max). This avoids effective majorities resting on one person.
+
+## Institutional Partners and Funding
+
+The BDFL and Core Team are the primary leadership for the project. No outside
+institution, individual or legal entity has the ability to own, control, usurp
+or influence the project other than by participating in the Project as
+Contributors and Core Team. However, because institutions are the primary
+funding mechanism for the project, it is important to formally acknowledge
+institutional participation in the project. These are Institutional Partners.
+
+An Institutional Contributor is any individual Project Contributor who
+contributes to the project as part of their official duties at an Institutional
+Partner. Likewise, an Institutional Core Team Member is any Core Team Member
+who contributes to the project as part of their official duties at an
+Institutional Partner.
+
+With these definitions, an Institutional Partner is any recognized legal entity
+in the United States or elsewhere that employs at least one Institutional
+Contributor or Institutional Core Team Member. Institutional Partners can be
+for-profit or non-profit entities.
+
+Institutions become eligible to become an Institutional Partner by employing
+individuals who actively contribute to The Project as part of their official
+duties. To state this another way, the only way for an Institutional Partner to
+influence the project is by actively contributing to the open development of
+the project, on equal terms with any other member of the community of
+Contributors and Core Team Members. Merely using pandas Software or Services in
+an institutional context does not allow an entity to become an Institutional
+Partner. Financial gifts do not enable an entity to become an Institutional
+Partner. Once an institution becomes eligible for Institutional Partnership,
+the Core Team must nominate and approve the Partnership.
+
+If an existing Institutional Partner no longer has a contributing employee,
+they will be given a one-year grace period for other employees to begin
+contributing.
+
+شریک نهادی آزاد است که برای فعالیت‌های خود در پروژه از هر طریق قانونی تأمین مالی کند. این می‌تواند شامل یک سازمان غیرانتفاعی باشد که از بنیادهای خصوصی و اهداکنندگان پول جمع‌آوری می‌کند، یا یک شرکت انتفاعی که محصولات و خدمات اختصاصی ایجاد می‌کند و از نرم‌افزارها و خدمات پروژه بهره می‌برد. Funding acquired by Institutional Partners to work on The Project is
+called Institutional Funding. However, no funding obtained by an Institutional
+Partner can override The Project BDFL and Core Team. If a Partner has funding
+to do pandas work and the Core Team decides to not pursue that work as a
+project, the Partner is free to pursue it on their own. However in this
+situation, that part of the Partner’s work will not be under the pandas
+umbrella and cannot use the Project trademarks in a way that suggests a formal
+relationship.
+
+To acknowledge institutional contributions, there are two levels of
+Institutional Partners, with associated benefits:
+
+**Tier 1** = an institution with at least one Institutional Core Team Member
+
+- Acknowledged on the pandas website, in talks and T-shirts.
+- Ability to acknowledge their own funding sources on the pandas website, in
+  talks and T-shirts.
+- Ability to influence the project through the participation of their Core Team
+  Member.
+
+**Tier 2** = an institution with at least one Institutional Contributor
+
+## Breach
+
+Non-compliance with the terms of the governance documents shall be reported to
+the Core Team either through public or private channels as deemed appropriate.
+
+## Changing the Governance
+
+Changes to the governance are submitted via a GitHub pull request to The Project's
+[governance page](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
+The pull request is then refined in response to public comment and review, with
+the goal being consensus in the community.  After this open period, a Core Team
+Member proposes to the Core Team that the changes be ratified and the pull
+request merged (accepting the proposed changes) or proposes that the pull
+request be closed without merging (rejecting the proposed changes). The Member
+should state the final commit hash in the pull request being proposed for
+acceptance or rejection and briefly summarize the pull request. A minimum of
+80% of the Core Team must vote and at least 2/3 of the votes must be positive
+to carry out the proposed action (fractions of a vote rounded up to the nearest
+integer). Since the BDFL holds ultimate authority in The Project, the BDFL has
+authority to act alone in accepting or rejecting changes or overriding Core
+Team decisions.
