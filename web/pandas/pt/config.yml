@@ -31,7 +31,7 @@ navbar:
     target:
     - name: "Sobre o pandas"
       target: about/
-    - name: "Planejamento (roadmap)"
+    - name: "Planejamento do projeto (roadmap)"
       target: about/roadmap.html
     - name: "Governança"
       target: about/governance.html
@@ -59,12 +59,11 @@ navbar:
       target: community/benchmarks.html
   - name: "Contribuir"
     target: contribute.html
-
 blog:
   num_posts: 50
   posts_path: community/blog
-  author: "pandas team"
-  feed_name: "pandas blog"
+  author: "equipe do pandas"
+  feed_name: "blog do pandas"
   feed:
   - https://wesmckinney.com/feeds/pandas.atom.xml
   - https://tomaugspurger.github.io/feed
@@ -112,9 +111,9 @@ maintainers:
   - MarcoGorelli
 workgroups:
   coc:
-    name: Código de conduta
+    name: Código de Conduta
     contact: coc@pandas.pydata.org
-    responsibilities: "Make sure pandas is the welcoming and inclusive community we want it to be. Keeping the CoC updated, and addressing violation reports."
+    responsibilities: "Garantir que o pandas seja a comunidade acolhedora e inclusiva que queremos que seja. Mantém o CoC atualizado e atende os relatórios de violação."
     members:
     - Tom Augspurger
     - Bijay Regmi
@@ -123,7 +122,7 @@ workgroups:
   finance:
     name: Finanças
     contact: finance@pandas.pydata.org
-    responsibilities: "Manage the funding. Coordinate the request of grants. Approve the project expenses."
+    responsibilities: "Gerenciar o financiamento. Coordenar a solicitação de apoio financeiro. Aprovar as despesas do projeto."
     members:
     - Matthew Roeschke
     - Jeff Reback
@@ -132,14 +131,14 @@ workgroups:
   infrastructure:
     name: Infraestrutura
     contact: infrastructure@pandas.pydata.org
-    responsibilities: "Keep the pandas infrastructure up and working. In particular the servers for the website, benchmarks, CI and others needed."
+    responsibilities: "Manter a infraestrutura do pandas funcionando. Em particular os servidores para o site, benchmarks, CI e outras necessidades."
     members:
     - William Ayd
     - Thomas Li
   communications:
-    name: Communicações
+    name: Comunicações
     contact: communications@pandas.pydata.org
-    responsibilities: "Share relevant information with the broader community, mainly via our social networks, as well as being the main point of contact between NumFOCUS and the core team."
+    responsibilities: "Compartilhar informações relevantes com a comunidade em geral, principalmente através de nossas redes sociais, além de ser o principal ponto de contato entre a NumFOCUS e a equipe principal."
     members:
     - datapythonista
 sponsors:
@@ -148,33 +147,33 @@ sponsors:
     url: https://numfocus.org/
     logo: static/img/partners/numfocus.svg
     kind: numfocus
-  - name: "Coiled"
-    url: https://www.coiled.io
-    logo: static/img/partners/coiled.svg
-    kind: partner
-    description: "Patrick Hoefler"
   - name: "Nvidia"
     url: https://www.nvidia.com
     logo: static/img/partners/nvidia.svg
     kind: partner
-    description: "Matthew Roeschke"
+    description: "Patrick Hoefler"
   - name: "Tidelift"
     url: https://tidelift.com
     logo: static/img/partners/tidelift.svg
     kind: regular
-    description: "<i>pandas</i> is part of the <a href=\"https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme\">Tidelift subscription</a>. You can support pandas by becoming a Tidelift subscriber."
+    description: "<i>pandas</i> faz parte do programa <a href=\"https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme\">Tidelift subscription</a>. Você pode apoiar o pandas tornando-se um assinante Tidelift."
   - name: "Bodo"
     url: https://www.bodo.ai/
     logo: static/img/partners/bodo.svg
     kind: regular
-    description: "Bodo's parallel computing platform uses pandas API, and Bodo financially supports pandas development to help improve pandas, in particular the pandas API"
-  inkind:  # not included in active so they don't appear in the home page
+    description: "A plataforma de computação paralela da Bodo usa a API pandas, e a Bodo apoia financeiramente o desenvolvimento do pandas para ajudar a melhorar em particular a API do pandas"
+  - name: "Bodo"
+    url: https://www.bodo.ai/
+    logo: static/img/partners/bodo.svg
+    kind: regular
+    description: "A plataforma de computação paralela da Bodo usa a API pandas, e a Bodo apoia financeiramente o desenvolvimento do pandas para ajudar a melhorar em particular a API do pandas"
+  inkind:
   - name: "OVH"
     url: https://us.ovhcloud.com/
-    description: "Website and documentation hosting."
+    description: "Hospedagem de site e documentação."
   - name: "Indeed"
     url: https://opensource.indeedeng.io/
-    description: "<i>pandas</i> logo design"
+    description: "Design do logo <i>pandas</i>"
   past:
   - name: "Paris-Saclay Center for Data Science"
     url: https://www.datascience-paris-saclay.fr/
