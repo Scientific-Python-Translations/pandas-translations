@@ -1,6 +1,7 @@
 # Ecossistema
 
 Cada vez mais, os pacotes estão sendo construídos em cima do pandas para abordar
+necessidades específicas na preparação de dados, análise e visualização. Cada vez mais, os pacotes estão sendo construídos em cima do pandas para abordar
 necessidades específicas na preparação de dados, análise e visualização. Isso é
 encorajador porque significa que pandas não só está ajudando os usuários a lidar com
 suas tarefas de dados, mas também que fornece um melhor ponto de partida para desenvolvedores
@@ -15,8 +16,7 @@ Para uma lista mais completa de projetos que dependem dos pandas, veja a página
 pandas ou procure no pypi por
 pandas.
 
-Gostaríamos de facilitar para os usuários encontrarem esses projetos.
-Se você conhece outros projetos importantes que acha que deveriam
+Gostaríamos de facilitar para os usuários encontrarem esses projetos. Se você conhece outros projetos importantes que acha que deveriam
 estar nesta lista, informe-nos.
 
 ## Estatísticas e aprendizado de máquina
@@ -93,7 +93,7 @@ sns.set_theme()
 
 ### [plotnine](https://github.com/has2k1/plotnine/)
 
-O [ggplot2](https://ggplot2.tidyverse.org/) de Hadley Wickham é um pacote de visualização exploratória fundamental para a linguagem R. Baseado em ["The Grammar of Graphics"](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html), ele fornece uma maneira poderosa, declarativa e extremamente geral de gerar gráficos personalizados de qualquer tipo de dado. Várias implementações para outras linguagens estão disponíveis. Uma boa implementação para usuários de Python é has2k1/plotnine.
+O [ggplot2](https://ggplot2.tidyverse.org/) de Hadley Wickham é um pacote de visualização exploratória fundamental para a linguagem R. Baseado em ["The Grammar of Graphics"](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html), ele fornece uma maneira poderosa, declarativa e extremamente geral de gerar gráficos personalizados de qualquer tipo de dado. Baseado em ["The Grammar of Graphics"](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html), ele fornece uma maneira poderosa, declarativa e extremamente geral de gerar gráficos personalizados de qualquer tipo de dado. Várias implementações para outras linguagens estão disponíveis. Uma boa implementação para usuários de Python é has2k1/plotnine.
 Várias implementações para outras linguagens estão disponíveis.
 Uma boa implementação para usuários de Python é [has2k1/plotnine](https://github.com/has2k1/plotnine/).
 
@@ -234,7 +234,7 @@ O NTV-pandas fornece um conversor JSON com mais tipos de dados do que os suporta
 Ele suporta os seguintes tipos de dados:
 
 - tipos de dados do pandas
-- tipos de dados definidos no [formato NTV](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\(JSON-NTV\).htm)
+- tipos de dados definidos no [formato NTV](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\\(JSON-NTV\\).htm)
 - tipos de dados definidos na [especificação Table Schema](http://dataprotocols.org/json-table-schema/#field-types-and-formats)
 
 A interface é sempre reversível (conversão de ida e volta) com dois formatos (JSON-NTV e JSON-TableSchema).
@@ -273,7 +273,7 @@ O ArcticDB é um mecanismo de banco de dados DataFrame sem servidor projetado pa
 O ArcticDB é estruturado para fornecer uma maneira escalável e eficiente de gerenciar e recuperar DataFrames, organizados em vários componentes principais:
 
 - Coleções de bibliotecas de `Object Store`. Usadas para separar ambientes lógicos uns dos outros. Análogo a um servidor de banco de dados.
-- `Library` contém vários símbolos que são agrupados de uma certa maneira (diferentes usuários, mercados, etc.). Análogo a um banco de dados. Análogo a um banco de dados.
+- `Library` contém vários símbolos que são agrupados de uma certa maneira (diferentes usuários, mercados, etc.). Análogo a um banco de dados.
 - `Symbol` Unidade atômica de armazenamento de dados. Identificado por um nome string. Dados armazenados sob um símbolo se assemelham muito a um DataFrame do pandas. Análogo a tabelas.
 - `Version` Cada ação de modificação (escrever, anexar, atualizar) realizada em um símbolo cria uma nova versão desse objeto.
 
@@ -296,6 +296,7 @@ arctic = adb.Arctic("lmdb://arcticdb_test")
 ```
 
 > **Observação:** o ArcticDB oferece suporte a qualquer armazenamento compatível com a API S3, incluindo AWS. O ArcticDB também oferece suporte ao armazenamento Azure Blob.\
+> O ArcticDB também oferece suporte ao armazenamento Azure Blob.\
 > O ArcticDB também oferece suporte ao LMDB para armazenamento local/baseado em arquivo - para usar o LMDB, passe um caminho do LMDB como URI: adb.Arctic('lmdb://caminho/para/banco-de-dados/desejado').
 
 #### Configuração da biblioteca
