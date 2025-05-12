@@ -26,43 +26,43 @@ static:
   - static/css/pandas.css
   - static/css/codehilite.css
 navbar:
-  - name: "About us"
+  - name: "Sobre nosotros"
     target:
-    - name: "About pandas"
+    - name: "Acerca de pandas"
       target: about/
-    - name: "Project roadmap"
+    - name: "Hoja de ruta"
       target: about/roadmap.html
-    - name: "Governance"
+    - name: "Gobernanza"
       target: about/governance.html
-    - name: "Team"
+    - name: "Equipo"
       target: about/team.html
-    - name: "Sponsors"
+    - name: "Patrocinadores"
       target: about/sponsors.html
-    - name: "Citing and logo"
+    - name: "Citas y logotipo"
       target: about/citing.html
-  - name: "Getting started"
+  - name: "Primeros pasos"
     target: getting_started.html
-  - name: "Documentation"
+  - name: "Documentación"
     target: docs/
-  - name: "Community"
+  - name: "Comunidad"
     target:
     - name: "Blog"
       target: community/blog/
-    - name: "Ask a question (StackOverflow)"
+    - name: "Hacer una pregunta (StackOverflow)"
       target: https://stackoverflow.com/questions/tagged/pandas
-    - name: "Code of conduct"
+    - name: "Código de conducta"
       target: community/coc.html
-    - name: "Ecosystem"
+    - name: "Ecosistema"
       target: community/ecosystem.html
-    - name: "Benchmarks"
+    - name: "Pruebas de rendimiento"
       target: community/benchmarks.html
-  - name: "Contribute"
+  - name: "Contribuir"
     target: contribute.html
 blog:
   num_posts: 50
   posts_path: community/blog
-  author: "pandas team"
-  feed_name: "pandas blog"
+  author: "equipo de pandas"
+  feed_name: "blog de pandas"
   feed:
   - https://wesmckinney.com/feeds/pandas.atom.xml
   - https://tomaugspurger.github.io/feed
@@ -110,34 +110,34 @@ maintainers:
   - MarcoGorelli
 workgroups:
   coc:
-    name: Code of Conduct
+    name: Código de conducta
     contact: coc@pandas.pydata.org
-    responsibilities: "Make sure pandas is the welcoming and inclusive community we want it to be. Keeping the CoC updated, and addressing violation reports."
+    responsibilities: "Asegurarse de que pandas sea la comunidad acogedora e inclusiva que queremos que sea. Mantener el código de conducta actualizado y abordar los informes de infracciones."
     members:
     - Tom Augspurger
     - Bijay Regmi
     - Wuraola Oyewusi
     - Мария Чакчурина
   finance:
-    name: Finance
+    name: Finanzas
     contact: finance@pandas.pydata.org
-    responsibilities: "Manage the funding. Coordinate the request of grants. Approve the project expenses."
+    responsibilities: "Gestionar la financiación. Coordinar la solicitud de subvenciones. Aprobar los gastos del proyecto."
     members:
     - Matthew Roeschke
     - Jeff Reback
     - Joris Van den Bossche
     - Patrick Hoefler
   infrastructure:
-    name: Infrastructure
+    name: Infraestructura
     contact: infrastructure@pandas.pydata.org
-    responsibilities: "Keep the pandas infrastructure up and working. In particular the servers for the website, benchmarks, CI and others needed."
+    responsibilities: "Mantener la infraestructura de pandas en funcionamiento. En particular los servidores para el sitio web, las pruebas de rendimiento, integración continua y otros necesarios."
     members:
     - William Ayd
     - Thomas Li
   communications:
-    name: Communications
+    name: Comunicaciones
     contact: communications@pandas.pydata.org
-    responsibilities: "Share relevant information with the broader community, mainly via our social networks, as well as being the main point of contact between NumFOCUS and the core team."
+    responsibilities: "Compartir información relevante con la comunidad en general, principalmente a través de nuestras redes sociales, además de ser el principal punto de contacto entre NumFOCUS y el equipo principal."
     members:
     - datapythonista
 sponsors:
@@ -155,19 +155,19 @@ sponsors:
     url: https://tidelift.com
     logo: static/img/partners/tidelift.svg
     kind: regular
-    description: "<i>pandas</i> is part of the <a href=\"https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme\">Tidelift subscription</a>. You can support pandas by becoming a Tidelift subscriber."
+    description: "**pandas** es parte de [Tidelift](https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme). Puedes apoyar a pandas convirtiéndote en suscriptor de Tidelift."
   - name: "Bodo"
     url: https://www.bodo.ai/
     logo: static/img/partners/bodo.svg
     kind: regular
-    description: "Bodo's parallel computing platform uses pandas API, and Bodo financially supports pandas development to help improve pandas, in particular the pandas API"
-  inkind:  # not included in active so they don't appear in the home page
+    description: "La plataforma de computación paralela de Bodo utiliza la API de pandas y Bodo apoya financieramente el desarrollo de pandas para ayudar a mejorarlo, en particular su API."
+  inkind:
   - name: "OVH"
     url: https://us.ovhcloud.com/
-    description: "Website and documentation hosting."
+    description: "Sitio web y documentación de alojamiento."
   - name: "Indeed"
     url: https://opensource.indeedeng.io/
-    description: "<i>pandas</i> logo design"
+    description: "Diseño de logotipo <i>pandas</i>"
   past:
   - name: "Paris-Saclay Center for Data Science"
     url: https://www.datascience-paris-saclay.fr/
