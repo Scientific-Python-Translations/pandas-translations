@@ -1,33 +1,33 @@
 navbar:
-  - name: "Sobre nosotros"
+  - name: "About us"
     target:
-    - name: "Acerca de pandas"
+    - name: "About pandas"
       target: about/
-    - name: "Hoja de ruta"
+    - name: "Project roadmap"
       target: about/roadmap.html
-    - name: "Gobernanza"
+    - name: "دستور کار (حاکمیت)"
       target: about/governance.html
-    - name: "Equipo"
+    - name: "Team"
       target: about/team.html
-    - name: "Patrocinadores"
+    - name: "Sponsors"
       target: about/sponsors.html
-    - name: "Citas y logotipo"
+    - name: "استناد و نشان"
       target: about/citing.html
-  - name: "Primeros pasos"
+  - name: "Getting started"
     target: getting_started.html
-  - name: "Documentación"
+  - name: "Documentation"
     target: docs/
-  - name: "Comunidad"
+  - name: "Community"
     target:
     - name: "Blog"
       target: community/blog/
-    - name: "Hacer una pregunta (StackOverflow)"
+    - name: "Ask a question (StackOverflow)"
       target: https://stackoverflow.com/questions/tagged/pandas
-    - name: "Código de conducta"
+    - name: "Code of conduct"
       target: community/coc.html
-    - name: "Ecosistema"
+    - name: "Ecosystem"
       target: community/ecosystem.html
-    - name: "Pruebas de rendimiento"
+    - name: "Benchmarks"
       target: community/benchmarks.html
-  - name: "Contribuir"
+  - name: "Contribute"
     target: contribute.html
