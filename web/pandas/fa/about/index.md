@@ -13,71 +13,53 @@
 - **۲۰۰۸**: توسعهٔ _پانداس_ آغاز شد
 - **۲۰۰۹**: _پانداس_ به‌صورت متن‌باز منتشر شد
 - **۲۰۱۲**: نخستین ویرایش _Python for Data Analysis_ منتشر شد
-- **2015**: _pandas_ becomes a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects)
-- **2018**: First in-person core developer sprint
+- **۲۰۱۵**: _پانداس_ به یکی از [پروژه‌های مورد حمایت NumFOCUS](https://numfocus.org/sponsored-projects) تبدیل شد
+- **۲۰۱۸**: نخستین گردهمایی حضوری توسعه‌دهندگان اصلی برگزار شد
 
-## Library Highlights
+## برجسته‌ترین ویژگی‌های کتابخانه
 
-- A fast and efficient **DataFrame** object for data manipulation with
-  integrated indexing;
+- یک شیء DataFrame سریع و کارآمد برای دست‌کاری داده‌ها با قابلیت نمایه‌گذاری (ایندکس‌گذاری) یکپارچه؛
 
-- Tools for **reading and writing data** between in-memory data structures and
-  different formats: CSV and text files, Microsoft Excel, SQL databases, and
-  the fast HDF5 format;
+- ابزارهایی **برای خواندن و نوشتن داده‌ها** بین ساختارهای داده در حافظه و قالب‌های گوناگون مانند: فایل‌های CSV و متنی، فایل‌های Microsoft Excel، پایگاه‌های داده SQL، و قالب سریع HDF5؛
 
-- Intelligent **data alignment** and integrated handling of **missing data**:
-  gain automatic label-based alignment in computations and easily manipulate
-  messy data into an orderly form;
+- **هم‌ترازی هوشمندانه‌ی داده‌ها** و مدیریت یکپارچه‌ی **داده‌های گمشده**:
+  در محاسبات، هم‌ترازی خودکار بر پایه‌ی برچسب به‌دست آورید و داده‌های به‌هم‌ریخته را به‌سادگی به شکلی منظم تبدیل کنید؛
 
-- Flexible **reshaping** and pivoting of data sets;
+- **تغییر شکل** و چرخاندن (Pivot) داده‌ها به‌صورت انعطاف‌پذیر؛
 
-- Intelligent label-based **slicing**, **fancy indexing**, and **subsetting**
-  of large data sets;
+- **برش‌زنی** هوشمند بر پایه‌ی برچسب، **ایندکس‌گذاری پیشرفته** و **زیرمجموعه‌سازی** داده‌های حجیم؛
 
-- Columns can be inserted and deleted from data structures for **size
-  mutability**;
+- ستون‌ها را می‌توان برای **تغییرپذیری اندازه** به ساختارهای داده‌ای افزود یا از آن‌ها حذف کرد؛
 
-- Aggregating or transforming data with a powerful **group by** engine
-  allowing split-apply-combine operations on data sets;
+- تجمیع یا دگرگونی داده‌ها با موتور قدرتمند **گروه‌بندی** (group by) که عملیات تقسیم–اعمال–ترکیب (split-apply-combine) را بر روی مجموعه‌های داده‌ای ممکن می‌سازد؛
 
-- High performance **merging and joining** of data sets;
+- **ادغام و پیوند** داده‌ها با کارایی بالا؛
 
-- **Hierarchical axis indexing** provides an intuitive way of working with
-  high-dimensional data in a lower-dimensional data structure;
+- **ایندکس‌گذاری محوری سلسله‌مراتبی** روشی شهودی برای کار با داده‌های چندبعدی در قالب ساختارهای داده‌ای کم‌بعد فراهم می‌کند؛
 
-- **Time series**-functionality: date range generation and frequency
-  conversion, moving window statistics, date shifting and lagging.
-  Even create domain-specific time offsets and join time
-  series without losing data;
+- قابلیت‌های مربوط به **سری‌های زمانی**: تولید بازه‌های زمانی و تبدیل بازه‌ها، آمارگیری با پنجره‌ی متحرک، جابه‌جایی و تأخیر زمانی.
+  حتی می‌توان افست‌های زمانی خاص دامنه ایجاد کرد و سری‌های زمانی را بدون از دست دادن داده‌ها به هم پیوند داد؛
 
-- Highly **optimized for performance**, with critical code paths written in
-  [Cython](https://cython.org) or C.
+- به‌شدت **بهینه‌شده برای کارایی**، با مسیرهای حیاتی کد که به زبان [Cython](https://cython.org) یا C نوشته شده‌اند.
 
-- Python with _pandas_ is in use in a wide variety of **academic and
-  commercial** domains, including Finance, Neuroscience, Economics,
-  Statistics, Advertising, Web Analytics, and more.
+- پایتون همراه با _پانداس_ در گستره‌ی وسیعی از **حوزه‌های دانشگاهی و بازرگانی** به‌کار گرفته می‌شود، از جمله امور مالی، علوم اعصاب، اقتصاد، آمار، تبلیغات، تحلیل وب، و دیگر زمینه‌ها.
 
-## Mission
+## ماموریت
 
-_pandas_ aims to be the fundamental high-level building block for doing practical,
-real world data analysis in Python.
-Additionally, it has the broader goal of becoming the most powerful and flexible
-open source data analysis / manipulation tool available in any language.
+_پانداس_ بر آن است که به عنوان سنگ‌بنای بنیادین و سطح‌بالا برای تحلیل داده‌های کاربردی و واقعی در پایتون عمل کند.
+افزون بر این، هدف گسترده‌تری نیز دارد: تبدیل شدن به نیرومندترین و انعطاف‌پذیرترین ابزار متن‌باز برای تحلیل و پردازش داده در هر زبانی.
 
-## Vision
+## چشم‌انداز
 
-A world where data analytics and manipulation software is:
+جهانی که در آن نرم‌افزارهای تحلیل و پردازش داده:
 
-- Accessible to everyone
-- Free for users to use and modify
-- Flexible
-- Powerful
-- Easy to use
-- Fast
+- در دسترس همگان باشد؛
+- برای کاربران آزاد باشد تا آن را به‌کار ببرند و دگرگون کنند؛
+- انعطاف‌پذیر باشد؛
+- نیرومند باشد؛
+- ساده و آسان برای استفاده باشد؛
+- سریع باشد؛
 
-## Values
+## ارزش‌ها
 
-Is in the core of _pandas_ to be respectful and welcoming with everybody,
-users, contributors and the broader community. Regardless of level of experience,
-gender, gender identity and expression, sexual orientation, disability,
-personal appearance, body size, race, ethnicity, age, religion, or nationality.
+در هسته‌ی _پانداس_ این اصل نهفته است که با همه‌ی کاربران، مشارکت‌کنندگان، و جامعه‌ی گسترده‌تر—با احترام و رویکردی پذیرنده برخورد شود. فارغ از سطح تجربه، جنسیت، هویت و بیان جنسیتی، گرایش جنسی، ناتوانی، ظاهر فردی، اندازه‌ی بدن، نژاد، قومیت، سن، دین یا ملیت.
