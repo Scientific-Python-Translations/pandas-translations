@@ -142,7 +142,7 @@ should result on cleaner, simpler, and more performant code.
 7. Use of trial and error should be limited, and anyway restricted to catch only exceptions
   which are actually expected (typically `KeyError`).
 
-- In particular, code should never (intentionally) raise new exceptions in the `except` portion of a `try... exception`
+- به‌ویژه، در بخش except از یک بلوک try، کد هرگز نباید (به‌صورت عمدی) excpet جدیدی ایجاد کند... exception\`
 
 8. Any code portion which is not specific to setters and getters must be shared,
   and when small differences in behavior are expected (e.g. getting with `.loc` raises for
