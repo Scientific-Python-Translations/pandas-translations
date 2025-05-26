@@ -1,21 +1,18 @@
-# About pandas
+# درباره پانداس
 
-## History of development
+## تاریخچهٔ توسعه
 
-In 2008, _pandas_ development began at [AQR Capital Management](https://www.aqr.com).
-By the end of 2009 it had been [open sourced](https://en.wikipedia.org/wiki/Open_source),
-and is actively supported today by a community of like-minded individuals around the world who
-contribute their valuable time and energy to help make open source _pandas_
-possible. Thank you to [all of our contributors](team.html).
+در سال ۲۰۰۸، توسعه‌ی _پانداس_ در شرکت [AQR Capital Management](https://www.aqr.com) آغاز شد.
+تا پایان سال ۲۰۰۹، این پروژه به‌صورت [متن‌باز](https://en.wikipedia.org/wiki/Open_source) منتشر شد و امروزه به‌طور فعال توسط جامعه‌ای از افراد هم‌فکر در سراسر جهان پشتیبانی می‌شود که زمان و انرژی ارزشمند خود را برای ممکن ساختن توسعه متن‌باز پانداس صرف می‌کنند. سپاس از [همه‌ی مشارکت‌کنندگان ما](team.html).
 
-Since 2015, _pandas_ is a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects).
-This will help ensure the success of development of _pandas_ as a world-class open-source project.
+از سال ۲۰۱۵، pandas یکی از [پروژه‌های مورد حمایت NumFOCUS](https://numfocus.org/sponsored-projects) بوده است.
+این امر به موفقیت توسعه‌ی _پانداس_ به عنوان یک پروژهٔ متن‌باز در سطح جهانی کمک خواهد کرد.
 
-### Timeline
+### خط‌زمان
 
-- **2008**:  Development of _pandas_ started
-- **2009**: _pandas_ becomes open source
-- **2012**: First edition of _Python for Data Analysis_ is published
+- **۲۰۰۸**: توسعهٔ _پانداس_ آغاز شد
+- **۲۰۰۹**: _پانداس_ به‌صورت متن‌باز منتشر شد
+- **۲۰۱۲**: نخستین ویرایش _Python for Data Analysis_ منتشر شد
 - **2015**: _pandas_ becomes a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects)
 - **2018**: First in-person core developer sprint
 
