@@ -80,29 +80,15 @@ BDFL می‌تواند جانشین خود را منصوب کند، اما ان�
 
 ### ارتباط‌های خصوصی تیم اصلی
 
-مگر در مواردی که ضرورت خاصی وجود داشته باشد، تمام گفت‌وگوها و فعالیت‌های تیم اصلی به‌صورت عمومی و با همکاری و مشارکت مشارکت‌کنندگان پروژه و جامعه انجام خواهد شد. The Core Team will have a private mailing list that will be used
-sparingly and only when a specific matter requires privacy. When private
-communications and decisions are needed, the Core Team will do its best to
-summarize those to the Community after eliding personal/private/sensitive
-information that should not be posted to the public internet.
+مگر در مواردی که ضرورت خاصی وجود داشته باشد، تمام گفت‌وگوها و فعالیت‌های تیم اصلی به‌صورت عمومی و با همکاری و مشارکت مشارکت‌کنندگان پروژه و جامعه انجام خواهد شد. تیم اصلی یک فهرست پستی خصوصی خواهد داشت که تنها در موارد محدود و زمانی که موضوعی نیاز به محرمانگی داشته باشد، از آن استفاده خواهد شد. زمانی که ارتباط‌ها و تصمیم‌گیری‌های خصوصی لازم باشند، تیم اصلی تمام تلاش خود را خواهد کرد تا پس از حذف اطلاعات شخصی، خصوصی یا حساس که نباید به‌صورت عمومی در اینترنت منتشر شوند، خلاصه‌ای از آن‌ها را با جامعه در میان بگذارد.
 
-### Subcommittees
+### زیرکمیته‌ها
 
-The Core Team can create subcommittees that provide leadership and guidance for
-specific aspects of the project. Like the Core Team as a whole, subcommittees
-should conduct their business in an open and public manner unless privacy is
-specifically called for. Private subcommittee communications should happen on
-the main private mailing list of the Core Team unless specifically called for.
+تیم اصلی می‌تواند زیرکمیته‌هایی تشکیل دهد که برای بخش‌های خاصی از پروژه، نقش رهبری و هدایت ایفا کنند. همانند تیم اصلی به‌طور کلی، زیرکمیته‌ها نیز باید فعالیت‌های خود را به‌صورت باز و عمومی انجام دهند، مگر آنکه محرمانگی به‌طور مشخص لازم باشد. ارتباط‌های خصوصی زیرکمیته‌ها باید از طریق فهرست پستی خصوصی اصلی تیم اصلی انجام شوند، مگر آنکه به‌طور خاص روش دیگری لازم باشد.
 
-Question: if the BDFL is not on a subcommittee, do they still have override
-authority?
+پرسش: اگر BDFL عضو یک زیرکمیته نباشد، آیا همچنان اختیار نهایی را دارد؟
 
-Suggestion: they do, but they should appoint a delegate who plays that role
-most of the time, and explicit BDFL intervention is sought only if the
-committee disagrees with that delegate’s decision and no resolution is possible
-within the team. This is different from a BDFL delegate for a specific decision
-(or a recusal situation), where the BDFL is literally giving up his/her
-authority to someone else in full. It’s more like what Linus Torvalds uses with his
+پیشنهاد: این اختیار را دارند، اما بهتر است نماینده‌ای را تعیین کنند که بیشترِ مواقع این نقش را ایفا کند، و مداخله‌ی مستقیم BDFL تنها زمانی خواسته شود که کمیته با تصمیم آن نماینده مخالف باشد و هیچ راه‌حلی در درون تیم امکان‌پذیر نباشد. این با نماینده‌ی BDFL برای یک تصمیم خاص (یا در وضعیت کناره‌گیری) متفاوت است، جایی که BDFL عملاً تمام اختیار خود را به‌طور کامل به فرد دیگری واگذار می‌کند. It’s more like what Linus Torvalds uses with his
 “lieutenants” model.
 
 ### NumFOCUS Subcommittee
