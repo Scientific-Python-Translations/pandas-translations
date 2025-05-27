@@ -78,11 +78,9 @@ BDFL می‌تواند جانشین خود را منصوب کند، اما ان�
 
 تمام اعضای تیم اصلی، از جمله BDFL، باید هرگونه تعارض منافع احتمالی خود را به سایر اعضای تیم اصلی اطلاع دهند. اعضایی که در یک موضوع خاص تعارض منافع دارند، می‌توانند در بحث‌های تیم اصلی درباره آن موضوع شرکت کنند، اما باید از رأی دادن در مورد آن موضوع خودداری کنند. اگر BDFL در یک تصمیم‌گیری خاص از رأی دادن کناره‌گیری کند، برای آن تصمیم یک BDFL جایگزین منصوب خواهد کرد.
 
-### Private communications of the Core Team
+### ارتباط‌های خصوصی تیم اصلی
 
-Unless specifically required, all Core Team discussions and activities will be
-public and done in collaboration and discussion with the Project Contributors
-and Community. The Core Team will have a private mailing list that will be used
+مگر در مواردی که ضرورت خاصی وجود داشته باشد، تمام گفت‌وگوها و فعالیت‌های تیم اصلی به‌صورت عمومی و با همکاری و مشارکت مشارکت‌کنندگان پروژه و جامعه انجام خواهد شد. The Core Team will have a private mailing list that will be used
 sparingly and only when a specific matter requires privacy. When private
 communications and decisions are needed, the Core Team will do its best to
 summarize those to the Community after eliding personal/private/sensitive
