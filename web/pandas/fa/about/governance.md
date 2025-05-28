@@ -92,27 +92,15 @@ BDFL می‌تواند جانشین خود را منصوب کند، اما ان�
 
 ### زیرکمیته‌ی NumFOCUS
 
-The Core Team will maintain one narrowly focused subcommittee to manage its
-interactions with NumFOCUS.
+تیم اصلی یک زیرکمیته‌ی متمرکز تشکیل خواهد داد تا تعاملات خود با NumFOCUS را مدیریت کند.
 
-- The NumFOCUS Subcommittee is comprised of at least 5 persons who manage
-  project funding that comes through NumFOCUS. It is expected that these funds
-  will be spent in a manner that is consistent with the non-profit mission of
-  NumFOCUS and the direction of the Project as determined by the full Core
-  Team.
-- This Subcommittee shall NOT make decisions about the direction, scope or
-  technical direction of the Project.
-- This Subcommittee will have at least 5 members. No more than 2 Subcommittee
-  Members can report to one person (either directly or indirectly) through
-  employment or contracting work (including the reportee, i.e. the reportee + 1
-  is the max). This avoids effective majorities resting on one person.
+- زیرکمیته‌ی NumFOCUS دست‌کم از ۵ نفر تشکیل شده است که مدیریت منابع مالی پروژه که از طریق NumFOCUS تأمین می‌شود را بر عهده دارند. انتظار می‌رود که این منابع مالی در راستای مأموریت غیرانتفاعی NumFOCUS و جهت‌گیری پروژه آن‌گونه که توسط کل تیم اصلی تعیین می‌شود هزینه شوند.
+- این زیرکمیته نباید درباره‌ی جهت‌گیری، دامنه یا مسیر فنی پروژه تصمیم‌گیری کند.
+- این زیرکمیته دست‌کم ۵ عضو خواهد داشت. بیش از ۲ عضو از زیرکمیته نباید (چه به‌صورت مستقیم و چه غیرمستقیم) از طریق اشتغال یا قرارداد کاری به یک نفر گزارش دهند (با احتساب فرد گزارش‌دهنده؛ یعنی حداکثر باید گزارش‌دهنده + ۱ نفر باشد). این کار از ایجاد اکثریت مؤثر تحت نفوذ یک فرد جلوگیری می‌کند.
 
-## Institutional Partners and Funding
+## شرکای نهادی و تأمین مالی
 
-The BDFL and Core Team are the primary leadership for the project. No outside
-institution, individual or legal entity has the ability to own, control, usurp
-or influence the project other than by participating in the Project as
-Contributors and Core Team. However, because institutions are the primary
+BDFL و تیم اصلی رهبران اصلی پروژه هستند. هیچ نهاد بیرونی، فرد یا شخصیت حقوقی، جز از راه مشارکت در پروژه به‌عنوان مشارکت‌کننده یا عضو تیم اصلی، نمی‌تواند مالکیت، کنترل، سلطه یا تأثیری بر پروژه داشته باشد. However, because institutions are the primary
 funding mechanism for the project, it is important to formally acknowledge
 institutional participation in the project. These are Institutional Partners.
 
