@@ -1,9 +1,6 @@
-# Roadmap
+# نقشه راه
 
-This page provides an overview of the major themes in pandas'
-development. Each of these items requires a relatively large amount of
-effort to implement. These may be achieved more quickly with dedicated
-funding or interest from contributors.
+این صفحه نمایی کلی از محورهای اصلی در توسعه‌ی پانداس ارائه می‌دهد. اجرای هر یک از این موارد به تلاش نسبتاً زیادی نیاز دارد. دستیابی به این اهداف ممکن است با تأمین مالی اختصاصی یا علاقه‌ی مشارکت‌کنندگان سریع‌تر انجام شود.
 
 An item being on the roadmap does not mean that it will _necessarily_
 happen, even with unlimited funding. During the implementation period we
