@@ -114,23 +114,19 @@ BDFL و تیم اصلی رهبران اصلی پروژه هستند. هیچ نه
 
 برای به رسمیت شناختن مشارکت‌های نهادی، دو سطح از شرکای نهادی تعریف شده است که هر یک با مزایایی همراه هستند:
 
-**سطح ۱** = نهادی که دست‌کم یک عضو نهادی تیم اصلی داشته باشد؛
+**سطح ۱** = نهادی که دست‌کم یک عضو نهادی تیم اصلی داشته باشد
 
-- Acknowledged on the pandas website, in talks and T-shirts.
-- Ability to acknowledge their own funding sources on the pandas website, in
-  talks and T-shirts.
-- Ability to influence the project through the participation of their Core Team
-  Member.
+- در وب‌سایت پانداس، سخنرانی‌ها و تی‌شرت‌ها مورد قدردانی قرار می‌گیرد.
+- امکان قدردانی از منابع مالی خود در وب‌سایت پانداس، سخنرانی‌ها و تی‌شرت‌ها.
+- توانایی تأثیرگذاری بر پروژه از طریق مشارکت عضو تیم اصلی خود.
 
-**Tier 2** = an institution with at least one Institutional Contributor
+**سطح ۲** = نهادی که دست‌کم یک مشارکت‌کننده‌ی نهادی داشته باشد
 
-## Breach
+## تخلّف
 
-Non-compliance with the terms of the governance documents shall be reported to
-the Core Team either through public or private channels as deemed appropriate.
+عدم پایبندی به مفاد اسناد حاکمیتی باید از طریق کانال‌های عمومی یا خصوصی، بسته به شرایط، به تیم اصلی گزارش داده شود.
 
-## Changing the Governance
+## تغییر در دستورکار
 
-Changes to the governance are submitted via a GitHub pull request to The Project's
-[governance page](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
+تغییرات در دستورکار از طریق یک درخواست ادغام (Pull Request) در گیت‌هاب به [صفحه‌ی دستورکار پروژه](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md) ارسال می‌شوند.
 درخواست ادغام سپس در پاسخ به نظرات عمومی و بازبینی‌ها بهبود می‌یابد، با این هدف که به هم‌رأیی در جامعه برسد.  پس از این دوره باز، یکی از اعضای تیم اصلی به تیم اصلی پیشنهاد می‌دهد که تغییرات تأیید شده و درخواست ادغام پذیرفته شود (قبول تغییرات پیشنهادی) یا پیشنهاد می‌دهد که درخواست ادغام بدون ادغام بسته شود (رد تغییرات پیشنهادی). عضو باید هش نهایی کامیت را در درخواست ادغام پیشنهادی برای پذیرش یا رد ذکر کرده و به‌طور خلاصه درخواست ادغام را توضیح دهد. حداقل ۸۰٪ از اعضای تیم اصلی باید رأی دهند و دست‌کم دو سوم از آراء باید مثبت باشد تا اقدام پیشنهادی انجام شود (کسری آراء به نزدیک‌ترین عدد صحیح گرد می‌شود). از آنجا که BDFL دارای اختیار نهایی در پروژه است، این حق را دارد که به‌تنهایی تغییرات را بپذیرد یا رد کند و یا تصمیمات تیم اصلی را نادیده بگیرد.
