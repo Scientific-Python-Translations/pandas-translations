@@ -278,7 +278,7 @@ import pandas as pd
 arctic = adb.Arctic("lmdb://arcticdb_test")
 ```
 
-> **Nota:** ArcticDB admite cualquier almacenamiento compatible con el API S3, incluido AWS. ArcticDB también permite el almacenamiento en Azure Blob.\
+> **Nota:** ArcticDB admite cualquier almacenamiento compatible con el API S3, incluido AWS. ArcticDB también permite el almacenamiento en Azure Blob.  
 > ArcticDB también soporta LMDB para almacenamiento local/basado en archivos; para usar LMDB, utilice una ruta de LMDB como un URI: `adb.Arctic('lmdb://path/to/desired/database')`.
 
 #### Configuración de biblioteca
