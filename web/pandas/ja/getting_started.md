@@ -30,7 +30,7 @@ pandasを学ぶためにおすすめする書籍は、pandasの作者である [
 
 [pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 
-## Try pandas in your browser (experimental)
+## ブラウザでpandasを試す（実験用）
 
 You can try pandas in your browser with the following interactive shell
 without needing to install anything on your system.
