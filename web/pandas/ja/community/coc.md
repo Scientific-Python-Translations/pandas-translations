@@ -1,16 +1,10 @@
 # Code of conduct
 
-As contributors and maintainers of this project, and in the interest of
-fostering an open and welcoming community, we pledge to respect all people who
-contribute through reporting issues, posting feature requests, updating
-documentation, submitting pull requests or patches, and other activities.
+このプロジェクトの貢献者およびメンテナーとして、またオープンで歓迎的なコミュニティを育成するために、私たちは問題の報告、機能リクエストの投稿、ドキュメントの更新、プルリクエストやパッチの送信、その他の活動を通じて貢献するすべての人を尊重することを誓います。
 
-We are committed to making participation in this project a harassment-free
-experience for everyone, regardless of level of experience, gender, gender
-identity and expression, sexual orientation, disability, personal appearance,
-body size, race, ethnicity, age, religion, or nationality.
+私たちは、経験レベル、性別、性自認および性表現、性的指向、障害、個人的な容姿、体型、人種、民族、年齢、宗教、国籍に関係なく、このプロジェクトへの参加が誰にとっても嫌がらせのない体験となるように努めます。
 
-Examples of unacceptable behavior by participants include:
+参加者による容認できない行為の例としては、次のようなものがあります：
 
 - The use of sexualized language or imagery
 - Personal attacks
