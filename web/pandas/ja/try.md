@@ -1,6 +1,6 @@
-# Try pandas in your browser (experimental)
+# ブラウザでpandasを試す（実験用）
 
-Try our experimental [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) live shell with `pandas`, powered by [Pyodide](https://pyodide.org/en/stable/).
+[Pyodide](https://pyodide.org/en/stable/) を搭載した `pandas` を使用した実験用の [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) ライブ シェルをお試しください。
 
 **Please note it can take a while (>30 seconds) before the shell is initialized and ready to run commands.**
 
