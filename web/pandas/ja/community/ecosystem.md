@@ -462,7 +462,7 @@ ArcticDB also supports appending, updating, and querying data from storage to a 
 
 ### [Hugging Face](https://huggingface.co/datasets)
 
-The Hugging Face Dataset Hub provides a large collection of ready-to-use datasets for machine learning shared by the community. The platform offers a user-friendly interface to explore, discover and visualize datasets, and provides tools to easily load and work with these datasets in Python thanks to the [huggingface_hub](https://github.com/huggingface/huggingface_hub) library.
+Hugging Face Dataset Hub は、コミュニティで共有される、機械学習にすぐに使用できるデータセットの大規模なコレクションを提供します。 このプラットフォームは、データセットを探索、発見、視覚化するためのユーザーフレンドリーなインターフェースを提供し、[huggingface_hub](https://github.com/huggingface/huggingface_hub) ライブラリのおかげで、Python でこれらのデータセットを簡単にロードして操作するためのツールも提供します。
 
 You can access datasets on Hugging Face using `hf://` paths in pandas, in the form `hf://datasets/username/dataset_name/...`.
 
@@ -540,9 +540,7 @@ print(df3)
 
 ### [Dask](https://docs.dask.org)
 
-Dask is a flexible parallel computing library for analytics. Dask
-provides a familiar `DataFrame` interface for out-of-core, parallel and
-distributed computing.
+Dask は、分析用の柔軟な並列コンピューティングライブラリです。 Dask は、アウトオブコア、並列、分散コンピューティング用に使い慣れた `DataFrame` のインターフェイスを提供します。
 
 ### [Dask-ML](https://ml.dask.org)
 
