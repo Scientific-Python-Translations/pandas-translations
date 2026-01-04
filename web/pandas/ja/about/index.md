@@ -43,7 +43,7 @@ This will help ensure the success of development of _pandas_ as a world-class op
 - Aggregating or transforming data with a powerful **group by** engine
   allowing split-apply-combine operations on data sets;
 
-- High performance **merging and joining** of data sets;
+- データセットのハイパフォーマンスな **マージと結合** ；
 
 - **Hierarchical axis indexing** provides an intuitive way of working with
   high-dimensional data in a lower-dimensional data structure;
