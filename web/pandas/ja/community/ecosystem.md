@@ -126,8 +126,7 @@ A good implementation for Python users is [has2k1/plotnine](https://github.com/h
 
 ### [Plotly](https://plot.ly/python)
 
-[Plotly's](https://plot.ly/) [Python API](https://plot.ly/python/)
-enables interactive figures and web shareability. Maps, 2D, 3D, and
+[Plotly](https://plot.ly/) の [Python API](https://plot.ly/python/) を使用すると、インタラクティブな図の作成や Web での共有が可能になります。 Maps, 2D, 3D, and
 live-streaming graphs are rendered with WebGL and
 [D3.js](https://d3js.org/). The library supports plotting directly from
 a pandas DataFrame and cloud-based collaboration. Users of matplotlib,
@@ -464,9 +463,9 @@ ArcticDB also supports appending, updating, and querying data from storage to a 
 
 Hugging Face Dataset Hub は、コミュニティで共有される、機械学習にすぐに使用できるデータセットの大規模なコレクションを提供します。 このプラットフォームは、データセットを探索、発見、視覚化するためのユーザーフレンドリーなインターフェースを提供し、[huggingface_hub](https://github.com/huggingface/huggingface_hub) ライブラリのおかげで、Python でこれらのデータセットを簡単にロードして操作するためのツールも提供します。
 
-You can access datasets on Hugging Face using `hf://` paths in pandas, in the form `hf://datasets/username/dataset_name/...`.
+Hugging Face のデータセットには、pandas の `hf://` パス (`hf://datasets/username/dataset_name/...` 形式) を使用してアクセスできます。
 
-For example, here is how to load the [stanfordnlp/imdb dataset](https://huggingface.co/datasets/stanfordnlp/imdb):
+たとえば、[stanfordnlp/imdb データセット](https://huggingface.co/datasets/stanfordnlp/imdb)をロードする方法は次のとおりです：
 
 ```python
 import pandas as pd
@@ -475,16 +474,16 @@ import pandas as pd
 df = pd.read_parquet("hf://datasets/stanfordnlp/imdb/plain_text/train-00000-of-00001.parquet")
 ```
 
-Tip: on a dataset page, click on "Use this dataset" to get the code to load it in pandas.
+ヒント: データセットのページで「Use this dataset」をクリックすると、pandas に読み込むコードが取得されます。
 
-To save a dataset on Hugging Face you need to [create a public or private dataset](https://huggingface.co/new-dataset) and [login](https://huggingface.co/docs/huggingface_hub/quick-start#login-command), and then you can use `df.to_csv/to_json/to_parquet`:
+Hugging Face にデータセットを保存するには、[create a public or private dataset](https://huggingface.co/new-dataset)して[login](https://huggingface.co/docs/huggingface_hub/quick-start#login-command)し、その後 `df.to_csv/to_json/to_parquet` を使用します：
 
 ```python
 # Save the dataset to my Hugging Face account
 df.to_parquet("hf://datasets/username/dataset_name/train.parquet")
 ```
 
-You can find more information about the Hugging Face Dataset Hub in the [documentation](https://huggingface.co/docs/hub/en/datasets).
+Hugging Face Dataset Hub の詳細については、[documentation](https://huggingface.co/docs/hub/en/datasets) をご覧ください。
 
 ## Out-of-core
 
