@@ -102,12 +102,7 @@ pyg.walk(df)
 ### [seaborn](https://seaborn.pydata.org)
 
 Seaborn は、[matplotlib](https://matplotlib.org) をベースにした Python 可視化ライブラリです。 Seaborn は魅力的な統計グラフを作成するための、高レベルのデータセット指向のインターフェースを提供します。
-The plotting functions in seaborn understand pandas objects and leverage
-pandas grouping operations internally to support concise specification
-of complex visualizations. Seaborn also goes beyond matplotlib and
-pandas with the option to perform statistical estimation while plotting,
-aggregating across observations and visualizing the fit of statistical
-models to emphasize patterns in a dataset.
+Seaborn のプロット関数は、pandas オブジェクトを理解し、pandas のグループ化操作を内部的に活用して、複雑な可視化の簡潔な指定をサポートします。 Seaborn は、プロットしながら統計的推定を実行したり、観測全体を集計したり、統計モデルの適合を可視化してデータセット内のパターンを強調したりするオプションを備えており、matplotlib や pandas の範囲を超えたことも行います。
 
 ```
 import seaborn as sns
