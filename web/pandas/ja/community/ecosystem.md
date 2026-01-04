@@ -126,17 +126,7 @@ A good implementation for Python users is [has2k1/plotnine](https://github.com/h
 
 ### [Plotly](https://plot.ly/python)
 
-[Plotly](https://plot.ly/) の [Python API](https://plot.ly/python/) を使用すると、インタラクティブな図の作成や Web での共有が可能になります。 Maps, 2D, 3D, and
-live-streaming graphs are rendered with WebGL and
-[D3.js](https://d3js.org/). The library supports plotting directly from
-a pandas DataFrame and cloud-based collaboration. Users of matplotlib,
-ggplot for Python, and
-Seaborn can
-convert figures into interactive web-based plots. Plots can be drawn in
-[IPython Notebooks](https://plot.ly/ipython-notebooks/) , edited with R
-or MATLAB, modified in a GUI, or embedded in apps and dashboards. Plotly
-is free for unlimited sharing, and has cloud, offline, or on-premise
-accounts for private use.
+[Plotly](https://plot.ly/) の [Python API](https://plot.ly/python/) を使用すると、インタラクティブな図の作成や Web での共有が可能になります。 マップ、2D、3D、ライブストリーミング グラフは、WebGL と [D3.js](https://d3js.org/) を使用してレンダリングされます。 このライブラリは、pandas の DataFrame から直接にプロットすることとクラウドベースのコラボレーションをサポートしています。 [matplotlib、ggplot for Python、Seaborn](https://plot.ly/python/matplotlib-to-plotly-tutorial/) のユーザーは、図をインタラクティブな Web ベースのプロットに変換できます。 プロットは [IPython Notebooks](https://plot.ly/ipython-notebooks/) で描画したり、R または MATLAB で編集したり、GUI で変更したり、アプリやダッシュボードに埋め込んだりすることができます。 Plotlyは無料で無制限に共有でき、プライベート使用にはクラウド、オフライン、オンプレミスのアカウントがあります。
 
 ### [Lux](https://github.com/lux-org/lux)
 
