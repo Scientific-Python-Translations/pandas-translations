@@ -58,7 +58,7 @@ At its core, STUMPY efficiently computes something called a
 [matrix profile](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html),
 which can be used for a wide variety of time series data mining tasks.
 
-## Visualization
+## 可視化
 
 ### [Altair](https://altair-viz.github.io/)
 
@@ -90,12 +90,9 @@ interactive web-based charts and maps.
 
 ### [pygwalker](https://github.com/Kanaries/pygwalker)
 
-PyGWalker is an interactive data visualization and
-exploratory data analysis tool built upon Graphic Walker
-with support for visualization, cleaning, and annotation workflows.
+PyGWalker は、可視化、クリーニング、アノテーションのワークフローをサポートする Graphic Walker 上に構築されたインタラクティブなデータ可視化および探索的データ分析ツールです。
 
-pygwalker can save interactively created charts
-to Graphic-Walker and Vega-Lite JSON.
+pygwalker は、インタラクティブに作成されたチャートを Graphic-Walker および Vega-Lite JSON に保存できます。
 
 ```
 import pygwalker as pyg
@@ -104,9 +101,7 @@ pyg.walk(df)
 
 ### [seaborn](https://seaborn.pydata.org)
 
-Seaborn is a Python visualization library based on
-[matplotlib](https://matplotlib.org). It provides a high-level,
-dataset-oriented interface for creating attractive statistical graphics.
+Seaborn は、[matplotlib](https://matplotlib.org) をベースにした Python 可視化ライブラリです。 Seaborn は魅力的な統計グラフを作成するための、高レベルのデータセット指向のインターフェースを提供します。
 The plotting functions in seaborn understand pandas objects and leverage
 pandas grouping operations internally to support concise specification
 of complex visualizations. Seaborn also goes beyond matplotlib and
@@ -412,7 +407,7 @@ import pandas as pd
 arctic = adb.Arctic("lmdb://arcticdb_test")
 ```
 
-> **Note:** ArcticDB supports any S3 API compatible storage, including AWS. ArcticDB also supports Azure Blob storage.\
+> **Note:** ArcticDB supports any S3 API compatible storage, including AWS. ArcticDB also supports Azure Blob storage.  
 > ArcticDB also supports LMDB for local/file based storage - to use LMDB, pass an LMDB path as the URI: `adb.Arctic('lmdb://path/to/desired/database')`.
 
 #### Library Setup
