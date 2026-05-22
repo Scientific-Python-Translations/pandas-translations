@@ -2,11 +2,11 @@
 
 ## pandas 인용하기
 
-_pandas_를 학술 출판물에서 사용하신다면, 공개된 소프트웨어와 다음 논문을 인용해 주시면
+_pandas_ 를 학술 출판물에서 사용하신다면, 공개된 소프트웨어와 다음 논문을 인용해 주시면
 감사하겠습니다:
 
 - [pandas on Zenodo](https://zenodo.org/search?page=1&size=20&q=conceptrecid%3A%223509134%22&sort=-version&all_versions=True),
-  Zenodo에서 pandas를 찾으신 후, 사용 중이신 버전의 인용 정보로 교체해 주십시오. 아래 예시처럼 전체 저자 목록을 "The pandas development team"으로 바꾸실 수 있습니다. 아래 예시처럼, Zenodo의 전체 저자 목록을 "The pandas development team"으로
+  Zenodo 에서 pandas 를 찾으신 후, 사용 중이신 버전의 인용 정보로 교체해 주십시오. 아래 예시처럼 전체 저자 목록을 "The pandas development team"으로 바꾸실 수 있습니다. 아래 예시처럼, Zenodo 의 전체 저자 목록을 "The pandas development team"으로
   바꾸실 수 있습니다.
 
   ```
@@ -41,7 +41,7 @@ _pandas_를 학술 출판물에서 사용하신다면, 공개된 소프트웨어
 
 _pandas_ 프로젝트 이름을 사용하실 때에는, 문장 첫머리라 하더라도 소문자로 표기해 주십시오.
 
-_pandas_의 공식 로고는 다음과 같습니다:
+_pandas_ 의 공식 로고는 다음과 같습니다:
 
 ### 기본 로고
 
