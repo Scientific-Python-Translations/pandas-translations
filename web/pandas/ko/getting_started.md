@@ -1,26 +1,26 @@
-# Getting started
+# 시작하기
 
-## Installation instructions
+## 설치 안내
 
-To install pandas, please reference the [installation page]({{ base_url}}docs/getting_started/install.html)
-from the pandas documentation.
+pandas를 설치하시려면, pandas 문서의
+[설치 페이지]({{ base_url}}docs/getting_started/install.html)를 참고해 주십시오.
 
-## Tutorials
+## 튜토리얼
 
-You can learn more about pandas in the [tutorials]({{ base_url }}docs/getting_started/intro_tutorials/),
-and more about JupyterLab in the
-[JupyterLab documentation](https://jupyterlab.readthedocs.io/en/stable/user/interface.html).
+pandas에 대해서는 [튜토리얼]({{ base_url }}docs/getting_started/intro_tutorials/)에서 더 자세히 배우실 수 있고,
+JupyterLab에 대해서는
+[JupyterLab 문서](https://jupyterlab.readthedocs.io/en/stable/user/interface.html)에서 더 자세히 배우실 수 있습니다.
 
-## Books
+## 도서
 
-The book we recommend to learn pandas is [Python for Data Analysis](https://amzn.to/3DyLaJc),
-by [Wes McKinney](https://wesmckinney.com/), creator of pandas.
+pandas를 배우는 데 추천하는 책은 pandas 창시자인
+[Wes McKinney](https://wesmckinney.com/)가 쓴 [Python for Data Analysis](https://amzn.to/3DyLaJc)입니다.
 
 <a href="https://amzn.to/3DyLaJc">
     <img alt="Python for Data Analysis" src="{{ base_url }}static/img/books/pydata_book.gif"/>
 </a>
 
-## Videos
+## 동영상
 
 <iframe
   src="https://www.youtube.com/embed/_T8LGqJtuGc"
@@ -30,15 +30,15 @@ by [Wes McKinney](https://wesmckinney.com/), creator of pandas.
   allowfullscreen
 ></iframe>
 
-## Cheat sheet
+## 치트 시트
 
-[pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+[pandas 치트 시트](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 
-## Try pandas in your browser (experimental)
+## 브라우저에서 pandas 사용해 보기 (실험적)
 
-You can try pandas in your browser with the following interactive shell
-without needing to install anything on your system.
+시스템에 아무것도 설치하지 않고도, 아래의 대화형 셸을 통해
+브라우저에서 pandas를 사용해 보실 수 있습니다.
 
 <p>
-    <a class="btn btn-primary" href="{{ base_url }}try.html">Try it in your browser</a>
+    <a class="btn btn-primary" href="{{ base_url }}try.html">브라우저에서 사용해 보기</a>
 </p>
