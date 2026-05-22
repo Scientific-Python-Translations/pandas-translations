@@ -1,34 +1,34 @@
 navbar:
-  - name: "About us"
+  - name: "소개"
     target:
-    - name: "About pandas"
+    - name: "pandas 소개"
       target: about/
-    - name: "Project roadmap"
+    - name: "프로젝트 로드맵"
       target: about/roadmap.html
-    - name: "Governance"
+    - name: "거버넌스"
       target: about/governance.html
-    - name: "Team"
+    - name: "팀"
       target: about/team.html
-    - name: "Sponsors"
+    - name: "후원자"
       target: about/sponsors.html
-    - name: "Citing and logo"
+    - name: "인용과 로고"
       target: about/citing.html
-  - name: "Getting started"
+  - name: "시작하기"
     target: getting_started.html
-  - name: "Documentation"
+  - name: "문서"
     target: docs/
     translated: false
-  - name: "Community"
+  - name: "커뮤니티"
     target:
-    - name: "Blog"
+    - name: "블로그"
       target: community/blog/
-    - name: "Ask a question (StackOverflow)"
+    - name: "질문 올리기 (StackOverflow)"
       target: https://stackoverflow.com/questions/tagged/pandas
-    - name: "Code of conduct"
+    - name: "행동 강령"
       target: community/coc.html
-    - name: "Ecosystem"
+    - name: "생태계"
       target: community/ecosystem.html
-    - name: "Benchmarks"
+    - name: "벤치마크"
       target: community/benchmarks.html
-  - name: "Contribute"
+  - name: "기여하기"
     target: contribute.html
