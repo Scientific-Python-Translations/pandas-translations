@@ -4,17 +4,17 @@
 
 ![](https://numfocus.org/wp-content/uploads/2018/01/optNumFocus_LRG.png)
 
-_pandas_는 미국의 501(c)(3) 비영리 자선 단체 [NumFOCUS](https://numfocus.org/)의 후원 프로젝트(Sponsored Project)입니다.
-NumFOCUS는 _pandas_ 프로젝트의 건전성과 지속 가능성을 확보할 수 있도록 재정, 법무, 행정
-지원을 제공합니다. 자세한 사항은 numfocus.org를 참고해 주십시오.
+_pandas_ 는 미국의 501(c)(3) 비영리 자선 단체 [NumFOCUS](https://numfocus.org/)의 후원 프로젝트(Sponsored Project)입니다.
+NumFOCUS 는 _pandas_ 프로젝트의 건전성과 지속 가능성을 확보할 수 있도록 재정, 법무, 행정
+지원을 제공합니다. 자세한 사항은 numfocus.org 를 참고해 주십시오.
 
-_pandas_에 대한 기부는 NumFOCUS가 관리합니다. 미국 거주 기부자의 경우, 기부금은 법이 정한 한도
+_pandas_ 에 대한 기부는 NumFOCUS 가 관리합니다. 미국 거주 기부자의 경우, 기부금은 법이 정한 한도
 내에서 세액 공제 대상이 됩니다. 모든 기부와 마찬가지로, 본인의 세금 관련 상황에 대해서는 세무 자문 전문가와 상의해 주십시오.
 
 ## 후원자가 되기
 
-무료 오픈 소스 프로젝트로서, _pandas_는 개발을 위해 사용자 커뮤니티의 지원에 의존합니다.
-_pandas_를 사용하고 그로부터 혜택을 보는 조직에서 일하신다면, pandas 지원을 고려해 주십시오. pandas 작업을 위해 사람을 고용하시거나, 프로젝트에 자금을 지원하시거나,
+무료 오픈 소스 프로젝트로서, _pandas_ 는 개발을 위해 사용자 커뮤니티의 지원에 의존합니다.
+_pandas_ 를 사용하고 그로부터 혜택을 보는 조직에서 일하신다면, pandas 지원을 고려해 주십시오. pandas 작업을 위해 사람을 고용하시거나, 프로젝트에 자금을 지원하시거나,
 더 넓은 생태계를 지원하기 위해 [NumFOCUS 후원자](https://numfocus.org/sponsors)가 되시는 등
 여러 가지 방법이 있습니다. 논의를 원하시면
 [admin@numfocus.org](mailto:admin@numfocus.org)로 연락해 주십시오.
@@ -32,7 +32,7 @@ _pandas_를 사용하고 그로부터 혜택을 보는 조직에서 일하신다
 
 ## 후원자
 
-후원자는 pandas에 자금을 지원하는 조직을 말합니다. 현재 후원자는 다음과 같습니다:
+후원자는 pandas 에 자금을 지원하는 조직을 말합니다. 현재 후원자는 다음과 같습니다:
 
 <ul>
     {% for company in sponsors.active if company.kind == "regular" %}
