@@ -1,0 +1,34 @@
+navbar:
+  - name: "소개"
+    target:
+    - name: "pandas 소개"
+      target: about/
+    - name: "프로젝트 로드맵"
+      target: about/roadmap.html
+    - name: "거버넌스"
+      target: about/governance.html
+    - name: "팀"
+      target: about/team.html
+    - name: "후원자"
+      target: about/sponsors.html
+    - name: "인용과 로고"
+      target: about/citing.html
+  - name: "시작하기"
+    target: getting_started.html
+  - name: "문서"
+    target: docs/
+    translated: false
+  - name: "커뮤니티"
+    target:
+    - name: "블로그"
+      target: community/blog/
+    - name: "질문 올리기 (StackOverflow)"
+      target: https://stackoverflow.com/questions/tagged/pandas
+    - name: "행동 강령"
+      target: community/coc.html
+    - name: "생태계"
+      target: community/ecosystem.html
+    - name: "벤치마크"
+      target: community/benchmarks.html
+  - name: "기여하기"
+    target: contribute.html
