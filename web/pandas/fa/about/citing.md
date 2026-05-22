@@ -4,36 +4,36 @@
 
 اگر از کتابخانه پانداس (pandas) در یک انتشار علمی استفاده می‌کنید، قدردان خواهیم بود که نرم‌افزار منتشرشده و مقاله زیر را مورد استناد قرار دهید:
 
-- پانداس در Zenodo,
-   لطفاً ما را در Zenodo پیدا کنید و استناد مربوط به نسخه‌ای که استفاده می‌کنید را جایگزین کنید. می‌توانید فهرست کامل نویسندگان را از آنجا با عبارت «The pandas development team» همانند نمونه زیر جایگزین کنید.
+- [پانداس در Zenodo](https://zenodo.org/search?page=1&size=20&q=conceptrecid%3A%223509134%22&sort=-version&all_versions=True),
+  لطفاً ما را در Zenodo پیدا کنید و استناد مربوط به نسخه‌ای که استفاده می‌کنید را جایگزین کنید. می‌توانید فهرست کامل نویسندگان را از آنجا با عبارت «The pandas development team» همانند نمونه زیر جایگزین کنید.
 
-   ```
-     @software{reback2020pandas,
-   author =  {The pandas development team},
-   title = {pandas-dev/pandas: پانداس},
-   month = feb,
-   year = 2020,
-   publisher = {Zenodo},
-   version =  {latest},
-   doi = {10.5281/zenodo.3509134},
-   url = {https://doi.org/10.5281/zenodo.3509134}
-   }
-   ```
+  ```
+    @software{reback2020pandas,
+  author =  {The pandas development team},
+  title = {pandas-dev/pandas: پانداس},
+  month = feb,
+  year = 2020,
+  publisher = {Zenodo},
+  version =  {latest},
+  doi = {10.5281/zenodo.3509134},
+  url = {https://doi.org/10.5281/zenodo.3509134}
+  }
+  ```
 
 - [ساختارهای داده برای رایانش آماری در پایتون](https://pub.curvenote.com/01908378-3686-7168-a380-d82bbf21c799/public/mckinney-57fc0d4e8a08cd7f26a4b8bf468a71f4.pdf),
-   مک‌کینی، مجموعه مقالات نهمین کنفرانس پایتون در علوم، جلد ۴۴۵، سال ۲۰۱۰.
+  مک‌کینی، مجموعه مقالات نهمین کنفرانس پایتون در علوم، جلد ۴۴۵، سال ۲۰۱۰.
 
-   ```
-     @InProceedings{ mckinney-proc-scipy-2010,
-       author    = { {W}es {M}c{K}inney },
-       title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
-       booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
-       pages     = { 56 - 61 },
-       year      = { 2010 },
-       editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
-       doi       = { 10.25080/Majora-92bf1922-00a }
-     }
-   ```
+  ```
+    @InProceedings{ mckinney-proc-scipy-2010,
+      author    = { {W}es {M}c{K}inney },
+      title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
+      booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
+      pages     = { 56 - 61 },
+      year      = { 2010 },
+      editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
+      doi       = { 10.25080/Majora-92bf1922-00a }
+    }
+  ```
 
 ## نشان و نماد تجاری
 
