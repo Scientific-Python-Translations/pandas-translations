@@ -2,18 +2,18 @@
 
 데이터 준비, 분석, 시각화 등 특정한 요구를 다루기 위해
 pandas 위에 만들어지는 패키지가 점점 늘어나고 있습니다. 이는
-고무적인 현상입니다. pandas가 사용자들이 데이터 작업을 다루는 데 도움이 될 뿐 아니라,
+고무적인 현상입니다. pandas 가 사용자들이 데이터 작업을 다루는 데 도움이 될 뿐 아니라,
 개발자들이 강력하고 더 집중된 데이터 도구를 만들기 위한
-더 나은 출발점도 제공한다는 뜻이기 때문입니다. pandas의 기능을 보완하는 라이브러리들이 만들어짐으로써,
+더 나은 출발점도 제공한다는 뜻이기 때문입니다. pandas 의 기능을 보완하는 라이브러리들이 만들어짐으로써,
 pandas 개발은 본래의 요구 사항에 집중한 상태를 유지할 수
 있습니다.
 
 이는 PyData 영역에서 도구를 제공하기 위해 pandas 위에 만들어진 프로젝트들의,
 커뮤니티가 관리하는 목록입니다. pandas 코어 개발팀이 이 목록의 특정 프로젝트를 반드시 추천한다는 의미는 아니며, 특정 라이브러리의 유지보수 상태에 대해 알고 있다는 의미도 아닙니다.
 
-pandas에 의존하는 프로젝트의 더 완전한 목록은,
+pandas 에 의존하는 프로젝트의 더 완전한 목록은,
 [libraries.io pandas 사용 페이지](https://libraries.io/pypi/pandas/usage)나
-[PyPI에서 pandas 검색](https://pypi.org/search/?q=pandas)을 참고해 주십시오.
+[PyPI 에서 pandas 검색](https://pypi.org/search/?q=pandas)을 참고해 주십시오.
 
 사용자들이 이러한 프로젝트를 더 쉽게 찾을 수 있도록 하고 싶습니다.
 이 목록에 들어가야 한다고 생각하시는 다른 의미 있는 프로젝트를 알고 계신다면,
@@ -23,10 +23,10 @@ pandas에 의존하는 프로젝트의 더 완전한 목록은,
 
 ### [Statsmodels](https://www.statsmodels.org/)
 
-Statsmodels는 파이썬의 대표적인 "통계 및 계량경제학
-라이브러리"이며, pandas와 오랫동안 특별한 관계를 유지해 왔습니다.
-Statsmodels는 pandas의 범위 밖에 있는 강력한 통계, 계량경제학, 분석,
-모델링 기능을 제공합니다. Statsmodels는
+Statsmodels 는 파이썬의 대표적인 "통계 및 계량경제학
+라이브러리"이며, pandas 와 오랫동안 특별한 관계를 유지해 왔습니다.
+Statsmodels 는 pandas 의 범위 밖에 있는 강력한 통계, 계량경제학, 분석,
+모델링 기능을 제공합니다. Statsmodels 는
 계산을 위한 기본 데이터 컨테이너로 pandas 객체를
 활용합니다.
 
@@ -38,7 +38,7 @@ scikit-learn 및 관련 라이브러리를 연결해 줍니다. 특히 데이터
 
 ### [Featuretools](https://github.com/alteryx/featuretools/)
 
-Featuretools는 pandas 위에 만들어진 자동 특성 공학을 위한
+Featuretools 는 pandas 위에 만들어진 자동 특성 공학을 위한
 파이썬 라이브러리입니다. 재사용 가능한 특성 공학 "프리미티브"를 사용하여
 시간적·관계적 데이터셋을 머신러닝용 특성 행렬로 변환하는 데
 특히 뛰어납니다. 사용자는 본인의
@@ -46,15 +46,15 @@ Featuretools는 pandas 위에 만들어진 자동 특성 공학을 위한
 
 ### [Compose](https://github.com/alteryx/compose)
 
-Compose는 데이터 라벨링과 예측 공학을 위한 머신러닝 도구입니다.
+Compose 는 데이터 라벨링과 예측 공학을 위한 머신러닝 도구입니다.
 예측 문제를 매개변수화하고, 시간 기반 관계형 데이터를
 지도 학습에 사용할 수 있는 컷오프 시간과 함께 목표 값으로 변환함으로써
 라벨링 과정을 구조화할 수 있게 해 줍니다.
 
 ### [STUMPY](https://github.com/TDAmeritrade/stumpy)
 
-STUMPY는 현대 시계열 분석을 위한 강력하고 확장 가능한 파이썬 라이브러리입니다.
-STUMPY는 핵심적으로
+STUMPY 는 현대 시계열 분석을 위한 강력하고 확장 가능한 파이썬 라이브러리입니다.
+STUMPY 는 핵심적으로
 [행렬 프로파일(matrix profile)](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html)이라는 것을 효율적으로 계산하며,
 이는 다양한 시계열 데이터 마이닝 작업에 사용할 수 있습니다.
 
@@ -62,22 +62,22 @@ STUMPY는 핵심적으로
 
 ### [Altair](https://altair-viz.github.io/)
 
-Altair는 파이썬용 선언형 통계 시각화 라이브러리입니다.
-Altair를 사용하시면, 데이터와 그 의미를 이해하는 데
-더 많은 시간을 쓸 수 있습니다. Altair의 API는 단순하고 친근하며 일관성이 있고,
+Altair 는 파이썬용 선언형 통계 시각화 라이브러리입니다.
+Altair 를 사용하시면, 데이터와 그 의미를 이해하는 데
+더 많은 시간을 쓸 수 있습니다. Altair 의 API 는 단순하고 친근하며 일관성이 있고,
 강력한 Vega-Lite JSON 명세 위에 구축되어 있습니다. 이 우아한
 단순함은 최소한의 코드로 아름답고 효과적인 시각화를
-만들어 냅니다. Altair는 pandas DataFrame과 함께 동작합니다.
+만들어 냅니다. Altair 는 pandas DataFrame 과 함께 동작합니다.
 
 ### [Bokeh](https://docs.bokeh.org)
 
-Bokeh는 대용량 데이터셋을 위한 파이썬 대화형 시각화 라이브러리로,
-최신 웹 기술을 기본적으로 사용합니다. Bokeh의 목표는 Protovis/D3 스타일의 새로운 그래픽을
+Bokeh 는 대용량 데이터셋을 위한 파이썬 대화형 시각화 라이브러리로,
+최신 웹 기술을 기본적으로 사용합니다. Bokeh 의 목표는 Protovis/D3 스타일의 새로운 그래픽을
 우아하고 간결한 방식으로 구성하면서, 대용량 데이터에 대한 고성능
 인터랙티브 기능을 가벼운 클라이언트에 제공하는 것입니다.
 
-[Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh)는 Bokeh에 대한 고수준 API를 제공하며,
-Pandas의 기본 플로팅 백엔드로 다음과 같이 로드할 수
+[Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh)는 Bokeh 에 대한 고수준 API 를 제공하며,
+Pandas 의 기본 플로팅 백엔드로 다음과 같이 로드할 수
 있습니다
 
 ```
@@ -103,12 +103,12 @@ pyg.walk(df)
 
 ### [seaborn](https://seaborn.pydata.org)
 
-Seaborn은 [matplotlib](https://matplotlib.org)을 기반으로 한
+Seaborn 은 [matplotlib](https://matplotlib.org)을 기반으로 한
 파이썬 시각화 라이브러리입니다. 매력적인 통계 그래픽을 만들기 위한,
 고수준의 데이터셋 지향 인터페이스를 제공합니다.
-seaborn의 플로팅 함수들은 pandas 객체를 이해하며, 내부적으로
-pandas의 그룹화 연산을 활용하여 복잡한 시각화를
-간결하게 지정할 수 있도록 지원합니다. Seaborn은 matplotlib 및
+seaborn 의 플로팅 함수들은 pandas 객체를 이해하며, 내부적으로
+pandas 의 그룹화 연산을 활용하여 복잡한 시각화를
+간결하게 지정할 수 있도록 지원합니다. Seaborn 은 matplotlib 및
 pandas 그 이상으로, 플로팅 중에 통계적 추정을 수행하고,
 관측값을 가로질러 집계하며, 데이터셋의 패턴을 강조하기 위해
 통계 모델의 적합도를 시각화하는 옵션도 제공합니다.
@@ -120,7 +120,7 @@ sns.set_theme()
 
 ### [plotnine](https://github.com/has2k1/plotnine/)
 
-Hadley Wickham의 [ggplot2](https://ggplot2.tidyverse.org/)는
+Hadley Wickham 의 [ggplot2](https://ggplot2.tidyverse.org/)는
 R 언어를 위한 기초적인 탐색적 시각화 패키지입니다. "The Grammar of
 Graphics"를 기반으로 하며,
 강력하고 선언형이며 매우 일반적인 방식으로
@@ -136,18 +136,18 @@ Graphics"를 기반으로 하며,
 
 [Plotly](https://plot.ly/)의 [파이썬 API](https://plot.ly/python/)는
 대화형 그림과 웹 공유 기능을 제공합니다. 지도, 2D, 3D,
-실시간 스트리밍 그래프가 WebGL과
-[D3.js](https://d3js.org/)로 렌더링됩니다. 이 라이브러리는 pandas DataFrame에서 직접 플로팅과
+실시간 스트리밍 그래프가 WebGL 과
+[D3.js](https://d3js.org/)로 렌더링됩니다. 이 라이브러리는 pandas DataFrame 에서 직접 플로팅과
 클라우드 기반 협업을 지원합니다. matplotlib,
 ggplot for Python, Seaborn 사용자들은
 그림을 대화형 웹 기반 플롯으로 변환할 수 있습니다. 플롯은
 [IPython Notebook](https://plot.ly/ipython-notebooks/)에서 그리고, R이나
-MATLAB으로 편집하고, GUI에서 수정하거나, 앱과 대시보드에 임베드할 수 있습니다. Plotly는 무제한 공유에 대해 무료이며,
+MATLAB 으로 편집하고, GUI 에서 수정하거나, 앱과 대시보드에 임베드할 수 있습니다. Plotly 는 무제한 공유에 대해 무료이며,
 개인 사용을 위한 클라우드, 오프라인, 온프레미스 계정을 제공합니다.
 
 ### [Lux](https://github.com/lux-org/lux)
 
-Lux는 시각적 데이터 탐색 과정을 자동화하여 데이터로 빠르고 쉽게 실험할 수 있도록 돕는 파이썬 라이브러리입니다. Lux를 사용하시려면, pandas와 함께 import 한 줄을 추가하시면 됩니다:
+Lux 는 시각적 데이터 탐색 과정을 자동화하여 데이터로 빠르고 쉽게 실험할 수 있도록 돕는 파이썬 라이브러리입니다. Lux 를 사용하시려면, pandas 와 함께 import 한 줄을 추가하시면 됩니다:
 
 ```python
 import lux
@@ -157,14 +157,14 @@ df = pd.read_csv("data.csv")
 df  # discover interesting insights!
 ```
 
-데이터프레임을 출력하시면, Lux가 [추천 시각화 모음](https://raw.githubusercontent.com/lux-org/lux-resources/master/readme_img/demohighlight.gif)을 자동으로 제안하여, 데이터프레임의 흥미로운 추세와 패턴을 강조합니다. 사용자는 본인의 코드를 수정하지 않고 기존 pandas 명령을 그대로 활용하면서, 동시에 pandas의 자료 구조(예: DataFrame, Series, Index)를 시각화할 수 있습니다. Lux는 또한 [강력하고 직관적인 언어](https://lux-api.readthedocs.io/en/latest/source/guide/vis.html)를 제공하여, 사용자가 코드 수준에서 생각할 필요 없이 Altair, matplotlib, Vega-Lite 시각화를 만들 수 있게 해 줍니다.
+데이터프레임을 출력하시면, Lux 가 [추천 시각화 모음](https://raw.githubusercontent.com/lux-org/lux-resources/master/readme_img/demohighlight.gif)을 자동으로 제안하여, 데이터프레임의 흥미로운 추세와 패턴을 강조합니다. 사용자는 본인의 코드를 수정하지 않고 기존 pandas 명령을 그대로 활용하면서, 동시에 pandas 의 자료 구조(예: DataFrame, Series, Index)를 시각화할 수 있습니다. Lux 는 또한 [강력하고 직관적인 언어](https://lux-api.readthedocs.io/en/latest/source/guide/vis.html)를 제공하여, 사용자가 코드 수준에서 생각할 필요 없이 Altair, matplotlib, Vega-Lite 시각화를 만들 수 있게 해 줍니다.
 
 ### [D-Tale](https://github.com/man-group/dtale)
 
-D-Tale은 pandas 자료 구조를 시각화하기 위한 가벼운 웹 클라이언트입니다. 풍부한 스프레드시트 스타일의 그리드를 제공하며, 이는
+D-Tale 은 pandas 자료 구조를 시각화하기 위한 가벼운 웹 클라이언트입니다. 풍부한 스프레드시트 스타일의 그리드를 제공하며, 이는
 많은 pandas 기능(query, sort, describe, corr...)에 대한 래퍼 역할을 합니다. 덕분에 사용자는
-데이터를 빠르게 다룰 수 있습니다. Plotly Dash를 사용한 대화형 차트 빌더도 있어,
-사용자가 깔끔하고 휴대 가능한 시각화를 만들 수 있습니다. D-Tale은
+데이터를 빠르게 다룰 수 있습니다. Plotly Dash 를 사용한 대화형 차트 빌더도 있어,
+사용자가 깔끔하고 휴대 가능한 시각화를 만들 수 있습니다. D-Tale 은
 다음 명령으로 호출할 수 있습니다
 
 ```python
@@ -173,8 +173,8 @@ import dtale
 dtale.show(df)
 ```
 
-D-Tale은 Jupyter 노트북, 파이썬 터미널, Kaggle,
-Google Colab과 매끄럽게 통합됩니다. [그리드](http://alphatechadmin.pythonanywhere.com/dtale/main/1)에 대한 몇 가지 데모를 확인하실 수 있습니다.
+D-Tale 은 Jupyter 노트북, 파이썬 터미널, Kaggle,
+Google Colab 과 매끄럽게 통합됩니다. [그리드](http://alphatechadmin.pythonanywhere.com/dtale/main/1)에 대한 몇 가지 데모를 확인하실 수 있습니다.
 
 ### [hvplot](https://hvplot.holoviz.org/index.html)
 
