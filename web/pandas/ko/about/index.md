@@ -1,38 +1,37 @@
-# About pandas
+# pandas 소개
 
-## History of development
+## 개발 역사
 
-In 2008, _pandas_ development began at [AQR Capital Management](https://www.aqr.com).
-By the end of 2009 it had been [open sourced](https://en.wikipedia.org/wiki/Open_source),
-and is actively supported today by a community of like-minded individuals around the world who
-contribute their valuable time and energy to help make open source _pandas_
-possible. Thank you to [all of our contributors](team.html).
+2008년, [AQR Capital Management](https://www.aqr.com)에서 _pandas_ 개발이 시작되었습니다.
+2009년 말에는 [오픈 소스로 공개](https://en.wikipedia.org/wiki/Open_source)되었으며,
+오늘날 전 세계 비슷한 뜻을 가진 이들로 이루어진 커뮤니티가 소중한 시간과 에너지를 들여
+오픈 소스 _pandas_가 가능하도록 적극적으로
+지원하고 있습니다. [모든 기여자분들](team.html)께 감사드립니다.
 
-Since 2015, _pandas_ is a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects).
-This will help ensure the success of development of _pandas_ as a world-class open-source project.
+2015년부터 _pandas_는 [NumFOCUS 후원 프로젝트](https://numfocus.org/sponsored-projects)가 되었습니다.
+이는 세계적 수준의 오픈 소스 프로젝트로서 _pandas_가 성공적으로 개발될 수 있도록 도울 것입니다.
 
-### Timeline
+### 연혁
 
-- **2008**:  Development of _pandas_ started
-- **2009**: _pandas_ becomes open source
-- **2012**: First edition of _Python for Data Analysis_ is published
-- **2015**: _pandas_ becomes a [NumFOCUS sponsored project](https://numfocus.org/sponsored-projects)
-- **2018**: First in-person core developer sprint
+- **2008년**:  _pandas_ 개발 시작
+- **2009년**: _pandas_ 오픈 소스화
+- **2012년**: _Python for Data Analysis_ 초판 출간
+- **2015년**: _pandas_가 [NumFOCUS 후원 프로젝트](https://numfocus.org/sponsored-projects)가 됨
+- **2018년**: 첫 오프라인 코어 개발자 스프린트
 
-## Library Highlights
+## 라이브러리 주요 기능
 
-- A fast and efficient **DataFrame** object for data manipulation with
-  integrated indexing;
+- 인덱싱이 통합된 데이터 조작을 위한 빠르고 효율적인 **DataFrame** 객체;
 
-- Tools for **reading and writing data** between in-memory data structures and
-  different formats: CSV and text files, Microsoft Excel, SQL databases, and
-  the fast HDF5 format;
+- 메모리 내 자료 구조와 다양한 형식 사이에서 **데이터 읽기·쓰기**를 위한 도구.
+  CSV 및 텍스트 파일, Microsoft Excel, SQL 데이터베이스, 그리고
+  빠른 HDF5 형식을 지원합니다;
 
-- Intelligent **data alignment** and integrated handling of **missing data**:
-  gain automatic label-based alignment in computations and easily manipulate
-  messy data into an orderly form;
+- 지능형 **데이터 정렬**과 **결측 데이터** 처리 통합 지원.
+  계산 시 자동으로 라벨 기반 정렬이 이루어지며, 정돈되지 않은 데이터를
+  쉽게 깔끔한 형태로 다듬을 수 있습니다;
 
-- Flexible **reshaping** and pivoting of data sets;
+- 데이터셋의 유연한 **형상 변경**과 피벗;
 
 - Intelligent label-based **slicing**, **fancy indexing**, and **subsetting**
   of large data sets;
