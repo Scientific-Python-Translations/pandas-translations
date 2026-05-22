@@ -1,6 +1,6 @@
 # 벤치마크
 
-벤치마크는 pandas의 성능을 측정하는 테스트입니다. pandas와 관련된 벤치마크에는 두 가지
+벤치마크는 pandas 의 성능을 측정하는 테스트입니다. pandas 와 관련된 벤치마크에는 두 가지
 종류가 있습니다:
 
 - 시간 경과에 따른 속도와 메모리 사용량을 측정하는 pandas 내부 벤치마크
@@ -27,14 +27,14 @@ pandas 벤치마크는 저장소의 [asv_bench](https://github.com/pandas-dev/pa
 ## 자동화된 벤치마크 실행기
 
 [asv-runner](https://github.com/pandas-dev/asv-runner/) 저장소는 `main` 브랜치에 대한 (거의) 모든 커밋에 대해
-pandas asv 벤치마크 스위트를 자동으로 실행합니다. GitHub Actions에서 실행됩니다.
+pandas asv 벤치마크 스위트를 자동으로 실행합니다. GitHub Actions 에서 실행됩니다.
 자세한 내용은 위에 연결된 저장소를 참고해 주십시오. 결과는 다음에서 확인하실 수 있습니다:
 
 https://pandas-dev.github.io/asv-runner/
 
 ## 커뮤니티 벤치마크
 
-pandas를 포함한 데이터프레임 도구들을 비교하는 주요 벤치마크는 다음과 같습니다:
+pandas 를 포함한 데이터프레임 도구들을 비교하는 주요 벤치마크는 다음과 같습니다:
 
 - [DuckDB (구 H2O.ai) 벤치마크](https://duckdblabs.github.io/db-benchmark/)
 - [TPCH 벤치마크](https://pola.rs/posts/benchmarks/)
