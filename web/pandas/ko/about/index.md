@@ -33,53 +33,52 @@
 
 - 데이터셋의 유연한 **형상 변경**과 피벗;
 
-- Intelligent label-based **slicing**, **fancy indexing**, and **subsetting**
-  of large data sets;
+- 대용량 데이터셋에 대한 지능형 라벨 기반 **슬라이싱**, **팬시 인덱싱**,
+  **부분집합 추출**;
 
-- Columns can be inserted and deleted from data structures for **size
-  mutability**;
+- 자료 구조에서 열을 삽입·삭제할 수 있어 **크기 변경**이
+  가능합니다;
 
-- Aggregating or transforming data with a powerful **group by** engine
-  allowing split-apply-combine operations on data sets;
+- 데이터셋에 대한 split-apply-combine 연산을 가능하게 하는 강력한 **group by** 엔진을
+  사용한 데이터 집계 및 변환;
 
-- High performance **merging and joining** of data sets;
+- 데이터셋의 고성능 **병합과 조인**;
 
-- **Hierarchical axis indexing** provides an intuitive way of working with
-  high-dimensional data in a lower-dimensional data structure;
+- **계층형 축 인덱싱**을 통해 고차원 데이터를 더 낮은 차원의 자료 구조에서
+  직관적으로 다룰 수 있습니다;
 
-- **Time series**-functionality: date range generation and frequency
-  conversion, moving window statistics, date shifting and lagging.
-  Even create domain-specific time offsets and join time
-  series without losing data;
+- **시계열** 기능: 날짜 범위 생성과 주기 변환,
+  이동 윈도우 통계, 날짜 이동(shift)과 지연(lag).
+  도메인 특화 시간 오프셋을 만들거나, 데이터를 잃지 않고
+  시계열을 결합할 수도 있습니다;
 
-- Highly **optimized for performance**, with critical code paths written in
-  [Cython](https://cython.org) or C.
+- 핵심 코드 경로가 [Cython](https://cython.org) 또는 C로 작성되어
+  **성능에 고도로 최적화**되어 있습니다.
 
-- Python with _pandas_ is in use in a wide variety of **academic and
-  commercial** domains, including Finance, Neuroscience, Economics,
-  Statistics, Advertising, Web Analytics, and more.
+- _pandas_와 함께 사용하는 파이썬은 금융, 신경과학, 경제학,
+  통계, 광고, 웹 분석 등 다양한 **학술 및 상업**
+  분야에서 사용되고 있습니다.
 
-## Mission
+## 미션
 
-_pandas_ aims to be the fundamental high-level building block for doing practical,
-real world data analysis in Python.
-Additionally, it has the broader goal of becoming the most powerful and flexible
-open source data analysis / manipulation tool available in any language.
+_pandas_는 파이썬에서 실용적이고 실제 세계의 데이터 분석을 수행하기 위한
+근본적인 고수준 빌딩 블록이 되는 것을 목표로 합니다.
+나아가, 어떤 언어에서든 사용 가능한 가장 강력하고 유연한
+오픈 소스 데이터 분석·조작 도구가 되는 것을 더 넓은 목표로 삼고 있습니다.
 
-## Vision
+## 비전
 
-A world where data analytics and manipulation software is:
+데이터 분석과 조작 소프트웨어가 다음과 같은 세상:
 
-- Accessible to everyone
-- Free for users to use and modify
-- Flexible
-- Powerful
-- Easy to use
-- Fast
+- 누구나 접근할 수 있을 것
+- 사용자가 무료로 사용하고 수정할 수 있을 것
+- 유연할 것
+- 강력할 것
+- 사용하기 쉬울 것
+- 빠를 것
 
-## Values
+## 가치
 
-Is in the core of _pandas_ to be respectful and welcoming with everybody,
-users, contributors and the broader community. Regardless of level of experience,
-gender, gender identity and expression, sexual orientation, disability,
-personal appearance, body size, race, ethnicity, age, religion, or nationality.
+_pandas_의 핵심은 사용자, 기여자, 더 넓은 커뮤니티의 모든 분들을
+존중하고 환영하는 것입니다. 경험 수준, 성별, 성 정체성과 표현,
+성적 지향, 장애, 외모, 체격, 인종, 민족, 연령, 종교, 국적과 관계없이 그러합니다.
