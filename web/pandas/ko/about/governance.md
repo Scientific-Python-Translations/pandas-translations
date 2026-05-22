@@ -1,317 +1,313 @@
-# Project governance
+# 프로젝트 거버넌스
 
-The official version of this document, along with a list of
-individuals and institutions in the roles defined in the governance
-section below, is contained in the
-[Project governance]({{ base_url }}about/governance.html)
-page of the pandas website.
+이 문서의 공식 버전은, 아래의 거버넌스
+섹션에서 정의된 역할을 맡고 있는 개인 및 기관 목록과 함께
+pandas 웹사이트의
+[프로젝트 거버넌스]({{ base_url }}about/governance.html)
+페이지에 수록되어 있습니다.
 
-## The Project
+## 프로젝트
 
-The pandas Project (The Project) is an open source software project affiliated
-with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
-source software for data ingest, data preparation, data analysis, and data
-visualization for the Python programming language. The Software developed by
-The Project is released under the BSD (or similar) open source license,
-developed openly and hosted in public GitHub repositories under the pandas
-GitHub organization. Examples of Project Software
-include the main pandas code repository and the pandas-stubs library.
+pandas 프로젝트(The Project)는 501(c)3 NumFOCUS 재단과 제휴하는 오픈 소스
+소프트웨어 프로젝트입니다. 프로젝트의 목표는 파이썬 프로그래밍 언어를 위한, 데이터 수집,
+데이터 준비, 데이터 분석, 데이터
+시각화를 위한 오픈 소스 소프트웨어를 개발하는 것입니다. 프로젝트가 개발한 소프트웨어는
+BSD (또는 유사한) 오픈 소스 라이선스로 배포되고,
+[pandas GitHub 조직](https://github.com/pandas-dev)
+산하의 공개 GitHub 저장소에서 공개적으로 개발됩니다. 프로젝트 소프트웨어의 예로는
+주요 pandas 코드 저장소와 pandas-stubs 라이브러리 등이 있습니다.
 
-Through its affiliation with NumFOCUS, The Project has the right to receive
-tax-deductible donations in the United States of America.
+NumFOCUS와의 제휴를 통해, 프로젝트는 미국 내에서 세액 공제 가능한
+기부를 받을 권리를 가집니다.
 
-The Project is developed by a team of distributed developers, called
-Contributors. Contributors are individuals who have contributed code,
-documentation, designs or other work to one or more Project repositories.
-Anyone can be a Contributor. Contributors can be affiliated with any legal
-entity or none. Contributors participate in the project by submitting,
-reviewing and discussing GitHub Pull Requests and Issues and participating in
-open and public Project discussions on GitHub, mailing lists, and
-elsewhere. The foundation of Project participation is openness and
-transparency.
+프로젝트는 기여자(Contributors)라 부르는 분산된 개발자 팀에 의해
+개발됩니다. 기여자는 하나 이상의 프로젝트 저장소에 코드, 문서, 디자인 또는 기타
+작업을 기여한 개인을 말합니다.
+누구나 기여자가 될 수 있습니다. 기여자는 어떤 법적 주체에 소속되어
+있어도 되고, 소속되어 있지 않아도 됩니다. 기여자는 GitHub 풀 리퀘스트와 이슈를 제출·검토·논의하고,
+GitHub, 메일링 리스트, 그 외의 곳에서 열려 있고 공개된
+프로젝트 논의에 참여하는 방식으로
+프로젝트에 참여합니다. 프로젝트 참여의 기반은 열려 있음과
+투명성입니다.
 
-Here is a list of the current Contributors to the main pandas repository:
+아래는 주요 pandas 저장소의 현재 기여자 목록입니다:
 
 [https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
 
-There are also many other Contributors listed in the logs of other repositories of
-the pandas project.
+pandas 프로젝트의 다른 저장소들의 로그에도 많은 기여자들이
+기록되어 있습니다.
 
-The Project Community consists of all Contributors and Users of the Project.
-Contributors work on behalf of and are responsible to the larger Project
-Community and we strive to keep the barrier between Contributors and Users as
-low as possible.
+프로젝트 커뮤니티는 프로젝트의 모든 기여자와 사용자로 구성됩니다.
+기여자는 더 넓은 프로젝트
+커뮤니티를 대표하여, 그리고 그 커뮤니티에 책임을 지고 일하며, 기여자와 사용자 사이의
+진입 장벽을 가능한 한 낮게 유지하기 위해 노력합니다.
 
-The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
-([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
-sponsor, may hold project trademarks and other intellectual property, helps
-manage project donations and acts as a parent legal entity. NumFOCUS is the
-only legal entity that has a formal relationship with the project (see
-Institutional Partners section below).
+프로젝트는 501(c)3 NumFOCUS 재단과 공식적으로 제휴하고 있으며
+([https://numfocus.org](https://numfocus.org)),
+NumFOCUS는 재정 후원자 역할을 하고, 프로젝트의 상표와 기타 지식 재산을 보유할 수 있으며,
+프로젝트 기부 관리와 모법인 역할을 수행합니다. NumFOCUS는
+프로젝트와 공식적인 관계를 가진 유일한 법적 주체입니다 (아래
+기관 파트너 섹션 참고).
 
-## Governance
+## 거버넌스
 
-This section describes the governance and leadership model of The Project.
+이 섹션은 프로젝트의 거버넌스와 리더십 모델을 설명합니다.
 
-The foundations of Project governance are:
+프로젝트 거버넌스의 기반은 다음과 같습니다:
 
-- Openness & Transparency
-- Active Contribution
-- Institutional Neutrality
+- 열려 있음과 투명성
+- 적극적인 기여
+- 기관적 중립성
 
-Traditionally, Project leadership was provided by a BDFL (Wes McKinney) and
-subset of Contributors, called the Core Team, whose active and consistent
-contributions have been recognized by their receiving “commit rights” to the
-Project GitHub repositories. In general all Project decisions are made through
-consensus among the Core Team with input from the Community. The BDFL can, but
-rarely chooses to, override the Core Team and make a final decision on a
-matter.
+전통적으로, 프로젝트의 리더십은 BDFL (Wes McKinney)과,
+Core Team이라 부르는 일부 기여자들에 의해 제공되어 왔습니다. Core Team은 적극적이고
+일관된 기여를 통해 프로젝트 GitHub 저장소에 대한 "커밋 권한"을 부여받은
+분들입니다. 일반적으로 모든 프로젝트 결정은
+커뮤니티의 의견을 받아 Core Team의 합의를 통해 이루어집니다. BDFL은 Core Team을 무시하고
+특정 사안에 대해 최종 결정을 내릴 수도 있지만, 거의 그렇게 하지
+않습니다.
 
-While this approach has served us well, as the Project grows and faces more
-legal and financial decisions and interacts with other institutions, we see a
-need for a more formal governance model. Moving forward The Project leadership
-will consist of a BDFL and Core Team. We view this governance model as the
-formalization of what we are already doing, rather than a change in direction.
+이 방식은 지금까지 잘 작동해 왔지만, 프로젝트가 성장하고 더 많은 법적,
+재정적 결정에 직면하며, 다른 기관과 상호 작용하게 되면서, 보다 공식적인
+거버넌스 모델의 필요성을 느끼게 되었습니다. 앞으로 프로젝트의 리더십은
+BDFL과 Core Team으로 구성됩니다. 저희는 이 거버넌스 모델을 방향 전환이 아니라,
+이미 하고 있던 일을 공식화한 것으로 봅니다.
 
 ### BDFL
 
-The Project will have a BDFL (Benevolent Dictator for Life), who is currently
-Wes McKinney. As Dictator, the BDFL has the authority to make all final
-decisions for The Project. As Benevolent, the BDFL, in practice chooses to
-defer that authority to the consensus of the community discussion channels and
-the Core Team. It is expected, and in the past has been the case, that the BDFL
-will only rarely assert his/her final authority. Because it is rarely used, we
-refer to BDFL’s final authority as a “special” or “overriding” vote. When it
-does occur, the BDFL override typically happens in situations where there is a
-deadlock in the Core Team or if the Core Team ask the BDFL to make a decision
-on a specific matter. To ensure the benevolence of the BDFL, The Project
-encourages others to fork the project if they disagree with the overall
-direction the BDFL is taking. The BDFL is chair of the Core Team (see below)
-and may delegate his/her authority on a particular decision or set of decisions
-to any other Core Team Member at his/her discretion.
+프로젝트는 BDFL(Benevolent Dictator for Life, 종신 자비로운 독재자)을 두며, 현재 BDFL은
+Wes McKinney입니다. Dictator(독재자)로서, BDFL은 프로젝트에 대한 모든 최종
+결정을 내릴 권한을 가집니다. Benevolent(자비로운)로서, BDFL은 실제로는 그 권한을
+커뮤니티 토론 채널과 Core Team의 합의에 위임하는 쪽을 선택합니다. BDFL이 자신의
+최종 권한을 행사하는 일은 매우 드물 것으로 예상되며, 지금까지도 그러했습니다. 거의 사용되지 않기 때문에,
+BDFL의 최종 권한을 "특별" 또는 "재정의(override)" 투표라고 부릅니다. BDFL의 재정의가 발생하는 경우는,
+보통 Core Team이 교착 상태에 빠졌거나, Core Team이 특정 사안에 대해
+BDFL에게 결정을 내려 줄 것을 요청한 상황입니다. BDFL의 자비로움을 보장하기 위해,
+BDFL이 가는 전반적인 방향에 동의하지 않는 분들에게는 프로젝트를 포크하는 것을
+프로젝트가 장려합니다. BDFL은 Core Team의 의장이며(아래 참고),
+자신의 재량으로 특정 결정 또는 결정의 집합에 대한 권한을
+다른 Core Team 구성원에게 위임할 수 있습니다.
 
-The BDFL can appoint his/her successor, but it is expected that the Core Team
-would be consulted on this decision. If the BDFL is unable to appoint a
-successor (e.g. due to death or illness), the Core Team will choose a successor
-by voting with at least 2/3 of the Core Team members voting in favor of the
-chosen successor. At least 80% of the Core Team must participate in the
-vote. If no BDFL candidate receives 2/3 of the votes of the Core Team, the Core
-Team members shall propose the BDFL candidates to the Main NumFOCUS board, who
-will then make the final decision.
+BDFL은 후임자를 지명할 수 있지만, 이 결정에 대해서는
+Core Team과 상의할 것이 기대됩니다. 만약 BDFL이 (예: 사망이나 질병 등으로) 후임자를
+지명할 수 없는 경우, Core Team이 투표를 통해 후임자를 정합니다.
+선택된 후임자는 Core Team 구성원 2/3 이상의 찬성을
+얻어야 합니다. 투표에는 Core Team의 80% 이상이 참여해야
+합니다. 어느 BDFL 후보도 Core Team 표의 2/3를 얻지 못할 경우, Core
+Team 구성원들은 NumFOCUS 본부 이사회에 BDFL 후보를 제안하고,
+이사회가 최종 결정을 내립니다.
 
 ### Core Team
 
-The Project's Core Team will consist of Project Contributors who have produced
-contributions that are substantial in quality and quantity, and sustained over
-at least one year. The overall role of the Core Team is to ensure, through
-working with the BDFL and taking input from the Community, the long-term
-well-being of the project, both technically and as a community.
+프로젝트의 Core Team은 질적·양적으로 상당한 기여를 한, 그리고 그러한
+기여를 최소 1년 이상 지속해 온 프로젝트
+기여자들로 구성됩니다. Core Team의 전반적인 역할은,
+BDFL과 협력하고 커뮤니티의 의견을 받아, 기술적 측면과 커뮤니티 측면 모두에서
+프로젝트의 장기적 안녕을 보장하는 것입니다.
 
-During the everyday project activities, Core Team participate in all
-discussions, code review and other project activities as peers with all other
-Contributors and the Community. In these everyday activities, Core Team do not
-have any special power or privilege through their membership on the Core
-Team. However, it is expected that because of the quality and quantity of their
-contributions and their expert knowledge of the Project Software that the Core
-Team will provide useful guidance, both technical and in terms of project
-direction, to potentially less experienced contributors.
+일상적인 프로젝트 활동 중에는, Core Team도
+모든 논의, 코드 리뷰, 그 외 프로젝트 활동에 다른 기여자 및
+커뮤니티와 동등한 자격으로 참여합니다. 이러한 일상적인 활동에서는,
+Core Team 구성원이라는 자격만으로 어떤 특별한 권한이나 특권을 갖지
+않습니다. 다만, 기여의 양과 질,
+그리고 프로젝트 소프트웨어에 대한 전문 지식 덕분에,
+Core Team은 경험이 더 적을 수 있는 기여자에게 기술적 측면과 프로젝트 방향성 측면 모두에서
+유용한 안내를 제공할 것이 기대됩니다.
 
-The Core Team and its Members play a special role in certain situations.
-In particular, the Core Team may:
+Core Team과 그 구성원은 특정 상황에서 특별한 역할을 합니다.
+특히, Core Team은 다음을 수행할 수 있습니다:
 
-- Make decisions about the overall scope, vision and direction of the
-  project.
-- Make decisions about strategic collaborations with other organizations or
-  individuals.
-- Make decisions about specific technical issues, features, bugs and pull
-  requests. They are the primary mechanism of guiding the code review process
-  and merging pull requests.
-- Make decisions about the Services that are run by The Project and manage
-  those Services for the benefit of the Project and Community.
-- Make decisions when regular community discussion doesn't produce consensus
-  on an issue in a reasonable time frame.
+- 프로젝트의 전반적인 범위, 비전, 방향에 대한
+  결정을 내립니다.
+- 다른 조직이나 개인과의 전략적 협력에 관한
+  결정을 내립니다.
+- 특정 기술 이슈, 기능, 버그, 풀
+  리퀘스트에 대한 결정을 내립니다. 이들은 코드 리뷰 절차를 안내하고
+  풀 리퀘스트를 병합하는 주요 메커니즘입니다.
+- 프로젝트가 운영하는 서비스에 대한 결정을 내리고, 프로젝트와 커뮤니티의
+  이익을 위해 그 서비스를 관리합니다.
+- 일반 커뮤니티 논의가 합리적인 시간 안에 이슈에 대한 합의에
+  이르지 못하는 경우 결정을 내립니다.
 
-### Core Team membership
+### Core Team 구성원 자격
 
-To become eligible for being a Core Team Member an individual must be a Project
-Contributor who has produced contributions that are substantial in quality and
-quantity, and sustained over at least one year. Potential Core Team Members are
-nominated by existing Core members and voted upon by the existing Core Team
-after asking if the potential Member is interested and willing to serve in that
-capacity. The Core Team will be initially formed from the set of existing
-Contributors who have been granted commit rights as of late 2015.
+Core Team 구성원이 될 자격을 얻으려면, 질적·양적으로 상당한, 그리고 그러한
+기여를 최소 1년 이상 지속해 온
+프로젝트 기여자여야 합니다. 잠재적 Core Team 구성원은
+기존 Core 구성원이 지명하며, 잠재적 구성원이 그 자격으로 봉사할 의향이 있는지를
+확인한 후 기존 Core Team이
+투표를 통해 결정합니다. Core Team은 처음에는 2015년 말 기준으로 커밋 권한을 부여받은
+기존 기여자들 중에서 구성됩니다.
 
-When considering potential Members, the Core Team will look at candidates with
-a comprehensive view of their contributions. This will include but is not
-limited to code, code review, infrastructure work, mailing list and chat
-participation, community help/building, education and outreach, design work,
-etc. We are deliberately not setting arbitrary quantitative metrics (like “100
-commits in this repo”) to avoid encouraging behavior that plays to the metrics
-rather than the project’s overall well-being. We want to encourage a diverse
-array of backgrounds, viewpoints and talents in our team, which is why we
-explicitly do not define code as the sole metric on which Core Team membership
-will be evaluated.
+잠재적 구성원을 고려할 때, Core Team은 그들의 기여를 종합적으로
+바라보며 후보를 평가합니다. 여기에는 코드, 코드 리뷰, 인프라 작업, 메일링 리스트와 채팅
+참여, 커뮤니티 도움/구축, 교육과 외부 홍보, 디자인 작업
+등이 포함되며, 이에 한정되지 않습니다. 저희는 ("이 저장소에 100개의
+커밋" 같은) 임의의 정량적 지표를 일부러 설정하지 않습니다. 그러한 지표가
+프로젝트의 전반적인 안녕보다는 지표에 맞춘 행동을 부추기는 것을
+피하기 위해서입니다. 팀 안에 다양한
+배경, 관점, 재능을 가진 분들을 장려하고자 하며, 그래서
+Core Team 구성원 자격이 코드만을 유일한 평가 지표로 삼지 않음을
+명시적으로 밝힙니다.
 
-If a Core Team member becomes inactive in the project for a period of one year,
-they will be considered for removal from the Core Team. Before removal,
-inactive Member will be approached by the BDFL to see if they plan on returning
-to active participation. If not they will be removed immediately upon a Core
-Team vote. If they plan on returning to active participation soon, they will be
-given a grace period of one year. If they don't return to active participation
-within that time period they will be removed by vote of the Core Team without
-further grace period. All former Core Team members can be considered for
-membership again at any time in the future, like any other Project Contributor.
-Retired Core Team members will be listed on the project website, acknowledging
-the period during which they were active in the Core Team.
+Core Team 구성원이 1년 동안 프로젝트에서 활동하지 않으면,
+Core Team에서의 제외 대상으로 검토됩니다. 제외에 앞서,
+해당 구성원에게 BDFL이 활동 재개 의향이 있는지
+문의합니다. 그렇지 않다면, Core
+Team 투표로 즉시 제외됩니다. 곧 활동 재개 의향이 있다면,
+1년의 유예 기간을 부여합니다. 그 기간 안에도 활동을 재개하지
+않으면, 추가 유예 없이 Core Team 투표로 제외됩니다. Core Team에서 물러난 모든 분들은 다른 프로젝트 기여자와 마찬가지로
+향후 언제든지 다시 구성원 자격을 고려받을 수 있습니다.
+은퇴한 Core Team 구성원은 프로젝트 웹사이트에 표시되어,
+Core Team에서 활동했던 기간이 기록됩니다.
 
-The Core Team reserves the right to eject current Members, other than the BDFL,
-if they are deemed to be actively harmful to the project’s well-being, and
-attempts at communication and conflict resolution have failed.
+Core Team은 BDFL을 제외한 현재 구성원이
+프로젝트의 안녕에 적극적으로 해를 끼치고 있다고 판단되며,
+소통과 갈등 해결의 시도가 실패한 경우, 그 구성원을 제외할 권리를 보유합니다.
 
-### Conflict of interest
+### 이해 상충
 
-It is expected that the BDFL and Core Team Members will be employed at a wide
-range of companies, universities and non-profit organizations. Because of this,
-it is possible that Members will have conflict of interests. Such conflict of
-interests include, but are not limited to:
+BDFL과 Core Team 구성원은 다양한 회사, 대학, 비영리
+조직에 소속되어 있을 것으로 예상됩니다. 이 때문에,
+구성원에게 이해 상충이 발생할 수 있습니다. 이러한 이해
+상충에는 다음이 포함되며, 이에 한정되지 않습니다:
 
-- Financial interests, such as investments, employment or contracting work,
-  outside of The Project that may influence their work on The Project.
-- Access to proprietary information of their employer that could potentially
-  leak into their work with the Project.
+- 프로젝트에 관한 작업에 영향을 줄 수 있는, 프로젝트 외부의
+  재정적 이해관계(투자, 고용, 계약 작업 등).
+- 고용주의 독점 정보 접근. 이 정보가 프로젝트 작업으로
+  유출될 가능성이 있는 경우.
 
-All members of the Core Team, BDFL included, shall disclose to the rest of the
-Core Team any conflict of interest they may have. Members with a conflict of
-interest in a particular issue may participate in Core Team discussions on that
-issue, but must recuse themselves from voting on the issue. If the BDFL has
-recused his/herself for a particular decision, they will appoint a substitute
-BDFL for that decision.
+BDFL을 포함한 모든 Core Team 구성원은, 자신이 가질 수 있는 이해 상충을
+Core Team의 나머지 구성원에게 공개해야 합니다. 특정 이슈에 이해 상충이
+있는 구성원은 그 이슈에 관한 Core Team 논의에 참여할 수는
+있지만, 해당 이슈에 대한 투표에서는 자진 회피해야 합니다. BDFL이 특정 결정에 대해
+자진 회피한 경우, 해당 결정을 위해 대체 BDFL을
+지명합니다.
 
-### Private communications of the Core Team
+### Core Team의 비공개 소통
 
-Unless specifically required, all Core Team discussions and activities will be
-public and done in collaboration and discussion with the Project Contributors
-and Community. The Core Team will have a private mailing list that will be used
-sparingly and only when a specific matter requires privacy. When private
-communications and decisions are needed, the Core Team will do its best to
-summarize those to the Community after eliding personal/private/sensitive
-information that should not be posted to the public internet.
+특별히 필요한 경우가 아니라면, 모든 Core Team 논의와 활동은
+공개적으로 그리고 프로젝트 기여자 및
+커뮤니티와의 협업과 논의 속에서 이루어집니다. Core Team은 비공개 메일링 리스트를 운영하지만,
+특정 사안이 비공개가 필요한 경우에만 드물게 사용합니다. 비공개 소통과
+결정이 필요한 경우, Core Team은 공개 인터넷에 게시되어서는 안 되는
+개인적/사적/민감 정보를 가린 후, 그 내용을 커뮤니티에
+최대한 정리하여 공유합니다.
 
-### Subcommittees
+### 소위원회
 
-The Core Team can create subcommittees that provide leadership and guidance for
-specific aspects of the project. Like the Core Team as a whole, subcommittees
-should conduct their business in an open and public manner unless privacy is
-specifically called for. Private subcommittee communications should happen on
-the main private mailing list of the Core Team unless specifically called for.
+Core Team은 프로젝트의 특정 측면에 대해 리더십과 안내를 제공하는
+소위원회를 만들 수 있습니다. Core Team 전체와 마찬가지로, 소위원회도
+비공개가 특별히 요구되는 경우가 아니라면, 업무를 열려 있고 공개적인 방식으로
+수행해야 합니다. 특별한 요구가 있는 경우가 아니라면,
+소위원회의 비공개 소통은 Core Team의 주요 비공개 메일링 리스트에서 이루어져야 합니다.
 
-Question: if the BDFL is not on a subcommittee, do they still have override
-authority?
+질문: BDFL이 소위원회에 속해 있지 않은 경우에도, BDFL은 여전히
+재정의 권한을 가지는가?
 
-Suggestion: they do, but they should appoint a delegate who plays that role
-most of the time, and explicit BDFL intervention is sought only if the
-committee disagrees with that delegate’s decision and no resolution is possible
-within the team. This is different from a BDFL delegate for a specific decision
-(or a recusal situation), where the BDFL is literally giving up his/her
-authority to someone else in full. It’s more like what Linus Torvalds uses with his
-“lieutenants” model.
+제안: 가집니다. 다만, BDFL은 평소에는 그 역할을 대신할 대리인을 지명해야 하며,
+명시적인 BDFL 개입은 소위원회가 그 대리인의 결정에 동의하지 않고
+팀 내에서 해결이 불가능한 경우에 한해
+요청되어야 합니다. 이는 특정 결정(또는 자진 회피 상황)을 위한 BDFL 대리인과는 다릅니다.
+그 경우 BDFL은 말 그대로
+자신의 권한을 다른 사람에게 전적으로 넘겨주는 것입니다. 이는 Linus Torvalds가 그의 "lieutenants" 모델에서 사용하는 방식과 더
+비슷합니다.
 
-### NumFOCUS Subcommittee
+### NumFOCUS 소위원회
 
-The Core Team will maintain one narrowly focused subcommittee to manage its
-interactions with NumFOCUS.
+Core Team은 NumFOCUS와의 상호 작용을 관리하기 위해 좁게 집중된 하나의 소위원회를
+유지합니다.
 
-- The NumFOCUS Subcommittee is comprised of at least 5 persons who manage
-  project funding that comes through NumFOCUS. It is expected that these funds
-  will be spent in a manner that is consistent with the non-profit mission of
-  NumFOCUS and the direction of the Project as determined by the full Core
-  Team.
-- This Subcommittee shall NOT make decisions about the direction, scope or
-  technical direction of the Project.
-- This Subcommittee will have at least 5 members. No more than 2 Subcommittee
-  Members can report to one person (either directly or indirectly) through
-  employment or contracting work (including the reportee, i.e. the reportee + 1
-  is the max). This avoids effective majorities resting on one person.
+- NumFOCUS 소위원회는 NumFOCUS를 통해 들어오는 프로젝트 자금을
+  관리하는 최소 5인의 구성원으로 구성됩니다. 이 자금은 NumFOCUS의 비영리 사명과,
+  Core Team 전체가 정한 프로젝트의 방향과 일치하는
+  방식으로 사용되어야
+  합니다.
+- 이 소위원회는 프로젝트의 방향, 범위, 기술적 방향에 대한
+  결정을 내리지 않습니다.
+- 이 소위원회는 최소 5명의 구성원을 둡니다. 소위원회 구성원 중
+  2명을 초과하여 한 사람에게 (직간접적으로) 고용이나 계약 작업을 통해
+  보고하는 관계에 있어서는 안 됩니다 (보고를 받는 본인 포함, 즉 보고받는 사람 + 1명이
+  최대입니다). 이는 사실상 한 사람에게 다수가 종속되는 상황을 막기 위함입니다.
 
-## Institutional Partners and Funding
+## 기관 파트너와 자금 지원
 
-The BDFL and Core Team are the primary leadership for the project. No outside
-institution, individual or legal entity has the ability to own, control, usurp
-or influence the project other than by participating in the Project as
-Contributors and Core Team. However, because institutions are the primary
-funding mechanism for the project, it is important to formally acknowledge
-institutional participation in the project. These are Institutional Partners.
+BDFL과 Core Team이 프로젝트의 주요 리더십입니다. 외부의
+어떤 기관, 개인, 법적 주체도, 프로젝트에 기여자와 Core Team으로 참여하는 것 외에는
+프로젝트를 소유, 통제, 탈취, 또는 영향을 미칠 수
+없습니다. 다만, 기관이 프로젝트의 주요
+자금 지원 메커니즘이기 때문에, 프로젝트에 대한 기관의 참여를
+공식적으로 인정하는 것이 중요합니다. 이러한 기관을 기관 파트너라고 부릅니다.
 
-An Institutional Contributor is any individual Project Contributor who
-contributes to the project as part of their official duties at an Institutional
-Partner. Likewise, an Institutional Core Team Member is any Core Team Member
-who contributes to the project as part of their official duties at an
-Institutional Partner.
+기관 기여자는 기관 파트너에서 공식 업무의 일환으로 프로젝트에
+기여하는 모든 개인 프로젝트
+기여자를 말합니다. 마찬가지로, 기관 Core Team 구성원은 기관 파트너에서 공식 업무의 일환으로
+프로젝트에 기여하는
+Core Team 구성원을 말합니다.
 
-With these definitions, an Institutional Partner is any recognized legal entity
-in the United States or elsewhere that employs at least one Institutional
-Contributor or Institutional Core Team Member. Institutional Partners can be
-for-profit or non-profit entities.
+이러한 정의를 기반으로, 기관 파트너는 최소 한 명의 기관 기여자 또는
+기관 Core Team 구성원을 고용하고 있는, 미국 또는 그 외 지역에서
+인정된 모든 법적 주체를 말합니다. 기관 파트너는
+영리 또는 비영리 단체가 될 수 있습니다.
 
-Institutions become eligible to become an Institutional Partner by employing
-individuals who actively contribute to The Project as part of their official
-duties. To state this another way, the only way for an Institutional Partner to
-influence the project is by actively contributing to the open development of
-the project, on equal terms with any other member of the community of
-Contributors and Core Team Members. Merely using pandas Software or Services in
-an institutional context does not allow an entity to become an Institutional
-Partner. Financial gifts do not enable an entity to become an Institutional
-Partner. Once an institution becomes eligible for Institutional Partnership,
-the Core Team must nominate and approve the Partnership.
+기관은 공식 업무의 일환으로 프로젝트에 적극적으로 기여하는 개인을
+고용함으로써 기관 파트너가 될 자격을
+얻습니다. 다시 말해, 기관 파트너가 프로젝트에
+영향을 미칠 수 있는 유일한 방법은, 기여자 및 Core Team 구성원으로 이루어진
+커뮤니티의 다른 구성원들과 동등한 자격으로
+프로젝트의 공개 개발에 적극적으로 기여하는 것입니다. 기관 맥락에서 단순히
+pandas 소프트웨어나 서비스를 사용하는 것만으로는 기관 파트너가
+될 수 없습니다. 금전적 기부도 기관 파트너 자격을
+부여하지 않습니다. 기관이 기관 파트너 자격을 얻으면,
+Core Team이 그 파트너십을 지명하고 승인해야 합니다.
 
-If an existing Institutional Partner no longer has a contributing employee,
-they will be given a one-year grace period for other employees to begin
-contributing.
+기존 기관 파트너에 더 이상 기여하는 직원이 없는 경우,
+다른 직원들이 기여를 시작할 수 있도록 1년의 유예 기간을
+부여합니다.
 
-An Institutional Partner is free to pursue funding for their work on The
-Project through any legal means. This could involve a non-profit organization
-raising money from private foundations and donors or a for-profit company
-building proprietary products and services that leverage Project Software and
-Services. Funding acquired by Institutional Partners to work on The Project is
-called Institutional Funding. However, no funding obtained by an Institutional
-Partner can override The Project BDFL and Core Team. If a Partner has funding
-to do pandas work and the Core Team decides to not pursue that work as a
-project, the Partner is free to pursue it on their own. However in this
-situation, that part of the Partner’s work will not be under the pandas
-umbrella and cannot use the Project trademarks in a way that suggests a formal
-relationship.
+기관 파트너는 프로젝트 관련 작업을 위한 자금을 합법적인 방법으로
+자유롭게 추구할 수 있습니다. 여기에는 비영리 단체가
+민간 재단과 기부자로부터 자금을 모금하거나, 영리 회사가 프로젝트 소프트웨어와
+서비스를 활용하는 독점 제품과 서비스를 만드는 것이 포함될 수
+있습니다. 기관 파트너가 프로젝트 관련 작업을 위해 확보한 자금을
+기관 자금이라고 부릅니다. 그러나, 기관 파트너가 확보한
+어떤 자금도 프로젝트 BDFL과 Core Team을 재정의할 수 없습니다. 파트너에게 pandas 작업을 위한
+자금이 있더라도 Core Team이 해당 작업을 프로젝트로 추진하지 않기로 한다면,
+파트너는 그 작업을 자체적으로 추진할 수 있습니다. 다만 이 경우에는
+파트너의 해당 작업이 pandas의 우산 아래에 있지 않으며,
+공식적 관계를 시사하는 방식으로 프로젝트 상표를
+사용할 수 없습니다.
 
-To acknowledge institutional contributions, there are two levels of
-Institutional Partners, with associated benefits:
+기관의 기여를 인정하기 위해, 기관 파트너에는 두 가지 등급이 있으며,
+각각 다음과 같은 혜택이 있습니다:
 
-**Tier 1** = an institution with at least one Institutional Core Team Member
+**Tier 1** = 최소 한 명의 기관 Core Team 구성원이 있는 기관
 
-- Acknowledged on the pandas website, in talks and T-shirts.
-- Ability to acknowledge their own funding sources on the pandas website, in
-  talks and T-shirts.
-- Ability to influence the project through the participation of their Core Team
-  Member.
+- pandas 웹사이트, 발표, 티셔츠 등에서 인정받습니다.
+- pandas 웹사이트, 발표,
+  티셔츠 등에서 본인의 자금 출처를 명시할 수 있습니다.
+- 자신의 Core Team
+  구성원의 참여를 통해 프로젝트에 영향을 미칠 수 있습니다.
 
-**Tier 2** = an institution with at least one Institutional Contributor
+**Tier 2** = 최소 한 명의 기관 기여자가 있는 기관
 
-## Breach
+## 위반
 
-Non-compliance with the terms of the governance documents shall be reported to
-the Core Team either through public or private channels as deemed appropriate.
+거버넌스 문서의 조항을 준수하지 않는 경우, 적절하다고 판단되는
+공개 또는 비공개 채널을 통해 Core Team에 보고되어야 합니다.
 
-## Changing the Governance
+## 거버넌스 변경
 
-Changes to the governance are submitted via a GitHub pull request to The Project's
-[governance page](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md).
-The pull request is then refined in response to public comment and review, with
-the goal being consensus in the community.  After this open period, a Core Team
-Member proposes to the Core Team that the changes be ratified and the pull
-request merged (accepting the proposed changes) or proposes that the pull
-request be closed without merging (rejecting the proposed changes). The Member
-should state the final commit hash in the pull request being proposed for
-acceptance or rejection and briefly summarize the pull request. A minimum of
-80% of the Core Team must vote and at least 2/3 of the votes must be positive
-to carry out the proposed action (fractions of a vote rounded up to the nearest
-integer). Since the BDFL holds ultimate authority in The Project, the BDFL has
-authority to act alone in accepting or rejecting changes or overriding Core
-Team decisions.
+거버넌스 변경은 프로젝트의
+[거버넌스 페이지](https://github.com/pandas-dev/pandas/blob/main/web/pandas/about/governance.md)에 대한 GitHub 풀 리퀘스트를 통해 제출됩니다.
+풀 리퀘스트는 그 후 공개 의견과 검토에 따라 다듬어지며,
+그 목표는 커뮤니티의 합의입니다.  이 공개 기간이 끝나면, Core Team
+구성원이 변경을 비준하고 풀 리퀘스트를 병합(제안된 변경 수용)할 것을
+Core Team에 제안하거나, 또는 풀 리퀘스트를 병합 없이 닫을 것(제안된 변경 거부)을
+제안합니다. 제안하는 구성원은
+수용 또는 거부를 제안하는 풀 리퀘스트의 최종 커밋 해시를 명시하고,
+풀 리퀘스트의 요약을 간단히 제공해야 합니다. 제안된 조치를 시행하려면,
+Core Team의 최소 80%가 투표해야 하고, 그 중 최소 2/3가 찬성표여야 합니다
+(투표의 분수는 가장 가까운 정수로 올림합니다). BDFL이 프로젝트에서 최종 권한을 가지므로,
+BDFL은 변경을 수용하거나 거부하거나, 또는 Core
+Team의 결정을 재정의할 권한을 단독으로 행사할 수 있습니다.
