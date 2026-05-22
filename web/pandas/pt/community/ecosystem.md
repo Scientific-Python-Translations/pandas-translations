@@ -234,7 +234,7 @@ O NTV-pandas fornece um conversor JSON com mais tipos de dados do que os suporta
 Ele suporta os seguintes tipos de dados:
 
 - tipos de dados do pandas
-- tipos de dados definidos no [formato NTV](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\\(JSON-NTV\\).htm)
+- tipos de dados definidos no [formato NTV](https://loco-philippe.github.io/ES/JSON%20semantic%20format%20\(JSON-NTV\).htm)
 - tipos de dados definidos na [especificação Table Schema](http://dataprotocols.org/json-table-schema/#field-types-and-formats)
 
 A interface é sempre reversível (conversão de ida e volta) com dois formatos (JSON-NTV e JSON-TableSchema).
@@ -295,7 +295,7 @@ import pandas as pd
 arctic = adb.Arctic("lmdb://arcticdb_test")
 ```
 
-> **Observação:** o ArcticDB oferece suporte a qualquer armazenamento compatível com a API S3, incluindo AWS. O ArcticDB também oferece suporte ao armazenamento Azure Blob.\
+> **Observação:** o ArcticDB oferece suporte a qualquer armazenamento compatível com a API S3, incluindo AWS. O ArcticDB também oferece suporte ao armazenamento Azure Blob.  
 > O ArcticDB também oferece suporte ao armazenamento Azure Blob.\
 > O ArcticDB também oferece suporte ao LMDB para armazenamento local/baseado em arquivo - para usar o LMDB, passe um caminho do LMDB como URI: adb.Arctic('lmdb://caminho/para/banco-de-dados/desejado').
 
